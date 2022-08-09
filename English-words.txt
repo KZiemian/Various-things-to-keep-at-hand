@@ -1,0 +1,36 @@
+RISC - reduced instruction set computing,
+CICS - complex instruction set computing,
+
+CVCS - Centralized Version Control System
+DVCS - Distributed Version Control System
+fiery
+staged
+parlance
+
+CadPDF -- missing "ft2build.h".
+CxImageLib -- część plików się nie ściągnęła.
+Cad2CadUpdater -- jakiegoś pliku brakuje.
+CommonAll/Geomery -- znowu jakiegoś pliku brakuje.
+CommonAll/Debug Report Reader -- działa.
+CommonAll/Lanucher -- znowu czegoś brakuje.
+RDwgViewer -- znowu czegoś brakuje.
+RDwgViewerExample -- znowu czegoś brakuje.
+RDwgViewerSyncExample -- działa.
+ViewersCore -- znowu czegoś brakuje.
+Geometry -- runtime_error is not a member of std. Znowu jakieś brakujące pliki.
+Poza tym jakiś plików brakuje.
+Viewers -- znowu brakuje jakiś plików.
+DD2R -- błąd wykonania pliku .exe.
+Licensing -- brak pliku.
+TrueDtp4 -- znowu brak jakiś plików.
+Muldrato -- potrzebuje zbudowania plików.
+R2DD -- działa.
+ExportRis -- brak pliku.
+FitIterator -- brak pliku.
+DrawningComparing -- brak pliku.
+dd2rasterNET -- działa.
+Dd2Raster -- brak pliku.
+PoDoFo -- strasznie dużo błędów.
+PoDoFo (jakieś drugie) -- strasznie dużo błędów.
+DwgExpressDLL -- brak pliku.
+

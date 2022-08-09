@@ -46,3 +46,44 @@ Add comment "For now you just need to know, that in your repository you have now
 remote, which you can merge in or inspect at any time." Co to są gałęzie gita, to zostanie dopiero omówione.
 
 "Pushing to Your Remotes" make beginning of the text more user friendly.
+
+
+
+
+Page 22.
+"value for one of these values" -> "value for one of these variables"?
+
+Page 28.
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+or 
+(use "git restore --staged <file>..." to unstage)???
+
+Page 41.
+git log --pretty=oneline
+"Initial commit" or "first commit"? To samo w poprzednich punktach.
+
+Page 43.
+--graph dla innego niż używane repozytorium. git://github.com/dustin/grit
+
+Page 46.
+git reset HEAD <file>... -> git restore --staged <file>
+
+Na dole strony
+git reset HEAD <file>… (kropki w książce są za wysoko).
+
+
+Page 47.
+"git checkout -- <file>..." -> "git restore <file>..."
+
+Page 48.
+(see Data Recovery for data recovery). -> (see Data Recovery for more details).
+
+"Unstaging a Staged File with git restore" Ten rozdział jest jakby copy-pastem jednego z poprzednich.
+
+Page 49.
+
+git restore --staged <file>… (kropki w książce są zbyt wysoko)
+
+Page 51.
+Dodaj informacje o usuwaniu "remote repository".
