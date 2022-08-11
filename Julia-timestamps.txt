@@ -1,0 +1,550 @@
+JuliaCon 2017 | A Superfacility Model for Data-Intensive Science | Kathy Yelick
+
+[_A Superfacility Model for Data-Intensive Science_](https://www.youtube.com/watch?v=IEfQ5jIQB4Y)
+
+This is one of this very fast talks and as such, quite challenging. I hope that these timestamps have some value.
+
+00:00 Welcome!
+00:29 "Big Data" and science
+03:53 Science and Internet of Things
+04:50 Many science challenges are at the boundary of theory and experiment
+05:26 Roadmap of the talk
+05:46 Science and search facitilities
+06:59 Automated search and meta-data analysis
+07:58 Past and future high performace facitilities
+09:02 Filtering and de-nosing data
+10:31 Math challenges in energy science data
+12:24 Machine learning for science
+14:12 Amount of avalible data grow faster than our computational capabilities
+16:00 DOE ECP, Department of Energy exascale Computing Project
+18:02 Computation and cost of energy used to perform it
+20:07 The most costly thing inside machine is moving data around
+22:19 Data vs. simulations: The irregularity spectrum
+25:07 Programming models for exascale computations
+28:32 Example: whole-mantle seismic model
+29:55 Example: analysis of genome
+32:01 Problems with distributed hash tables
+33:10 Optimizing algorithm for matrix multiplication
+37:13 7 Giants of Data and 7 Dwarfs of Simulation
+38:39 Systems for data analysis
+40:24 Why high level languages like Julia are key
+41:28 Specialization of computer architectures
+41:58 High Performance Computing Policies
+42:54 Acknowledgments
+
+_Computing derivatives for chaotic and hybrid systems_, Frank Schäfer, [https://www.youtube.com/watch?v=iWyWro7T2to](https://www.youtube.com/watch?v=iWyWro7T2to)
+
+00:00 Welcome!
+01:23 Ordinary differential equations and sensitivity analysis (SA)
+02:12 Problems with conventional methods when applied to chaotic systems
+02:33 Short overview of sensitivity analysis
+03:54 Introduction to chaotic systems
+05:29 Methods for quantification of uncertanity in chaotic systems
+06:24 Conventional SA and automatic differentiation (AD) aren't working properly in such systems
+09:35 Shadowing lemma and shadowing methods
+11:05 Replacing initial value problem by optimisation problem like least-squares problem
+11:41 More refined optimisation methods
+12:44 Hybrid systems with discontinuity in time evolution
+14:17 Example: bouncing ball
+
+
+
+Popraw.
+
+Simulating Chemical Kinetics with ReactionMechanismSimulator.jl | Matthew S. Johnson | JuliaCon 2021, https://www.youtube.com/watch?v=Bvs-sUK693U
+
+19:35 18:36 RMS' unique tools: symbolic reduction -> 19:35 18:36 RMS' unique tools: symbolic reduction
+
+23:05 Why is paper worth development in Cantera is 1-2 day job in ReactionMechanismSimulator.jl? -> 23:05 Why paper worth
+
+
+JuliaCon 2017 | The State of the Type System | Jeff Bezanson, https://www.youtube.com/watch?v=Z2LtJUe1q8c
+
+28:36 Possible future type system features -> 28:36 Possible future of the type system features
+
+
+
+
+_Numerical Optimization in Julia_, [https://www.youtube.com/watch?v=O1icUP6sajU](https://www.youtube.com/watch?v=O1icUP6sajU)
+
+Miles Lubin, Iain Dunning, _Numerical Optimization in Julia_, [https://www.youtube.com/watch?v=O1icUP6sajU](https://www.youtube.com/watch?v=O1icUP6sajU)
+
+When someone ask question, volume was quite low, so I could make a lot of mistakes.
+
+00:00 What is Linear Programming (LP)?
+01:23 Modeling languages for Linear Programming
+03:05 Question: can you use more vector-like notation in AMPL?
+03:35 Statements in AMPL can be more complicated that one show now
+03:50 Short summary of current state of languages for LP
+04:00 Modeling in Julia
+04:53 Julia macros allow us to generate fast code
+06:58 Question: what are you benchmarked in this example?
+07:20 Question: does this macro takes expression and generated actual matrix?
+07:52 Question: is writing a file procedure the reason that Julia is slower than AMPL?
+08:50 Question: can you run this example asynchronously?
+09:06 Question: how much times is take to solve actually LP problem?
+09:55 Question: dose language for solving LP problems always use this type of interface?
+10:35 Question: what is the external representations of the input?
+11:09 Question: what are **Model** and **Variable** functions doing?
+11:36 **Variable** functions and operator overloading
+12:09 Question: dumb variables in presented problem
+13:47 "The whole reason that language as AMPL exists, is that people like to think about it that way"
+14:31 Algorithms for solving LP problems
+15:04 Question: is this your PhD thesis?
+15:25 Question: what happens to different implementations of Dantzig’s simplex algorithm
+16:04 Question: what is the name of this thesis?
+16:15 Computational and algorithmic challenges in LP
+17:02 Simple benchmarks for solving LP problems
+18:12 Comments on bounds checking of arrays in Julia
+18:24 Results of benchmarks
+18:40 Comments on cost of features from higher-level languages
+18:57 Question: does Python implementations use numpy?
+19:07 Comments on sparse matrix and vectors in Python
+19:36 Question: do you write your own code in Julia for this task?
+21:12 Question: do you know sparsity pattern before starting the calculation?
+21:39 Question: would someone use aforementioned PhD thesis to implement Dantzig’s simplex algorithm in Julia?
+22:00 "Not factor of 2 left untouched"
+22:36 "Nothing special is happening in this code"
+22:53 Fuzzed dot operator inside a loop
+23:56 Overview of tutorial, that is mostly unrelated to LP
+
+
+
+_Fast Fourier Transforms in Julia_, [https://www.youtube.com/watch?v=1iBLaHGL1AM](https://www.youtube.com/watch?v=1iBLaHGL1AM)
+
+_Statistical Models in Julia_, [https://www.youtube.com/watch?v=v9Io-p_iymI](https://www.youtube.com/watch?v=v9Io-p_iymI)
+
+_Data Analysis in Julia with Data Frames_, [https://www.youtube.com/watch?v=XRClA5YLiIc](https://www.youtube.com/watch?v=XRClA5YLiIc)
+
+_Networking in Julia_, [https://www.youtube.com/watch?v=qYjHYTn7r2w](https://www.youtube.com/watch?v=qYjHYTn7r2w)
+
+_Julia Lightning Round_, [https://www.youtube.com/watch?v=37L1OMk_3FU](https://www.youtube.com/watch?v=37L1OMk_3FU)
+
+
+
+
+
+
+Cambridge Julia Meetup (May 2018)
+
+Shared memory parallelism in Julia with multi-threading, [https://www.youtube.com/watch?v=YdiZa0Y3F3c](https://www.youtube.com/watch?v=YdiZa0Y3F3c)
+
+
+
+
+
+
+Julia Lightning Round (Alan Edelman, Viral B. Shah)
+
+_Julia Lightning Round_, [https://www.youtube.com/watch?v=37L1OMk_3FU](https://www.youtube.com/watch?v=37L1OMk_3FU)
+
+
+
+
+
+TiledViews.jl | Rainer Heintzmann | JuliaCon 2021, [https://www.youtube.com/watch?v=i3LwNFJov5Q](https://www.youtube.com/watch?v=i3LwNFJov5Q)
+
+Another slightly harder video to make. Probably they can be much better.
+
+00:00 Welcome
+00:13 What is [TiledViews.jl](https://github.com/bionanoimaging/TiledViews.jl)?
+01:14 Reasons for tiling
+02:28 Example of tiled data
+02:47 Demo: processing a picture
+04:44 Demo: smoothing results by using window function
+06:20 Demo: function **tiled_processing**
+06:46 Challenges of tile-based processing
+07:14 Acknowledgements
+
+
+00:00 Welcome
+
+
+
+
+
+
+
+
+
+
+
+
+Fourth portion.
+
+| Video title | Link to video | Video time | Playlist time |
+|-------------|---------------|------------|---------------|
+| [PuMaS.jl...](https://www.youtube.com/watch?v=KQ4Vtsd9XNw) | [https://www.youtube.com/watch?v=KQ4Vtsd9XNw](https://www.youtube.com/watch?v=KQ4Vtsd9XNw) | 31:55 | 44:44 |
+| [Julia powered personalised...](https://www.youtube.com/watch?v=9J54K6HbPNQ) | [https://www.youtube.com/watch?v=9J54K6HbPNQ](https://www.youtube.com/watch?v=9J54K6HbPNQ) | 12:13 | 15:12 |
+| [500K - Providing training...](https://www.youtube.com/watch?v=aDXDnTT7cps) | [https://www.youtube.com/watch?v=aDXDnTT7cps](https://www.youtube.com/watch?v=aDXDnTT7cps) | 12:23 | 15:08 |
+| [Flux...](https://www.youtube.com/watch?v=R81pmvTP_Ik) | [https://www.youtube.com/watch?v=R81pmvTP_Ik](https://www.youtube.com/watch?v=R81pmvTP_Ik) | 26:20 | 29:51 |
+| [Combine ML for...](https://www.youtube.com/watch?v=QBT0wq2WBHE) | [https://www.youtube.com/watch?v=QBT0wq2WBHE](https://www.youtube.com/watch?v=QBT0wq2WBHE) | 9:33 | 16:34 |
+| [From Deep Neural...](https://www.youtube.com/watch?v=YVABTDrQ0eQ) | [https://www.youtube.com/watch?v=YVABTDrQ0eQ](https://www.youtube.com/watch?v=YVABTDrQ0eQ) | 10:31 | 11:19 |
+| [Whale recognition using...](https://www.youtube.com/watch?v=b7Dk_CPfS6M) | [https://www.youtube.com/watch?v=b7Dk_CPfS6M](https://www.youtube.com/watch?v=b7Dk_CPfS6M) | 9:22 | 10:12 |
+| [Estimating Non-Linear...](https://www.youtube.com/watch?v=dFyr8U-SY2M) | [https://www.youtube.com/watch?v=dFyr8U-SY2M](https://www.youtube.com/watch?v=dFyr8U-SY2M) | 28:14 | 30:48 |
+| [GSReg.jl...](https://www.youtube.com/watch?v=dBvXZqZRSsc) | [https://www.youtube.com/watch?v=dBvXZqZRSsc](https://www.youtube.com/watch?v=dBvXZqZRSsc) | 13:08 | 14:29 |
+| [Fast derivative pricing...](https://www.youtube.com/watch?v=dy7tXk403bM) | [https://www.youtube.com/watch?v=dy7tXk403bM](https://www.youtube.com/watch?v=dy7tXk403bM) | 11:44 | 13:22 |
+| [Enhanced String handling...](https://www.youtube.com/watch?v=kWqFRGLdqc4) | [https://www.youtube.com/watch?v=kWqFRGLdqc4](https://www.youtube.com/watch?v=kWqFRGLdqc4) | 15:04 | 21:35 |
+| [An introduction to high...](https://www.youtube.com/watch?v=jS9eouMJf_Y) | [https://www.youtube.com/watch?v=jS9eouMJf_Y](https://www.youtube.com/watch?v=jS9eouMJf_Y) | 39:21 | 42:28 |
+| [For Loops 2.0...](https://www.youtube.com/watch?v=Rp7sTl9oPNI) | [https://www.youtube.com/watch?v=Rp7sTl9oPNI](https://www.youtube.com/watch?v=Rp7sTl9oPNI) | 32:28 | 51:39 |
+| [Hierarchical Tensor...](https://www.youtube.com/watch?v=8QGo98705jY) | [https://www.youtube.com/watch?v=8QGo98705jY](https://www.youtube.com/watch?v=8QGo98705jY) | 12:31 | 14:26 |
+| [The JuliaGraphs ecosystem...](https://www.youtube.com/watch?v=OZuQoxTPoyM) | [https://www.youtube.com/watch?v=OZuQoxTPoyM](https://www.youtube.com/watch?v=OZuQoxTPoyM) | 13:51 | 15:35 |
+| [EvolvingGraphs.jl...](https://www.youtube.com/watch?v=qo25P5TURuw) | [https://www.youtube.com/watch?v=qo25P5TURuw](https://www.youtube.com/watch?v=qo25P5TURuw) | 13:47 | 15:45 |
+| [Solving Partial Differential...](https://www.youtube.com/watch?v=okGybBmihOE) | [https://www.youtube.com/watch?v=okGybBmihOE](https://www.youtube.com/watch?v=okGybBmihOE) | 1:48:53 | 1:57:26 |
+| [Queryverse](https://www.youtube.com/watch?v=2oXSA2w-p28) | [https://www.youtube.com/watch?v=2oXSA2w-p28](https://www.youtube.com/watch?v=2oXSA2w-p28) | 2:07:48 | 2:18:32 |
+| [A practical introduction...](https://www.youtube.com/watch?v=SeqAQHKLNj4) | [https://www.youtube.com/watch?v=SeqAQHKLNj4](https://www.youtube.com/watch?v=SeqAQHKLNj4) | 2:09:09 | 2:15:15 |
+| [Natural Language Processing...](https://www.youtube.com/watch?v=f7RNuOLDyM8) | [https://www.youtube.com/watch?v=f7RNuOLDyM8](https://www.youtube.com/watch?v=f7RNuOLDyM8) | 1:32:09 | 1:34:29 |
+
+
+The last portion.
+
+| Video title | Link to video | Video time | Playlist time |
+|-------------|---------------|------------|---------------|
+| [Numerical Analysis in Julia](https://www.youtube.com/watch?v=MAhLlLOxWGg) | [https://www.youtube.com/watch?v=MAhLlLOxWGg](https://www.youtube.com/watch?v=MAhLlLOxWGg) | 2:06:52 | 2:15:23 |
+| [Julia apps on...](https://www.youtube.com/watch?v=kSp6d3qSb3I) | [https://www.youtube.com/watch?v=kSp6d3qSb3I](https://www.youtube.com/watch?v=kSp6d3qSb3I) | 33:03 | 38:51 |
+| [Julia for Physics...](https://www.youtube.com/watch?v=BmVd7pw6Trc) | [https://www.youtube.com/watch?v=BmVd7pw6Trc](https://www.youtube.com/watch?v=BmVd7pw6Trc) | 16:22 | 19:26 |
+| [Native Elementary Functions...](https://www.youtube.com/watch?v=B03F6EFUm78) | [https://www.youtube.com/watch?v=B03F6EFUm78](https://www.youtube.com/watch?v=B03F6EFUm78) | 14:32 | 20:03 |
+| [Atomistic simulation...](https://www.youtube.com/watch?v=Kbrj4EZbGWs) | [https://www.youtube.com/watch?v=Kbrj4EZbGWs](https://www.youtube.com/watch?v=Kbrj4EZbGWs) | 11:36 | 30:12 |
+| [Simulating global...](https://www.youtube.com/watch?v=EahBURR9b1U) | [https://www.youtube.com/watch?v=EahBURR9b1U](https://www.youtube.com/watch?v=EahBURR9b1U) | 26:03 | 27:09 |
+| [Learnings from scaling Julia up...](https://www.youtube.com/watch?v=9I2SBKGOfS4) | [https://www.youtube.com/watch?v=9I2SBKGOfS4](https://www.youtube.com/watch?v=9I2SBKGOfS4) | 13:11 | 13:47 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JuliaCon 2017 | Cows, Lakes, and a JuMP extension ... | Oscar Dowson
+
+_Cows, Lakes, and a JuMP extension..._, [https://www.youtube.com/watch?v=LDgNmsOCl1A](https://www.youtube.com/watch?v=LDgNmsOCl1A)
+
+00:00 Welcome!
+00:10 What cows have to do with Julia?
+00:36 Julia meats Daisy in the filed of multi-stage stochastic optimisation
+00:51 New Zealand dairy farm on which I grew up
+01:48 Hydro-thermal scheduling problem
+03:10 [MOO](https://github.com/odow/MOO): The Milk Output Optimizer
+04:22 Stochastic Dual Dynamic Programming (SDDP)
+04:51 Problem with solving SDDP problems with standard languages
+05:18 Why not do it in Julia? Lot of people had this idea
+05:35 Moa.jl: Multi-stage Optimisation Application
+06:29 Moa.jl is quite good
+07:14 Takeaway thoughts
+07:38 Obligatory pictures of cows
+
+
+
+
+
+
+
+
+
+
+Interesting YT videos on numerical methods
+
+After watching, in my humble opinion, wonderful Nick Highman's keynote talk from JuliaCon 2018 [_Tricks and Tips in Numerical Computing_](https://www.youtube.com/watch?v=Q9OLOqEhc64), I found on YT more talks and lectures by him. Probably there are more people like me in Julia community, interested in numerical computing but still at the begin of they journey in this filed. I believe that may also can find them useful and enlightening, so I decided to put some links to them here. I hope that I'm not totally wrong in thinking that.
+
+Nick Highman, [_Probabilistic Versus Worst-Case Rounding Error Analysis_](https://www.youtube.com/watch?v=-1hVnDo4qzw)
+Nick Highman, [_Solving Dense Linear Systems: A Brief History and Future Directions_](https://www.youtube.com/watch?v=xSES0VrCRbc), 2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JuliaCon 2019 | Raising Diversity & Inclusion among Julia users
+
+_Raising Diversity & Inclusion among Julia users_, [https://www.youtube.com/watch?v=9cedY6zyo8I](https://www.youtube.com/watch?v=9cedY6zyo8I)
+
+00:00 Welcome!
+01:24 Julia Diversity and Inclusion Grant
+01:53 Outline of the talk
+
+
+
+
+
+
+How much do you need to know about compiler to work on Julia math stdlib?
+
+
+
+
+
+
+
+
+
+
+I'm not sure that I used words "parallel" and "parallelism" in correct way. Someone should check that.
+
+00:00 Welcome!
+00:28 Why we need threads?
+01:37 Task parallelism
+02:43 Data parallelism
+03:35 Julia's experimental threading infrastructure added in 2015/2016
+04:35 Successes of aforementioned threading infrastructure
+05:35 What we've learned
+06:25 Problem is not adding threads to Julia, but making them useful at every level
+06:59 Nested parallelism: parallel code calling function from library that is also parallel
+08:18 Example: multiplying two n x n matrices
+09:29 Example: running code sequentially
+10:10 Example: you need O(n^2) space
+10:27 Example: running code in parallel on 4 cores with OpenMP with OMP_NESTED = 1
+11:26 Example: such parallel code need O(n^3) in space
+11:37 Another way: work stealing
+12:47 Problem: work stealing algorithm essentially run like serial algorithm
+13:57 Parallel depth-first scheluding
+15:52 **partr** -- parallel task runtime
+17:15 **partr** implementation
+18:30 **partr** -- priority queues
+21:23 **partr** -- handling nested parallelism
+23:22 Possible problem: we not synchronize at each spawn point
+24:13 Why all these things are important?
+24:59 Q&A: is Julia more suitable for implementation of **partr** than other languages?
+
+Shared memory parallelism in Julia with multi-threading | Kiran Pamnany | Cambridge Julia Meetup (May 2018), [https://www.youtube.com/watch?v=YdiZa0Y3F3c](https://www.youtube.com/watch?v=YdiZa0Y3F3c)
+
+This talk is now 26:33 long, but it would be nice to cut it around 25:52. You can look at proposed timestamps [here](https://github.com/JuliaCommunity/YouTubeVideoTimestamps/issues/151).
+
+
+
+Few reflection on Julia community and war in Ukraine
+
+First, I need to answer to answer why I write it. This very day people suffer from war and tyranny in so many places of the world. In [Yemen](https://en.wikipedia.org/wiki/Yemeni_Civil_War_(2014%E2%80%93present)), [Ethiopia](https://en.wikipedia.org/wiki/Tigray_War), [Venezuela](https://www.youtube.com/watch?v=3ddajiQZ7aM), [Hong Kong](https://www.youtube.com/watch?v=wLKpMqtdd18), [Myanmar](https://www.youtube.com/watch?v=8hJ9nOagAhk), this list is so sadly long, why world should focus so much on Ukraine? I won't tell you how much attention you should pay to war on Ukraine, this is not my role. I tell you why I care. I live in Poland, this war is on my doorstep, I daily meet woman and children that flee Ukraine and try to help them as much as I can. Recently I hear about hospital in one city here, its renovation stops because half of the team that working on it were Ukrainian men, they all go back to home to fight Russian soldiers. Yesterday I find [video](https://www.facebook.com/watch/?v=312814504050500) posted by New York Times at 26 February at which I see person that I met when he studied computer science in Poland (he mostly use C++), now in Ukraine trying to join arm forces. I'm not making this up. God, I hope that he is still alive and well. I have every reason to care about it more than about any other war in the world.
+
+Second, why I post my thoughts here? Isn't this bringing to much politics to Julia community? Aren't they just empty words, that I should keep to myself? I was thinking about it and I decided they are I will do it anyway, it just seems right thing to do. If I'm wrong, just delete my post.
+
+First, I want to thank all of you that give some donation for Ukrainians. I'm not Ukrainian, I'm Polish but every donation for them means less [burden](https://www.youtube.com/watch?v=MuaVen0-ruE) is placed on us and citizens of countries like [Moldova](https://www.youtube.com/watch?v=Ht6JUUVccco) or [Romania](https://www.youtube.com/watch?v=-gM0-lcEo8M). Thank you.
+
+Second, you shouldn't underestimate the power of hate. I don't want any hate in the world, it is evil thing, but it is so hard to me condemn Ukrainians, when they show they hate Russia and Russians. If someone attack my country, kill our fellow men, make 19 years old men taking rifles to defend our country, tear our towns to pieces, bomb our maternity hospital and lie about it so outrageously as Russia Foreign Minister [Sergei Lavrov](https://www.dailymail.co.uk/news/article-10597929/Sergei-Lavrov-says-Russia-DIDNT-attack-Ukraine-dismisses-pathetic-outcry-hospital.html) did, I would almost surely hate them as much as they hate them. So, in most cases I don't have the moral right to condemn them. When people in [USA vandalized](https://www.nbcnews.com/news/us-news/russian-businesses-us-face-backlash-war-ukraine-rcna19155) Russian restaurants being against that is quite easy. But, when Ukrainians show in they words their hatred of Russia, I just stay salient.
+
+I try to not hate Russia nor Germany, two nations to which hatred in Poland has the deepest roots. I don't know sure if I fully succeeded in that, it is not easy thing for us poles to do. Also, I'm not sure in that I can't say for sure about different parts of our region, if they have such big animosity towards German, but I almost sure that in our part of the world, in the Czech Republic, in Romania, Slovakia, Hungary, etc., hatred for Russia is strong. Germany try to be friends from some of us, but Russia and Soviet Union almost always treat us like they pawns.
+
+One can point that Soviet Union wasn't Russia, this is wide and hard topic. To most of us Soviet Union was just new incarnation of Russia and this is how most people here still thinks. If you have some better understanding why hatred of Germany and Russia is so alive in our part of the world, the most available position in English language that describes this problem is probably [_Bloodlands.
+Europe Between Hitler and Stalin_](https://www.timothysnyder.org/books/bloodlands) by Timothy Snyder. But, it won't show you how deep this hatred goes.
+
+This is very long and complicated topic, that wouldn't interested people that don't leave here. I just want give one example, to illustrate how far it go. [_Polish national anthem_](https://en.wikipedia.org/wiki/Poland_Is_Not_Yet_Lost) was written in 1797 and it starts "Poland has not yet died, \\ So long as we still live. \\ What the foreign power has seized from us, \\ We shall recapture with a sword." and by "foreign power" author of this words mean Kingdom of Prussia, Austrians Empire and Russia under tsars. And yes, as our anthem says, we very much fear that Poland would be destroyed, by Russia, by Germany or what we fear the most, by new Russia-Germany alliance. If you don't know why we fear it, just read [_Bloodlands_](https://www.timothysnyder.org/books/bloodlands).
+
+You also should know, that we Pols, Ukrainians, Romanians and other nations, can hate Russia, this not necessary implies that we hate Russian people. Often we hate Russian people, but in many cases we really like them. It my seem strange, but to us Russian are friend in misery, that suffer under Moscow's tsar as we suffered. We may be quite sure that randomly chosen Poles and Ukrainians love Russians like [Marina Ovsyannikova](https://www.youtube.com/watch?v=URTrP1xHpQA) that oppose war and risk so much by this. Ovsyannikova can now spend 15 years in jail for that.
+
+But, does it matters for Julia Community. Helpfully not, but it can. One of big values of Julia community is inclusion and war in Ukraine can pose big challenges for being inclusive. I wish that people from Ukraine, Poland and Russia can be friends of each meet in Julia community. But now even meeting online can now be a challenge. If you think not, you just don't see what true hatred means. Hopefully this won't occur, but danger is there. We consist very small part of Julia community, so we shouldn't be a big problem, but since this is something that touch me directly, I write about it.
+
+You probably here about Russian conductor [Valery Gergiev](https://www.theguardian.com/music/2022/feb/28/denounce-putin-or-lose-your-job-russian-conductor-valery-gergiev-given-public-ultimatum) that didn't denounced Vladimir Putin and lost his job in [Munich](https://www.nytimes.com/2022/03/01/arts/music/valery-gergiev-fired-munich-ukraine.html). I don't want to people lost their job for they views, but in case as this, I split inside. Russia and Ukraine are so close to my home, that someone that don't reject Putin after the war start seems as Putin's man and when such support of Putin goes unpunished I feel badly. As I said, I feel split in the middle about that.
+
+I wish that Russian people can be part of Julia community as before, that they give they talk at JuliCon as everybody else, join meetups, etc. At the same time, if someone would say openly "I support Putin war in Ukraine", one part of me would say "You need to fight with that!". I don't know what is a good solution, I just want explain this hard situation in which people like me find themselves.
+
+And even if war on Ukraine end right now and we have totally new democratic government of Russia, this problems wouldn't vanish. In the peace time such deep wounds need a years and decades to heal and we will be constantly thinking "Is Russia truly a different country now of this is another [maskirovka](https://en.wikipedia.org/wiki/Russian_military_deception)?".
+
+This is probably too long already and I just scratch the surface of realities on the ground that we have here. I just want to ask one more question. Will this upheaval situation change the world of open source? West countries try to isolate Russia to extent that I almost unimaginable to me. It looks like Russia, biggest country in the world, turning into something like North Korea. And we also have a big cyberwar now. I hope this won't happen, but it is not unimaginable to me, that open source would be consider a good that can be sanctioned in such situation. I don't know how this can be done, but today this seems not as impossible as in the past.
+
+
+
+Improvements in package precompilation | Tim Holy & Valentin Churavy | JuliaCon 2022
+[https://www.youtube.com/watch?v=GnsONc9DYg0](https://www.youtube.com/watch?v=GnsONc9DYg0)
+
+I'm not satisfied with this timestamps, but I guess they are better than nothing.
+
+00:00 Welcome!
+00:30 Julia run fast and you can write code in it quickly
+03:20 But compilation takes time
+05:44 The two halves of Time to First Execution (TTFX)
+06:13 Strategies to reduce compilation time
+07:26 Why precompilation is important?
+08:24 What gets saved from Julia's compilation pipeline?
+12:08 Challenges ahead: invalidation
+14:20 Current work on precompilations
+16:26 Custom precompilation by creating Startup.jl
+17:19 New package: SnoopPrecompile.jl
+17:52 Comparing using Startup.jl and Packagecompiler
+19:12 Looking ahead: saving native code
+20:12 What's needed to support packages in storage file staticdata.c?
+22:16 Challenges that we faced
+24:49 GPUCompiler.jl approach and its developments
+26:31 Moving from sysimage to pkgimage?
+27:12 Relocating code
+28:18 Diagram illustrating relocation of code
+29:00 Next steps
+30:18 A hopeful future
+31:36 Closing remarks
+
+LinearSolve.jl: because A\b is not good enough | Chris Rackauckas | JuliaCon 2022
+[https://www.youtube.com/watch?v=JWI34_w-yYw](https://www.youtube.com/watch?v=JWI34_w-yYw)
+
+I'm kind of fan of mr. Rackauckas, so I need to watch his talk. And here are the timestamps.
+
+00:00 Welcome!
+00:14 What is A\b?
+00:43 Why we care about linear solvers?
+01:43 There are many algorithms to solve Ax = b for x
+02:46 Three problems with A\b
+03:00 Many ways to solve linear system better than A\b
+06:07 A\b is not general enough for the use some algorithms
+06:48 A\b is not interface, which can cause pain when you try write general code
+09:03 Solution to your problems: LinearSolve.jl
+11:00 Internal optimisations
+11:53 LinearSolve.jl in practice
+12:59 Summary
+
+"You have to follow rules. If you are Julia programmer and I just told you that A\b is slower than something else, therefore by the unwritten rules of Julia you must use the faster one." Chris Rackauckas. [LinearSolve.jl: because A\b is not good enough](https://www.youtube.com/watch?v=JWI34_w-yYw), JuliaCon 2022, 03:48.

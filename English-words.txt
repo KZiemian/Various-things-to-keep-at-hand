@@ -7,30 +7,85 @@ fiery
 staged
 parlance
 
-CadPDF -- missing "ft2build.h".
-CxImageLib -- część plików się nie ściągnęła.
-Cad2CadUpdater -- jakiegoś pliku brakuje.
-CommonAll/Geomery -- znowu jakiegoś pliku brakuje.
-CommonAll/Debug Report Reader -- działa.
-CommonAll/Lanucher -- znowu czegoś brakuje.
-RDwgViewer -- znowu czegoś brakuje.
-RDwgViewerExample -- znowu czegoś brakuje.
-RDwgViewerSyncExample -- działa.
-ViewersCore -- znowu czegoś brakuje.
-Geometry -- runtime_error is not a member of std. Znowu jakieś brakujące pliki.
-Poza tym jakiś plików brakuje.
-Viewers -- znowu brakuje jakiś plików.
-DD2R -- błąd wykonania pliku .exe.
-Licensing -- brak pliku.
-TrueDtp4 -- znowu brak jakiś plików.
-Muldrato -- potrzebuje zbudowania plików.
-R2DD -- działa.
-ExportRis -- brak pliku.
-FitIterator -- brak pliku.
-DrawningComparing -- brak pliku.
-dd2rasterNET -- działa.
-Dd2Raster -- brak pliku.
-PoDoFo -- strasznie dużo błędów.
-PoDoFo (jakieś drugie) -- strasznie dużo błędów.
-DwgExpressDLL -- brak pliku.
 
+
+squandered, foreign, stave off, stave, procurement, convergence,
+consensus, forays, egregious, repression, heirloom, struggles,
+laments, reserve, crowed, outing, flak, ratioed, stratum, intermingled,
+limits, decoupling, probative, excoriate, counterinsurgency, drily,
+enshroud, acumen, snares, conflating, concentration, democracy,
+autocracy, streamlined, verisimilitude, cogency, inadmissibility,
+congruity, clash, ideological, competition, failure, graveyard,
+unbound, side, coin, decline, flawed, strange, dysfunction, fuels,
+anarchy, spectacular, gratification, tenets, steadily, consequences,
+clung, abhorred, praxeology, contemporaries, edifying, sink, proliferation,
+Founding Father, ensuing, downturn, pundits, invoke, supercharged,
+underground, fringes, nodded off, disappeared, resurgence, counterterrorism,
+striking, horrific, suffered, speech, within, February, fundamentally,
+inflection, epochal, triumph, hard-liners, sustenance, altercation,
+inception, supreme, split, marriage, effective, strategy, lean, heavily,
+network, pillowcase, tame, partnerships, treat, encourages, retire,
+problematic, diverse, proclaimed, delusions, maximalism, extravagant,
+lurches, reestablishment, stymied, ruinous, between, accidental, blunder,
+sexism, cusp, profoundly, temptation, aggression, anxiety, strait, grab,
+regression, nascent, ante, prevarication, loathe, armamentarium, dissembling,
+mendacity, philosophy, philosophers, patois, strewn, bullying, mush,
+breathtaking, competencies, whimsy, taming, enormities, peremptory,
+aloof, ephemeral, obituary, intercontinental ballistic missile, ICBM,
+upending, winners, losers, psychology, globalization, ordinary, gain,
+withdraws, undeniable, woeful, truce, revisited, overhaul, leashes,
+recalibrate, espionage, consequences, vivid, armistice, suffused,
+batten down the hatches, recant, quibble, warring, splintering, intervening,
+crackdown, ostracized, backsliding, strife, irreversible, leveraged,
+combative, arrangements, permanence, arrayed, meager, wholesale, procure,
+thwart, faltered, putative, brazen, jettison, chafe, repudiate, gall,
+appalling, conversions, umbrella, feather, lucid, erasure, fierce, cast,
+unprecedented, indicated, angered, untoward, ostensibly, wielded,
+hopelessly, troublingly, etched, espouse, chastising, pelted, clad, stirring,
+pounced, doctrinal, pronged, insinuates, alterations, outstanding,
+normative, treatise, breakthrough, aggregate, far-reaching, equilibrium,
+observably, narrowly, conceived, sociological, distinguished, unduly,
+methodological, significance, enquiry, willy-nilly, pertaining, departure,
+treatment, comprehensiveness, grapple, conceived, discipline, thereof,
+jurists, palatable, inescapable, stringency, rallying, heterogeneous,
+merely, celebrated, bureaucracy, encompassing, flourished, spoliation,
+gratification, scrambles, flawed, warped, egregious, disjointed, unhindered,
+deflate, unison, chaperones, impairments, pertinent, throughout, stifling,
+hodgepodge, jumbled, efficacy, deftly, clutter, compartmentalized,
+dumbed-down, flawed, abandoned, exacting, parsimony, lavish, eschewing,
+taproot, cogently, figments,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eluded
