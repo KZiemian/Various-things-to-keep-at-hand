@@ -116,3 +116,6 @@ Nie widzę różnicy między
 git log -1 --oneline
 a
 git log -1 --oneline --decorate
+
+Page 72.
+Strzałki na Figure 20 należy poprawić.
