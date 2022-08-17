@@ -56,7 +56,7 @@ Page 22.
 Page 28.
 Changes to be committed:
 (use "git reset HEAD <file>..." to unstage)
-or 
+or
 (use "git restore --staged <file>..." to unstage)???
 
 Page 41.
@@ -87,3 +87,10 @@ git restore --staged <file>… (kropki w książce są zbyt wysoko)
 
 Page 51.
 Dodaj informacje o usuwaniu "remote repository".
+
+
+Page 67.
+
+Oblamówki szarych węzłów w diagramie 14 nie wyglądają najlepiej. Ich obramówka nie jest pełna.
+
+Co to znaczy „vim test.rm”? Chyba przydałoby się to jakoś wyjaśnić.
