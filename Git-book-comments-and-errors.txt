@@ -88,9 +88,39 @@ git restore --staged <file>… (kropki w książce są zbyt wysoko)
 Page 51.
 Dodaj informacje o usuwaniu "remote repository".
 
+Page 54.
+"are no longer using a particular mirror" -> "they are no longer using a particular mirror"?
+
+Page 55.
+"Listing tag wildcards requires -l or --list option" Ten fragment nie jest zbyt jasny.
+
+Page 56.
+Nie jest podane do którego commita zostanie dodany tworzony tag.
+
+Page 59.
+"`git push` pushes both types of tags" -> "`git push <remote>` pushes both types of tags"?
+
+Page 59.
+Sprawdzić czy w nowej wersji można już przesłać tylko lekkie tagi.
+
+W rozdziale "Git basics" brakuje fragmentu na temat tego jak stworzyć repozytorium Gita od zera.
+
+Page 64.
+Nazwa domyślna głównej gałęzi to obecnie „master”, czy „main”?
+
+Page 66.
+Pojedyncze słowo "branch" na górze strony.
+
+Nie widzę różnicy między
+git log -1 --oneline
+a
+git log -1 --oneline --decorate
 
 Page 67.
 
 Oblamówki szarych węzłów w diagramie 14 nie wyglądają najlepiej. Ich obramówka nie jest pełna.
 
 Co to znaczy „vim test.rm”? Chyba przydałoby się to jakoś wyjaśnić.
+
+Page 72.
+Strzałki na Figure 20 należy poprawić.
