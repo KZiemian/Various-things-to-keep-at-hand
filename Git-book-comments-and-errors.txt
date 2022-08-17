@@ -118,7 +118,7 @@ git log -1 --oneline --decorate
 
 Page 67.
 
-Oblamówki szarych węzłów w diagramie 14 nie wyglądają najlepiej. Ich obramówka nie jest pełna.
+Obramówki szarych węzłów w diagramie 14 nie wyglądają najlepiej. Ich obramówka nie jest pełna.
 
 Co to znaczy „vim test.rm”? Chyba przydałoby się to jakoś wyjaśnić.
 
