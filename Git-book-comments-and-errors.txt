@@ -135,3 +135,6 @@ jak zobaczyć gałęzie za pomocą `git log`?
 
 Page 80.
 Przerzucić tytuł "Changing a branch name" na stronę 81.
+
+Page 84.
+Popraw ,,(iss91v2)''.
