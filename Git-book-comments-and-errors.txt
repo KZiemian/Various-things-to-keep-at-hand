@@ -124,3 +124,14 @@ Co to znaczy „vim test.rm”? Chyba przydałoby się to jakoś wyjaśnić.
 
 Page 72.
 Strzałki na Figure 20 należy poprawić.
+
+
+Page 76.
+Napisać więcej o three-way merge.
+
+Page 79.
+Czy nie warto byłoby napisać o tym, że `git branch` pokaże ci gałęzie, w momencie gdy była mowa o tym,
+jak zobaczyć gałęzie za pomocą `git log`?
+
+Page 80.
+Przerzucić tytuł "Changing a branch name" na stronę 81.
