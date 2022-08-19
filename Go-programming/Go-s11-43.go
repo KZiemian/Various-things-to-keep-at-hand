@@ -24,77 +24,90 @@ var thumbNails = groupcache.NewGroup("thumbnail", 64 << 20, groupcache.GetterFun
 		fileName := key
 		dest.SetBytes(generalThumbnail(fileNae))
 		return nil
-	}))
+}))
 
-	var data []byte
-	err := thumbNails.Get(ctx, "big-file.jpg",
-		groupcache.AllocationByteSliteSink(&data))
+var data []byte
+err := thumbNails.Get(ctx, "big-file.jpg",
+	groupcache.AllocationByteSliteSink(&data))
+// ...
+http.ServeContent(w, r, "big-file-thumb.jpg", modTime, bytes.NewReader(data))
+
+// A SizeReaderAt is a ReaderAt with a Size method.
+
+// And io.SectionReader implements SizeReaderAt.
+type SizeREaderAt interface {
+	Size() int64
+	io.ReaderAt
+}
+
+// NewMultiReaderAt is like io.MultiReader but produces a ReaderAt
+// (and Size), instead of just a reader.
+func NewMultiReaderAt(parts ...SizeReaderAt) SizeReaderAt {
+	m := &multi{
+		parts: make([]offsetAndSource, 0, len(patrs))
+	}
+
+	var off int64
+		
+	for _, p := range parts {
+		m.parts = append(m.parts, offsetAndSource{off, p})
+		off += p.Size()
+	}
+
+	m.siz = off
+	return m
+}
+
+func NewSectionReader(r ReaderAt, off int64, n int64) *SectionReader
+
+func (s *SectionReader) Read(p []byte) (n int, err error)
+
+func (s *SectionReader) ReadAt(p []byte, off int64) (n int, err error)
+
+func (s *SectionReader) Seek(offset int64, whence int) (ret int64, err error)
+
+func (s *sectionReader) Size() int64
+
+func NewChunkAlignedReaderAt(r SizeReaderAt, chunkSize int) SizeReaderAt {
 	// ...
-	http.ServeContent(w, r, "big-file-thumb.jpg", modTime, bytes.NewReader(data))
+}
 
-	// A SizeReaderAt is a ReaderAt with a Size method.
+func part(s string) SizeReaderAt {
+	return io.NewSectionReader(strings.NewReader(s), 0, int64(len(s)))
+}
 
-	// And io.SectionReader implements SizeReaderAt.
-	type SizeREaderAt interface {
-		Size() int64
-		io.ReaderAt
-	}
-
-	// NewMultiReaderAt is like io.MultiReader but produces a ReaderAt
-	// (and Size), instead of just a reader.
-	func NewMultiReaderAt(parts ...SizeReaderAt) SizeReaderAt {
-		m := &multi{
-			parts: make([]offsetAndSource, 0, len(patrs))
-		}
-
-		var off int64
+func handler(w http.ResponseWriter, r *http.Request) {
+	sra := NewMultiReaderAt(
+		part("Hello, "), part(" world! "),
+		part("You requested " + r.URL.Path + "\n"),
+	)
 		
-		for _, p := range parts {
-			m.parts = append(m.parts, offsetAndSource{off, p})
-			off += p.Size()
-		}
+	rs := io.NewSectionReader(sra, 0, sra.Size())
 
-		m.siz = off
-		return m
+	http.ServeContent(w, r, "foo.txt", modTime, rs)
+}
+
+func (s *Server) handleDownload(w http.ResponseWriter, r *http.Request) {
+	s.addActiveDownloadTotal(1)
+	defer s.addActiveDownloadTotal(-1)
+	if !isGetOrHear(w, r) {
+		return
 	}
 
-	func NewSectionReader(r ReaderAt, off int64, n int64) *SectionReader
-
-	func (s *SectionReader) Read(p []byte) (n int, err error)
-
-	func (s *SectionReader) ReadAt(p []byte, off int64) (n int, err error)
-
-	func (s *SectionReader) Seek(offset int64, whence int) (ret int64, err error)
-
-	func (s *sectionReader) Size() int64
-
-	func NewChunkAlignedReaderAt(r SizeReaderAt, chunkSize int) SizeReaderAt {
-		// ...
+	uctx, err := s.newUserContext(r)
+	// ...
+	pl, cacheable, err := s.chooseValidPayloadToDownload(uctx)
+	// ...
+	content, err := pl.content()
+	// ...
+	defer content.Close()
+	w.Header().Set("Content-Type", pl.mimeType())
+	if etag := pl.etag(); etag != "" {
+		w.Header().Set("Etag", strconv.Quote(etag))
 	}
-
-	func part(s string) SizeReaderAt {
-		return io.NewSectionReader(strings.NewReader(s), 0, int64(len(s)))
+	if cacheable {
+		w.Header().Set("Expires", pl.expirationTime())
 	}
-
-	func handler(w http.ResponseWriter, r *http.Request) {
-		sra := NewMultiReaderAt(
-			part("Hello, "), part(" world! "),
-			part("You requested " + r.URL.Path + "\n"),
-		)
-		
-		rs := io.NewSectionReader(sra, 0, sra.Size())
-
-		http.ServeContent(w, r, "foo.txt", modTime, rs)
-	}
-
-	func (s *Server) handleDownload(w http.ResponseWriter, r *http.Request) {
-		s.addAcitveDownloadTotal(1)
-		defer s.addActiveDownloadTotal(-1)
-
-		if !isGetOrHead(w, r) {
-			return
-		}
-
-		uctx, err := s.newUserContext(r)
-		// ...
-	}
+	readSeeker := io.NewSectionReader(content, 0, content.Size())
+	http.ServeContent(w, r, "", pl.lastModifiedTime(), readSeeker)
+}

@@ -1,11 +1,10 @@
 RISC - reduced instruction set computing,
 CICS - complex instruction set computing,
+OCR - optical character recognition,
 
 CVCS - Centralized Version Control System
 DVCS - Distributed Version Control System
-fiery
-staged
-parlance
+fiery, staged, parlance,
 
 
 
