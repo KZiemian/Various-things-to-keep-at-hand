@@ -1,3 +1,16 @@
+Page 6.
+you should already be pretty useful wielding Git in the time it
+takes you to go pick up another copy. ???????????????
+
+will go over in full detail various distributed workflows??????
+
+Throughout the
+book, we will refer to sections of this chapter in case you feel like diving deep at that point;?????
+
+Page 9.
+"central place.  For many years,"
+Sprawdź, czy da się zmniejszyć ten odstęp.
+
 Page 22.
 "value for one of these values" -> "value for one of these variables"?
 
@@ -35,40 +48,18 @@ the mv command. Czy to jest komentarz do komendy git mv?
 Add section about using space, Enter and "q" to navigate log entries. And what "\" means in command line.
 
 
-Page 45.
-"This command takes your staging area and uses it for the commit." -> This command takes your staging area and add its content to that from previously made commit. Then it creates new commit that will overwrite this made previoulsy.????
-
-"You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous comming commint will be replaced by this one.
-
-
-
-Page 50.
-Add comment "we explain push, pull and fetch in the future".
-
-Page 51.
-Add comment about push, pull and fetch.
-
-Page 52.
-Add comment "For now you just need to know, that in your repository you have now parallel access to both repoistory that you cloned and probably already modified and to work of Paul."
-
-"After you do this, you should have references to all the branches from that
-remote, which you can merge in or inspect at any time." Co to są gałęzie gita, to zostanie dopiero omówione.
-
-"Pushing to Your Remotes" make beginning of the text more user friendly.
-
-
-
-
-
-
-
-
 Page 41.
 git log --pretty=oneline
 "Initial commit" or "first commit"? To samo w poprzednich punktach.
 
 Page 43.
 --graph dla innego niż używane repozytorium. git://github.com/dustin/grit
+
+Page 45.
+"This command takes your staging area and uses it for the commit." -> This command takes your staging area and add its content to that from previously made commit. Then it creates new commit that will overwrite this made previoulsy.????
+
+"You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous comming commint will be replaced by this one.
+
 
 Page 46.
 git reset HEAD <file>... -> git restore --staged <file>
@@ -89,8 +80,28 @@ Page 49.
 
 git restore --staged <file>… (kropki w książce są zbyt wysoko)
 
+
+
+
+Page 50.
+Add comment "we explain push, pull and fetch in the future".
+
 Page 51.
+Add comment about push, pull and fetch.
+
 Dodaj informacje o usuwaniu "remote repository".
+
+Page 52.
+Add comment "For now you just need to know, that in your repository you have now parallel access to both repoistory that you cloned and probably already modified and to work of Paul."
+
+"After you do this, you should have references to all the branches from that
+remote, which you can merge in or inspect at any time." Co to są gałęzie gita, to zostanie dopiero omówione.
+
+"Pushing to Your Remotes" make beginning of the text more user friendly.
+
+
+
+
 
 Page 54.
 "are no longer using a particular mirror" -> "they are no longer using a particular mirror"?
