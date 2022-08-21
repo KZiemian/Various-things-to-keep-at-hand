@@ -1,3 +1,12 @@
+Page 22.
+"value for one of these values" -> "value for one of these variables"?
+
+Page 28.
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+or
+(use "git restore --staged <file>..." to unstage)???
+
 Page 29.
 $ vim CONTRIBUTING.md
 $ git status
@@ -50,14 +59,9 @@ remote, which you can merge in or inspect at any time." Co to są gałęzie gita
 
 
 
-Page 22.
-"value for one of these values" -> "value for one of these variables"?
 
-Page 28.
-Changes to be committed:
-(use "git reset HEAD <file>..." to unstage)
-or
-(use "git restore --staged <file>..." to unstage)???
+
+
 
 Page 41.
 git log --pretty=oneline
