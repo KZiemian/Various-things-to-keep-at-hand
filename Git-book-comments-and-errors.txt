@@ -1,3 +1,9 @@
+Sprawdzić, czy wszystkie linki w książce działają.
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24,
+
+Page 5.
+U mnie lista pomniejszych współautorów jest pusta.
+
 Page 6.
 you should already be pretty useful wielding Git in the time it
 takes you to go pick up another copy. ???????????????
@@ -11,8 +17,46 @@ Page 9.
 "central place.  For many years,"
 Sprawdź, czy da się zmniejszyć ten odstęp.
 
+Page 15.
+The working tree is a single checkout of one version of the project. These files are pulled out of the
+compressed database in the Git directory and placed on disk for you to use or modify.
+Nie jest dla mnie do końca jasne co ten tekst oznacza.
+
+Page 16.
+Dodać uwagę, że informacje jakie dostajesz po wpisaniu komendy Gita, także mogą zależeć od wersji której używasz.
+Czy napisać: będziemy czasem zwracać uwagę na to, kiedy informacja zwrotna zależy od użytej wersji Gita?
+
+Page 18.
+Na stronie https://github.com/git/git/releases nie ma żadnych releasów. Sprawdzić skąd to wynika.
+
+Page 19.
+Może komentarz o tym, że ściągnęliśmy Gita 2.8.0 i dla niego są podane te komendy?
+
+,,Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly." 
+Może da się to napisać zgrabniej?
+
+Page 20.
+`git config --list --show-origin` dodać informację o użyciu q by zrobić quit.
+
+Page 21.
+Za mało jest tu napisane o git init. Tekst w ,,Your default branch name'' jest w ogóle mało zrozumiały
+dla osób, które dopiero zaczynają z Gitem. Może da się go napisać w bardziej przystęny sposób?
+
+,,In this case, Git uses the last value for each unique key it sees.'' Ostatnia wartość wedle jakiego kryterium.
+
 Page 22.
+`man git-help` wyrzuca mi błąd po Windowsem.
+
 "value for one of these values" -> "value for one of these variables"?
+
+Page 24.
+configure and initialize a repository -> intiialize and configure a repository???
+
+Page 25.
+,,and checks out a working copy of the latest version." Może da się to napisać jaśniej?
+Czytelnik może jeszcze nie wiedzieć co robi `git checkout branch`.
+
+Czytnik PDF rozpoznaje https:// jako klikalny link.
 
 Page 28.
 Changes to be committed:
