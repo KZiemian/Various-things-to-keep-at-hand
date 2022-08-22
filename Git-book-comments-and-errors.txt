@@ -58,6 +58,9 @@ Czytelnik może jeszcze nie wiedzieć co robi `git checkout branch`.
 
 Czytnik PDF rozpoznaje https:// jako klikalny link.
 
+Page 26.
+Przedtem były trzy stany plików, teraz jest mowa o dwóch. Rozumiem o co chodzi, ale warto byłoby to uzgodnić w tekście.
+
 Page 28.
 Changes to be committed:
 (use "git reset HEAD <file>..." to unstage)
