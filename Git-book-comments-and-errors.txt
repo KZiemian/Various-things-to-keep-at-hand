@@ -1,5 +1,7 @@
 Sprawdzić, czy wszystkie linki w książce działają.
-Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24,
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25,
+
+Czy w książce jest wystarczająco jasno napisane, że ,,working directory'' i ,,working tree'' to jedno i to samo?
 
 Page 5.
 U mnie lista pomniejszych współautorów jest pusta.
