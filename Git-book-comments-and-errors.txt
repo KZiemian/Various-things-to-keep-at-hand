@@ -1,5 +1,5 @@
 Sprawdzić, czy wszystkie linki w książce działają.
-Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25,
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31,
 
 Czy w książce jest wystarczająco jasno napisane, że ,,working directory'' i ,,working tree'' to jedno i to samo?
 
@@ -64,14 +64,24 @@ Page 26.
 Przedtem były trzy stany plików, teraz jest mowa o dwóch. Rozumiem o co chodzi, ale warto byłoby to uzgodnić w tekście.
 
 Page 28.
+,,to do other things like marking merge-conflicted files as resolved.''
+Czytelni może jeszcze nie wiedzieć o co chodzi z merge conflikt.
+
 Changes to be committed:
 (use "git reset HEAD <file>..." to unstage)
 or
 (use "git restore --staged <file>..." to unstage)???
 
 Page 29.
+Jak zgrabnie napisać, że ,,vim file'' to skórt od edycji pliku edytorem vim?
+
 $ vim CONTRIBUTING.md
 $ git status
+
+Page 31.
+# ignore all files in any directory named build
+build/
+Czy to znaczy, że ignoruje też sam katalog build/???
 
 Page 36.
 
