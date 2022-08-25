@@ -1,5 +1,5 @@
 Sprawdzić, czy wszystkie linki w książce działają.
-Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31,
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34,
 
 Czy w książce jest wystarczająco jasno napisane, że ,,working directory'' i ,,working tree'' to jedno i to samo?
 
@@ -45,7 +45,7 @@ Page 21.
 Za mało jest tu napisane o git init. Tekst w ,,Your default branch name'' jest w ogóle mało zrozumiały
 dla osób, które dopiero zaczynają z Gitem. Może da się go napisać w bardziej przystęny sposób?
 
-,,In this case, Git uses the last value for each unique key it sees.'' Ostatnia wartość wedle jakiego kryterium.
+,,In this case, Git uses the last value for each unique key it sees.'' Ostatnia wartość wedle jakiego kryterium?
 
 Page 22.
 `man git-help` wyrzuca mi błąd po Windowsem.
@@ -84,8 +84,13 @@ Page 31.
 build/
 Czy to znaczy, że ignoruje też sam katalog build/???
 
-Page 36.
+Page 35.
+Sprawdź, czy tekst na górze strony wygląda jak ten w używnaje przez ciebie wersji Vima.
 
+You can remove these comments and type your commit message, or you can leave them there to help you remember what you’re committing.
+Jak rozumiem, jeśli nie usuniemy z początku linii znaku #, to tekst tej linii nie znajdzie się w wiadomości zatwierdzenia.
+
+Page 36.
 To remove a file from Git, you have to remove it from your tracked files (more accurately, remove it from your staging area) and then commit. ??
 
 Page 37.
