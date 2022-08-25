@@ -38,7 +38,8 @@ Może komentarz o tym, że ściągnęliśmy Gita 2.8.0 i dla niego są podane te
 Może da się to napisać zgrabniej?
 
 Page 20.
-`git config --list --show-origin` dodać informację o użyciu q by zrobić quit.
+`git config --list --show-origin` dodać informację o użyciu q by zrobić quit? To zły pomysł.
+Lepiej napisać co powinno się umieć z obsługi terminala zanim przystąpi się do lektury tej książki.
 
 Page 21.
 Za mało jest tu napisane o git init. Tekst w ,,Your default branch name'' jest w ogóle mało zrozumiały
@@ -95,16 +96,10 @@ your staging area.
 
 In version 2.1.348-2-ga76dfab, 2022-07-19, Figure 6 has "Stage Fixes". Since over five years passes, should this issue remain open?
 
-Since over five years pass since opening this issue, I think we can close it.
-
 It seems that there are no big plans to make a new edition of this book, which seems to me to be only feasible thing to do, that can make justice for eight years of Git development from 2014 to 2022. But, this is only my opinion, I may be wrong.
 
 Git figures out that it’s a rename implicitly, so it doesn’t matter if you rename a file that way or with
 the mv command. Czy to jest komentarz do komendy git mv?
-
-
-
-Add section about using space, Enter and "q" to navigate log entries. And what "\" means in command line.
 
 
 Page 41.
