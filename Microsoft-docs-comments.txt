@@ -4,3 +4,29 @@ Rodział ,,To add the DLL import library to your project"
 ,,It ensures that any property changes apply to both Debug and Release builds.''
 Ten komentarz z punktu 2 w tym rozdziale, powinien być w punkcie 2 we wcześniejszym rozdziale
 ,,To add the DLL header to your include path''.
+
+,,And finally, copy the built DLL from the DLL project into your client build output directory. This step allows your client app to use the same DLL code you build.''????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
