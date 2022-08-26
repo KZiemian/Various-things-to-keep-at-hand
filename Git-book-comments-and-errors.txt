@@ -1,5 +1,5 @@
 Sprawdzić, czy wszystkie linki w książce działają.
-Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34,
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44,
 
 Czy w książce jest wystarczająco jasno napisane, że ,,working directory'' i ,,working tree'' to jedno i to samo?
 
@@ -138,7 +138,13 @@ git log --pretty=oneline
 "Initial commit" or "first commit"? To samo w poprzednich punktach.
 
 Page 43.
---graph dla innego niż używane repozytorium. git://github.com/dustin/grit
+Zademonstrować --graph dla innego niż używane repozytorium. git://github.com/dustin/grit???
+Czy to byłby dobry pomysł?
+
+,,Show only the first few characters of the SHA-1 checksum instead of all 40.''
+Czy ten opis `git log --abbrev-commit` dobrze oddaje co ta komenda robi?
+
+Tabela 3 jest przydko podzielona między strony 44 i 45.
 
 Page 45.
 "This command takes your staging area and uses it for the commit." -> This command takes your staging area and add its content to that from previously made commit. Then it creates new commit that will overwrite this made previoulsy.????
