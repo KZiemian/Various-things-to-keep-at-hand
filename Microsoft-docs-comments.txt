@@ -1,0 +1,36 @@
+Walkthrough: Create and use your own Dynamic Link Library (C++) https://docs.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp
+
+Rodział ,,To add the DLL import library to your project"
+,,It ensures that any property changes apply to both Debug and Release builds.''
+Ten komentarz z punktu 2 w tym rozdziale, powinien być w punkcie 2 we wcześniejszym rozdziale
+,,To add the DLL header to your include path''.
+
+,,And finally, copy the built DLL from the DLL project into your client build output directory. This step allows your client app to use the same DLL code you build.''????
+
+,,// #include "pch.h" Uncomment for Visual Studio 2017 and earlier''
+Czy nie powinno być stdafx.h???
+
+,,You can use the $(IntDir) macro so that the linker can find your DLL, no matter which kind of build you create.''
+DLL czy .lib file?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

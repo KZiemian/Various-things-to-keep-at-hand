@@ -31,10 +31,10 @@ Ilość linii kartkę papieru A4 w kratkę.
 57
 58
 58
-
-
-
-
+58
+58
+58
+59
 
 
 
