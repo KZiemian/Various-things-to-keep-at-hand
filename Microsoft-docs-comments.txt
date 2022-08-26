@@ -1,0 +1,6 @@
+Walkthrough: Create and use your own Dynamic Link Library (C++) https://docs.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp
+
+Rodział ,,To add the DLL import library to your project"
+,,It ensures that any property changes apply to both Debug and Release builds.''
+Ten komentarz z punktu 2 w tym rozdziale, powinien być w punkcie 2 we wcześniejszym rozdziale
+,,To add the DLL header to your include path''.
