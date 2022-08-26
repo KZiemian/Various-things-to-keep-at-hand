@@ -121,6 +121,18 @@ Git figures out that it’s a rename implicitly, so it doesn’t matter if you r
 the mv command. Czy to jest komentarz do komendy git mv?
 
 
+Page 40.
+,,@@ -18,8 +18,3 @@ class SimpleGit
+end
+end
+-
+-if $0 == __FILE__
+- git = SimpleGit.new
+- puts git.show
+-end''
+To mi wygląda na niepełny diff, bo nie ma linii ze znakiem plus. Jak zrozumiesz lepiej działanie diff, to wróć i sprawdź to jeszcze raz.
+
+
 Page 41.
 git log --pretty=oneline
 "Initial commit" or "first commit"? To samo w poprzednich punktach.

@@ -7,7 +7,11 @@ Ten komentarz z punktu 2 w tym rozdziale, powinien być w punkcie 2 we wcześnie
 
 ,,And finally, copy the built DLL from the DLL project into your client build output directory. This step allows your client app to use the same DLL code you build.''????
 
+,,// #include "pch.h" Uncomment for Visual Studio 2017 and earlier''
+Czy nie powinno być stdafx.h???
 
+,,You can use the $(IntDir) macro so that the linker can find your DLL, no matter which kind of build you create.''
+DLL czy .lib file?
 
 
 
