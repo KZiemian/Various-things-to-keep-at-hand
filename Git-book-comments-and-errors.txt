@@ -340,13 +340,29 @@ https://github.com/progit/progit2/issues/1292 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/1309 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/1319 Przeczytaj dokładnie.
 https://github.com/progit/progit2/issues/1324 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1332 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1349 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1350 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1402 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1425 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1462 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1524 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1529 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1551 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1572 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1597 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1604 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1619 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1623 Przyjrzyj się temu.
 
 
 
 
-Can this issue be close?
+Is this issue resolved by now?
 
+Can this issue be close now?
 
+What is the status of this issue?
 
 This is second open issue that I see, that is about problem with compilation chain of asciidoctor. Is there a reason for it to remain open?
 
