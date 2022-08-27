@@ -318,15 +318,39 @@ https://github.com/progit/progit2/issues/920 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/944 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/958 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/977 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/991 Przyjrzyj się temu. Wydaje się, że jest już wcześniejsze issue poruszające ten problem.
+https://github.com/progit/progit2/issues/1013 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1030 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1042 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1043 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1050 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1052 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1060 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1084 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1091 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1109 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1117 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1119 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/1120 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1205 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1208 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1254 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1256 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1292 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1309 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1319 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/1324 Przyjrzyj się temu.
 
 
-What is a current status of this issue?
+
+
+Can this issue be close?
 
 
 
+This is second open issue that I see, that is about problem with compilation chain of asciidoctor. Is there a reason for it to remain open?
 
-Can this issue be closed?
-
+Can you write what you remember about further story of your finding? Maybe after that we can close this issue?
 
 
 
@@ -341,3 +365,5 @@ What is a current status of this issue?
 How this story with whitespaces end? In computer science everything is complicated or at least non-easy, even whitespaces.
 
 I will add it to my TODO list. It doesn't mean that I will write this text, but maybe by some miracle this would happen?
+
+How situation looks now?
