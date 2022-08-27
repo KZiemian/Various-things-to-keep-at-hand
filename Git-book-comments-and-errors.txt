@@ -1,3 +1,12 @@
+Do przeczytania.
+Przed rozdziałem 4.2: https://github.com/progit/progit2/issues/210
+Przed rozdziałem 5.3: https://github.com/progit/progit2/issues/516
+Przed rozdziałem 8.2: https://github.com/progit/progit2/issues/563
+
+
+
+
+
 Sprawdzić, czy wszystkie linki w książce działają.
 Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44,
 
@@ -36,7 +45,7 @@ Na stronie https://github.com/git/git/releases nie ma żadnych releasów. Sprawd
 Page 19.
 Może komentarz o tym, że ściągnęliśmy Gita 2.8.0 i dla niego są podane te komendy?
 
-,,Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly." 
+,,Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly."
 Może da się to napisać zgrabniej?
 
 Page 20.
@@ -244,3 +253,43 @@ Przerzucić tytuł "Changing a branch name" na stronę 81.
 
 Page 84.
 Popraw ,,(iss91v2)''.
+
+
+
+
+
+
+
+
+
+Wydaje się, że do pewnej wersji Gita jeśli usunąłeś samemu plik file.txt, to aby git uznał jego usunięcie trzeba było wykonać komendę
+git add file.txt
+W wersji Gita 2.37 (zapewne też w wielu wcześniejszych) można w tej sytuacji użyć
+git rm file.txt.
+
+
+
+
+
+GitHub issues do zrobienia.
+https://github.com/progit/progit2/issues/279
+https://github.com/progit/progit2/issues/339
+https://github.com/progit/progit2/issues/357 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/388 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/411 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/426 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/462 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/566
+https://github.com/progit/progit2/issues/571 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/605
+https://github.com/progit/progit2/issues/610
+https://github.com/progit/progit2/issues/614
+https://github.com/progit/progit2/issues/681 Sprawdź, czy wciąż jest aktualne.
+https://github.com/progit/progit2/issues/694 Przeczytaj dokładnie.
+
+
+
+
+Should this issue remain open?
+
+Skończyłem czytanie na
