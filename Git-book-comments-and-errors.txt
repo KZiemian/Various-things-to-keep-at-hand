@@ -76,7 +76,7 @@ Page 26.
 Przedtem były trzy stany plików, teraz jest mowa o dwóch. Rozumiem o co chodzi, ale warto byłoby to uzgodnić w tekście.
 
 Page 28.
-,,to do other things like marking merge-conflicted files as resolved.''
+„to do other things like marking merge-conflicted files as resolved.”
 Czytelni może jeszcze nie wiedzieć o co chodzi z merge conflikt.
 
 Changes to be committed:
@@ -85,7 +85,7 @@ or
 (use "git restore --staged <file>..." to unstage)???
 
 Page 29.
-Jak zgrabnie napisać, że ,,vim file'' to skórt od edycji pliku edytorem vim?
+Jak zgrabnie napisać, że „vim file” to skórt od edycji pliku edytorem vim?
 
 $ vim CONTRIBUTING.md
 $ git status
@@ -354,32 +354,20 @@ https://github.com/progit/progit2/issues/1597 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/1604 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/1619 Przyjrzyj się temu.
 https://github.com/progit/progit2/issues/1623 Przyjrzyj się temu.
-
-
-
-
-Is this issue resolved by now?
-
-Can this issue be close now?
-
-What is the status of this issue?
-
-This is second open issue that I see, that is about problem with compilation chain of asciidoctor. Is there a reason for it to remain open?
-
-Can you write what you remember about further story of your finding? Maybe after that we can close this issue?
-
-
-
-Skończyłem czytanie na
-https://github.com/progit/progit2/issues/920
-
-
-
-
-What is a current status of this issue?
-
-How this story with whitespaces end? In computer science everything is complicated or at least non-easy, even whitespaces.
-
-I will add it to my TODO list. It doesn't mean that I will write this text, but maybe by some miracle this would happen?
-
-How situation looks now?
+https://github.com/progit/progit2/issues/1631 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1633 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1635 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1638 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1663 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1673 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1691 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1702 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1714 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1717 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1725 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1726 To już chyba było w innym issue.
+https://github.com/progit/progit2/issues/1731 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1745 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1761 Spróbuj coś z tym zrobić.
+https://github.com/progit/progit2/issues/1779 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1784 Przyjrzyj się temu.
