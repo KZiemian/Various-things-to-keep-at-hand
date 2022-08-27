@@ -156,6 +156,10 @@ Czy ten opis `git log --abbrev-commit` dobrze oddaje co ta komenda robi?
 Tabela 3 jest przydko podzielona między strony 44 i 45.
 
 Page 45.
+Co oznacza `-- t/` w pierwszym bloku powłoki na tej stronie?
+
+„Of the nearly 40,000 commits in the Git source” W której chwili czasu było to 40,000 commitów dla Gita? Dziś jest ich pewnie więcej.
+
 "This command takes your staging area and uses it for the commit." -> This command takes your staging area and add its content to that from previously made commit. Then it creates new commit that will overwrite this made previoulsy.????
 
 "You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous comming commint will be replaced by this one.
@@ -286,10 +290,54 @@ https://github.com/progit/progit2/issues/610
 https://github.com/progit/progit2/issues/614
 https://github.com/progit/progit2/issues/681 Sprawdź, czy wciąż jest aktualne.
 https://github.com/progit/progit2/issues/694 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/697 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/720 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/723 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/751 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/793 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/797 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/798 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/804 To jest powiązane z tym co już sobie zanotowałeś.
+https://github.com/progit/progit2/issues/822 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/825 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/828 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/832 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/835 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/847 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/854 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/855 Przeczytaj.
+https://github.com/progit/progit2/issues/881 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/886 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/890 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/896 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/900 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/905 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/909 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/919 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/920 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/944 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/958 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/977 Przyjrzyj się temu.
+
+
+What is a current status of this issue?
 
 
 
 
-Should this issue remain open?
+Can this issue be closed?
+
+
+
 
 Skończyłem czytanie na
+https://github.com/progit/progit2/issues/920
+
+
+
+
+What is a current status of this issue?
+
+How this story with whitespaces end? In computer science everything is complicated or at least non-easy, even whitespaces.
+
+I will add it to my TODO list. It doesn't mean that I will write this text, but maybe by some miracle this would happen?
