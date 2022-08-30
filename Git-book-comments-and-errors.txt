@@ -263,6 +263,20 @@ Popraw ,,(iss91v2)''.
 
 
 
+Page 72.
+„However, before you do that, note that if your working directory or staging area has uncommitted changes that conflict with the branch you’re checking out, Git won’t let you switch branches.”
+Co dla Gita jest konfliktem?
+
+
+
+Page 75.
+Tutaj domyślnie zakładamy, że master jest główną gałęzią Gita.
+
+
+
+Działające hiperlinki.
+Page: 72,
+
 
 
 
