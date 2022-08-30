@@ -279,8 +279,8 @@ Tutaj powinna być chyba informacja, że `git branch` pokazuje ci dostępne gał
 
 
 
-
-
+Page 79.
+Dodać przy okazji logów informacje o tym, że jak zobaczyć jakie są dostępne gałęzie będziemy mówić później.
 
 
 
@@ -297,7 +297,7 @@ Tutaj powinna być chyba informacja, że `git branch` pokazuje ci dostępne gał
 
 
 Dobrze pracujące hiperlinki.
-Page: 63,
+Page: 63, 78,
 
 
 
