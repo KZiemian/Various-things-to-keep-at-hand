@@ -279,7 +279,9 @@ Tutaj powinna być chyba informacja, że `git branch` pokazuje ci dostępne gał
 
 
 
-
+Page 69.
+„Creating a new branch is as quick and simple as writing 41 bytes to a file (40 characters and a newline).”
+A co z wyliczeniem sumy kontrolnej???
 
 
 
@@ -297,7 +299,7 @@ Tutaj powinna być chyba informacja, że `git branch` pokazuje ci dostępne gał
 
 
 Dobrze pracujące hiperlinki.
-Page: 63,
+Page: 63, 68,
 
 
 
