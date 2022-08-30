@@ -6,8 +6,12 @@ Czy w książce jest wystarczająco jasno napisane, że ,,working directory'' i 
 
 Pierwszy commit może nosić nazwę (root-commit). A co z init commit i tak dalej?
 
+
+
 Page 5.
 U mnie lista pomniejszych współautorów jest pusta.
+
+
 
 Page 6.
 you should already be pretty useful wielding Git in the time it
@@ -18,21 +22,31 @@ will go over in full detail various distributed workflows??????
 Throughout the
 book, we will refer to sections of this chapter in case you feel like diving deep at that point;?????
 
+
+
 Page 9.
 "central place.  For many years,"
 Sprawdź, czy da się zmniejszyć ten odstęp.
+
+
 
 Page 15.
 The working tree is a single checkout of one version of the project. These files are pulled out of the
 compressed database in the Git directory and placed on disk for you to use or modify.
 Nie jest dla mnie do końca jasne co ten tekst oznacza.
 
+
+
 Page 16.
 Dodać uwagę, że informacje jakie dostajesz po wpisaniu komendy Gita, także mogą zależeć od wersji której używasz.
 Czy napisać: będziemy czasem zwracać uwagę na to, kiedy informacja zwrotna zależy od użytej wersji Gita?
 
+
+
 Page 18.
 Na stronie https://github.com/git/git/releases nie ma żadnych releasów. Sprawdzić skąd to wynika.
+
+
 
 Page 19.
 Może komentarz o tym, że ściągnęliśmy Gita 2.8.0 i dla niego są podane te komendy?
@@ -40,9 +54,13 @@ Może komentarz o tym, że ściągnęliśmy Gita 2.8.0 i dla niego są podane te
 ,,Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly." 
 Może da się to napisać zgrabniej?
 
+
+
 Page 20.
 `git config --list --show-origin` dodać informację o użyciu q by zrobić quit? To zły pomysł.
 Lepiej napisać co powinno się umieć z obsługi terminala zanim przystąpi się do lektury tej książki.
+
+
 
 Page 21.
 Za mało jest tu napisane o git init. Tekst w ,,Your default branch name'' jest w ogóle mało zrozumiały
@@ -50,13 +68,19 @@ dla osób, które dopiero zaczynają z Gitem. Może da się go napisać w bardzi
 
 ,,In this case, Git uses the last value for each unique key it sees.'' Ostatnia wartość wedle jakiego kryterium?
 
+
+
 Page 22.
 `man git-help` wyrzuca mi błąd po Windowsem.
 
 "value for one of these values" -> "value for one of these variables"?
 
+
+
 Page 24.
 configure and initialize a repository -> intiialize and configure a repository???
+
+
 
 Page 25.
 ,,and checks out a working copy of the latest version." Może da się to napisać jaśniej?
@@ -64,8 +88,12 @@ Czytelnik może jeszcze nie wiedzieć co robi `git checkout branch`.
 
 Czytnik PDF rozpoznaje https:// jako klikalny link.
 
+
+
 Page 26.
 Przedtem były trzy stany plików, teraz jest mowa o dwóch. Rozumiem o co chodzi, ale warto byłoby to uzgodnić w tekście.
+
+
 
 Page 28.
 ,,to do other things like marking merge-conflicted files as resolved.''
@@ -76,16 +104,22 @@ Changes to be committed:
 or
 (use "git restore --staged <file>..." to unstage)???
 
+
+
 Page 29.
 Jak zgrabnie napisać, że ,,vim file'' to skórt od edycji pliku edytorem vim?
 
 $ vim CONTRIBUTING.md
 $ git status
 
+
+
 Page 31.
 # ignore all files in any directory named build
 build/
 Czy to znaczy, że ignoruje też sam katalog build/???
+
+
 
 Page 35.
 Sprawdź, czy tekst na górze strony wygląda jak ten w używnaje przez ciebie wersji Vima.
@@ -96,6 +130,8 @@ Jak rozumiem, jeśli nie usuniemy z początku linii znaku #, to tekst tej linii 
 When you exit the editor, Git creates your commit with that commit message (with the comments
 and diff stripped out).????
 
+
+
 Page 36.
 To remove a file from Git, you have to remove it from your tracked files (more accurately, remove it
 from your staging area) and then commit. The git rm command does that, and also removes the file
@@ -105,6 +141,8 @@ Ten tekst można napisać w lepszy sposób.
 Należy dodać ostrzeżenie, jak silną komendą zwykle jest rm.
 
 To remove a file from Git, you have to remove it from your tracked files (more accurately, remove it from your staging area) and then commit. ??
+
+
 
 Page 37.
 Another useful thing you may want to do is to keep the file in your working tree but remove it from
@@ -122,6 +160,7 @@ Git figures out that it’s a rename implicitly, so it doesn’t matter if you r
 the mv command. Czy to jest komentarz do komendy git mv?
 
 
+
 Page 40.
 ,,@@ -18,8 +18,3 @@ class SimpleGit
 end
@@ -134,9 +173,12 @@ end
 To mi wygląda na niepełny diff, bo nie ma linii ze znakiem plus. Jak zrozumiesz lepiej działanie diff, to wróć i sprawdź to jeszcze raz.
 
 
+
 Page 41.
 git log --pretty=oneline
 "Initial commit" or "first commit"? To samo w poprzednich punktach.
+
+
 
 Page 43.
 Zademonstrować --graph dla innego niż używane repozytorium. git://github.com/dustin/grit???
@@ -147,12 +189,16 @@ Czy ten opis `git log --abbrev-commit` dobrze oddaje co ta komenda robi?
 
 Tabela 3 jest przydko podzielona między strony 44 i 45.
 
+
+
 Page 45.
 "This command takes your staging area and uses it for the commit." -> This command takes your staging area and add its content to that from previously made commit. Then it creates new commit that will overwrite this made previoulsy.????
 
 "You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous comming commint will be replaced by this one.
 
 Warto spróbować przerobić tekst z podrozdziału ,,Undoing Things''.
+
+
 
 Page 46.
 git reset HEAD <file>... -> git restore --staged <file>
@@ -163,8 +209,11 @@ Na dole strony
 git reset HEAD <file>… (kropki w książce są za wysoko).
 
 
+
 Page 47.
 "git checkout -- <file>..." -> "git restore <file>..."
+
+
 
 Page 48.
 (see Data Recovery for data recovery). -> (see Data Recovery for more details).
@@ -173,9 +222,13 @@ Page 48.
 
 Czy restore jest mniej niebezpieczny, niż reset?
 
+
+
 Page 49.
 
 git restore --staged <file>… (kropki w książce są zbyt wysoko)
+
+
 
 Page 50.
 Dodać komentarz o gałęziach i tym, że będą w następnym rozdziale. Na tej stronie, albo gdzieś wcześniej.
@@ -184,10 +237,14 @@ Add comment "we explain push, pull and fetch in the future".
 
 Dodać komentarz o krótszy (-h) i dłuższych (--help) wersjach komend Gita.
 
+
+
 Page 51.
 Add comment about push, pull and fetch.
 
 Dodaj informacje o usuwaniu "remote repository".
+
+
 
 Page 52.
 Jak dokładnie działa fetch?
@@ -203,40 +260,57 @@ Potrzeba więcej informacji o git pull i gałęziach.
 
 Master branch, main branch? Jak to wyjaśnić?
 
+
+
 Page 53.
 ,,git remote show:'' (na końcu strony)
 Czy tu nie powinno być `git remote show`???
 
+
+
 Page 54.
 "are no longer using a particular mirror" -> "they are no longer using a particular mirror"?
 
+
+
 Page 55.
 "Listing tag wildcards requires -l or --list option" Ten fragment nie jest zbyt jasny.
+
+
 
 Page 56.
 Nie jest podane do którego commita zostanie dodany tworzony tag.
 
 Znowu mowa o gałęziach, a przecież to dopiero następny rozdział.
 
+
+
 Page 57.
 ,,This is basically the commit checksum stored in a file — no other information is kept.''
 Jak to się ma do tego, że lekki tag to wskaźnik do zatwierdzenia?
 
+
+
 Page 59.
 "`git push` pushes both types of tags" -> "`git push <remote>` pushes both types of tags"?
 
-Page 59.
 Sprawdzić czy w nowej wersji można już przesłać tylko lekkie tagi.
 
 W rozdziale "Git basics" brakuje fragmentu na temat tego jak stworzyć repozytorium Gita od zera.
+
+
 
 Page 60.
 ,,If you do this and make a commit, your version2 branch will be slightly different than your v2.0.0
 tag since it will move forward with your new changes, so do be careful.
 O co tu chodzi?
 
+
+
 Page 64.
 Nazwa domyślna głównej gałęzi to obecnie „master”, czy „main”?
+
+
 
 Page 66.
 Pojedyncze słowo "branch" na górze strony.
@@ -246,25 +320,35 @@ git log -1 --oneline
 a
 git log -1 --oneline --decorate
 
-Page 67.
 
+
+Page 67.
 Obramówki szarych węzłów w diagramie 14 nie wyglądają najlepiej. Ich obramówka nie jest pełna.
 
 Co to znaczy „vim test.rm”? Chyba przydałoby się to jakoś wyjaśnić.
+
+
 
 Page 72.
 Strzałki na Figure 20 należy poprawić.
 
 
+
 Page 76.
 Napisać więcej o three-way merge.
+
+
 
 Page 79.
 Czy nie warto byłoby napisać o tym, że `git branch` pokaże ci gałęzie, w momencie gdy była mowa o tym,
 jak zobaczyć gałęzie za pomocą `git log`?
 
+
+
 Page 80.
 Przerzucić tytuł "Changing a branch name" na stronę 81.
+
+
 
 Page 84.
 Popraw ,,(iss91v2)''.
