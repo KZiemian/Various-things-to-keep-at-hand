@@ -1,5 +1,6 @@
 Sprawdzić, czy wszystkie linki w książce działają.
-Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44,
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44, 46, 47, 48, 52,
+53,
 
 Czy w książce jest wystarczająco jasno napisane, że ,,working directory'' i ,,working tree'' to jedno i to samo?
 
@@ -151,9 +152,12 @@ Page 45.
 
 "You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous comming commint will be replaced by this one.
 
+Warto spróbować przerobić tekst z podrozdziału ,,Undoing Things''.
 
 Page 46.
 git reset HEAD <file>... -> git restore --staged <file>
+
+Only amend commits that are still local and have -> You can only amend commits that are still local and have
 
 Na dole strony
 git reset HEAD <file>… (kropki w książce są za wysoko).
@@ -167,15 +171,18 @@ Page 48.
 
 "Unstaging a Staged File with git restore" Ten rozdział jest jakby copy-pastem jednego z poprzednich.
 
+Czy restore jest mniej niebezpieczny, niż reset?
+
 Page 49.
 
 git restore --staged <file>… (kropki w książce są zbyt wysoko)
 
-
-
-
 Page 50.
+Dodać komentarz o gałęziach i tym, że będą w następnym rozdziale. Na tej stronie, albo gdzieś wcześniej.
+
 Add comment "we explain push, pull and fetch in the future".
+
+Dodać komentarz o krótszy (-h) i dłuższych (--help) wersjach komend Gita.
 
 Page 51.
 Add comment about push, pull and fetch.
@@ -183,6 +190,8 @@ Add comment about push, pull and fetch.
 Dodaj informacje o usuwaniu "remote repository".
 
 Page 52.
+Jak dokładnie działa fetch?
+
 Add comment "For now you just need to know, that in your repository you have now parallel access to both repoistory that you cloned and probably already modified and to work of Paul."
 
 "After you do this, you should have references to all the branches from that
@@ -190,9 +199,13 @@ remote, which you can merge in or inspect at any time." Co to są gałęzie gita
 
 "Pushing to Your Remotes" make beginning of the text more user friendly.
 
+Potrzeba więcej informacji o git pull i gałęziach.
 
+Master branch, main branch? Jak to wyjaśnić?
 
-
+Page 53.
+,,git remote show:'' (na końcu strony)
+Czy tu nie powinno być `git remote show`???
 
 Page 54.
 "are no longer using a particular mirror" -> "they are no longer using a particular mirror"?
@@ -203,6 +216,12 @@ Page 55.
 Page 56.
 Nie jest podane do którego commita zostanie dodany tworzony tag.
 
+Znowu mowa o gałęziach, a przecież to dopiero następny rozdział.
+
+Page 57.
+,,This is basically the commit checksum stored in a file — no other information is kept.''
+Jak to się ma do tego, że lekki tag to wskaźnik do zatwierdzenia?
+
 Page 59.
 "`git push` pushes both types of tags" -> "`git push <remote>` pushes both types of tags"?
 
@@ -210,6 +229,11 @@ Page 59.
 Sprawdzić czy w nowej wersji można już przesłać tylko lekkie tagi.
 
 W rozdziale "Git basics" brakuje fragmentu na temat tego jak stworzyć repozytorium Gita od zera.
+
+Page 60.
+,,If you do this and make a commit, your version2 branch will be slightly different than your v2.0.0
+tag since it will move forward with your new changes, so do be careful.
+O co tu chodzi?
 
 Page 64.
 Nazwa domyślna głównej gałęzi to obecnie „master”, czy „main”?
