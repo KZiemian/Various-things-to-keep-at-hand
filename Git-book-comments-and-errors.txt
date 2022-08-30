@@ -162,7 +162,7 @@ Co oznacza `-- t/` w pierwszym bloku powłoki na tej stronie?
 
 "This command takes your staging area and uses it for the commit." -> This command takes your staging area and add its content to that from previously made commit. Then it creates new commit that will overwrite this made previoulsy.????
 
-"You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous comming commint will be replaced by this one.
+"You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous commint will be replaced by this one.
 
 
 Page 46.
@@ -257,6 +257,47 @@ Przerzucić tytuł "Changing a branch name" na stronę 81.
 
 Page 84.
 Popraw ,,(iss91v2)''.
+
+
+
+
+Page 63.
+„Staging the files computes a checksum for each one (the SHA-1 hash we mentioned in What is Git?), stores that version of the file in the Git repository (Git refers to them as blobs), and adds that checksum to the staging area:”
+Nie do końca rozumiem co to znaczy, że suma kontrolna trafia na scenę (staging area).
+
+the root project tree -> root of the project tree???
+
+
+
+Page 64.
+The default branch name in Git is master. (or main depending on the version????)
+
+
+
+Page 66.
+Tutaj powinna być chyba informacja, że `git branch` pokazuje ci dostępne gałęzie. Ja bym to umieścił na początku „Switching Branches”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dobrze pracujące hiperlinki.
+Page: 63,
 
 
 
