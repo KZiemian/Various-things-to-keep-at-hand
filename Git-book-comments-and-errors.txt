@@ -1,3 +1,12 @@
+Do przeczytania.
+Przed rozdziałem 4.2: https://github.com/progit/progit2/issues/210
+Przed rozdziałem 5.3: https://github.com/progit/progit2/issues/516
+Przed rozdziałem 8.2: https://github.com/progit/progit2/issues/563
+
+
+
+
+
 Sprawdzić, czy wszystkie linki w książce działają.
 Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44, 46, 47, 48, 52,
 53,
@@ -53,7 +62,7 @@ Na stronie https://github.com/git/git/releases nie ma żadnych releasów. Sprawd
 Page 19.
 Może komentarz o tym, że ściągnęliśmy Gita 2.8.0 i dla niego są podane te komendy?
 
-,,Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly." 
+,,Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly."
 Może da się to napisać zgrabniej?
 
 
@@ -98,7 +107,7 @@ Przedtem były trzy stany plików, teraz jest mowa o dwóch. Rozumiem o co chodz
 
 
 Page 28.
-,,to do other things like marking merge-conflicted files as resolved.''
+„to do other things like marking merge-conflicted files as resolved.”
 Czytelni może jeszcze nie wiedzieć o co chodzi z merge conflikt.
 
 Changes to be committed:
@@ -109,7 +118,7 @@ or
 
 
 Page 29.
-Jak zgrabnie napisać, że ,,vim file'' to skórt od edycji pliku edytorem vim?
+Jak zgrabnie napisać, że „vim file” to skórt od edycji pliku edytorem vim?
 
 $ vim CONTRIBUTING.md
 $ git status
@@ -194,6 +203,10 @@ Tabela 3 jest przydko podzielona między strony 44 i 45.
 
 
 Page 45.
+Co oznacza `-- t/` w pierwszym bloku powłoki na tej stronie?
+
+„Of the nearly 40,000 commits in the Git source” W której chwili czasu było to 40,000 commitów dla Gita? Dziś jest ich pewnie więcej.
+
 "This command takes your staging area and uses it for the commit." -> This command takes your staging area and add its content to that from previously made commit. Then it creates new commit that will overwrite this made previoulsy.????
 
 "You can edit the message the same as always, but it overwrites your previous commit." -> You can edit the message the same as always, but remember that you previous comming commint will be replaced by this one.
@@ -357,5 +370,117 @@ Popraw ,,(iss91v2)''.
 
 
 
+
 Działające hiperlinki.
 Page: 
+
+
+
+
+
+
+Wydaje się, że do pewnej wersji Gita jeśli usunąłeś samemu plik file.txt, to aby git uznał jego usunięcie trzeba było wykonać komendę
+git add file.txt
+W wersji Gita 2.37 (zapewne też w wielu wcześniejszych) można w tej sytuacji użyć
+git rm file.txt.
+
+
+
+
+
+GitHub issues do zrobienia.
+https://github.com/progit/progit2/issues/279
+https://github.com/progit/progit2/issues/339
+https://github.com/progit/progit2/issues/357 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/388 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/411 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/426 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/462 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/566
+https://github.com/progit/progit2/issues/571 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/605
+https://github.com/progit/progit2/issues/610
+https://github.com/progit/progit2/issues/614
+https://github.com/progit/progit2/issues/681 Sprawdź, czy wciąż jest aktualne.
+https://github.com/progit/progit2/issues/694 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/697 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/720 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/723 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/751 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/793 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/797 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/798 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/804 To jest powiązane z tym co już sobie zanotowałeś.
+https://github.com/progit/progit2/issues/822 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/825 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/828 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/832 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/835 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/847 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/854 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/855 Przeczytaj.
+https://github.com/progit/progit2/issues/881 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/886 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/890 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/896 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/900 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/905 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/909 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/919 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/920 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/944 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/958 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/977 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/991 Przyjrzyj się temu. Wydaje się, że jest już wcześniejsze issue poruszające ten problem.
+https://github.com/progit/progit2/issues/1013 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1030 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1042 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1043 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1050 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1052 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1060 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1084 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1091 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1109 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1117 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1119 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/1120 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1205 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1208 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1254 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1256 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1292 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1309 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1319 Przeczytaj dokładnie.
+https://github.com/progit/progit2/issues/1324 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1332 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1349 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1350 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1402 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1425 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1462 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1524 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1529 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1551 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1572 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1597 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1604 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1619 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1623 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1631 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1633 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1635 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1638 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1663 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1673 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1691 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1702 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1714 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1717 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1725 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1726 To już chyba było w innym issue.
+https://github.com/progit/progit2/issues/1731 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1745 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1761 Spróbuj coś z tym zrobić.
+https://github.com/progit/progit2/issues/1779 Przyjrzyj się temu.
+https://github.com/progit/progit2/issues/1784 Przyjrzyj się temu.
