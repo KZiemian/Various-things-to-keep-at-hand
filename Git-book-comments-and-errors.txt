@@ -6,6 +6,8 @@ Czy w książce jest wystarczająco jasno napisane, że ,,working directory'' i 
 
 Pierwszy commit może nosić nazwę (root-commit). A co z init commit i tak dalej?
 
+Spróbuj sprawić, by więcej podrozdziałów zaczynało się wraz z nową stroną. I tak jest dużo pustego miejsca na stronach ze względu na potrzebę umieszczania wydruków teminala (rzadziej rysunków).
+
 
 
 Page 5.
@@ -352,3 +354,8 @@ Przerzucić tytuł "Changing a branch name" na stronę 81.
 
 Page 84.
 Popraw ,,(iss91v2)''.
+
+
+
+Działające hiperlinki.
+Page: 

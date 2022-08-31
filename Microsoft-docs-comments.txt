@@ -15,8 +15,9 @@ DLL czy .lib file?
 
 
 
-
-
+,,Dynamic-Link Library Best Practices''
+https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-best-practices
+Na górze strony jest ,,**Updated: **''
 
 
 
