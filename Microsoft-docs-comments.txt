@@ -19,7 +19,8 @@ DLL czy .lib file?
 https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-best-practices
 Na górze strony jest ,,**Updated: **''
 
-
+,,By the time DllMain is called at process exit, all the process’s threads have been forcibly cleaned up and there is a chance that the address space is inconsistent. Synchronization is not required in this case. In other words, the ideal DLL_PROCESS_DETACH handler is empty.''
+O co chodzi z tą niekonsystencją?
 
 
 
