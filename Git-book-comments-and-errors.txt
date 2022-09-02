@@ -11,7 +11,7 @@ Przeczytać jeszcze raz podrozdział ,,Remote Branches'' i sprawdzić, czy temat
 
 Sprawdzić, czy wszystkie linki w książce działają.
 Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44, 
-46, 47, 48, 52, 53, 63, 68, 78, 85, 89, 91, 93,
+46, 47, 48, 52, 53, 63, 68, 78, 85, 89, 91, 93, 95,
 
 
 
@@ -456,8 +456,9 @@ Wydaje mi się to sprzecze z tym co napisano wcześniej, że fetch nie kopiuje d
 
 
 
+Mam problem ze zrozumieniem jak `git fetch origin`, a potem użyty `git merge origin/branch` działają.
 
-
+Jak po `git fetch origin` zobaczyć jakie gałęzie mam dostępne by zrobić `git merge origin/branch`.
 
 
 
