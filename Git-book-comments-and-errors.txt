@@ -441,6 +441,24 @@ to track a remote branch''. Nie rozumiem zaś o co chodzi w ,,you just pulled do
 somebranch'', to czy nie powinniśmy mieć tej gałęzi na miejscu wraz z wszystkimi plikami? Po co więc ustawiać
 jakąś inną gałąź by tą gałąź śledziła?
 
+Wydaje się, że teraz `git checkout origin/somebranch` działa tak samo jak `git checkout --track origin/somebranch`
+
+
+Page 94.
+,,While the git fetch command will fetch all the changes on the server that you don’t have yet, it will
+not modify your working directory at all. It will simply get the data for you and let you merge it
+yourself.''
+Wydaje mi się to sprzecze z tym co napisano wcześniej, że fetch nie kopiuje danych, tylko tworzy odpowiedni wskaźnik z metadanymi (dobrze użyłem słowa ,,metadane''?).
+
+
+
+
+
+
+
+
+
+
 
 
 
