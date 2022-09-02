@@ -5,10 +5,13 @@ Przed rozdziałem 8.2: https://github.com/progit/progit2/issues/563
 
 
 
+Przeczytać jeszcze raz podrozdział ,,Remote Branches'' i sprawdzić, czy temat są tam omawiane we właściwej kolejności.
+
 
 
 Sprawdzić, czy wszystkie linki w książce działają.
-Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44, 46, 47, 48, 52, 53, 63, 68,
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44, 
+46, 47, 48, 52, 53, 63, 68, 85, 89, 91, 93,
 
 
 
@@ -388,6 +391,56 @@ Przerzucić tytuł "Changing a branch name" na stronę 81.
 
 Page 84.
 Popraw ,,(iss91v2)''.
+
+
+
+Page 86.
+,,Remote references are references (pointers) in your remote repositories, including branches, tags,
+and so on.''
+Po lekturze tych słów ciężko zrozumieć o co chodzi z tym remote references.
+
+,,Nevertheless, a more common way is to take advantage of remote-tracking branches.''
+To zdanie jest bardzo niejasne.
+
+
+
+Page 87.
+Czy dobrze rozumiem, że origin/master jest obiektem lokalym? Jeśli tak, może da się to silniej 
+zaznaczyć w tekście.
+
+
+
+Page 90.
+,,Figure 33. Adding another server as a remote'' Ja bym to nazwał ,,Structure of servers in company,
+after adding one team'', czy coś takiego. Bo na rysunku nie ma jeszcze pokazanego repozytorium z dodanym
+nowym remotem.
+
+
+
+Page 91.
+,,Figure 34. Remote-tracking branch for teamone/master'' Ja bym ten rysunek nazwał ,,Figure 33. Adding another server as a remote''.
+
+
+
+Page 92.
+Co tekst na tej stronie mówi nam o tym jak działa fetch?
+
+,,Checking out a local branch from a remote-tracking branch automatically creates what is called a''
+Domyślam się, że przez ,,checking out'' należy rozumieć działanie ostatniej komendy na tej stronie.
+
+
+
+Page 93.
+,,ones that track branches on other remotes, or don’t track the master branch.''
+-> ,,ones that track other origin branches than master or track branches on other remotes''.
+
+,,If you already have a local branch and want to set it to a remote branch you just pulled down,''
+Domyślam się, że jesteśmy na lokalnej gałęzi o której jest tu mowa, nie tylko, że ją mamy gdzieś w repozytorium.
+
+Jeszcze do poprzedniego tekstu. ,,set it to a remote branch you just pulled down''. Tu chyba powinn być ,,set it up
+to track a remote branch''. Nie rozumiem zaś o co chodzi w ,,you just pulled down''. Jeśli zrobiliśmy ,,git pull origin 
+somebranch'', to czy nie powinniśmy mieć tej gałęzi na miejscu wraz z wszystkimi plikami? Po co więc ustawiać
+jakąś inną gałąź by tą gałąź śledziła?
 
 
 
