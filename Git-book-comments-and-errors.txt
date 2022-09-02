@@ -11,7 +11,7 @@ Przeczytać jeszcze raz podrozdział ,,Remote Branches'' i sprawdzić, czy temat
 
 Sprawdzić, czy wszystkie linki w książce działają.
 Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44, 
-46, 47, 48, 52, 53, 63, 68, 85, 89, 91, 93,
+46, 47, 48, 52, 53, 63, 68, 78, 85, 89, 91, 93,
 
 
 
@@ -343,7 +343,6 @@ The default branch name in Git is master. (or main depending on the version????)
 
 
 Page 66.
-Page 66.
 Tutaj powinna być chyba informacja, że `git branch` pokazuje ci dostępne gałęzie. Ja bym to umieścił na początku „Switching Branches”.
 
 Pojedyncze słowo "branch" na górze strony.
@@ -357,8 +356,6 @@ git log -1 --oneline --decorate
 
 Page 67.
 Obramówki szarych węzłów w diagramie 14 nie wyglądają najlepiej. Ich obramówka nie jest pełna.
-
-Co to znaczy „vim test.rm”? Chyba przydałoby się to jakoś wyjaśnić.
 
 
 
@@ -379,8 +376,10 @@ Napisać więcej o three-way merge.
 
 
 Page 79.
-Czy nie warto byłoby napisać o tym, że `git branch` pokaże ci gałęzie, w momencie gdy była mowa o tym,
+v1) Czy nie warto byłoby napisać o tym, że `git branch` pokaże ci gałęzie, w momencie gdy była mowa o tym,
 jak zobaczyć gałęzie za pomocą `git log`?
+
+v2) Dodać przy okazji logów informacje o tym, że jak zobaczyć jakie są dostępne gałęzie będziemy mówić później.
 
 
 
