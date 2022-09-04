@@ -9,8 +9,12 @@ Przeczytać jeszcze raz podrozdział ,,Remote Branches'' i sprawdzić, czy temat
 
 
 
+Jaka jest różnica między `git push` a `git push origin main`? Jest jasne, że druga komenda określa dokładnie gałąź na zdalnym repozytorium, ale wydaje się, że w większości przypadków obie komendy dają ten sam rezultat.
+
+
+
 Sprawdzić, czy wszystkie linki w książce działają.
-Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44, 
+Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44,
 46, 47, 48, 52, 53, 63, 68, 78, 85, 89, 91, 93, 95,
 
 
@@ -404,7 +408,7 @@ To zdanie jest bardzo niejasne.
 
 
 Page 87.
-Czy dobrze rozumiem, że origin/master jest obiektem lokalym? Jeśli tak, może da się to silniej 
+Czy dobrze rozumiem, że origin/master jest obiektem lokalym? Jeśli tak, może da się to silniej
 zaznaczyć w tekście.
 
 
@@ -437,7 +441,7 @@ Page 93.
 Domyślam się, że jesteśmy na lokalnej gałęzi o której jest tu mowa, nie tylko, że ją mamy gdzieś w repozytorium.
 
 Jeszcze do poprzedniego tekstu. ,,set it to a remote branch you just pulled down''. Tu chyba powinn być ,,set it up
-to track a remote branch''. Nie rozumiem zaś o co chodzi w ,,you just pulled down''. Jeśli zrobiliśmy ,,git pull origin 
+to track a remote branch''. Nie rozumiem zaś o co chodzi w ,,you just pulled down''. Jeśli zrobiliśmy ,,git pull origin
 somebranch'', to czy nie powinniśmy mieć tej gałęzi na miejscu wraz z wszystkimi plikami? Po co więc ustawiać
 jakąś inną gałąź by tą gałąź śledziła?
 
