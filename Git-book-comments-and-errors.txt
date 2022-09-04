@@ -431,7 +431,8 @@ Co tekst na tej stronie mówi nam o tym jak działa fetch?
 ,,Checking out a local branch from a remote-tracking branch automatically creates what is called a''
 Domyślam się, że przez ,,checking out'' należy rozumieć działanie ostatniej komendy na tej stronie.
 
-
+Page 80.
+„Change a branch name” przerzuć na stronę 81.
 
 Page 93.
 ,,ones that track branches on other remotes, or don’t track the master branch.''
