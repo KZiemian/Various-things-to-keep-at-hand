@@ -24,15 +24,20 @@ O co chodzi z tą niekonsystencją?
 
 
 
+,,What are solutions and projects in Visual Studio?''
+https://docs.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio
+,,A "solution folder" is a virtual folder that's only in Solution Explorer'' ->
+,,A "solution folder" is a virtual folder that's only exists in Solution Explorer''
 
 
 
+,,Introduction to projects and solutions''
+https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions
+W ,,Create a solution'' należałby dodać, że ustawienia projektu to ,,C#, Windows, Console, Blank solution''. W tym momencie trzeba to odczytać z rysunku.
+I trzeba się upewnić, że wybiera się projekt dla C#, a nie choćby dla Visual Basica.
 
-
-
-
-
-
+W ,,Add a second project'' też chyba powinny być informacje o tym, żeby ustawić ,,C#, Windows, Console, Unit Test Project (.NET Framework)''.
+I tu też trzeba się upewnić, że wybiera się projekt dla C#, a nie choćby dla Visual Basica.
 
 
 

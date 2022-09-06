@@ -14,3 +14,6 @@
 
 # ignore auxiliary catalogs
 auto/
+
+# ignore Windows executable files
+*.exe
