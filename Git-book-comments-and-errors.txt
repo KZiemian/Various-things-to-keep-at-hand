@@ -15,7 +15,7 @@ Jaka jest różnica między `git push` a `git push origin main`? Jest jasne, że
 
 Sprawdzić, czy wszystkie linki w książce działają.
 Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44,
-46, 47, 48, 52, 53, 63, 68, 72, 78, 85, 89, 91, 93, 95, 97, 98,
+46, 47, 48, 52, 53, 63, 68, 72, 78, 85, 89, 91, 93, 95, 97, 98, 99, 102, 103,
 
 
 
@@ -490,6 +490,43 @@ Książka wyglądałaby lepiej, gdyby rysunek 43 by na końcu strony 43. Może j
 
 
 
+Page 101.
+Na rysunkach 45, 46, czerwony prostokąt oznaczający wskaźnik do master wychodzi poza margines.
+
+Gdy dochodzimy do rysunku 46, znaczenie wyblakłych komitów i strzałek do nich staje się dość ważne. Należałoby je wytłumaczyć gdzieś wcześniej w tekście.
+
+
+
+Page 102.
+Na rysunku 47 czerwony prostokąt oznaczający master nie wychodzi już poza margines, ale nieprzyjemnie dotyka brzegu rysunku.
+
+,,If you run a git log when your history looks like this, you’ll see two commits that have the same author, date, and message, which will be confusing.;;
+Domyślam się, że te dwa commity to C4 i C4'. Jednak to, że nie jest to w tej nie jest to jasne, pokazuje, że tekst wartałoby uzupełnić.
+
+,,your team force pushes changes that overwrite work that you’ve based work on''
+Jak rozumiem, to zdanie należy czytać ,,ktoś w twoim zespole zrobił `git push --force'', nie zaś, że ktoś w twoim ,,team force'' zrobił `git push`.
+Poza tym zdanie to jest niezgrabnie napisane, ale to naprawdę niewielki problem w porównaniu z wszystkimi innymi.
+
+,,For instance, in the previous scenario, if instead of doing a merge when we’re at''
+Ten fragment jest naprawdę trudny do zrozumienia. W którym repozytorium jesteśmy i na której gałęzi?
+I wiele innych pytań nasuwa się w kontekście tego fragmentu tekstu. W szczególności, co oznacza
+,,Apply those commits to the top of teamone/master''.
+
+
+
+Page 103.
+,,try to make the pain after it happens a little bit simpler.''
+To zdanie jest trochę mało gramatyczne.
+
+
+
+Muszę jeszcze raz przeczytać rozdział o rebase.
+
+
+
+
+
+
 
 
 Mam problem ze zrozumieniem jak `git fetch origin`, a potem użyty `git merge origin/branch` działają.
@@ -516,11 +553,15 @@ git rm file.txt.
 
 
 
+Zrób w TikZ diagram z tego issu.
+https://github.com/progit/progit2/issues/279
+
+PR do książki ,,Pro Git''
+https://github.com/progit/progit2/issues/339
+https://github.com/progit/progit2/issues/357
+
 
 GitHub issues do zrobienia.
-https://github.com/progit/progit2/issues/279
-https://github.com/progit/progit2/issues/339
-https://github.com/progit/progit2/issues/357 Przeczytaj dokładnie.
 https://github.com/progit/progit2/issues/388 Przeczytaj dokładnie.
 https://github.com/progit/progit2/issues/411 Przeczytaj dokładnie.
 https://github.com/progit/progit2/issues/426 Przeczytaj dokładnie.
