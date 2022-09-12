@@ -565,6 +565,30 @@ Page 109.
 currently logged in as.''
 To zdanie da się chyba napisać jaśniej.
 
+,, You can enable push access but, given the lack of authentication, anyone on the internet who finds your project’s URL could push to that project. Suffice it to say that this is rare.''
+W tym kotekście zdanie ,,Suffice it to say that this is rare.'' jakoś nie brzmi dobrze dla mojego ucha.
+
+
+
+
+Page 110.
+Ma teraz problem ze zrozumieniem, dlaczego w ,,Local repositories'' nie założyliśmy gołego repozytorium?
+
+
+
+Page 111.
+`git init --bare --shared`
+Co oznacza wywołanie komendy `git init` z opcją `--bare`?
+
+`you’ll see how to expand to more sophisticated setups` -> `you’ll see how to expand it to more sophisticated setups`
+
+,,This doesn’t affect the commit data in any way — the SSH user you connect as doesn’t affect the commits you’ve recorded.''
+Może dałoby się to napisać jaśniej?
+
+
+
+
+
 
 
 
