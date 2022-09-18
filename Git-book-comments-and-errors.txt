@@ -16,7 +16,7 @@ Jaka jest różnica między `git push` a `git push origin main`? Jest jasne, że
 Sprawdzić, czy wszystkie linki w książce działają.
 Działają na stronie: 1, 9, 12, 13, 14, 16, 17, 24, 25, 31, 34, 42, 43, 44,
 46, 47, 48, 52, 53, 63, 68, 72, 78, 85, 89, 91, 93, 95, 97, 98, 99, 102, 103,
-
+105, 106, 107, 108, 113,
 
 
 
@@ -517,6 +517,100 @@ I wiele innych pytań nasuwa się w kontekście tego fragmentu tekstu. W szczeg�
 Page 103.
 ,,try to make the pain after it happens a little bit simpler.''
 To zdanie jest trochę mało gramatyczne.
+
+
+
+Page 105.
+,,because you can fairly easily confuse what they’re working on if you’re not careful.''
+To zdanie brzemi trochę dziwnie.
+
+,,Because the repository is only used as a collaboration point, there is no reason to have a snapshot
+checked out on disk; it’s just the Git data. In the simplest terms, a bare repository is the contents of
+your project’s .git directory and nothing else.''
+Jakoś nie zgrywa mi się to z tym co przedtem pisało w książce o tym jak wygląda repozytorium Gita.
+
+
+
+Page 106.
+W komendzie `git clone file:///srv/git/project.git` wyraz `file:///srv/git/project.git` jest wykrywany jako hiperlink.
+
+W tekście pierwszy i trzeci ,,file:://'' jest wykrywany jako hiperlink.
+
+
+
+Page 107.
+,,meaning it’s often easier on the user than something like SSH''
+Czy to zdanie jest poprawne?
+
+,,be set up to both serve anonymously like the git:// protocol,''
+Czy to zdanie jest poprawne?
+
+`git:// protocol` jest wykrywany jako hiperlink.
+
+,,This command is run when you push to this repository (over SSH perhaps); then, other people can clone via something like:''
+Jak rozumiem, wspomniana tu komenda to `git update-server-info`. Ale jak pierwsza część zdania ma się do drugiej?
+
+
+
+
+Page 108.
+`ssh:// URL` w tekście jest rozpoznawana jako hiperlink.
+
+W komendzie `git clone ssh://[user@]server/project.git` część ,,ssh://[user@]'' jest rozpoznawana jako hiperlink.
+
+
+
+Page 109.
+,,In both cases above, if you don’t specify the optional username, Git assumes the user you’re
+currently logged in as.''
+To zdanie da się chyba napisać jaśniej.
+
+,, You can enable push access but, given the lack of authentication, anyone on the internet who finds your project’s URL could push to that project. Suffice it to say that this is rare.''
+W tym kotekście zdanie ,,Suffice it to say that this is rare.'' jakoś nie brzmi dobrze dla mojego ucha.
+
+
+
+
+Page 110.
+Ma teraz problem ze zrozumieniem, dlaczego w ,,Local repositories'' nie założyliśmy gołego repozytorium?
+
+
+
+Page 111.
+`git init --bare --shared`
+Co oznacza wywołanie komendy `git init` z opcją `--bare`?
+
+`you’ll see how to expand to more sophisticated setups` -> `you’ll see how to expand it to more sophisticated setups`
+
+,,This doesn’t affect the commit data in any way — the SSH user you connect as doesn’t affect the commits you’ve recorded.''
+Może dałoby się to napisać jaśniej?
+
+
+
+Page 115.
+Czemu w komendzie `git commit -am 'Fix for README file` jest `-am`, a nie `-m`?
+
+
+
+Page 116.
+,,the output states''
+Podejrzewam, że chodzi o output (ładne polskie słowo) pokazany na stronie 116 po wykonaniu `ssh git@gitserver`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
