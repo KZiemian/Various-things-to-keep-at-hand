@@ -54,6 +54,7 @@ gratification, scrambles, flawed, warped, egregious, disjointed, unhindered,
 deflate, unison, chaperones, impairments, pertinent, throughout, stifling,
 hodgepodge, jumbled, efficacy, deftly, clutter, compartmentalized,
 dumbed-down, flawed, abandoned, exacting, parsimony, lavish, eschewing,
+Application Binary Interface (ABI),
 taproot, cogently, figments, ellipsis, anterior, tentatively, defeasible,
 ensnares, undemonstrative,
 
@@ -89,4 +90,6 @@ ensnares, undemonstrative,
 
 
 
+
 eluded
+

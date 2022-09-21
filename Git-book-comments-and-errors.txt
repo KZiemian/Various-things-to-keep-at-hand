@@ -614,9 +614,16 @@ Podejrzewam, że chodzi o output (ładne polskie słowo) pokazany na stronie 116
 
 
 
+
+
+
+
 Muszę jeszcze raz przeczytać rozdział o rebase.
 
-
+Jak ma się treść rozdziału o ,,Local Protocol'' do zakładania ,,bare repositoris''? 
+Kiedy ustawiłem sobie dwa repozytoria bazowe i sklonowane, nie mogłem pushować
+na sklonowane z bazowego. Rozwiązałem to robiąc trzecie repozytorium jako ,,bare'' 
+i puszując i fetchując z niego. 
 
 
 
