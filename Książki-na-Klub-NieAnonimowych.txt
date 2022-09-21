@@ -24,20 +24,7 @@ Marta Foryś, Wit Foryś „Teoria automatów i języków formalnych”
 
 John Lyons „Wstęp do językoznawstwa”
 
- Twoje zamówienie na Sklep Instytutu Misesa jest gotowe.
-Proszę przelać pieniądze:
-- Kwota 147,80 zł
-- do sklepu obsługującego Instytut Misesa:
-- na dane 71249000050000453040125279
-BTC
-ul. Jagiellońska 2 B
-38-400 Krosno
 
-- do banku -
-- Nie zapomnij wpisać numeru swojego zamówienia GUNEMYIPN w tytule swojego przelewu.
-Został do Ciebie wysłany email z informacją o płatności.
-Twoje zamówienie zostanie wysłane niezwłocznie po zrealizowaniu płatności.
-W razie pytań lub wątpliwości, prosimy o kontakt z naszą obsługą klienta.
 
 I.M. Gelfand, S.W. Fomin „Rachunek wariacyjny”
 
@@ -48,6 +35,8 @@ C.S. Lewis „Cztery miłości”
 
 
 Jerzy Grębosz „Symfonia C++. Programowanie w języku C++ orientowane obiektowo. Tom I”
+
+Znalazłem w tej książce informację, że ,,kompilator C++ jest na tyle inteligentny, by przeładowywać nazwy funkcji''. Nie jest na tyle bezmyślnie okrutny by w języku C++ pozwolić ci na ta strzelenie sobie w kolano w ten właśnie sposób.
 
 
 
@@ -98,3 +87,4 @@ Franciszek Wesołowski „Zasady muzyki”
 
 
 Walter Rudin „Analiza funkcjonalna”
+
