@@ -26,6 +26,7 @@ John Lyons „Wstęp do językoznawstwa”
 
 
 
+
 I.M. Gelfand, S.W. Fomin „Rachunek wariacyjny”
 
 
@@ -87,4 +88,9 @@ Franciszek Wesołowski „Zasady muzyki”
 
 
 Walter Rudin „Analiza funkcjonalna”
+
+
+
+
+Luis de Wohl „Włócznia”
 
