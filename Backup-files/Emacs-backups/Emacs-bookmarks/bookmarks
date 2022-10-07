@@ -1,0 +1,285 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("Tikzpicture, 13"
+ (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_13.tex")
+ (front-context-string . "% \\end{frame}\n% ")
+ (rear-context-string . "end{textblock}\n\n")
+ (position . 17095))
+("MathComScienceBooks.bib"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Bibliografia/MathComScienceBooks.bib")
+ (front-context-string . ",\n  author =	 {P")
+ (rear-context-string . "i},\n}\n\n\n\n@book{ ")
+ (position . 20595))
+("pgfmanual-en-tutorial.tex"
+ (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/pgfmanual-en-tutorial.tex")
+ (front-context-string . "% Copyright 2019")
+ (rear-context-string)
+ (position . 1))
+("pgfmanual-en-main-body.tex"
+ (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/pgfmanual-en-main-body.tex")
+ (front-context-string . "\n% \\include{pgfm")
+ (rear-context-string . "ual-en-tutorial}")
+ (position . 8997))
+("KZ_Wyklad_SymulacjeFizyki_11.tex"
+ (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
+ (front-context-string . "\n\\end{frame}\n% #")
+ (rear-context-string . "tableofcontents\n")
+ (position . 3966))
+("Various-source-code"
+ (filename . "~/GitHub-repositories/Various-repositories/Various-things-to-keep-at-hand/Various-source-code/")
+ (front-context-string . "Various-source-c")
+ (rear-context-string . "48 wrz 30 20:12 ")
+ (position . 262))
+("pgfmanual-en-introduction.tex"
+ (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/pgfmanual-en-introduction.tex")
+ (front-context-string . "% Copyright 2019")
+ (rear-context-string)
+ (position . 1))
+("TikZ-Manual-3-1-9a-errors.txt"
+ (filename . "~/GitHub-repositories/Various-repositories/Various-things-that-I-test/TikZ-Manual-study/TikZ-Manual-3-1-9a-errors.txt")
+ (front-context-string . "Błędy do wprowad")
+ (rear-context-string)
+ (position . 1))
+("pgf manual source"
+ (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/")
+ (front-context-string . "auto\n  -rw-rw-r-")
+ (rear-context-string . "96 wrz 19 23:24 ")
+ (position . 234))
+("PGF-GitHub-issues.txt"
+ (filename . "~/GitHub-repositories/Various-repositories/Various-things-that-I-test/TikZ-Manual-study/PGF-GitHub-issues.txt")
+ (front-context-string . "Lista przeczytan")
+ (rear-context-string)
+ (position . 1))
+("Analiza-funkcjonalna-błędy-i-uwagi.tex"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Analiza-funkcjonalna-bledy-i-uwagi/Analiza-funkcjonalna-błędy-i-uwagi.tex")
+ (front-context-string . "}[Walter Rudin, ")
+ (rear-context-string . "rów.\n\n\\begin{twr")
+ (position . 17343))
+("Analiza-funkcjonalna-bledy-i-uwagi"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Analiza-funkcjonalna-bledy-i-uwagi/")
+ (front-context-string . "Analiza-funkcjon")
+ (rear-context-string . "13 wrz  7 21:37 ")
+ (position . 261))
+("Personal-access-token-GitHub.txt"
+ (filename . "~/Good-things/Personal-access-token-GitHub.txt")
+ (front-context-string . "ghp_qXUtgyWs9XCj")
+ (rear-context-string)
+ (position . 1))
+("Lyons"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Pozostałe-dziedziny-błędy-i-uwagi/Językoznawstwo-błędy-i-uwagi/Językoznawstwo-błędy-i-uwagi.tex")
+ (front-context-string . "\n\n\n\\start \\Str{1")
+ (rear-context-string . "koznawstwa1975}}")
+ (position . 4523))
+("Pliki-LaTeXa"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Pliki-LaTeXa/")
+ (front-context-string . "functionalanalys")
+ (rear-context-string . "26 wrz  7 17:52 ")
+ (position . 267))
+("Bibliografia"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Bibliografia/")
+ (front-context-string . "AudiovisualArtsB")
+ (rear-context-string . "03 wrz  7 17:52 ")
+ (position . 268))
+("Go, podręczne obliczenia"
+ (filename . "~/GitHub-repositories/Various-repositories/Various-things-to-keep-at-hand/Go-programming/Go-s11-75.go")
+ (front-context-string)
+ (rear-context-string . "\n\nimport \"fmt\"\n\n")
+ (position . 29))
+("Various things to keep at hand"
+ (filename . "~/GitHub-repositories/Various-repositories/Various-things-to-keep-at-hand/")
+ (front-context-string . "Commands-Windows")
+ (rear-context-string . "27 wrz  7 17:45 ")
+ (position . 243))
+("Wykłady-SymulacjeFizyki-PL"
+ (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/")
+ (front-context-string . "beamercolortheme")
+ (rear-context-string . "60 gru 11  2021 ")
+ (position . 360))
+("Błędy i uwagi"
+ (filename . "~/Good-things/Błędy-i-uwagi/")
+ (front-context-string . "Analiza-funkcjon")
+ (rear-context-string . "96 sie  5 18:06 ")
+ (position . 196))
+("Grupy i algebry Liego"
+ (filename . "~/Good-things/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi.tex")
+ (front-context-string . "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n%")
+ (rear-context-string . "\\spaceFour}\n\n\n\n\n")
+ (position . 16211))
+("Problemy-matematyka-i-informatyka.tex"
+ (filename . "~/Good-things/Various-writings/Problem-do-zrobienia/Problemy-matematyka-i-informatyka.tex")
+ (front-context-string . "_{ \\mu \\nu } =\n ")
+ (rear-context-string . "{eq:2}\n    \\Fcal")
+ (position . 28489))
+("Prezentacja do poprawy"
+ (filename . "~/Good-things/Prezentacje/Prezentacje-do-poprawy/Promieniowanie-Hawkinga-czarnej-dziury-powstałej-w-wyniku-sferycznie-symetrycznego-kolapsu/Promieniowanie-Hawkinga-czarnej-dziury-powstałej-w-wyniku-sferycznie-symetrycznego-kolapsu.tex")
+ (front-context-string . "\n\n\\institute{Zak")
+ (rear-context-string . "fvt@gmail.com}}\n")
+ (position . 3043))
+("Wzorcowa prezentacja"
+ (filename . "~/Good-things/Prezentacje/Prezentacje-do-poprawy/Alistera-McGratha-krytyka-memetyki/Alistera-McGratha-krytyka-memetyki.tex")
+ (front-context-string . "% Packages, libr")
+ (rear-context-string . "---------------\n")
+ (position . 930))
+("Matematyka-listy-zadań"
+ (filename . "~/Good-things/Listy-zadań/Matematyka-listy-zadań/")
+ (front-context-string . "e-zbiory-zadań.t")
+ (rear-context-string . "9 Matematyka-duż")
+ (position . 2408))
+("Złote-i-niezłote-myśli-01.tex"
+ (filename . "~/Good-things/Various-writings/Various-LaTeX/Złote-i-niezłote-myśli-01.tex")
+ (front-context-string . "?}\n\n\\begin{verse")
+ (rear-context-string . "pełniają trwogą”")
+ (position . 33670))
+("Various-LaTeX"
+ (filename . "~/Good-things/Various-writings/Various-LaTeX/")
+ (front-context-string . "Spotkania-z-Arno")
+ (rear-context-string . "69 maj 17 23:54 ")
+ (position . 213))
+("LaTeX-przejrzy-i-usuń.tex"
+ (filename . "~/LaTeX uporządkuj/LaTeX-przejrzy-i-usuń.tex")
+ (front-context-string . "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+ (rear-context-string . "księga X, 3.}\n\n\n")
+ (position . 476341))
+("mathcommands.sty"
+ (filename . "~/Good-things/Bibliografia-i-pliki-LaTeXa/mathcommands.sty")
+ (front-context-string . "Fraktur letters\n")
+ (rear-context-string . "#############\n% ")
+ (position . 3607))
+("Notatki-do-oddziaływań-elektrosłabych.tex"
+ (filename . "~/Good-things/Various-writings/Notatki-do-oddziaływań-elektrosłabych/Notatki-do-oddziaływań-elektrosłabych.tex")
+ (front-context-string . "\n\n\n\n\n\n\n\n% ######")
+ (rear-context-string . "\n\\end{equation}\n")
+ (position . 24167))
+("Oddziaływania_elektrosłabe.tex"
+ (filename . "~/Good-things/Przeczytaj/Ola/Oddziaływania_elektrosłabe.tex")
+ (front-context-string . "\n\n\n\n\n\n\n\n\n\n% ####")
+ (rear-context-string . "samoddziaływania")
+ (position . 17723))
+("Do wysłania na listę tematów na piwie"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "\nhttps://www.you")
+ (rear-context-string . "\n\n\n\n\nPiwo lemowe")
+ (position . 26941))
+("LaTeX-symbols-s01-02.tex"
+ (filename . "~/Good-things/Science/LaTeX/LaTeX-symbols/LaTeX-symbols-s01-02.tex")
+ (front-context-string . "\n\n\n\n\n\n\n\n\n\n% ####")
+ (rear-context-string . "space{1em}\n\n\n\n\n\n")
+ (position . 2872))
+("latexfilesupdate.sh"
+ (filename . "~/bin/scripts/latexfilesupdate.sh")
+ (front-context-string . "\n\n# Books with m")
+ (rear-context-string . "$LATEXFILEPATH $")
+ (position . 14092))
+("Rackauckas.txt"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Rackauckas.txt")
+ (front-context-string)
+ (rear-context-string . "t)\", which means")
+ (position . 306))
+("C++-is-evil.txt"
+ (filename . "~/Good-things/Programming/C++/C++-is-evil.txt")
+ (front-context-string . "I replaced \"std:")
+ (rear-context-string)
+ (position . 1))
+("Voegelin"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Teologia-polityczna-Voegelin.txt")
+ (front-context-string . "\n\n\nZ wyrazami sz")
+ (rear-context-string . "yto symbolu „*”.")
+ (position . 1291))
+("Kawaly.txt"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Kawaly.txt")
+ (front-context-string . "Typowy dzień pra")
+ (rear-context-string)
+ (position . 1))
+("Teologia-polityczna.txt"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Teologia-polityczna.txt")
+ (front-context-string . "Paragraf V\nPropo")
+ (rear-context-string . " tego wydania.\n\n")
+ (position . 1396))
+("Pieniądze-za-prezenty"
+ (filename . "~/Good-things/Keep-at-hand/Pieniądze-za-prezenty/")
+ (front-context-string . "Pieniadze-za-pre")
+ (rear-context-string . "56 sie  4 20:44 ")
+ (position . 214))
+("Keep-at-hand"
+ (filename . "~/Good-things/Keep-at-hand/")
+ (front-context-string . "Doktorat\n  drwxr")
+ (rear-context-string . "96 kwi 14 16:15 ")
+ (position . 195))
+("Wojewodski"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "\n\nCzęść 6/17.\n\n\n")
+ (rear-context-string . "a informatyki.\n\n")
+ (position . 34580))
+("Good news of return"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/English.txt")
+ (front-context-string . "\n\n\nSince making ")
+ (rear-context-string . "his time.\n\n10:20")
+ (position . 53190))
+("Chris Rackaukas"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "Why do we see it")
+ (rear-context-string . "=7YPiUtAde2o\n\n\n\n")
+ (position . 28624))
+("Nagroda Abela"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "\n\nhttps://www.yo")
+ (rear-context-string . "zB-7U6QqCT6ylzfN")
+ (position . 28954))
+("Medal Fields"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "\n\nhttps://www.yo")
+ (rear-context-string . "\n\n\n#MedalFieldsa")
+ (position . 28612))
+("Kamil Sordyl"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "\n\n\nNieświeć\nhttp")
+ (rear-context-string . "ch?v=9x5djkog1xI")
+ (position . 2746))
+("English.txt"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/English.txt")
+ (front-context-string)
+ (rear-context-string . " much for me.\n\n\n")
+ (position . 76554))
+("Teologia-polityczna-Voegelin.txt"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Teologia-polityczna-Voegelin.txt")
+ (front-context-string . "Wróciłem ponowni")
+ (rear-context-string . "anownego Pana,\n\n")
+ (position . 26))
+("Kuba Czartowski"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string)
+ (rear-context-string . "\nKuba Czartowski")
+ (position . 27482))
+("Do-wysłania.txt"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "\n\n\n\nDubitacjusz ")
+ (rear-context-string . "rdinand Lassalle")
+ (position . 25337))
+("Nieświeć"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Do-wysłania.txt")
+ (front-context-string . "\n\n\n\n\n\n\nRoger Scr")
+ (rear-context-string . "i?\"\n\n\n\nNieświeć\n")
+ (position . 2729))
+("backups"
+ (filename . "~/.emacs.d/backups/")
+ (front-context-string . "!home!kamilfvt!B")
+ (rear-context-string . "74 sie  8 23:54 ")
+ (position . 214))
+("jagiellonian"
+ (filename . "~/Good-things/Work/jagiellonian/")
+ (front-context-string . "auto\n  -rw-r--r-")
+ (rear-context-string . "96 gru 20 16:44 ")
+ (position . 221))
+("Kattis"
+ (filename . "~/Good-things/Programming/Kattis/")
+ (front-context-string)
+ (rear-context-string . "96 wrz 21 16:01 ")
+ (position . 222))
+("Facebook"
+ (filename . "~/Good-things/Basic-changing/Do-napisania/Facebook.txt")
+ (front-context-string . "\n\n##############")
+ (rear-context-string . "powieść rozwija.")
+ (position . 1807))
+)
