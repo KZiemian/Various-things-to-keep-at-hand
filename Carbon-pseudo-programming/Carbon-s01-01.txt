@@ -1,0 +1,107 @@
+package Sorting api;
+
+fn Partition[T:! Comparable & Movable](s: Slice(T))
+-> i64 {
+    var i: i64 = -1;
+
+    for (e: T in s) {
+        if (e <= s.Last()) {
+            ++i;
+
+            Swap(&s[i], &e);
+        }
+    }
+
+    return i;
+}
+
+fn QuickSort[T:! Comparable & Movable](s: Slice(T)) {
+    if (s.Size() <= 1) {
+        return;
+    }
+
+    let p: i64 = Partition(s);
+    QuickSort(s[:p - 1]);
+    QuickSort(s[p + 1:]);
+}
+
+
+
+import Math;
+
+fn SmallestFactor(n: i32) -> (i32, bool) {
+   let limit: i32 = Math.Sqrt(n) as i32;
+
+   var i: i32 = 2;
+
+   while (i <= limit) {
+   	 let remainder: i32 = n % i;
+
+	 if (remainder == 0) {
+	    Carbon.Print("{0} is a factor of {1}", i, n);
+	    return (i, false);
+	 }
+
+	 if (i == 2) {
+	    i = 3;
+	    } else {
+	    // Skip even numbers once we get past `2`.
+	    i += 2;
+	    }
+    }
+
+    return (n, true);
+}
+
+fn Add(a: i64, b: i64) -> i64;
+
+fn Add(a: i64, b: i64) -> i64 {
+    return a + b;
+}
+
+fn Positive(a: i64) -> auto {
+    return a > 0;
+}
+
+if (fruit.IsYellow()) {
+    Carbon.Print("Banana!");
+} else if (fruit.IsOrange()) {
+    Carbon.Print("Orange!");
+} else {
+    Carbon.Print("Vegetable!");
+}
+
+var x: i32 = 0;
+
+while (x < 3) {
+    Carbon.Print(x);
+    ++x;
+}
+
+Carbon.Print("Done!");
+
+for (var name: String in names) {
+    Carbon.Print(name);
+}
+
+for (var step: Step in steps) {
+    if (step.IsManual()) {
+        Carbon.Print("Reached manual step!")'
+
+        break;
+    }
+
+    step.Process();
+}
+
+var f: File = OpenFile(path);
+
+while (!f.EOF()) {
+    var line: String = f.ReadLine();
+
+    if (line.IsEmpty()) {
+        continue;
+    }
+
+    Carbon.Print(line);
+}

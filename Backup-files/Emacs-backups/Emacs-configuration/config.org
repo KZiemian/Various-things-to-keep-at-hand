@@ -1,0 +1,597 @@
+#+TITLE: Emacs Configuration
+Structure of this file is based on Daniel Mai Emacs configuration https://github.com/danielmai/.emacs.d/.
+
+
+
+
+
+* Configuration of basic build-in features
+
+** Setting up built-in variables
+#+BEGIN_SRC emacs-lisp
+  (setq next-line-add-newlines t)
+  (setq sentence-end-double-space nil)
+
+  (setq save-interprogram-paste-before-kill t)
+#+END_SRC
+
+** Setting up predictors
+Change question from "yes or no" to "y or n".
+#+BEGIN_SRC emacs-lisp
+  (fset 'yes-or-no-p 'y-or-n-p)
+#+END_SRC
+
+** Releasing built-in keychords (?????)
+#+BEGIN_SRC emacs-lisp
+#+END_SRC
+
+** Global keychords
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "RET") 'newline-and-indent)
+  (global-set-key [f1] 'shell)
+  (global-set-key [C-tab] 'other-window)  ; Don't work in org mode,
+  ;; correct that
+#+END_SRC
+
+** Global minor modes
+#+BEGIN_SRC emacs-lisp
+  (global-linum-mode t)   ; Shows number of line on the left
+  ;; edge of window.
+  (column-number-mode t)  ; Shows number of column where point is.
+  (global-visual-line-mode 1)     ; Line of text are splited between
+  ;; buffers' line
+
+  (global-hl-line-mode t) ; Highlight the line where point is.
+
+  (electric-pair-mode t)  ; Toggle automatic parenthis pairing
+
+  (winner-mode 1)         ; Allow to undo windows changes
+
+  (setq outline-minor-mode-prefix "\C-c \C-o") ; Somethings don't work
+
+
+  (global-auto-revert-mode 1)
+  (setq auto-revert-verbose nil)		; Unknown variable?
+  (global-set-key (kbd "<f5>") 'revet-buffer)
+#+END_SRC
+
+** Global hooks
+#+BEGIN_SRC emacs-lisp
+  (add-hook 'before-save-hook 'delete-trailing-whitespace)
+  ;; Remove additional white spaces from the end of the line and file
+  ;; Comment it out if you work with CCLDoc
+#+END_SRC
+
+** Setting up backups management
+#+BEGIN_SRC emacs-lisp
+  (setq backup-directory-alist
+        (list (cons "." (expand-file-name "backups/"
+                                          user-emacs-directory)))
+        delete-old-versions 1
+        version-control t
+        vc-make-backup-files t
+        auto-save-file-name-transforms
+        (list
+         (list ".*"
+               (expand-file-name "auto-save-list/" user-emacs-directory)
+               t)))
+#+END_SRC
+
+
+** Configuration of documentation
+Emacs don't know this variable?!?!
+#+BEGIN_SRC emacs-lisp
+  (setq apropos-sort-by-score t)
+#+END_SRC
+
+** Save customize settings to separate file, not to [[file:init.el][init.el]] file.
+#+BEGIN_SRC emacs-lisp
+  (setq custom-file
+        (expand-file-name "customize.el" user-emacs-directory))
+
+  (load custom-file t)
+#+END_SRC
+
+** Setting up auto-correction
+#+BEGIN_SRC emacs-lisp
+  ;; (setq ispell-program-name "aspell")  ; By default is `aspell'
+  ;; (setq ispell-dictionary "english")
+  (setq ispell-dictionary "polish")
+
+  (add-hook 'text-mode-hook 'flyspell-mode)
+  (add-hook 'text-mode-hook 'flyspell-buffer)
+
+  (add-hook 'LaTeX-mode-hook 'flyspell-mode)
+  (add-hook 'LaTeX-mode-hook 'flyspell-buffer)
+#+END_SRC
+
+
+
+
+
+
+
+
+
+
+* Advanced build-up features
+
+** Keyboard's macros
+*** Keybord's macros for core things.
+Make better title
+#+BEGIN_SRC emacs-lisp
+  (fset 'error-line
+     [tab ?& ?  ?& ?  ?& ?  ?& ?  ?\\ ?\\ ?\M-m])
+#+END_SRC
+
+*** Keybord's macros for temporary things.
+These macros will be removed, when things will be done.
+#+BEGIN_SRC emacs-lisp
+  ;; (fmakunbound 'name-of-macro)
+  ;; (fmakunbound 'HereIs)
+
+  ;; For correcting word of dr Rao
+
+  (fset 'HereIs-1
+        "Here is \"\C-f, should be \"\C-f.\342\342\342\C-f\C-f\C-f\C-f")
+
+  (put 'HereIs-1 'kmacro t)
+
+  (fset 'HereIs-many
+        "Here is \"\C-f, should be \"\C-f. ")
+
+  (put 'HereIs-many 'kmacro t)
+
+  ;; Macro for inserting line with title.
+  (fset 'Title
+        "Title: .\C-b\"")
+
+  (put 'Title 'kmacro t)
+
+  (fset 'Titles
+        "Titles: \"\C-f.\C-b\C-b\C-b, \C-b\C-b\"")
+
+  (put 'Titles 'kmacro t)
+
+  (fset 'Strange-text
+        "Strange text: .\C-b\"")
+
+  (put 'Strange-text 'kmacro t)
+
+  (fset 'Strange-text-many
+        [?S ?t ?r ?a ?n ?g ?e ?- ?t ?e ?x ?t ?: ?  ?\" ?\C-e ?. return])
+
+  (put 'Strange-text-many 'kmacro t)
+
+  (fset 'Tenth-paragraphs
+        " paragraph.\C-a")
+
+  (put 'Tenth-paragraphs 'kmacro t)
+
+  (fset 'th-paragraph
+        "th paragraph.\C-a")
+
+  (put 'th-paragraph 'kmacro t)
+
+#+END_SRC
+
+*** Keyboards macros for marking place in the text
+#+BEGIN_SRC emacs-lisp
+  ;; ###########################
+  ;; Emacs Lisp
+  ;; ###########################
+
+  (fset 'elisp-30
+        [?\; ?\; ?  ?\C-2 ?\C-7 ?# ?\C-n])
+
+  (fset 'elisp-13
+        [?\; ?\; ?  ?\C-1 ?\C-0 ?# ?\C-n])
+
+  (fset 'elisp-section
+        [?\; ?\; ?  ?\C-2 ?7 ?# ?\C-n ?\; ?\; ?  ?\C-n ?\; ?\; ?  ?\C-n ?\; ?\; ?  ?\C-2 ?7 ?# ?\C-p ?\C-p])
+
+
+
+  ;; ###########################
+  ;; Python
+  ;; ###########################
+
+
+  (fset 'python-30
+        [?\C-3 ?\C-0 ?# ?\C-n])
+
+  (fset 'python-section
+        [?\C-3 ?\C-0 ?# ?\C-n ?# ?  ?\C-n ?\C-3 ?\C-0 ?# ?\C-p])
+#+END_SRC
+
+
+* Org-mode
+Configuration of giant **org-mode**.
+#+BEGIN_SRC emacs-lisp
+  (use-package org
+    :ensure t
+    :pin org)
+
+
+  (custom-set-variables
+   ;; '(org-directory "~/????")
+   ;; '(org-default-notes-file (concat org-directory "/notes.org ????"))
+   '(org-export-html-postamble nil)
+   '(org-hide-leading-stars t)
+   '(org-startup-folded (quote overview))
+   '(org-startup-indented t))
+
+
+  (setq org-file-apps (append '(("\\.pdf\\" . "evince %s") org-file-apps)))
+
+
+  (global-set-key "\C-ca" 'org-agenda)
+
+
+
+  (use-package org-ac
+    :ensure t
+    :init
+    (require 'org-ac)
+    (org-ac/config-default))
+
+
+  ;; (global-set-key (kbd "C-c c") 'org-capture)
+
+
+  ;; (setq org-agenda-files (list ))
+
+  ;; (setq org-agenda-files (list "~/Podstawy-I/org/Wazne.org"
+  ;; 			     "~/Podstawy-I/org/Szybko.org"
+  ;; 			     "~/Podstawy-I/org/Praca.org"
+  ;; 			     "~/Podstawy-I/org/Ksiazki.org"
+  ;; 			     "~/Podstawy-I/org/Kup.org"
+  ;; 			     "~/Podstawy-I/org/Przemysl.org"))
+#+END_SRC
+
+** Org-bullets
+Unicode bullets for **org-mode**
+#+BEGIN_SRC emacs-lisp
+  (use-package org-bullets
+    :ensure t
+    :config (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+#+END_SRC
+
+
+* Additional functions written in elisp
+  Loading additional functions that don't depend on external packages.
+  #+BEGIN_SRC emacs-lisp
+    (load (expand-file-name "elisp/additional-functions.el"
+			    user-emacs-directory) t)
+  #+END_SRC
+
+
+* General packages
+  These packages are used by wild area of buffers.
+
+** Ace-window
+Fast moving to numbered windows.
+#+BEGIN_SRC emacs-lisp
+  (use-package ace-window
+    :ensure t
+    :config
+    (global-set-key [remap other-window] 'ace-window)
+    (custom-set-faces
+     '(aw-leading-char-face
+       ((t (:inherit ace-jump-face-foreground :height 3.0))))))
+#+END_SRC
+
+** Achievements (;-)
+#+BEGIN_SRC emacs-lisp
+  (use-package achievements
+    :ensure t
+    :config (achievements-mode t))
+#+END_SRC
+
+** Auto-complete
+#+BEGIN_SRC emacs-lisp
+  (use-package auto-complete
+    :ensure t
+    :config
+    (ac-config-default)
+    (global-auto-complete-mode t))
+#+END_SRC
+
+** Avy
+Quick navigation in windows. In **Custoimize** set "avy-style" to "Pre"
+or anything you prefer.
+#+BEGIN_SRC emacs-lisp
+  (use-package avy
+    :ensure t
+    :bind (("C-:" . avy-goto-char)
+           ("C-'" . avy-goto-char-2)
+           ("M-g g" . avy-goto-line)
+           ("M-g M-g" . avy-goto-line)
+           ("M-g w" . avy-goto-word-1)
+           ("M-g e" . avy-goto-word-0)))
+#+END_SRC
+
+** Beacon
+Wave showing where point is
+#+BEGIN_SRC emacs-lisp
+  (use-package beacon
+    :ensure t
+    :config (beacon-mode t))
+#+END_SRC
+
+** Color-theme-modern
+Packages with many Emacs' themes
+#+BEGIN_SRC emacs-lisp
+  (use-package color-theme-modern
+    :ensure t
+    ;; :config (load-theme 'wombat t)
+    )
+#+END_SRC
+
+** Counsel
+Need for Swiper packages
+#+BEGIN_SRC emacs-lisp
+  (use-package counsel
+    :ensure t
+    :bind
+    (("M-y" . counsel-yank-pop)
+     :map ivy-minibuffer-map
+     ("M-y" . ivy-next-line)))
+#+END_SRC
+
+** Expand-region
+#+BEGIN_SRC emacs-lisp
+  (use-package expand-region
+    :ensure t
+    :config
+    (global-set-key (kbd "C-=") 'er/expand-region))
+#+END_SRC
+
+** Hungry-delete
+C-d now remove all whitespace from point to the first non whitespace
+character. At least I understand it like that.
+#+BEGIN_SRC emacs-lisp
+  (use-package hungry-delete
+    :ensure t
+    :config (global-hungry-delete-mode))
+#+END_SRC
+
+** Iedit
+#+BEGIN_SRC emacs-lisp
+  (use-package iedit
+    :ensure t)
+#+END_SRC
+
+** Ivy
+?!?!
+#+BEGIN_SRC emacs-lisp
+  (use-package ivy
+    :ensure t
+    :diminish (ivy-mode)                  ; Why???
+    :config
+    (ivy-mode 1)
+    (setq ivy-use-virtual-buffers t)
+    (setq ivy-display-style 'fancy))
+#+END_SRC
+
+** Lorem-ipsum
+Package to putting into buffer psudolatin (?) text convenient in
+testing of formatting.
+#+BEGIN_SRC emacs-lisp
+  ;; (use-package lorem-ipsum
+  ;;   :ensure t
+  ;;   :config (lorem-ipsum-use-default-bindings)
+  ;;   )
+#+END_SRC
+
+** Multiple-cursors
+Million more things that I don't know.
+#+BEGIN_SRC emacs-lisp
+  (use-package multiple-cursors
+    :ensure t
+    :config
+    (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+    (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+    (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+    (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
+#+END_SRC
+
+** Nimbus theme
+To not forget this very promising theme.
+#+BEGIN_SRC emacs-lisp
+  (use-package nimbus-theme
+    :ensure t)
+#+END_SRC
+
+** Rainbow-delimiters
+#+BEGIN_SRC emacs-lisp
+  (use-package rainbow-delimiters
+    :ensure t
+    :config
+    (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+    (add-hook 'LaTeX-mode-hook 'rainbow-delimiters-mode)
+    (add-hook 'BibTeX-mode-hook 'rainbow-delimiters-mode)
+    (add-hook 'org-mode-hook 'rainbow-delimiters-mode))
+#+END_SRC
+
+** Swiper
+-- how to describe it????
+#+BEGIN_SRC emacs-lisp
+  (use-package swiper
+    :ensure t
+    :bind (("C-s" . swiper)
+           ("C-r" . swiper)
+           ("C-c C-r" . ivy-resume)
+           ("M-x" . counsel-M-x)
+           ("C-x C-f" . 'counsel-find-file)
+           ("C-h f" . 'counsel-describe-function)
+           ("C-h v" . 'counsel-describe-variable)
+           ("C-h l" . 'counsel-find-library)
+           ("C-h i" . 'counsel-info-lookup-symbol)
+           ("C-c u" . 'counsel-unicode-char)
+           ("C-c g" . 'counsel-git)
+           ("C-c j" . 'counsel-git-grep)
+           ("C-c k" . 'counsel-ag)
+           ("C-x l" . 'counsel-locate)
+           ("C-S-o" . 'counsel-rhythmbox)
+           ;; Alternative keychords
+           ;; ("<f4>" . 'ivy-resume)
+           ;; ("<f2> f" . 'counsel-describe-function)
+           ;; ("<f2> v" . 'counsel-describe-variable)
+           ;; ("<f2> l" . 'counsel-find-library)
+           ;; ("<f2> i" . 'counsel-info-lookup-symbol)
+           ;; ("<f3> u" . 'counsel-unicode-char)
+           )
+    ;; :config
+    ;; enable this if you want `swiper' to use it
+    ;; (setq search-default-mode #'char-fold-to-regexp)
+    )
+#+END_SRC
+
+** Try
+-- try package without installing it
+#+BEGIN_SRC emacs-lisp
+  (use-package try
+    :ensure t)
+#+END_SRC
+
+** Undo-tree
+-- how to describe it????
+#+BEGIN_SRC emacs-lisp
+  (use-package undo-tree
+    :ensure t
+    :config (global-undo-tree-mode t))
+#+END_SRC
+
+** Which-key
+-- how to describe it????
+#+BEGIN_SRC emacs-lisp
+  (use-package which-key
+    :ensure t
+    :config (which-key-mode))
+#+END_SRC
+
+
+* Configuration of LaTeX in Emacs
+
+** AUCTeX
+; Trzeba go instalować przez manger paciektów
+#+BEGIN_SRC emacs-lisp
+  ;; (use-package auctex
+  ;;   :ensure t)
+#+END_SRC
+
+** General LaTeX settings
+#+BEGIN_SRC emacs-lisp
+  ;; (setq latex-run-command"lualatex" "lualatex")
+
+  ;; (setq latex-run-command "pdflatex  -file-line-error -interaction=nonstopmode")
+
+  (setq TeX-auto-save t
+        TeX-parse-self t
+        TeX-save-query nil
+        TeX-PDF-mode t)
+  ;; (setq-default TeX-master nil)  ; I don't know what this line do?!?!
+#+END_SRC
+
+** LaTeX-mode hooks
+#+BEGIN_SRC emacs-lisp
+  (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
+  (add-hook 'LaTeX-mode-hook 'auto-complete-mode)
+
+  (add-hook 'LaTeX-mode-hook (lambda () (outline-minor-mode 1)))
+  (add-hook 'latex-mode-hook (lambda () (outline-minor-mode 1)))
+#+END_SRC
+
+** Reftex
+,,Folding and unfolding parts of the text might be confusing, though,
+but there’s another way to navigate through a big TeX file, and you can
+use Reftex mode for it. Reftex is a mode that helps with managing
+references (full documentation), but it can also be used to create
+a table of contents for a TeX file and to navigate using it. Here is my
+configuration for Reftex from my .emacs file:''
+https://piotr.is/2010/emacs-as-the-ultimate-latex-editor/
+#+BEGIN_SRC emacs-lisp
+  (autoload 'reftex-mode "reftex" "RefTeX Minor Mode" t)
+  (autoload 'turn-on-reftex "reftex" "RefTeX Minor Mode" nil)
+  (autoload 'reftex-citation "reftex-cite" "Mace citation" nil)
+  (autoload 'reftex-index-phrase-mode "reftex-index" "Pharse Mode" t)
+
+  (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+  (add-hook 'latex-mode-hook 'turn-on-reftex)
+  (add-hook 'reftex-load-hook 'imenu-add-menubar-index)
+  ;; Maybe this should be commented out
+
+  (setq reftex-plug-into-AUCTeX t)        ; I don't know what this do????
+
+  (setq LaTeX-eqnarray-label "eq"
+        LaTeX-equation-label "eq"
+        LaTeX-figure-label "fig"
+        LaTeX-table-label "tab"
+        LaTeX-myChapter-label "chap"
+        TeX-auto-save t
+        TeX-newline-function 'reindent-then-newline-and-indent
+        TeX-parse-self t
+        TeX-style-path '("style/" "auto/"
+                         "/usr/share/emacs25/site-lisp/auctex/style/"
+                         "/var/lib/auctex/emacs25"
+                         "/usr/local/share/emacs25/site-lisp/auctex/style/")
+        LaTeX-section-hook '(LaTeX-section-heading
+                             LaTeX-section-title
+                             LaTeX-section-toc
+                             LaTeX-section-section
+                             LaTeX-section-label))
+#+END_SRC
+
+** Packages for LaTeX
+*** LaTeX-pretty-symbols
+-- display unicode in place of LaTeX commands
+#+BEGIN_SRC emacs-lisp
+  (use-package latex-pretty-symbols
+    :ensure t
+    :config (global-prettify-symbols-mode t))
+  ;; Czy global-prettify-symbols-mode pochodzi z paczki latex-pretty-symbols?
+#+END_SRC
+
+
+
+
+
+
+
+
+
+* Configuration of IDEs inside Emacs and appropriate packages
+
+** For many languages
+*** Aggressive-indent
+#+BEGIN_SRC emacs-lisp
+  (use-package aggressive-indent
+    :ensure t
+    :config (global-aggressive-indent-mode 1))
+#+END_SRC
+
+** `Julia-mode' -- Emacs mode for Julia programming language
+#+BEGIN_SRC emacs-lisp
+  (use-package julia-mode
+    :ensure t
+    ;; :config (setq rust-format-on-save t)
+    )
+#+END_SRC
+
+** `Python'
+*** Setting Python interpreter to Python3
+#+BEGIN_SRC emacs-lisp
+(setq python-shell-interpreter "python3")
+  ;; (setenv "IPY_TEST_SIMPLE_PROMPT" "1")
+  ;; (setq python-shell-interpreter "ipython3"
+  ;;       python-shell-interpreter-args "-i")
+#+END_SRC
+
+** `Rust-mode' -- Emacs mode for Rust programming language
+#+BEGIN_SRC emacs-lisp
+  (use-package rust-mode
+    :ensure t
+    ;; :config (setq rust-format-on-save t)
+    )
+#+END_SRC

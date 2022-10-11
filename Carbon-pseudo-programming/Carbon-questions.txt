@@ -1,0 +1,13 @@
+Jak można iterować po powiedzmy tablicy i oprócz elementu pobrać jeszcze indeks elementu?
+
+Tutaj dostajemy informację, że ustalony typ to będzie i64.
+let y: auto = x + 3;
+Czy Carbon będzie posiadał odpowiednika typu int dla Go?
+
+fn Position(a: i64) -> auto {
+    return a > 0;
+}
+
+Nie podoba mi się to. Zbyt duży potencjał do błędu przy kompilacji.
+
+Kod ilustrujący match jest mało user friendly.
