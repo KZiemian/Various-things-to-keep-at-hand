@@ -1,0 +1,27 @@
+Carbon reading list.
+
+* GitHub page (https://github.com/carbon-language/carbon-lang)
+* FAQ (https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/faq.md)
+* Goals (https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/goals.md)
+* Roadmap (https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/roadmap.md)
+* Evolution and governance (https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/evolution.md#what-goes-in-the-proposal-document)
+* 
+* 
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!

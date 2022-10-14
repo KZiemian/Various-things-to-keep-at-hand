@@ -1,3 +1,34 @@
+Czy warunki instrukcji sterujących muszą być w nawiasach?
+`if (i == 2)`.
+
+Czemu umieszczenie deklaracji o bycie w paczce jest opcjonalne?
+
+Czemu paczka Carbon jest domyślnie importowana?
+
+Definiowanie stałych słowem `let` jest dziwne.
+
+Składnia dla struktur {.factor: i32, .prime: bool} jest taka nieporęczna.
+
+Code and comments:
+"Comments start with two slashes // and go to the end of the line. They are required to be the only non-whitespace on the line."
+Jak się domyślam chodzi o to, by przed // były dopuszczone tylko białe znaki.
+
+Czy p->m dla struktur jest potrzebny?
+
+Czy typy w Carbonie czyta się od lewej do prawej, czy obowiązuje jakaś bardziej skomplikowana reguła?
+
+Konwersja typów jako ,,2 as i32''. Czy nie można ładniej?
+
+Czy potrzebujemy zachowywać podział na deklaracje i definicje?
+
+Użycie `auto` dla dociekania typów, jest dziwne tak, jak było w C++.
+
+Czy Carcon dopuszcza i++ i j++? I czy są to instrukcje?
+
+returned to dziwne słow na określenie wartości która ma zostać zwrócona.
+
+Czy dobrze rozumiem, że virtualne metody mają sens sprzeczny z tym jakie mają w C++?
+
 Jak można iterować po powiedzmy tablicy i oprócz elementu pobrać jeszcze indeks elementu?
 
 Tutaj dostajemy informację, że ustalony typ to będzie i64.

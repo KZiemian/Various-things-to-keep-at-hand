@@ -23,3 +23,10 @@ fn Sign(i: i32) -> i32 {
 
     return 0;
 }
+
+fn MakeCircle(radius: i32) -> Circle {
+    returned var c: Circle;
+    c.radius = radius;
+
+    return var;
+}
