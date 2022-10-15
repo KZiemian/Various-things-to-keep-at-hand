@@ -2,16 +2,26 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Tikzpicture, 13"
- (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_13.tex")
- (front-context-string . "% \\end{frame}\n% ")
- (rear-context-string . "end{textblock}\n\n")
- (position . 17095))
-("MathComScienceBooks.bib"
- (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Bibliografia/MathComScienceBooks.bib")
- (front-context-string . ",\n  author =	 {P")
- (rear-context-string . "i},\n}\n\n\n\n@book{ ")
- (position . 20595))
+(("Slajd"
+ (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
+ (front-context-string . "-zwracajaca-najb")
+ (rear-context-string . "jasnienie-metoda")
+ (position . 62985))
+("Objasnienia"
+ (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
+ (front-context-string . "]\n  \\frametitle{")
+ (rear-context-string . "a-przegubowego-1")
+ (position . 203799))
+("Objaśnienia"
+ (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
+ (front-context-string . "\n    {\\beamerret")
+ (rear-context-string . "przekazu-pedu-2}")
+ (position . 199283))
+("KZ_Wyklad_SymulacjeFizyki_11.tex"
+ (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
+ (front-context-string . "\n\n\n\n\n  \\begin{te")
+ (rear-context-string . " \\in [ 0, 1 ]$.\n")
+ (position . 9170))
 ("pgfmanual-en-tutorial.tex"
  (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/pgfmanual-en-tutorial.tex")
  (front-context-string . "% Copyright 2019")
@@ -22,11 +32,6 @@
  (front-context-string . "\n% \\include{pgfm")
  (rear-context-string . "ual-en-tutorial}")
  (position . 8997))
-("KZ_Wyklad_SymulacjeFizyki_11.tex"
- (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
- (front-context-string . "\n\\end{frame}\n% #")
- (rear-context-string . "tableofcontents\n")
- (position . 3966))
 ("Various-source-code"
  (filename . "~/GitHub-repositories/Various-repositories/Various-things-to-keep-at-hand/Various-source-code/")
  (front-context-string . "Various-source-c")
