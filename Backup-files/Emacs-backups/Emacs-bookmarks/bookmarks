@@ -2,21 +2,21 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Slajd"
- (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
- (front-context-string . "-zwracajaca-najb")
- (rear-context-string . "jasnienie-metoda")
- (position . 62985))
-("Objasnienia"
- (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
- (front-context-string . "]\n  \\frametitle{")
- (rear-context-string . "a-przegubowego-1")
- (position . 203799))
-("Objaśnienia"
- (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
- (front-context-string . "\n    {\\beamerret")
- (rear-context-string . "przekazu-pedu-2}")
- (position . 199283))
+(("Wzorcowa prezentacja w Jagiellonianie"
+ (filename . "~/GitHub-repositories/Writing-repositories/Presentations/Alistera-McGratha-krytyka-memetyki/Alistera-McGratha-krytyka-memetyki.tex")
+ (front-context-string . "\n\n  Za co mam pr")
+ (rear-context-string . "japońską drogą.\n")
+ (position . 2309))
+("Presentations"
+ (filename . "~/GitHub-repositories/Writing-repositories/Presentations/")
+ (front-context-string . "Alistera-McGrath")
+ (rear-context-string . "96 paź 15 22:17 ")
+ (position . 226))
+("GitHub-repositories"
+ (filename . "~/GitHub-repositories/")
+ (front-context-string . "Alistera-McGrath")
+ (rear-context-string . "96 paź 16 12:15 ")
+ (position . 205))
 ("KZ_Wyklad_SymulacjeFizyki_11.tex"
  (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
  (front-context-string . "\n\n\n\n\n  \\begin{te")
