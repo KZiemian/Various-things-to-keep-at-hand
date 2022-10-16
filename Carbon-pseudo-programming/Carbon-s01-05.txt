@@ -1,0 +1,62 @@
+interface Summary {
+    fn Summarize[me: Self]() -> String;
+}
+
+fn PrintSummary[T:! Summary](x: T) {
+    Console.Print(x.Summarize());
+}
+
+class NewsArticle {
+    impl as Summary {
+        fn Summarize[me: Self]() -> String {
+	   ...
+	}
+    }
+}
+
+fn SummarizeNews(n: NewsArticle) -> String {
+    PrintSummary(n);
+
+    return n.Summarize();
+}
+
+import OtherPackage;
+
+interface Summary {
+    fn Summarize[me: Self]() -> String;
+}
+
+fn PrintSummary[T:! Summary](x: T) {
+    Console.Print(x.Summarize());
+}
+
+package Geometry api;
+import Math;
+
+import Cpp library "circle.h"
+
+fn PrintArea(circles: Slice(Cpp.Circle)) {
+   var area: f32 = 0;
+
+   for (c: Cpp.Circle in circles) {
+       area += Math.Pi * c.r * c.r;
+   }
+
+   Print("Total area: {0}", area);
+}
+
+#include <vector>
+#include "circle.h"
+
+#include "geometry.carbon.h"
+
+auto main(int argc, char** argv) -> int {
+    std::vector<Circle> circles =
+    {{1.0}, {2.0}};
+
+    Geometry::PrintArea(circles);
+
+
+
+    return 0;
+}

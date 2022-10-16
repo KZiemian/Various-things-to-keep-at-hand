@@ -1,7 +1,7 @@
 Czy warunki instrukcji sterujących muszą być w nawiasach?
 `if (i == 2)`.
 
-Czemu umieszczenie deklaracji o bycie w paczce jest opcjonalne?
+Czemu umieszczenie deklaracji o byciu w paczce jest opcjonalne?
 
 Czemu paczka Carbon jest domyślnie importowana?
 
@@ -25,7 +25,7 @@ Użycie `auto` dla dociekania typów, jest dziwne tak, jak było w C++.
 
 Czy Carcon dopuszcza i++ i j++? I czy są to instrukcje?
 
-returned to dziwne słow na określenie wartości która ma zostać zwrócona.
+returned to dziwne słowo na określenie wartości która ma zostać zwrócona.
 
 Czy dobrze rozumiem, że virtualne metody mają sens sprzeczny z tym jakie mają w C++?
 
@@ -42,3 +42,37 @@ fn Position(a: i64) -> auto {
 Nie podoba mi się to. Zbyt duży potencjał do błędu przy kompilacji.
 
 Kod ilustrujący match jest mało user friendly.
+
+fn Publish[addr me: Self*]() {
+   me->published = DateTime.Now()
+}
+
+article.Publish();
+Czy to jest coś analogicznego do (&article)->Publish();
+
+Ponieważ w Carbonie ma być też article->Publish(); wydaje się to przesadnie skomplikowane.
+
+
+„If a file has no package declaration at all, it is the api file belonging to the default package and default library. This is particularly for tests and smaller examples. No other library can import this library even from within the default package. It can be split across multiple impl files using a package impl; package declaration.”
+
+Ten tekst nie jest zbyt zrozumiały.
+
+
+import LinearAlgebra library "Vector";
+
+Dlaczego "Vector" jest w cudzysłowie?
+
+
+Libraries from the current package are imported by omitting the package name.
+
+Czym jest „current package” w tym zdaniu? Nie jest to wcale takie jasne?
+
+A private prefix on a declaration in an api file makes the name library private. This means the name is visible in the file and all impl files for the same library.
+
+Czy plik `api` jest widzialny dla użytkowników?
+
+Czy dobrze rozumiem, że skoro kod C++ importujemy jako
+import Cpp library "circle.h";
+to cały kod C++ będzie bibliotekami pewnej paczki? Czy w pewnych przypadkach to nie utworzy nam paczki, która jest zbyt duża by ją swobodnie obsługiwać?
+
+Jeśli składnia na wskaźniki to int*, to czy nie możemy jej zmienić na *int jak w Go i Rustcie?
