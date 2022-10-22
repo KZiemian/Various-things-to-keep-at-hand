@@ -1,0 +1,42 @@
+base class MiddlerDerived extends MyBaseClass { ... }
+class FinalDerived extends MiddleDerived { ... }
+
+var base_ptr: MyBaseType* = ...;
+
+match (base_ptr) {
+    case dyn p: MiddleDerived* => { ... }
+}
+
+class MyDerivedType extend MyBaseType {
+    fn Make() -> MyDerivedType {
+        return {.base = MyBaseType.Make(), .derived_field = 7};
+    }
+
+    var derived_field: i32;
+}
+
+abstract class AbstractClass {
+    protected fn Make() -> partial Self {
+        return {.field_1 = 3, .field_2 = 9};
+    }
+
+    var field_1: i32;
+    var field_2: i32;
+}
+
+class DerivedFromAbstract extends AbstractClass {
+    fn Make() -> Self {
+        return {.base = AbstractClass.Make(),
+            .derived_field = 42 };
+    }
+
+    var derived_field: i32;
+}
+
+class MyClass {
+    destructor [me: Self] { ... }
+}
+
+class MyClass {
+    destructor [addr me: Self*] { ... }
+}
