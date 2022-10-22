@@ -30,3 +30,72 @@ fn MakeCircle(radius: i32) -> Circle {
 
     return var;
 }
+
+fn Bar() -> (i32, (f32, f32));
+
+fn Foo() -> f32 {
+    match (Bar()) {
+        case (42, (x: f32, y: f32)) => {
+            return x - y;
+        }
+        case (p: i32, (x: f32, _: f32)) if (p < 13) => {
+            return p * x;
+        }
+        case (p: i32, _: auto) if (p > 3) => {
+            return p * Pi;
+        }
+        default => {
+            return Pi;
+        }
+    }
+}
+
+class Widget {
+    var x: i32;
+    var y: i32;
+    var payload: String;
+}
+
+class Point {
+    fn Origin() -> Self {
+        return {.x = 0, .y = 0};
+    }
+
+    var x: i32;
+    var y: i32;
+}
+
+class Registered {
+    fn Make() -> Self {
+        returned var result: Self = {...};
+        StoreMyPointerSomewhere(&result);
+
+        return var;
+    }
+}
+
+class Point {
+    fn Distance[me: Self](x2: i32, y2: i32) -> f32 {
+        var dx: i32 = x2 - me.x;
+        var dy: i32 = y2 - me.y;
+
+        return Math.Sqrt(dx * dx + dy * dy);
+    }
+
+    fn Offset[addr me: Self*](dx: i32, dy: i32);
+
+    var x: i32;
+    var y: i32;
+}
+
+fn Point.Offset[addr me: Self*](dx: i32, dy: i32) {
+    me->x += dx;
+    me->y += dy;
+}
+
+var origin: Point = {.x = 0, .y = 0};
+Assert(Math.Abs(origin.Distance(3, 4) - 5.0))
+origin.Offset(3, 4);
+Assert(origin.Distance(3, 4) == 0.0);
+
+base class MyBaseClass { ... }
