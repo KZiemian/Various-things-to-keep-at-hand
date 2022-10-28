@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Wzorcowa prezentacja w Jagiellonianie"
+(("LaTeX-i-estetyka-tworzonego-tekstu.tex"
+ (filename . "~/GitHub-repositories/Writing-repositories/Presentations/LaTeX-i-estetyka-tworzonego-tekstu/LaTeX-i-estetyka-tworzonego-tekstu.tex")
+ (front-context-string . "\n\n% ##########\n\\")
+ (rear-context-string . "##############\n\n")
+ (position . 8385))
+("Promieniowanie-Hawkinga-czarnych-dziur-Krótki-wstęp-ETC.tex"
+ (filename . "~/GitHub-repositories/Writing-repositories/Presentations/Promieniowanie-Hawkinga-czarnych-dziur-Krótki-wstęp-ETC/Promieniowanie-Hawkinga-czarnych-dziur-Krótki-wstęp-ETC.tex")
+ (front-context-string . "{ \\beta_{ j n \\o")
+ (rear-context-string . "2 }\n      - \\abs")
+ (position . 23401))
+("Wzorcowa prezentacja w Jagiellonianie"
  (filename . "~/GitHub-repositories/Writing-repositories/Presentations/Alistera-McGratha-krytyka-memetyki/Alistera-McGratha-krytyka-memetyki.tex")
  (front-context-string . "\n\n  Za co mam pr")
  (rear-context-string . "japońską drogą.\n")
@@ -19,9 +29,9 @@
  (position . 205))
 ("KZ_Wyklad_SymulacjeFizyki_11.tex"
  (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
- (front-context-string . "\n\n\n\n\n  \\begin{te")
- (rear-context-string . " \\in [ 0, 1 ]$.\n")
- (position . 9170))
+ (front-context-string . "\n  $\\displaystyl")
+ (rear-context-string . "cznego postaci:\n")
+ (position . 150379))
 ("pgfmanual-en-tutorial.tex"
  (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/pgfmanual-en-tutorial.tex")
  (front-context-string . "% Copyright 2019")
