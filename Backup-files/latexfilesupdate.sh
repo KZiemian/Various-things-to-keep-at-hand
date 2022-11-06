@@ -13,6 +13,7 @@
 # Path to the directory with bibliographies and other LaTeX files
 BIBLIOGRAPHYPATH="$HOME/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Bibliografia"
 SPECIALLATEXFILESPATH="$HOME/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Pliki-LaTeXa"
+TIKZFILESPATH="$HOME/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Pliki-PGFa-TikZa"
 # Path to the main directory with LaTeX files containing errors found
 # in books and other works and commentaries to these works.
 ERRORSANDCOMMENTSPATH="$HOME/GitHub-repositories/Writing-repositories/Błędy-i-uwagi"
@@ -62,11 +63,15 @@ DEUSPHILOSOPHYPATH="$VARIOUSSCIENCESPATH/DEUS-i-filozofia-błędy-i-uwagi/"
 
 
 
+
+
 ####################
 # Comics and graphic novels path
 
 COMICSGRAPHICNOVELSPATH="$VARIOUSWORKSPATH/Komiksy-powieści-graficzne-błędy-i-uwagi"
 ####################
+
+
 
 
 
@@ -114,10 +119,14 @@ HISTORYPATH="$VARIOUSSCIENCESPATH/Historia-błędy-i-uwagi"
 
 
 
+
+
 #####################
 # Lingustics paths
 LINGUISTICSPATH="$VARIOUSSCIENCESPATH/Pozostałe-dziedziny-błędy-i-uwagi/Językoznawstwo-błędy-i-uwagi"
 ####################
+
+
 
 
 
@@ -131,6 +140,8 @@ ALGEBRAPATH="$MATHEMATICSPATH/Algebra-błędy-i-uwagi"
 AUTOMATAANDFORMALLANGUAGESTHEORYPATH="$MATHEMATICSPATH/Teoria-automatów-i-języków-formalnych-błędy-i-uwagi"
 
 CATEGORYTHEORYPATH="$MATHEMATICSPATH/Podstawy-matematyki-błędy-i-uwagi/Teoria-kategorii-błędy-i-uwagi"
+
+COMBINATORICSPATH="$MATHEMATICSPATH/Analiza-kombinatoryczna-błędy-i-uwagi"
 
 DIFFERENTIALEQUATIONSPATH="$MATHEMATICSPATH/Równania-różniczkowe-błędy-i-uwagi"
 
@@ -152,10 +163,14 @@ MATHEXERCISESPATH="$EXERCISESLISTSPATH/Matematyka-listy-zadań"
 
 
 
+
+
 ####################
 # Exercises to do paths
 EXERCISESTODOLISTPATH="$HOME/Good-things/Various-writings/Zadania-zrób"
 ####################
+
+
 
 
 
@@ -197,11 +212,20 @@ PHYSICSEXERCISESPATH="$EXERCISESLISTSPATH/Fizyka-listy-zadań"
 
 
 
+
+#####################
+# Politology directory path
+POLITOLOGYPATH="$VARIOUSSCIENCESPATH/Pozostałe-dziedziny-błędy-i-uwagi/Politologia-błędy-i-uwagi"
+####################
+
+
 ####################
 # Various books path
 
 # VARIOUSBOOKSPATH="$ERRORSANDCOMMENTSPATH/Pozostałe-dziedziny-błędy-i-uwagi/Różne-książki-błędy-i-uwagi"
 ####################
+
+
 
 
 
@@ -212,6 +236,8 @@ NOTESONEPATH="$HOME/Good-things/Various-writings/Notatki-do-oddziaływań-elektr
 
 NOTESTWOPATH="$HOME/Good-things/Various-writings/Various-LaTeX"
 ####################
+
+
 
 
 
@@ -314,6 +340,9 @@ rsync $LATEXFILEPATH $AUTOMATAANDFORMALLANGUAGESTHEORYPATH
 
 # Category theory directory
 rsync $LATEXFILEPATH $CATEGORYTHEORYPATH
+
+# Combinatorics directory
+rsync $LATEXFILEPATH $COMBINATORICSPATH
 
 # Differential equations directory
 rsync $LATEXFILEPATH $DIFFERENTIALEQUATIONSPATH
@@ -442,9 +471,10 @@ rsync $LATEXFILEPATH $ESSAYSANDJOURNALISMPATH
 rsync $LATEXFILEPATH $HISTORYPATH
 
 # Linguistic directory
-echo $HISTORYPATH
-echo $LINGUISTICSPATH
 rsync $LATEXFILEPATH $LINGUISTICSPATH
+
+# Politology directory
+rsync $LATEXFILEPATH $POLITOLOGYPATH
 
 # Various books directory
 rsync $LATEXFILEPATH $VARIOUSBOOKSPATH
@@ -524,6 +554,9 @@ rsync $LATEXFILEPATH $MATHEXERCISESPATH
 # Physics excercises directory
 rsync $LATEXFILEPATH $PHYSICSEXERCISESPATH
 
+# Politology directory
+rsync $LATEXFILEPATH $POLITOLOGYPATH
+
 # Various books directory
 rsync $LATEXFILEPATH $VARIOUSBOOKSPATH
 
@@ -540,6 +573,9 @@ rsync $LATEXFILEPATH $ALGEBRAPATH
 
 # Automata and formal languages theory directory
 rsync $LATEXFILEPATH $AUTOMATAANDFORMALLANGUAGESTHEORYPATH
+
+# Combinatorics directory
+rsync $LATEXFILEPATH $COMBINATORICSPATH
 
 # Differential equations directory
 rsync $LATEXFILEPATH $DIFFERENTIALEQUATIONSPATH
@@ -644,6 +680,9 @@ rsync $LATEXFILEPATH $AUTOMATAANDFORMALLANGUAGESTHEORYPATH
 # Category theory directory
 rsync $LATEXFILEPATH $CATEGORYTHEORYPATH
 
+# Combinatorics directory
+rsync $LATEXFILEPATH $COMBINATORICSPATH
+
 # Books with mathematical exercises directory
 rsync $LATEXFILEPATH $MATHBOOKSWITHEXERCISESPATH
 
@@ -726,13 +765,33 @@ LATEXFILEPATH="$SPECIALLATEXFILESPATH/functionalanalysiscommands.sty"
 
 
 rsync $LATEXFILEPATH $FUNCTIONALANALYSISPATH
+####################
 
 
 
 
 
+####################
+# Synchronization of file "TikZPics.sty"
+# It contains ????
+LATEXFILEPATH="$TIKZFILESPATH/TikZPics.sty"
 
 
+rsync $LATEXFILEPATH $FUNCTIONALANALYSISPATH
+####################
+
+
+
+
+
+####################
+# Synchronization of file "TikZStyles.sty"
+# It contains ????
+LATEXFILEPATH="$TIKZFILESPATH/TikZStyles.sty"
+
+
+rsync $LATEXFILEPATH $FUNCTIONALANALYSISPATH
+####################
 
 
 # ##########

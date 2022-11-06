@@ -19,6 +19,8 @@ Jorg Guido Hulsmann „Etyka produkcji pieniądza”
 Marta Foryś, Wit Foryś „Teoria automatów i języków formalnych”
 
 
+Witold Lipski, Wiktor Marek „Analiza kombinatoryczna”
+
 
 
 
