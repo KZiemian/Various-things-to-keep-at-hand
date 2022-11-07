@@ -1,0 +1,9 @@
+fn Convert[template T:! Type](source: T, template U:! Type) -> U {
+    var converted: U = source;
+
+    return converted;
+}
+
+fn Foo(i: i32) -> f32 {
+    return Convert(i, i32);
+}
