@@ -2,26 +2,11 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Wzorcowa prezentacja w Jagiellonianie"
- (filename . "~/GitHub-repositories/Writing-repositories/Presentations/Alistera-McGratha-krytyka-memetyki/Alistera-McGratha-krytyka-memetyki.tex")
- (front-context-string . "\n\n  Za co mam pr")
- (rear-context-string . "japońską drogą.\n")
- (position . 2309))
-("Presentations"
- (filename . "~/GitHub-repositories/Writing-repositories/Presentations/")
- (front-context-string . "Alistera-McGrath")
- (rear-context-string . "96 paź 15 22:17 ")
- (position . 226))
-("GitHub-repositories"
+(("GitHub-repositories"
  (filename . "~/GitHub-repositories/")
  (front-context-string . "Alistera-McGrath")
  (rear-context-string . "96 paź 16 12:15 ")
  (position . 205))
-("KZ_Wyklad_SymulacjeFizyki_11.tex"
- (filename . "~/Good-things/PSF-wykład/Wykłady-SymulacjeFizyki-PL/KZ_Wyklad_SymulacjeFizyki_11.tex")
- (front-context-string . "\n\n\n\n\n  \\begin{te")
- (rear-context-string . " \\in [ 0, 1 ]$.\n")
- (position . 9170))
 ("pgfmanual-en-tutorial.tex"
  (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/pgfmanual-en-tutorial.tex")
  (front-context-string . "% Copyright 2019")
@@ -32,11 +17,6 @@
  (front-context-string . "\n% \\include{pgfm")
  (rear-context-string . "ual-en-tutorial}")
  (position . 8997))
-("Various-source-code"
- (filename . "~/GitHub-repositories/Various-repositories/Various-things-to-keep-at-hand/Various-source-code/")
- (front-context-string . "Various-source-c")
- (rear-context-string . "48 wrz 30 20:12 ")
- (position . 262))
 ("pgfmanual-en-introduction.tex"
  (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/pgfmanual-en-introduction.tex")
  (front-context-string . "% Copyright 2019")
@@ -44,9 +24,9 @@
  (position . 1))
 ("TikZ-Manual-3-1-9a-errors.txt"
  (filename . "~/GitHub-repositories/Various-repositories/Various-things-that-I-test/TikZ-Manual-study/TikZ-Manual-3-1-9a-errors.txt")
- (front-context-string . "Błędy do wprowad")
- (rear-context-string)
- (position . 1))
+ (front-context-string . "\n\"Suppose for ex")
+ (rear-context-string . "cument as in\" ->")
+ (position . 2570))
 ("pgf manual source"
  (filename . "~/GitHub-repositories/LaTeX-repositories/pgf/doc/generic/pgf/")
  (front-context-string . "auto\n  -rw-rw-r-")
@@ -57,11 +37,6 @@
  (front-context-string . "Lista przeczytan")
  (rear-context-string)
  (position . 1))
-("Analiza-funkcjonalna-błędy-i-uwagi.tex"
- (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Analiza-funkcjonalna-bledy-i-uwagi/Analiza-funkcjonalna-błędy-i-uwagi.tex")
- (front-context-string . "}[Walter Rudin, ")
- (rear-context-string . "rów.\n\n\\begin{twr")
- (position . 17343))
 ("Analiza-funkcjonalna-bledy-i-uwagi"
  (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Analiza-funkcjonalna-bledy-i-uwagi/")
  (front-context-string . "Analiza-funkcjon")
@@ -102,16 +77,6 @@
  (front-context-string . "beamercolortheme")
  (rear-context-string . "60 gru 11  2021 ")
  (position . 360))
-("Błędy i uwagi"
- (filename . "~/Good-things/Błędy-i-uwagi/")
- (front-context-string . "Analiza-funkcjon")
- (rear-context-string . "96 sie  5 18:06 ")
- (position . 196))
-("Grupy i algebry Liego"
- (filename . "~/Good-things/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi.tex")
- (front-context-string . "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n%")
- (rear-context-string . "\\spaceFour}\n\n\n\n\n")
- (position . 16211))
 ("Problemy-matematyka-i-informatyka.tex"
  (filename . "~/Good-things/Various-writings/Problem-do-zrobienia/Problemy-matematyka-i-informatyka.tex")
  (front-context-string . "_{ \\mu \\nu } =\n ")
