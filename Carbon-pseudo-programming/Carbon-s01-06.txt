@@ -1,0 +1,105 @@
+base class MyBaseClass {
+    ...
+}
+
+base class MiddleDerived extends MyBaseClass {
+    ...
+}
+
+class FinalDerived extends MiddleDerived {
+    ...
+}
+
+var base_ptr: MyBaseType* = ...;
+
+match (base_ptr) {
+    case dyn p: MiddleDerived* => { ... }
+}
+
+class MyDerivedType extends MyBaseType {
+    fn Make() -> MyDerivedType {
+        return {.base = MyBaseType.Make(), .derived_field = 7};
+    }
+
+    var derived_field: i32;
+}
+
+abstract class AbstractClass {
+    protected fn Make() -> partial Self {
+        return {.field_1 = 3, .field_2 = 9};
+    }
+
+    var field_1: i32;
+    var field_2: i32;
+}
+
+class DerivedFromAbstract extends AbstractClass {
+    fn Make() -> Self {
+        return {.base = AbstractClass.Make(),
+                .derived_field = 42 };
+    }
+
+    var derived_field: i32;
+}
+
+class MyClass {
+    destructor [me: Self] {
+        ...
+    }
+}
+
+class MyClass {
+    destructor [addr me: Self*] {
+        ...
+    }
+}
+
+var origin: Point = {.x = 0, .y = 0};
+
+let p: const Point* = &origin;
+
+let five: f32 = p->Distance(3, 4);
+
+choice IntResult {
+    Success(value: i32),
+    Failure(error: String),
+    Cancelled
+}
+
+fn ParseAsInt(s: String) -> IntResult {
+    var r: i32 = 0;
+
+    for (c: i32 in s) {
+        if (not IsDigit(c)) {
+            return IntResult.Failure("Invalid character");
+        }
+    }
+
+    return IntResult.Success(r);
+}
+
+match (ParseAsInt(s)) {
+    case IntResult.Success(value: i32) => {
+        return value;
+    }
+    case IntResult.Failure(error: String) => {
+        Display(error);
+    }
+    case IntResult.Cancelled => {
+        Terminate();
+    }
+}
+
+choice LikeABoolean { False, True }
+
+package Geometry library "Shapes" api;
+
+fn Min[T:! Ordered](x: T, y: T) -> T {
+    return if x <= y then x else y;
+}
+
+var a: i32 = 1;
+var b: i32 = 2;
+
+Assert(Min(a, b) == 1);
+Assert(Min("abc", "xyz") == "abc");
