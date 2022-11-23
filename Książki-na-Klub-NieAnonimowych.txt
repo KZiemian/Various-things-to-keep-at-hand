@@ -36,17 +36,13 @@ John Lyons „Wstęp do językoznawstwa”
 
 
 
-I.M. Gelfand, S.W. Fomin „Rachunek wariacyjny”
-
-
-
 C.S. Lewis „Cztery miłości”
 
 
 
 Jerzy Grębosz „Symfonia C++. Programowanie w języku C++ orientowane obiektowo. Tom I”
 
-Znalazłem w tej książce informację, że ,,kompilator C++ jest na tyle inteligentny, by przeładowywać nazwy funkcji''. Nie jest na tyle bezmyślnie okrutny by w języku C++ pozwolić ci na ta strzelenie sobie w kolano w ten właśnie sposób.
+Znalazłem w tej książce informację, że „kompilator C++ jest na tyle inteligentny, by przeładowywać nazwy funkcji”. Nie, on jest na tyle bezmyślnie okrutny by pozwolić ci na ta strzelenie sobie w kolano w ten właśnie sposób.
 
 
 
@@ -106,4 +102,4 @@ Walter Rudin „Analiza funkcjonalna”
 Maria Wilczek-Krupa „Poetyka muzyki filmowej Wojciech Kilara”
 
 
-Robin Dunbar ,,Nowa historia ewolucji człowieka''
+Robin Dunbar „Nowa historia ewolucji człowieka”
