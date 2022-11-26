@@ -17,3 +17,6 @@ auto/
 
 # ignore Windows executable files
 *.exe
+
+# ignore excecutable produced by C or C++ compiler
+prog
