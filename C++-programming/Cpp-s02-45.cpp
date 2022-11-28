@@ -82,3 +82,21 @@ base* pb = new derived();
 unique_ptr<base> pb = make_uqniue<derived>();
 
 auto pb = unique_ptr<base>{ make_unique<derived>() };
+
+int const number = 8675309;
+char const msg[] = "hello";
+
+widget *const cpw = ...; // const pointer to widget
+widget *const *pcpw = ...; // pointer to const pointer to widget
+widget **const cpw = ...; // const pointer to pointer to widget
+
+uint32_t volatile *const x[N];
+
+T *p; // pointer
+T const *pc; // pointer to const
+
+void wp(T *q); // wants pointer
+void wpc(T const *qc); // wants pointer to const
+
+wp(pc);
+wpc(p);
