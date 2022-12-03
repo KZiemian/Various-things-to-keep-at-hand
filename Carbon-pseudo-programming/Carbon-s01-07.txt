@@ -7,3 +7,74 @@ fn Convert[template T:! Type](source: T, template U:! Type) -> U {
 fn Foo(i: i32) -> f32 {
     return Convert(i, i32);
 }
+
+fn SmallestFactor(n: i32) -> (i32, bool) {
+    let limit: i32 = Math.Sqrt(n) as i32;
+    var i: i32 = 2;
+
+    while (i <= limit) {
+        let remainder: i32 = n % i;
+
+        if (remainder == 0) {
+            Carbon.Print("{0} is a factor of {1}", i, n);
+
+            return (i, false);
+        }
+
+        if (i == 2) {
+            i = 3;
+        } else {
+            i += 2;
+        }
+    }
+
+    return (n, true);
+}
+
+var i: i32 = 2;
+
+i = 3;
+
+i += 2;
+
+let limit: i32 = Math.Sqrt(n) as i32;
+
+let remainder: i32 = n % i;
+
+while (i <= limit) {
+    ...
+    if (remainder == 0) {
+        ...
+    }
+    if (i == 2) {
+        ... 
+    } else {
+        ...
+    }
+}
+
+fn SmallestFactor(n: i32) -> {.factor: i32, .prime: bool} {
+    if (remainder == 0) {
+        return {.factor = i, .prime = false};
+    }
+
+    return {.factor = n, .prime = true};
+}
+
+var block: String = """
+    The winds grow high; so do your stomachs, lords.
+    How irksome is this musics to my heart!
+    When such strings jar, what hope of harmony?
+    I pray, my lord, let me compund this strife.
+       -- History of Henry VI, Part II, Act II, Scene 1, W. Shakespeare
+""";
+
+fn DoubleBoth(x: i32, y: i32) -> (i32, i32) {
+    return (2 * x, 2 * y);
+}
+
+var i: i32 = 1;
+
+var a: [i32;] = (i, i, i);
+
+{.word = "the", .count = 56}

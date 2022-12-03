@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // func sumSlice(sliceArg []float32) float32 {
 // 	var sum float32 = 0.0
 
