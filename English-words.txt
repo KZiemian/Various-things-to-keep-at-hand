@@ -63,6 +63,19 @@ ensnares, undemonstrative,
 
 
 
+___________________________________________
+############################################################################################
+ERROR in
+action number 1
+of Destroy Event
+for object obj_laser:
+
+audio_stop_sound argument 1 incorrect type (undefined) expecting a Number (YYGI32)
+at gml_Object_obj_laser_Destroy_0
+############################################################################################
+gml_Object_obj_laser_Destroy_0 (line -1)
+gml_Object_obj_laser_Step_0 (line -1)
+
 
 
 
