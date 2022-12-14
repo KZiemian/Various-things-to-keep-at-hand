@@ -2,7 +2,47 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("GitHub-repositories"
+(("DEUSPhilBooks.bib"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Bibliografia/DEUSPhilBooks.bib")
+ (front-context-string . ",\n  edition =	 {")
+ (rear-context-string . ",\n  year =	 1977")
+ (position . 59152))
+("Rachunek-wariacyjny-błędy-i-uwagi.tex"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Analiza-matematyczna-bledy-i-uwagi/Rachunek-wariacyjny-błędy-i-uwagi.tex")
+ (front-context-string . "\n% \\date{}\n% ---")
+ (rear-context-string . "Kamil Ziemian}\n\n")
+ (position . 4285))
+("Teoria-automatów-i-języków-formalnych-błędy-i-uwagi.tex"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Teoria-automatów-i-języków-formalnych-błędy-i-uwagi/Teoria-automatów-i-języków-formalnych-błędy-i-uwagi.tex")
+ (front-context-string . "\\start \\Str{8} W")
+ (rear-context-string . "spaceFour}\n\n\n\n\n\n")
+ (position . 13129))
+("C++-programming"
+ (filename . "~/GitHub-repositories/Various-repositories/Various-things-to-keep-at-hand/C++-programming/")
+ (front-context-string . "Cpp-s02-45.cpp\n ")
+ (rear-context-string . "71 lis 20 16:12 ")
+ (position . 6848))
+("Geometria-różniczkowa-błędy-i-uwagi.tex"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi.tex")
+ (front-context-string . "\n\nDokładniej omó")
+ (rear-context-string . "Wojtynski-40-A}.")
+ (position . 43967))
+("Grupy i algebry Liego"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi.tex")
+ (front-context-string . "\n\nNa razie nic n")
+ (rear-context-string . "} \\, e_{ 0 } ]$.")
+ (position . 64791))
+("Książki-na-Klub-NieAnonimowych.txt"
+ (filename . "~/GitHub-repositories/Various-repositories/Various-things-to-keep-at-hand/Książki-na-Klub-NieAnonimowych.txt")
+ (front-context-string . "Wojciech Wojtyńs")
+ (rear-context-string)
+ (position . 1))
+("latexfilesupdate.sh"
+ (filename . "~/bin/BASH-scripts/latexfilesupdate.sh")
+ (front-context-string . "# Every category")
+ (rear-context-string . "thematics, etc.\n")
+ (position . 1475))
+("GitHub-repositories"
  (filename . "~/GitHub-repositories/")
  (front-context-string . "Alistera-McGrath")
  (rear-context-string . "96 paź 16 12:15 ")
@@ -137,21 +177,11 @@
  (front-context-string . "\n\n\n\n\n\n\n\n\n\n% ####")
  (rear-context-string . "space{1em}\n\n\n\n\n\n")
  (position . 2872))
-("latexfilesupdate.sh"
- (filename . "~/bin/scripts/latexfilesupdate.sh")
- (front-context-string . "\n\n# Books with m")
- (rear-context-string . "$LATEXFILEPATH $")
- (position . 14092))
 ("Rackauckas.txt"
  (filename . "~/Good-things/Basic-changing/Do-napisania/Rackauckas.txt")
  (front-context-string)
  (rear-context-string . "t)\", which means")
  (position . 306))
-("C++-is-evil.txt"
- (filename . "~/Good-things/Programming/C++/C++-is-evil.txt")
- (front-context-string . "I replaced \"std:")
- (rear-context-string)
- (position . 1))
 ("Voegelin"
  (filename . "~/Good-things/Basic-changing/Do-napisania/Teologia-polityczna-Voegelin.txt")
  (front-context-string . "\n\n\nZ wyrazami sz")
