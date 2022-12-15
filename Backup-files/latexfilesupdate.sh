@@ -158,6 +158,8 @@ LOGICANDSETTHEORYPATH="$MATHEMATICSPATH/Podstawy-matematyki-błędy-i-uwagi/Logi
 NONCOMMUTATIVEGEOMETRYPATH="$MATHEMATICSPATH/Geometria-nieprzemienna-błędy-i-uwagi"
 
 PROBABILTYTHEORYPATH="$MATHEMATICSPATH/Rachunek-prawdopodobieństwa-błędy-i-uwagi"
+
+SETTHEORYANDTOPOLOGYPATH="$MATHEMATICSPATH/Podstawy-matematyki-błędy-i-uwagi/Teoria-mnogości-i-topologia-błędy-i-uwagi"
 ##########
 
 # Path to directory dedicated to books with mathematical exercises
@@ -386,6 +388,9 @@ rsync $LATEXFILEPATH $MATHEMATICALANALYSISPATH
 rsync $LATEXFILEPATH $NONCOMMUTATIVEGEOMETRYPATH
 
 rsync $LATEXFILEPATH $PROBABILTYTHEORYPATH
+
+# Set theory and topology directory
+rsync $LATEXFILEPATH $SETTHEORYANDTOPOLOGYPATH
 ###############
 
 
@@ -635,6 +640,9 @@ rsync $LATEXFILEPATH $NONCOMMUTATIVEGEOMETRYPATH
 
 # Probability theory directory
 rsync $LATEXFILEPATH $PROBABILTYTHEORYPATH
+
+# Set theory and topology directory
+rsync $LATEXFILEPATH $SETTHEORYANDTOPOLOGYPATH
 ##########
 
 
@@ -751,6 +759,8 @@ rsync $LATEXFILEPATH $NONCOMMUTATIVEGEOMETRYPATH
 # Probability theory directory
 rsync $LATEXFILEPATH $PROBABILTYTHEORYPATH
 
+# Set theory and topology directory
+rsync $LATEXFILEPATH $SETTHEORYANDTOPOLOGYPATH
 
 ##########
 # Physics directories

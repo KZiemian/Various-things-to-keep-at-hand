@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("DEUSPhilBooks.bib"
+(("Arytmetyka"
+ (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Arytmetyka-i-teoria-liczb-błędy-i-uwagi/Arytmetyka-i-teoria-liczb-błędy-i-uwagi.tex")
+ (front-context-string . "    % & & & & \\\\")
+ (rear-context-string . "   % & & & & \\\\\n")
+ (position . 8862))
+("DEUSPhilBooks.bib"
  (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Bibliografia/DEUSPhilBooks.bib")
  (front-context-string . ",\n  edition =	 {")
  (rear-context-string . ",\n  year =	 1977")
@@ -22,11 +27,6 @@
  (front-context-string . "Cpp-s02-45.cpp\n ")
  (rear-context-string . "71 lis 20 16:12 ")
  (position . 6848))
-("Geometria-różniczkowa-błędy-i-uwagi.tex"
- (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi.tex")
- (front-context-string . "\n\nDokładniej omó")
- (rear-context-string . "Wojtynski-40-A}.")
- (position . 43967))
 ("Grupy i algebry Liego"
  (filename . "~/GitHub-repositories/Writing-repositories/Błędy-i-uwagi/Nauki-rozne-bledy-i-uwagi/Matematyka-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi/Geometria-różniczkowa-błędy-i-uwagi.tex")
  (front-context-string . "\n\nNa razie nic n")
