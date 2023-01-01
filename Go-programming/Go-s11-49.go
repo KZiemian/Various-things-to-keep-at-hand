@@ -6,6 +6,10 @@ import (
 
 type weekday int
 
+type ordered interface {
+	int | float64 | weekday
+}
+
 const (
 	Monday weekday = iota + 1
 	Tuesday
@@ -18,14 +22,8 @@ const (
 
 func main() {
 	fmt.Println(max([]weekday{Monday, Tuesday, Sunday}))
-
-	type ordered interface {
-		int | float64 | weekday
-	}
-}
-
-type ordered interface {
-	int | float64 | weekday
+	fmt.Println(max([]weekday{Sunday, Friday}))
+	fmt.Println(max([]weekday{Friday, Monday}))
 }
 
 func max[T ordered](input []T) T {
