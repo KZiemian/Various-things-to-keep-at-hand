@@ -40,3 +40,10 @@ Warszawa 1961) -> Warszawa 1961
 
 Jan Woleński: Jan Łukasiewicz – filozof czy logik?
 https://teologiapolityczna.pl/jan-wolenski-jan-lukasiewicz-filozof-czy-logik
+
+Paragraf 2.
+
+,,wyd. polskie Sylogistyka Arystotelesa z punktu widzenia współczesnej logiki formalnej, 1988).''
+Brak nawiasu otwierającego dla nawiasu zamykającego na końcu tego zdania.
+
+

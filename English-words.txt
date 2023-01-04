@@ -1,22 +1,11 @@
-RISC - reduced instruction set computing,
-CICS - complex instruction set computing,
-OCR - optical character recognition,
-
-ESCO - Electronic Systems Challenges and Opportunities
-
 CVCS - Centralized Version Control System
 DVCS - Distributed Version Control System
-fiery, staged, parlance,
 
-
-
-squandered, foreign, stave off, stave, procurement, convergence,
-consensus, forays, egregious, repression, heirloom, struggles,
-laments, reserve, crowed, outing, flak, ratioed, stratum, intermingled,
+stratum, intermingled,
 limits, decoupling, probative, excoriate, counterinsurgency, drily,
 enshroud, acumen, snares, conflating, concentration, democracy,
 autocracy, streamlined, verisimilitude, cogency, inadmissibility,
-congruity, clash, ideological, competition, failure, graveyard,
+congruity, ideological, competition, failure, graveyard,
 unbound, side, coin, decline, flawed, strange, dysfunction, fuels,
 anarchy, spectacular, gratification, tenets, steadily, consequences,
 clung, abhorred, praxeology, contemporaries, edifying, sink, proliferation,
@@ -32,7 +21,7 @@ sexism, cusp, profoundly, temptation, aggression, anxiety, strait, grab,
 regression, nascent, ante, prevarication, loathe, armamentarium, dissembling,
 mendacity, philosophy, philosophers, patois, strewn, bullying, mush,
 breathtaking, competencies, whimsy, taming, enormities, peremptory,
-aloof, ephemeral, obituary, intercontinental ballistic missile, ICBM,
+ephemeral, obituary, intercontinental ballistic missile, ICBM,
 upending, winners, losers, psychology, globalization, ordinary, gain,
 withdraws, undeniable, woeful, truce, revisited, overhaul, leashes,
 recalibrate, espionage, consequences, vivid, armistice, suffused,
@@ -54,7 +43,6 @@ gratification, scrambles, flawed, warped, egregious, disjointed, unhindered,
 deflate, unison, chaperones, impairments, pertinent, throughout, stifling,
 hodgepodge, jumbled, efficacy, deftly, clutter, compartmentalized,
 dumbed-down, flawed, abandoned, exacting, parsimony, lavish, eschewing,
-Application Binary Interface (ABI),
 taproot, cogently, figments, ellipsis, anterior, tentatively, defeasible,
 ensnares, undemonstrative,
 
@@ -63,18 +51,7 @@ ensnares, undemonstrative,
 
 
 
-___________________________________________
-############################################################################################
-ERROR in
-action number 1
-of Destroy Event
-for object obj_laser:
 
-audio_stop_sound argument 1 incorrect type (undefined) expecting a Number (YYGI32)
-at gml_Object_obj_laser_Destroy_0
-############################################################################################
-gml_Object_obj_laser_Destroy_0 (line -1)
-gml_Object_obj_laser_Step_0 (line -1)
 
 
 
