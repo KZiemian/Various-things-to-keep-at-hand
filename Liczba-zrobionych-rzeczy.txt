@@ -1,1 +1,39 @@
 Lista rzeczy zrobionych w danym czasie.
+
+Przed lipcem 2020 roku.
+
+Rok 2020
+Lipiec: 123.
+Sierpień: 175.
+Wrzesień: 207.
+Październik: 190.
+Listopad: 171.
+Grudzień: 202.
+
+Rok 2021
+Styczeń: 170.
+Luty: 303.
+Marzec: 450.
+Kwiecień: 634.
+Maj: 492.
+Czerwiec: 424.
+Lipiec: 374.
+Sierpień: 378.
+Wrzesień: 370.
+Październik: 400.
+Listopad: 304.
+Grudzień: 405.
+
+Rok 2022
+Styczeń: 575.
+Luty: 480.
+Marzec: 492.
+Kwiecień: 456.
+Maj: 360.
+Czerwiec: 337.
+Lipiec: 467.
+Sierpień: 510.
+Wrzesień: 528.
+Październik: 557.
+Listopad: 564.
+Grudzień: 649.

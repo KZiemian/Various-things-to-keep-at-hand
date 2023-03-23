@@ -13,7 +13,8 @@ int main() {
   structVar1.f = 7.25;
 
 
-  printf("structVar1.i: %d, structVar1.f: %f\n\n", structVar1.i, structVar1.f);
+  printf("structVar1.i: %d, structVar1.f: %f\n\n", structVar1.i,
+	 structVar1.f);
   printf("structVar2.i: %d, structVar2.f: %f\n", structVar2.i, structVar2.f);
 
 
