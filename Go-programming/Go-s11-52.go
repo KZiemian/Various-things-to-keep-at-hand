@@ -13,3 +13,11 @@ func main() {
 
 	fmt.Println(u)
 }
+
+func min(x, y float64) float64 {
+	if x < y {
+		return x
+	}
+
+	return y
+}
