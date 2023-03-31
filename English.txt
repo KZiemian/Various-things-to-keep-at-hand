@@ -15,4 +15,11 @@ require (
 	rsc.io/sampler v1.3.0 // indirect
 )
 
-In other words, why list of dependencies given by this two methods differ?
+Problems with Gonum offical page
+
+Hello,
+
+In the talk "Talks -> An Introduction to Gonum" (https://go-talks.appspot.com/github.com/gonum/talks/2017/gonumtour.slide#1) at the page
+
+Best regards,
+Kamil Ziemian

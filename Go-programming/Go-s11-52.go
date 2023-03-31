@@ -21,3 +21,7 @@ func min(x, y float64) float64 {
 
 	return y
 }
+
+func SortFn[T any](s []T, cmp func(T, T) bool) {
+	sort.Sort(SliceFn[T]{s, cmp})
+}

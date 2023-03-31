@@ -14,6 +14,8 @@ func min[T constraints.Ordered](x, y T) T {
 }
 
 func main() {
+	fmt.Printf("min[int](1, 2): %v.\n", min[int](1, 2))
+	fmt.Printf("min[float64](1.0, 4.0): %v.\n", min[float64](1, 2))
 	fmt.Printf("min(1, 2): %v.\n", min(1, 2))
 	fmt.Printf("min(3, 2): %v.\n", min(3, 2))
 	fmt.Printf("min(0.0, 1.0): %v.\n", min(0.0, 1.0))
