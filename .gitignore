@@ -23,3 +23,6 @@ auto/
 
 # ignore excecutable produced by C or C++ compiler
 prog
+
+# ignore PNG files
+*.png

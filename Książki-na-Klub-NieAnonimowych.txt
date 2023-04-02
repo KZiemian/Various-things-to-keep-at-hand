@@ -1,18 +1,6 @@
 Autor nieznany „Sakuteiki. Zapiski o zakładaniu ogrodów”
 
-Napisana około XI wieku książka o japońskim ogrodnictwie, mam nadzieję, że mojej mamie się spodoba. Jest w niej też wiele znaków kanji, więc może wam też się spodoba. ;)
-
-
 Red. A.P. Juszkiewicz „Historia matematyki. Tom III: Matematyka XVIII stulecia”
-
-Czytając liczący około 140 stron rozdział o rachunku różniczkowym i całkowym w XVIII wieku, co chwila świata uświadamiam sobie jakim matematycznym supermanem był Euler. Ilość jego pomysłów oraz dalekosiężność idei, jest po prostu przytłaczającą.
-
-I swego rodzaju pocieszeniem jest to, że nawet ten superman potrafił popełniać błędem, które nie umniejszają wielkości jego matematycznych osiągnięć. Najprostszą do zrozumienia pomyłką tego geniusza matematycznego jaką do tej pory napotkałem, jest ta podana na strona 375 i 376 tej książki. Euler stawiał jako jeden z pierwszych kroki w analizie funkcji wielu zmiennych i dla funkcji różniczkowalnej dwóch zmiennych podał warunki na pochodne w maksimum, które sprowadzają się do stwierdzenia, że funkcja ma maksimum dla każdej zmiennej osobno. Czyli ma maksimum dla x przy ustalonym y i dla y przy ustalonym x. Oczywiście to jest nieprawda, przykład siodła dobrze to ilustruje. Co ciekawe, Lagrange poprawił rozumowanie Eulera, ale według autorów książki i on nie poradził sobie z tym problemem w pełni zadowalający sposób. O co dokładnie chodzi, w książce nie jest podane.
-
-Na koniec, w ramach kolejnej ciekawostki przytoczę słowa Eulera cytowane na stronie 377, w których odrzuca on pogląd jakoby linia składała się z punktów.
-
-„Znak całki zwykle interpretuje się jako początkową literę słowa suma. Interpretacja ta wynikła z niezbyt trafnego poglądu, według którego całkę rozpatruje się jako sumę wszystkich różniczek, a na to nie można przystać więcej, niż na szeroko rozpowszechniony pogląd, jakoby linie składały się z punktów”.
-
 
 
 Wit Szostak „Chochoły”
@@ -84,11 +72,8 @@ John Lyons „Wstęp do językoznawstwa”
 
 C.S. Lewis „Cztery miłości”
 
-Właśnie skończyłem rozdział „Miłość erotyczna”, który wydaje mi się najlepszym do tej pory, choć nie pozbawionym słabości. Choć rozdział o przyjaźni jest bardzo ciekawy, to mam wrażenie, że pewnych miejscach swych rozważań Lewis poszedł w złą stronę.
+Skoro ta mała książeczka jest już za mną, czas na podsumowanie. Czy warto ją przeczytać? Niewątpliwie tak. Kultura naszych czasów mówi o miłości bez przerwy, jednak w sposób jednostronny i często zwyczajnie płytki, ta książeczka dostarcza jakieś dozy odtrutki na wiele z tych przesądów. Niemniej ma ona kilka poważnych wad. Ale po kolei.
 
-Wielką zasługą jaką wyświadczył mi rozdział o miłości erotycznej jest to, że przypomniał, iż miłość erotyczna powinna zawierać dużo śmiechu z siebie samej. Uwagę tą warto zastosować do wielu innych rzeczy w życiu.
-
-Kolejną ważną rzeczą, jaką ten rozdział przypomina, jest to, że choć miłość erotyczna wydaje się przemawiać z królestwa wieczności, to jest ona często krótkotrwała, a świat rozbrzmiewa skargami na jej zmienność. Rzeczy które należy ciągle przypominać.
 
 
 
