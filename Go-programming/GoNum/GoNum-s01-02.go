@@ -19,5 +19,4 @@ func main() {
 
 	t := []float64{9.0 / 11, -2.0 / 11, -6.0 / 11}
 	fmt.Println("s = t?", floats.EqualApprox(s, t, 1e-14))
-
 }

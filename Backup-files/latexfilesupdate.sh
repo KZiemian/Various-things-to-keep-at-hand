@@ -56,10 +56,6 @@ VARIOUSWORKSPATH="$ERRORSANDCOMMENTSPATH/Rozne-dziela-bledy-i-uwagi"
 
 
 
-####################
-# DEUS and philosophy paths
-DEUSPHILOSOPHYPATH="$VARIOUSSCIENCESPATH/DEUS-i-filozofia-błędy-i-uwagi/"
-####################
 
 
 
@@ -72,20 +68,6 @@ COMICSGRAPHICNOVELSPATH="$VARIOUSWORKSPATH/Komiksy-powieści-graficzne-błędy-i
 ####################
 
 
-
-
-
-####################
-# Computer science paths
-COMPUTERSCIENCEPATH="$VARIOUSSCIENCESPATH/Informatyka-błędy-i-uwagi"
-
-THEORYOFCOMPUTATIONPATH="$COMPUTERSCIENCEPATH/Teoria-obliczeń-błędy-i-uwagi"
-
-
-##########
-# Path to computer science exercises
-COMPUTERSCIENCEEXERCISESPATH="$EXERCISESLISTSPATH/Informatyka-listy-zadań"
-####################
 
 
 

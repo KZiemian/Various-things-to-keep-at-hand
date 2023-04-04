@@ -15,12 +15,6 @@ Structure of this file is based on Daniel Mai Emacs configuration https://github
   (setq save-interprogram-paste-before-kill t)
 #+END_SRC
 
-** Setting up predictors
-Change question from "yes or no" to "y or n".
-#+BEGIN_SRC emacs-lisp
-  (fset 'yes-or-no-p 'y-or-n-p)
-#+END_SRC
-
 ** Releasing built-in keychords (?????)
 #+BEGIN_SRC emacs-lisp
 #+END_SRC
@@ -55,13 +49,6 @@ Change question from "yes or no" to "y or n".
   (global-set-key (kbd "<f5>") 'revet-buffer)
 #+END_SRC
 
-** Global hooks
-#+BEGIN_SRC emacs-lisp
-  (add-hook 'before-save-hook 'delete-trailing-whitespace)
-  ;; Remove additional white spaces from the end of the line and file
-  ;; Comment it out if you work with CCLDoc
-#+END_SRC
-
 ** Setting up backups management
 #+BEGIN_SRC emacs-lisp
   (setq backup-directory-alist
@@ -92,18 +79,6 @@ Emacs don't know this variable?!?!
   (load custom-file t)
 #+END_SRC
 
-** Setting up auto-correction
-#+BEGIN_SRC emacs-lisp
-  ;; (setq ispell-program-name "aspell")  ; By default is `aspell'
-  ;; (setq ispell-dictionary "english")
-  (setq ispell-dictionary "polish")
-
-  (add-hook 'text-mode-hook 'flyspell-mode)
-  (add-hook 'text-mode-hook 'flyspell-buffer)
-
-  (add-hook 'LaTeX-mode-hook 'flyspell-mode)
-  (add-hook 'LaTeX-mode-hook 'flyspell-buffer)
-#+END_SRC
 
 
 
@@ -249,13 +224,6 @@ Configuration of giant **org-mode**.
   ;; 			     "~/Podstawy-I/org/Przemysl.org"))
 #+END_SRC
 
-** Org-bullets
-Unicode bullets for **org-mode**
-#+BEGIN_SRC emacs-lisp
-  (use-package org-bullets
-    :ensure t
-    :config (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
-#+END_SRC
 
 
 * Additional functions written in elisp
@@ -309,14 +277,6 @@ or anything you prefer.
            ("M-g M-g" . avy-goto-line)
            ("M-g w" . avy-goto-word-1)
            ("M-g e" . avy-goto-word-0)))
-#+END_SRC
-
-** Beacon
-Wave showing where point is
-#+BEGIN_SRC emacs-lisp
-  (use-package beacon
-    :ensure t
-    :config (beacon-mode t))
 #+END_SRC
 
 ** Color-theme-modern
@@ -403,17 +363,6 @@ To not forget this very promising theme.
     :ensure t)
 #+END_SRC
 
-** Rainbow-delimiters
-#+BEGIN_SRC emacs-lisp
-  (use-package rainbow-delimiters
-    :ensure t
-    :config
-    (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
-    (add-hook 'LaTeX-mode-hook 'rainbow-delimiters-mode)
-    (add-hook 'BibTeX-mode-hook 'rainbow-delimiters-mode)
-    (add-hook 'org-mode-hook 'rainbow-delimiters-mode))
-#+END_SRC
-
 ** Swiper
 -- how to describe it????
 #+BEGIN_SRC emacs-lisp
@@ -455,13 +404,7 @@ To not forget this very promising theme.
     :ensure t)
 #+END_SRC
 
-** Undo-tree
--- how to describe it????
-#+BEGIN_SRC emacs-lisp
-  (use-package undo-tree
-    :ensure t
-    :config (global-undo-tree-mode t))
-#+END_SRC
+
 
 ** Which-key
 -- how to describe it????
@@ -473,13 +416,6 @@ To not forget this very promising theme.
 
 
 * Configuration of LaTeX in Emacs
-
-** AUCTeX
-; Trzeba go instalować przez manger paciektów
-#+BEGIN_SRC emacs-lisp
-  ;; (use-package auctex
-  ;;   :ensure t)
-#+END_SRC
 
 ** General LaTeX settings
 #+BEGIN_SRC emacs-lisp
@@ -543,15 +479,6 @@ https://piotr.is/2010/emacs-as-the-ultimate-latex-editor/
                              LaTeX-section-label))
 #+END_SRC
 
-** Packages for LaTeX
-*** LaTeX-pretty-symbols
--- display unicode in place of LaTeX commands
-#+BEGIN_SRC emacs-lisp
-  (use-package latex-pretty-symbols
-    :ensure t
-    :config (global-prettify-symbols-mode t))
-  ;; Czy global-prettify-symbols-mode pochodzi z paczki latex-pretty-symbols?
-#+END_SRC
 
 
 
