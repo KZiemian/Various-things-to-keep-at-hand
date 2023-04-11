@@ -23,3 +23,6 @@ In the talk "Talks -> An Introduction to Gonum" (https://go-talks.appspot.com/gi
 
 Best regards,
 Kamil Ziemian
+
+
+„Miłosierny” to taki, który niektórym okazuje miłosierdzie, choć miał prawo ich ukarać. Ten który uniewinni wszystkich, jest zwyczajnie niesprawiedliwy, czytaj: pozbawiony sprawiedliwości.
