@@ -26,3 +26,9 @@ Kamil Ziemian
 
 
 „Miłosierny” to taki, który niektórym okazuje miłosierdzie, choć miał prawo ich ukarać. Ten który uniewinni wszystkich, jest zwyczajnie niesprawiedliwy, czytaj: pozbawiony sprawiedliwości.
+
+
+I not a Go expert, so I don't know if this `select' will work properly. After sending first int to `ch' two lines of code with compete for receiving from this channel:
+`fmt.Println(<-ch)'
+`case <- ch:'
+Code will work as intended only if the first line always win, but can we be sure that always be so?

@@ -43,3 +43,71 @@ type Reader interface {
 type Writer interface {
 	Write([]byte) (int, error)
 }
+
+package main
+
+import (
+	"compress/gzip"
+	"fmt"
+	"io"
+	"os"
+)
+
+func main() {
+	zr, err := gzip.NewReader(os.Stdin)
+
+	if err != nil {
+		fmt.Fprintln(os.Stdin, err)
+		os.Exit(1)
+	}
+
+	_, err = io.Copy(os.Stdout, zr)
+
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
+	}
+}
+
+r := io.MultiReader(
+	strings.NewReader("<Top>"),
+	bytes.NewReader(out),
+	strings.NewReader("</Top>"),
+)
+
+var logs struct {
+	Log []*Commit
+}
+
+err = xml.NewDecoder(r).Decode(&logs)
+
+func main() {
+	go say("world")
+	say("hello")
+}
+
+func say(s string) {
+	for i := 0; i < 5; i++ {
+		time.Sleep(100 * time.Millisecond)
+		fmt.Println(s)
+	}
+}
+
+func main() {
+	ch := make(chan int)
+
+	go fibs(ch)
+
+	for i := 0; i < 20; i++ {
+		fmt.Println(<-ch)
+	}
+}
+
+func fibs(ch chan int) {
+	i, j := 0, 1
+
+	for {
+		ch <- j
+		i, j = j, i + j
+	}
+}
