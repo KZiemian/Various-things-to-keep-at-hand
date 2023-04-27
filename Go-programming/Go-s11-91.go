@@ -1,21 +1,21 @@
-package main
+// package main
 
-import (
-	"fmt"
-	"time"
-)
+// import (
+// 	"fmt"
+// 	"time"
+// )
 
-func main() {
-	go say("world")
+// func main() {
+// 	go say("world")
 
-	say("hello")
-}
+// 	say("hello")
+// }
 
 
-func say(s string) {
-	for i := 0; i < 5; i++ {
-		time.Sleep(100 * time.Millisecond)
+// func say(s string) {
+// 	for i := 0; i < 5; i++ {
+// 		time.Sleep(100 * time.Millisecond)
 
-		fmt.Println(s)
-	}
-}
+// 		fmt.Println(s)
+// 	}
+// }
