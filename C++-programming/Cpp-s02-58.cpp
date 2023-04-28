@@ -19,3 +19,41 @@ double weight(double impact){
 
   return weight_var;
 }
+
+void setStatus(ApplicationStatus s) {
+  status = s;
+}
+
+void setStatus(ApplicationStatus s) {
+  status = s;
+  lastUpdated = now();
+}
+
+void setStatus(ApplicationStatus s) {
+  status = s;
+  lastUpdated = now();
+
+  if (status == ApplicationStatus::Approved) {
+    // ...
+  }
+
+  if (status == ApplicationStatus::Denied) {
+    // ...
+  }
+}
+
+void Approve() {
+  status = ApplicationStatus::Approved;
+  lastUpdated = now();
+  // ...
+}
+
+void Deny() {
+  status = ApplicationStatus::Denied;
+  lastUpdated = now();
+  // ...
+}
+
+// PreLoad(user, section);
+// Load(begin, end, filter);
+// PostLoad(user, category);
