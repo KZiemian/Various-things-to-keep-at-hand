@@ -25,9 +25,6 @@ Best regards,
 Kamil Ziemian
 
 
-„Miłosierny” to taki, który niektórym okazuje miłosierdzie, choć miał prawo ich ukarać. Ten który uniewinni wszystkich, jest zwyczajnie niesprawiedliwy, czytaj: pozbawiony sprawiedliwości.
-
-
 I not a Go expert, so I don't know if this `select' will work properly. After sending first int to `ch' two lines of code with compete for receiving from this channel:
 `fmt.Println(<-ch)'
 `case <- ch:'
@@ -35,30 +32,13 @@ Code will work as intended only if the first line always win, but can we be sure
 
 Can I help with Gonum official page?
 
-There is a second such example just below "[]int and []int", but to understand it we need some more type declarations, I listed them below.
-`type (
-	A0 = []string
-	A1 = A0
-	A2 = struct{ a, b int }
-	A3 = int
-	A4 = func(A3, float64) *A0
-	A5 = func(x int, _ float64) *[]string
+Hello,
 
-	B0 A0
-	B1 []string
-	B2 struct{ a, b int }
-	B3 struct{ a, c int }
-	B4 func(int, float64) *B0
-	B5 func(x int, y float64) *A1
+I first must say, that I'm not consider myself a programmer. I'm rather mathematical physicist who want solve more models by using numerical methods, so don't expect much from me.
 
-	// Unimportant part.
-)`
-The line in question is
-"struct{ a, b *B5 } and struct{ a, b *B5 }"
-which is true, but again feel out of place. I only start grasping rules of types identity, but I make guess that it should be something like
-"struct{ a, b *A5 } and struct{ a, b *B5 }"
+I now reading Go Language Specification and in the breaks I try code from Gonum project and read Gonum official page. I think that Gonum page can be improved in small way here and there, so can I help in this almost negligible way?
 
-Of course it my just be that I'm just stupid. Feel free to inform me that indeed I have no idea what is going on in the Go Spec.
+I think it would be handy
 
 Best regards,
 Kamil
