@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	// fmt.Printf("1.0/60.0 = %v.\n", 1.0/60.0)
@@ -67,9 +70,12 @@ func main() {
 // 	fmt.Println("\u65e5本\U00008a9e")
 //      fmt.Println("\xff\u00FF")
 
-	fmt.Println("日本語")
-	fmt.Println(`日本語`)
-	fmt.Println("\u65e5\u672c\u8a9e")
-	fmt.Println("\U000065e5\U0000672c\U00008a9e")
-	fmt.Println("\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e")
+	// fmt.Println("日本語")
+	// fmt.Println(`日本語`)
+	// fmt.Println("\u65e5\u672c\u8a9e")
+	// fmt.Println("\U000065e5\U0000672c\U00008a9e")
+	// fmt.Println("\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e")
+
+	fmt.Printf("math.Phi: %v.\n", math.Phi)
+	fmt.Printf("math.Sqrt(3): %v.\n", math.Sqrt(3))
 }
