@@ -44,20 +44,20 @@ func main() {
 
 	plotVar := plot.New()
 
-	plotVar.Title.Text = "Masa ciala"
+	plotVar.Title.Text = "Test robienia wykresow"
 
 	plotVar.X.Label.Text = "Czas"
 	plotVar.Y.Label.Text = "Masa [kg]"
 
 	err := plotutil.AddLinePoints(plotVar,
-		"Wykres masy ciala", pointsForPlot)
+		"Test robienia wykresow", pointsForPlot)
 
 	if err != nil {
 		panic(err)
 	}
 
 	if err := plotVar.Save(7*vg.Inch, 7*vg.Inch,
-		"BodyMass.png"); err != nil {
+		"TestPlot.png"); err != nil {
 		panic(err)
 	}
 }

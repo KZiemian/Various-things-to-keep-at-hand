@@ -1,10 +1,6 @@
 Zbigniew Semadeni, Antoni Wiweger „Wstęp do teorii kategorii i funktorów”
 
-Przypomina mi się co przeczytałem w książce do algebry liniowej o teorii kategorii. Używano jej tam by zdefiniować iloczyn tensorowy.
 
-„Będziemy rozważać klasę wszystkich zbiorów, w tym sensie, że wszystkie zbiory które nas interesują, będą elementami tej klasy.”
-
-Spryciarze z tych matematyków, spryciarze. Tak obchodzić wszystkie problem z teorią mnogości.
 
 
 Thomas H. Cormen, Charles E. Leierson, Ronald L. Rivest, Clifford Stein „Wprowadzenie do algorytmów”
