@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	// "math"
 )
 
 func main() {
@@ -41,10 +41,37 @@ func main() {
 	// fmt.Printf("math.SqrtPi:  %v.\n", math.SqrtPi)
 	// fmt.Printf("math.SqrtPhi: %v.\n", math.SqrtPhi)
 
-	fmt.Printf("math.Ln2:    %v.\n", math.Ln2)
-	fmt.Printf("math.Log2E:  %v.\n", math.Log2E)
-	fmt.Printf("math.Ln10:   %v.\n", math.Ln10)
-	fmt.Printf("math.Log10E: %v.\n", math.Log10E)
+	// fmt.Printf("math.Ln2:    %v.\n", math.Ln2)
+	// fmt.Printf("math.Log2E:  %v.\n", math.Log2E)
+	// fmt.Printf("math.Ln10:   %v.\n", math.Ln10)
+	// fmt.Printf("math.Log10E: %v.\n", math.Log10E)
+
+	// fmt.Printf("math.Sqrt(5):  %v.\n", math.Sqrt(5))
+	// fmt.Printf("math.Sqrt(6):  %v.\n", math.Sqrt(6))
+	// fmt.Printf("math.Sqrt(7):  %v.\n", math.Sqrt(7))
+	// fmt.Printf("math.Sqrt(8):  %v.\n", math.Sqrt(8))
+	// fmt.Printf("math.Sqrt(10): %v.\n", math.Sqrt(10))
+
+	// fmt.Printf("2.44_94_89_74_27 * 2.44_94_89_74_27: %v.\n",
+	// 	2.44_94_89_74_27 * 2.44_94_89_74_27)
+	// fmt.Printf("2.64_57_51_31_10 * 2.64_57_51_31_10: %v.\n",
+	// 	2.64_57_51_31_10 * 2.64_57_51_31_10)
+	// fmt.Printf("2.82_84_27_12_47 * 2.82_84_27_12_47: %v.\n",
+	// 	2.82_84_27_12_47 * 2.82_84_27_12_47)
+	// fmt.Printf("3.16_22_77_66_01 * 3.16_22_77_66_01: %v.\n",
+	// 	3.16_22_77_66_01 * 3.16_22_77_66_01)
+
+	// a := 0
+	// b := 1
+
+	// fmt.Printf("F_0: %v.\n", a)
+	// fmt.Printf("F_1: %v.\n", b)
+
+	// for i := 2; i < 21; i++ {
+	// 	a, b = b, a + b
+
+	// 	fmt.Printf("F_%v: %v.\n", i, b)
+	// }
 }
 
 // func calculateArithmetic(a, b int) (int, int, int, int) {

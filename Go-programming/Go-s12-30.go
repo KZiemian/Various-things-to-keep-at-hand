@@ -56,3 +56,45 @@ type T5[P T4[P]] ...                   //          T5 refers to T4
 
 type T6[P int] struct{ f *T6[P] }      // ok: reference to T6 is not in type
 // parameter list
+
+TypeDef = identifier [ TypeParmeters ] Type .
+
+type (
+	Point struct{ x, y float64 }
+	polar Point
+)
+
+type TreeNode struct{
+	left, right *TreeNode
+	value any
+}
+
+type Block interface {
+	BlockSize() int
+	Encrypt(src, dst []byte)
+	Decrypt(src, dst []byte)
+}
+
+type Mutex struct { /* Mutex fields */ }
+
+func (m *Mutex) Lock() { /* Lock implementation */ }
+func (m *Mutex) Unlock() { /* Unlock implementation */ }
+
+type NewMutex Mutex
+
+type PtrMutex *Mutex
+
+type PrintableMutex struct {
+	Mutex
+}
+
+type MyBlock Block
+
+type TimeZone int
+
+const (
+	EST TimeZone = -(5 + iota)
+	CST
+	MST
+	PST
+)
