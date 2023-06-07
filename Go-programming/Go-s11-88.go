@@ -82,3 +82,20 @@ func main() {
 
 // 	return s, d, p, q
 // }
+
+MethodExpr = ReceiverType "." MethodName .
+ReceiverType = Type .
+
+type T struct {
+	a int
+}
+
+func (tv T) Mv(a int) int {
+	return 0
+}
+
+func (tp *T) Mp(f float32) float32 {
+	return 1
+}
+
+var t T

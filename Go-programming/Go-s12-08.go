@@ -14,4 +14,6 @@ func main() {
 
 	// 	fmt.Printf("%v wyrazy szeregu: %v.\n", i + 1, eApprox)
 	// }
+
+
 }
