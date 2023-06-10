@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	// eApprox := 2.0
@@ -15,5 +18,5 @@ func main() {
 	// 	fmt.Printf("%v wyrazy szeregu: %v.\n", i + 1, eApprox)
 	// }
 
-
+	fmt.Printf("math.Pow(2, 3): %v.\n", math.Pow(2, 3))
 }
