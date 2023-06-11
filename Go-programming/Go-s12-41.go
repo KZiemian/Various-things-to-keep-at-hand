@@ -61,3 +61,41 @@ func dotProduct[F ~float32 | ~float64](v1, v2 []F) F {
 
 	return s
 }
+
+r = x*y + z
+r = z; r += x*y
+t = x*y; r = t + z
+*p = x*y; r = *p + z
+r = x*y + float64(z)
+
+r = float64(x*y) + z
+r = z; r += float64(x*y)
+t = float64(x*y); r = t + z
+
+s := "hi" + string(c)
+s += " and good bye"
+
+const c = 3 < 4
+
+type MyBool bool
+var x, y int
+
+var (
+	b3        = x == y
+	b4 bool   = x == y
+	b4 MyBool = x == y
+)
+
+&&
+||
+!
+
+&x
+&a[f(2)]
+&Point{2, 3}
+*p
+*pf(x)
+
+var x *int = nil
+// *x
+// &*x
