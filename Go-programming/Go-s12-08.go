@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	// "math"
 )
 
 func main() {
@@ -18,5 +18,16 @@ func main() {
 	// 	fmt.Printf("%v wyrazy szeregu: %v.\n", i + 1, eApprox)
 	// }
 
-	fmt.Printf("math.Pow(2, 3): %v.\n", math.Pow(2, 3))
+	// fmt.Printf("math.Pow(2, 3): %v.\n", math.Pow(2, 3))
+
+	// fmt.Printf("5 / 3 = %v.\n", 5/3)
+	// fmt.Printf("5 %% 3 = %v.\n", 5%3)
+	// fmt.Printf("-5 / 3 = %v.\n", -5/3)
+	// fmt.Printf("-5 %% 3 = %v.\n", -5%3)
+	// fmt.Printf("5 / -3 = %v.\n", 5/-3)
+	// fmt.Printf("5 %% -3 = %v.\n", 5 % -3)
+	// fmt.Printf("-5 / -3 = %v.\n", -5/-3)
+	// fmt.Printf("-5 %% -3 = %v.\n", -5%-3)
+
+	// fmt.Printf("1 / 0 = %v.\n", 1/0)
 }
