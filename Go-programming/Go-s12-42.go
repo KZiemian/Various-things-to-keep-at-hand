@@ -50,3 +50,14 @@ var data *struct {
 }
 
 var person = (*Person)(data)
+
+string([]byte{})
+string([]byte(nil))
+
+// []byte("hell")  // []byte{'h', 'e', 'l', 'l', '\xc3', '\xb8'}
+// []byte("") // []byte{}
+
+bytes("hell")  // []byte{'h', 'e', 'l', 'l', '\xc3', '\xb8'}
+
+[]myByte("world!") // []myByte{'w', 'o', 'r', 'l', 'd', '!'}
+[]myByte(myString("???")) // []myByte{'\xf0', '\x9f', '\x8c', '\x8f'}

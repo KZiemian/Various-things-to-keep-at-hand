@@ -5,6 +5,12 @@ import (
 	// "math"
 )
 
+// type myString string
+
+// type bytes []byte
+
+// type myByte byte
+
 func main() {
 	// eApprox := 2.0
 	// seriesTerm := 1.0
@@ -58,10 +64,38 @@ func main() {
 
 	// fmt.Printf("strVar: %v.\n", strVar)
 
-	var intVar int = 1
-	var uintVar uint = 1
+	// var intVar int = 1
+	// var uintVar uint = 1
 
-	uintVar = intVar
+	// uintVar = intVar
 
-	fmt.Printf("uintVar: %v.\n", uintVar)
+	// fmt.Printf("uintVar: %v.\n", uintVar)
+
+	// strVar := string('a')
+
+	// fmt.Printf("string('a'): %v.\n", string('a'))
+	// // fmt.Printf("string(-1): %v.\n", string(-1))
+	// fmt.Printf("string(0xf8): %v.\n", string(0xf8))
+
+	// fmt.Printf("myString(0x65e5): %v.\n", myString(0x65e5))
+
+	// strVar := string([]byte{'h', 'e', 'l', 'l', '\xc3', '\xb8'})
+
+	// fmt.Printf("strVar: %v.\n", strVar)
+
+	// varOne := string(bytes{'h', 'e', 'l', 'l', '\xc3', '\xb8'})
+
+	// fmt.Printf("varOne: %v.\n", varOne)
+
+	// strVarOne := string([]myByte{'w', 'o', 'r', 'l', 'd', '!'})
+
+	// fmt.Printf("strVarOne: %v.\n", strVarOne)
+
+	// strVarOne := myString([]myByte{'\xf0', '\x9f', '\x8c', '\x8d'})
+
+	// fmt.Printf("strVarOne: %v.\n", strVarOne)
+
+	strVarOne := string([]rune{0x767d, 0x9d6c, 0x7fd4})
+
+	fmt.Printf("strVarOne: %v.\n", strVarOne)
 }

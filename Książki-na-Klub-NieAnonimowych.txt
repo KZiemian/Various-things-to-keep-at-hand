@@ -1,3 +1,14 @@
+Michał Heller, Józef Życiński „Wszechświat i filozofia”
+
+
+Rawita Franciszek Gawroński „Bohdan Chmielnicki. Tom I: Do elekcji Jana Kazimierza”
+
+Czy to jest dobra lektura na wakacje? Zastanawiam się, czy wziąć ją czy coś innego.
+
+Przy okazji, zastanawiam się, ile już różnych książek wrzuciłem na naszą grupę? Pewnie ponad 100, ale kto by tam liczył?
+
+
+
 Zbigniew Semadeni, Antoni Wiweger „Wstęp do teorii kategorii i funktorów”
 
 
@@ -8,26 +19,18 @@ Jacques Maritain „Nauka i mądrość”
 Piotr Bąk „Gramatyka języka polskiego”
 
 
-Julian Schwinger „Quantum kinematics and dynamics”
-
-Mam nadzieję, że kiedyś będę mógł przestudiować dokładnie tę książkę.
-
-
 
 Thomas H. Cormen, Charles E. Leierson, Ronald L. Rivest, Clifford Stein „Wprowadzenie do algorytmów”
 
 
 
+Endo Shusaku „Kobieta, którą porzuciłem”
 
 
-
-Murray Newton Rothbard „Złoto, banki, ludzie. Krótka historia pieniądza”
 
 
 
 Niall Ferguson „Niebezpieczne związki. Pieniądze i władza w świecie nowożytnym 1700-2000”
-
-#nauka #LaTeX #GitHub
 
 
 
@@ -38,16 +41,13 @@ Władysław Tatarkiewcz „O szczęściu”
 
 
 
-Autor nieznany „Sakuteiki. Zapiski o zakładaniu ogrodów”
-
-
-
-
 Red. A.P. Juszkiewicz „Historia matematyki. Tom III: Matematyka XVIII stulecia”
 
 
 
+
 Wit Szostak „Chochoły”
+
 
 
 Wacław Sierpiński „200 zadań z elementarnej teorii liczb”
@@ -72,9 +72,9 @@ Wojciech Wojtyński „Grupy i algebry Liego”
 Henryk Jerzy Chmielewski „Tytus Romek i A'Tomek. Księga IV”
 
 
+Dobiesław Bobrowski „Wstęp do losowych równań różniczkowych zwyczajnych”
 
-
-
+Moja wiedza o podstawowych równaniach różniczkowych zwyczajnych jest przerażająco mała, a co dopiero o losowej odmianie tych równań.
 
 
 Gottlob Frege „Pisma semantyczne”
