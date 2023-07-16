@@ -1,11 +1,38 @@
+Naoki Urasawa „Chłopcy z dwudziestego wieku. Tom ”
+
+
+
+
+
+Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
+
+
+
+
+
+
+#AQFT
+
+
+
+W.I. Arnold „Równania różniczkowe zwyczajne”
+
+
+
+Ola Bratteli, Derek W. Robinson „Operator Algebras and Quantum Statistical Mechanics 1. C*- and W*-Algebras, Symmetyr Groups, Decomposition of States”
+
+
+
+
+
+
+
 Michał Heller, Józef Życiński „Wszechświat i filozofia”
 
 
 Rawita Franciszek Gawroński „Bohdan Chmielnicki. Tom I: Do elekcji Jana Kazimierza”
 
-Czy to jest dobra lektura na wakacje? Zastanawiam się, czy wziąć ją czy coś innego.
 
-Przy okazji, zastanawiam się, ile już różnych książek wrzuciłem na naszą grupę? Pewnie ponad 100, ale kto by tam liczył?
 
 
 
@@ -24,9 +51,6 @@ Thomas H. Cormen, Charles E. Leierson, Ronald L. Rivest, Clifford Stein „Wprow
 
 
 
-Endo Shusaku „Kobieta, którą porzuciłem”
-
-
 
 
 
@@ -42,6 +66,10 @@ Władysław Tatarkiewcz „O szczęściu”
 
 
 Red. A.P. Juszkiewicz „Historia matematyki. Tom III: Matematyka XVIII stulecia”
+
+
+
+Body Dylan „Duszny kraj. Wybór utwory z lat 1962-2012”
 
 
 
@@ -90,9 +118,6 @@ W obecnej sytuacji warto poznać dzieje Ukrainy ostatnich 30 lat. Nie wiem czy t
 
 
 
-Roman Husarski „Kraj niespokojnego poranka. Pamięć i bunt w Korei Południowej”
-
-Choć rozdział o
 
 
 
@@ -122,8 +147,6 @@ Znalazłem w tej książce informację, że „kompilator C++ jest na tyle intel
 Jerzy Grębosz „Symfonia C++. Programowanie w języku C++ orientowane obiektowo. Tom II”
 
 
-
-Gene Wolfe, „Cień kata. Tom pierwszy Księgi Nowego Słońca”
 
 
 
@@ -159,6 +182,8 @@ Andrzej Grzegorczyk „Zarys logiki matematycznej”
 
 
 Stanisław Lem „Niezwyciężony”
+
+Nie znoszę
 
 
 

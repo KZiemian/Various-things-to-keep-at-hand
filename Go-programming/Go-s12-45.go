@@ -46,4 +46,13 @@ func main() {
 
 	fmt.Printf("math.Exp(0.0) = %v.\n", math.Exp(0.0))
 	fmt.Printf("math.Exp(1.0) = %v.\n", math.Exp(1.0))
+	fmt.Printf("math.Exp(2.0) = %v.\n", math.Exp(2.0))
+	fmt.Printf("math.Exp(3.0) = %v.\n", math.Exp(3.0))
+	fmt.Printf("math.Exp(4.0) = %v.\n", math.Exp(4.0))
+	fmt.Printf("math.Exp(5.0) = %v.\n", math.Exp(5.0))
+	fmt.Printf("math.Exp(6.0) = %v.\n", math.Exp(6.0))
+	fmt.Printf("math.Exp(7.0) = %v.\n", math.Exp(7.0))
+	fmt.Printf("math.Exp(8.0) = %v.\n", math.Exp(8.0))
+	fmt.Printf("math.Exp(9.0) = %v.\n", math.Exp(9.0))
+	fmt.Printf("math.Exp(10.0) = %v.\n", math.Exp(10.0))
 }
