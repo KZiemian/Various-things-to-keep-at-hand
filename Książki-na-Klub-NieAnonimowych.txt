@@ -1,10 +1,17 @@
-Naoki Urasawa „Chłopcy z dwudziestego wieku. Tom ”
-
+Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom IV”
 
 
 
 
 Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
+
+
+
+
+Don DeLillo „Zero K”
+
+
+
 
 
 
@@ -15,7 +22,6 @@ Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
 
 
 
-W.I. Arnold „Równania różniczkowe zwyczajne”
 
 
 
@@ -28,6 +34,8 @@ Ola Bratteli, Derek W. Robinson „Operator Algebras and Quantum Statistical Mec
 
 
 Michał Heller, Józef Życiński „Wszechświat i filozofia”
+
+Józef Życiński miał jakąś obsesję na punkcie metodologii.
 
 
 Rawita Franciszek Gawroński „Bohdan Chmielnicki. Tom I: Do elekcji Jana Kazimierza”
@@ -50,7 +58,11 @@ Piotr Bąk „Gramatyka języka polskiego”
 Thomas H. Cormen, Charles E. Leierson, Ronald L. Rivest, Clifford Stein „Wprowadzenie do algorytmów”
 
 
+N.M. Matwiejew „Metody całkowania równań różniczkowych zwyczajnych”
 
+Pomimo wielu obowiązków, nie mogę zostawić tej książki w spokoju. Właśnie spędziłem, jak zwykle, znacznie więcej czasu niż podejrzewałem na studiowaniu przedstawionego na stronie 19 bardzo prostego równania y'(x) = y( x ) / x. Co rusz dostrzegałem, że jakiś element formalizmu można jeszcze bardziej doprecyzować, że pojęcie izoklin można w wypadku tego równania rozumieć na dwa sposoby: że są to proste przechodzące przez środek układu współrzędnych, lub tylko półproste zaczynające się w tymże punkcie, etc.
+
+I wciąż męczy mnie taki problem: na jakiej dziedzinie powinno być określone rozwiązanie równania różniczkowego zwyczajnego? Najprostszym wyborem jest odcinek otwarty (a, b), ale czy to jest wystarczające w przypadkach wszystkich ważnych równań? Jak wiadomo równanie y'(x) = y(x)^2 ma rozwiązania postaci y(x) = 1/(x + C), czyli zawsze z dziedziny rozwiązania wypada punkt x = -C.
 
 
 
@@ -61,6 +73,13 @@ Niall Ferguson „Niebezpieczne związki. Pieniądze i władza w świecie nowoż
 
 
 Władysław Tatarkiewcz „O szczęściu”
+
+
+
+Poniżej fragment z książki Brattelego i Robinsona „Operators algebras and quantum statistical mechanics. Vol I”.
+
+Może ktoś z was lepiej to rozumie, będę wdzięczny za pomoc.
+
 
 
 
@@ -100,20 +119,14 @@ Wojciech Wojtyński „Grupy i algebry Liego”
 Henryk Jerzy Chmielewski „Tytus Romek i A'Tomek. Księga IV”
 
 
-Dobiesław Bobrowski „Wstęp do losowych równań różniczkowych zwyczajnych”
 
-Moja wiedza o podstawowych równaniach różniczkowych zwyczajnych jest przerażająco mała, a co dopiero o losowej odmianie tych równań.
+
+
 
 
 Gottlob Frege „Pisma semantyczne”
 
 
-
-
-
-Natalia Bryżko-Zapór „Ja tu zostaję. Fenomen Wołodymyra Zełeńskiego”
-
-W obecnej sytuacji warto poznać dzieje Ukrainy ostatnich 30 lat. Nie wiem czy ta książka to dobry wybór w tej kwestii, na pewno jej lektura mi nie zaszkodzi.
 
 
 
@@ -205,4 +218,12 @@ Robin Dunbar „Nowa historia ewolucji człowieka”
 
 
 
-Julian Schwinger „Quantum kinematics and dynamics”
+
+
+
+
+
+
+
+
+DEUS: 104,

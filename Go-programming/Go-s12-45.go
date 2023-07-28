@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	// "math"
 )
 
 func main() {
@@ -44,15 +44,31 @@ func main() {
 	// fmt.Printf("math.Sin(2.5): %v.\n", math.Sin(2.5))
 	// fmt.Printf("math.Sin(3.0): %v.\n", math.Sin(3.0))
 
-	fmt.Printf("math.Exp(0.0) = %v.\n", math.Exp(0.0))
-	fmt.Printf("math.Exp(1.0) = %v.\n", math.Exp(1.0))
-	fmt.Printf("math.Exp(2.0) = %v.\n", math.Exp(2.0))
-	fmt.Printf("math.Exp(3.0) = %v.\n", math.Exp(3.0))
-	fmt.Printf("math.Exp(4.0) = %v.\n", math.Exp(4.0))
-	fmt.Printf("math.Exp(5.0) = %v.\n", math.Exp(5.0))
-	fmt.Printf("math.Exp(6.0) = %v.\n", math.Exp(6.0))
-	fmt.Printf("math.Exp(7.0) = %v.\n", math.Exp(7.0))
-	fmt.Printf("math.Exp(8.0) = %v.\n", math.Exp(8.0))
-	fmt.Printf("math.Exp(9.0) = %v.\n", math.Exp(9.0))
-	fmt.Printf("math.Exp(10.0) = %v.\n", math.Exp(10.0))
+	// fmt.Printf("math.Exp(0.0) = %v.\n", math.Exp(0.0))
+	// fmt.Printf("math.Exp(1.0) = %v.\n", math.Exp(1.0))
+	// fmt.Printf("math.Exp(2.0) = %v.\n", math.Exp(2.0))
+	// fmt.Printf("math.Exp(3.0) = %v.\n", math.Exp(3.0))
+	// fmt.Printf("math.Exp(4.0) = %v.\n", math.Exp(4.0))
+	// fmt.Printf("math.Exp(5.0) = %v.\n", math.Exp(5.0))
+	// fmt.Printf("math.Exp(6.0) = %v.\n", math.Exp(6.0))
+	// fmt.Printf("math.Exp(7.0) = %v.\n", math.Exp(7.0))
+	// fmt.Printf("math.Exp(8.0) = %v.\n", math.Exp(8.0))
+	// fmt.Printf("math.Exp(9.0) = %v.\n", math.Exp(9.0))
+	// fmt.Printf("math.Exp(10.0) = %v.\n", math.Exp(10.0))
+
+	// fmt.Printf("\n")
+
+	// fmt.Printf("math.Pow(10, 0.3010299956) = %v.\n",
+	// 	math.Pow(10, 0.3010299956))
+
+	// fmt.Printf("T_eff = %v * 10^3 K.\n",
+	// 	6.62607 * 2.99792 / (1.3806 * 4 * math.Pi))
+
+	// fmt.Printf("300.0 / 1144.0 = %v.\n", 300.0 / 1144.0)
+
+	// fmt.Printf("math.Pow(0.2622377, 4) / 3.0 = %v.\n",
+	// 	math.Pow(0.2622377, 4) / 3.0)
+
+	// fmt.Printf("math.Pow(0.2622, 4) / 3.0 = %v.\n",
+	// 	math.Pow(0.2622, 4) / 3.0)
 }

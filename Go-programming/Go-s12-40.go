@@ -53,3 +53,50 @@ t2 := (*[1]string)(t)  // panics: len([1]string) > len(t)
 u := make([]byte, 0)
 
 u0 := (*[0]byte)(u) // u0 != nil
+
+Statement =
+	Declaration | LabeledStmt | SimpleStmt |
+		GoStmt | ReturnStmt | BreakStmt | ContinueStmt | GotoStmt |
+		FallthroughStmt | Block | IfStmt | SwitchStmt | SelectStmt |
+		ForStmt | DeferStmt .
+
+SimpleStmt = EmptyStmt | ExpressionStmt | SendStmt | IncDecStmt | Assigment | ShortVarDecl .
+
+EmptyStmt = .
+
+LabeledStmt = Label ":" Statement .
+Label = identifier .
+
+ExpressionStmt = Expression .
+
+append cap complex imag len make new real
+unsafe.Add unsafe.Alignof unsafe.Offsetof unsafe.Sizeof unsafe.Slice
+
+h(x + y)
+f.Close()
+<-ch
+(<-ch)
+len("foo")
+
+SendStmt = Channel "<-" Expression .
+Channel = Expression .
+
+ch <- 3
+
+IncDecStmt = Expression ( "++" | "--" ) .
+
+x++
+x += 1
+x--
+x -= 1
+
+Assigment = ExpressionList assign_op ExpressionList .
+assign_op = [ add_op | mul_op ]	"=" .
+
+x = 1
+*p = f()
+a[i] = 23
+(k) = <-ch
+
+a[i] <<= 2
+i &^= 1<<n

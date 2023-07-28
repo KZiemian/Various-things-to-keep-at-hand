@@ -62,10 +62,22 @@ Okay, even if I don't like it, I need to write about your children. "As I shared
 This is why I'm totally not impressed by what your children do now. When they will be 20 years old, yes, I may be impressed. But, you should know, that when it comes to religion, making me impressed is something that happens very rarely. I just have decent standards for being good Christians and very few people achieve them, myself included.
 To repeat myself. I hope that I did everything that I could, to make you go beyond the veil of your ideology. I failed. Maybe you will encounter someone wiser than me, that will convince you that you live under a veil that covers for you the real world. But, after seeing your ability to explain to yourself harsh reality, I wonder, what needs to happen to change your basic outlook? Which for me is contrary to Christianity, which in its ortodox form, teaches that we need to see reality as it is at a given time? Maybe your private world needs to start crumbling to make you reconsider your basic assumptions.? Like your parish church being closed (it is so hideous, that I will be glad at some level, if they destroy this architectural sin), new priest will start saying things so contrary to the Church teaching, like fornication is good and desired by God and divorce is an act of mercy, or you son deciding to embrace gay life and sex with other man?
 
-I don't wish anybody to embrace sodomite life style, but I cannot exclude that one of your sons will make this terrible choice. There only small probability that mass promotion of it will be crushed in the next five years and history know example of solid father having very deviant children. Like Alan Keyes and his daughter Maya Marcel-Keyes. This is complicated topic, but this mail is already to long.
-https://en.wikipedia.org/wiki/Alan_Keyes
-https://en.wikipedia.org/wiki/Maya_Marcel-Keyes
+Hello,
 
-To protect my good name, I must say that I go on holiday 1 July and come back around 9 July. During this time I may not be able to reply to you.
+After a long break, I go back to reading Go Spec.
 
-I attached example of blasphemy that I encounter today. It is everywhere.
+In the section "Expression statements" we read that "The following built-in functions are not permitted in statement context:
+
+append cap complex imag len make new real
+unsafe.Add unsafe.Alignof unsafe.Offsetof unsafe.Sizeof unsafe.Slice
+
+h(x+y)
+f.Close()
+<-ch
+(<-ch)
+len("foo")  // illegal if len is the built-in function"
+
+Are things following "h(x+y)" also forbidden in the statement context? This part of spec isn't specially clear in my opinion.
+
+Best regards,
+Kamil
