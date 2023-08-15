@@ -1,4 +1,6 @@
-Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom IV”
+Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom V”
+
+
 
 
 
@@ -15,6 +17,7 @@ Don DeLillo „Zero K”
 
 
 
+Cay Horstmann „Wprowadzenie do C++. Efektywne nauczanie”
 
 
 
@@ -36,6 +39,9 @@ Ola Bratteli, Derek W. Robinson „Operator Algebras and Quantum Statistical Mec
 Michał Heller, Józef Życiński „Wszechświat i filozofia”
 
 Józef Życiński miał jakąś obsesję na punkcie metodologii.
+
+
+
 
 
 Rawita Franciszek Gawroński „Bohdan Chmielnicki. Tom I: Do elekcji Jana Kazimierza”
@@ -85,6 +91,8 @@ Może ktoś z was lepiej to rozumie, będę wdzięczny za pomoc.
 
 
 Red. A.P. Juszkiewicz „Historia matematyki. Tom III: Matematyka XVIII stulecia”
+
+W tym tomie jest mowa o tym, jak Lagrange „udowodnił” fascynujące twierdzenia. Wykazał bowiem, że poza funkcją f(x) = 0, nie istnieje funkcja klasy C-nieskończoność, taka że istnieje dla niej punkt x w którym f(x) = 0, f'(x) = 0, f''(x) = 0 i tak dla wszystkich pochodnych. Parę dekad później Cauchy pokazał, że taką funkcją jest f(0) = 0 i f(x) = e^(-1/x^2) w przeciwny wypadku, której wartość i wszystkie pochodne znikają w x = 0.
 
 
 
