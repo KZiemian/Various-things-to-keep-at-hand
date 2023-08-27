@@ -5,6 +5,7 @@ Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom V”
 
 
 
+
 Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
 
 
@@ -38,7 +39,9 @@ Ola Bratteli, Derek W. Robinson „Operator Algebras and Quantum Statistical Mec
 
 Michał Heller, Józef Życiński „Wszechświat i filozofia”
 
-Józef Życiński miał jakąś obsesję na punkcie metodologii.
+
+
+
 
 
 
@@ -66,9 +69,6 @@ Thomas H. Cormen, Charles E. Leierson, Ronald L. Rivest, Clifford Stein „Wprow
 
 N.M. Matwiejew „Metody całkowania równań różniczkowych zwyczajnych”
 
-Pomimo wielu obowiązków, nie mogę zostawić tej książki w spokoju. Właśnie spędziłem, jak zwykle, znacznie więcej czasu niż podejrzewałem na studiowaniu przedstawionego na stronie 19 bardzo prostego równania y'(x) = y( x ) / x. Co rusz dostrzegałem, że jakiś element formalizmu można jeszcze bardziej doprecyzować, że pojęcie izoklin można w wypadku tego równania rozumieć na dwa sposoby: że są to proste przechodzące przez środek układu współrzędnych, lub tylko półproste zaczynające się w tymże punkcie, etc.
-
-I wciąż męczy mnie taki problem: na jakiej dziedzinie powinno być określone rozwiązanie równania różniczkowego zwyczajnego? Najprostszym wyborem jest odcinek otwarty (a, b), ale czy to jest wystarczające w przypadkach wszystkich ważnych równań? Jak wiadomo równanie y'(x) = y(x)^2 ma rozwiązania postaci y(x) = 1/(x + C), czyli zawsze z dziedziny rozwiązania wypada punkt x = -C.
 
 
 
@@ -223,15 +223,3 @@ Maria Wilczek-Krupa „Poetyka muzyki filmowej Wojciech Kilara”
 
 
 Robin Dunbar „Nowa historia ewolucji człowieka”
-
-
-
-
-
-
-
-
-
-
-
-DEUS: 104,

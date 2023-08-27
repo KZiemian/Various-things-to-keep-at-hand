@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	// "math"
+	"math"
 )
 
 func main() {
@@ -73,7 +73,13 @@ func main() {
 	// 	math.Pow(0.2622, 4) / 3.0)
 
 	// fmt.Printf("1.0/137: %v.\n", 1.0/137)
-	fmt.Printf("25 / 0.0254: %v.\n", 25 / 0.0254)
+	// fmt.Printf("25 / 0.0254: %v.\n", 25 / 0.0254)
 
-	fmt.Printf("6350 * 0.0254: %v.\n", 6350 * 0.0254)
+	// fmt.Printf("6350 * 0.0254: %v.\n", 6350 * 0.0254)
+
+	fmt.Printf("1 / math.E = %v.\n", 1 / math.E)
+
+	fmt.Printf("1 / (math.E * math.E) = %v.\n", 1 / (math.E * math.E))
+
+	fmt.Printf("7 * 33 = %v.\n", 7 * 33)
 }
