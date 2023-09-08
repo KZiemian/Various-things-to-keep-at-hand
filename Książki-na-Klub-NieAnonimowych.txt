@@ -1,9 +1,32 @@
+Nazwy plików PDF.
+Silnie_skorelowane_elektrony_r_2012_zestaw_01.pdf
+Teoretyczne_podstawy_informatyki_r_2012_zestaw_01
+Calki_po_trajektoriach_2013_wyk_01
+Calki_po_trajektoriach_2013_zestaw_01
+Statystyczna_teoria_pola_zestaw_00
+Wstep_do_teorii_pola_01
+
+
+„Sauroniops (gr. „oko Saurona”)... Nazwa rodzajowa Sauroniops nawiązuje do faktu, że jedyną pozostałością po tym dinozaurze jest pojedyncza kość, która za życia zwierzęcia znajdowała się nad jego okiem. Autorom jego opisu nasunęło to skojarzenie z Sauronem manifestującym swą obecność jako Oko.”
+
+https://pl.wikipedia.org/wiki/Sauroniops
+
+
 Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom V”
 
 
+Michał Lubina „Pani Birmy Aung San Suu Kyi. Biografia polityczna”
 
 
 
+
+Herman Weyl „Symetria”
+
+Ta mała książeczka, zapis wygłoszonych pod koniec życia wykładów tego niewiarygodnie wybitnego matematyka, jest pełnym czaru i uroku wprowadzeniem w problem symetrii i matematyczną teorię grup. Omawiając przykłady początkowo ze sztuki, potem z świata przyrody i teorii naukowych, prowadzi czytelnika przez różnorakie pojęcia słowa „symetria” powoli rozwijając odpowiednie pojęcia matematyczne.
+
+Weyl ujął cel książki tak pięknie, że nie pozostaje nic innego, jak przytoczyć jego słowa.
+„Postępowanie takie jest
+(Str. 12.)
 
 
 Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
@@ -12,6 +35,10 @@ Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
 
 
 Don DeLillo „Zero K”
+
+
+
+William Faulkner „Światłość w sierpniu”
 
 
 
@@ -38,6 +65,20 @@ Ola Bratteli, Derek W. Robinson „Operator Algebras and Quantum Statistical Mec
 
 
 Michał Heller, Józef Życiński „Wszechświat i filozofia”
+
+Rozdział „Wypisy z Whiteheada” dotyczący filozofii Alfreda Northa Whiteheada najlepiej chyba podsumują dwa cytaty.
+
+„>>Wspólną cechą zarówno przestrzeni, jak i czasu jest to, że o kawałku materii można powiedzieć, iż jest on TUTAJ w przestrzeni i TUTAJ w czasie, czyli TUTAJ w czasoprzestrzeni<<. Cechę tę Whitehead nazywa założeniem „prostego umiejscowienia” (simple location) i uważa, że wywierało ono przemożny wpływ -- przeważnie z ukrycia, jako nieuświadomiony postulat -- na prawie wszystkie obszary myślenia w ciągu całego okresu rozwoju nauki.” Str. 153.
+
+„W postulacie zrezygnowania z założenia prostego umiejscowienia można dopatrzeć się cech atrakcyjności. Współczesne teorie polowe nawet do pewnego stopnia postulat ten realizują: pole sięga w nieskończoność i >>jeden punk pola<< w konkretnym miejscu i określonej chwili, bez „reszty pola, istnieć nie może. Wydaje się jednak, że Whitehead domaga się czegoś znacznie więcej. Teoria „urzeczywistniająca” program Whiteheada powinna być fundamentalną teorią fizyczno-kosmologiczną, której >>pierwotnymi terminami<< mają być relacje, a nie obiekty, pomiędzy którym te relacje zachodzą. Obiekty winno się definiować wyłącznie przy pomocy relacji. Takiej teorii współczesna fizyka nie zna. Co najwyżej, w matematycznej teorii kategorii można by się dopatrzeć początku języka, którym przyszła Whiteheadowska teoria będzie się mogła wyrazić.” Str. 156.
+
+Wiem coś o teorii kategorii (matematyka) i teorii pola (fizyka), ale nie mam pojęcia o czym Michał Heller pisze. Mam wrażenie, że on też tego nie pojmował. Proszę to uznać za moją recenzję tego rozdziału.
+
+KONIEC III
+
+
+Str. 176, 177, 181,
+
 
 
 
@@ -97,6 +138,8 @@ W tym tomie jest mowa o tym, jak Lagrange „udowodnił” fascynujące twierdze
 
 
 Body Dylan „Duszny kraj. Wybór utwory z lat 1962-2012”
+
+
 
 
 
