@@ -5,11 +5,11 @@ Calki_po_trajektoriach_2013_wyk_01
 Calki_po_trajektoriach_2013_zestaw_01
 Statystyczna_teoria_pola_zestaw_00
 Wstep_do_teorii_pola_01
+Herdegen_Mechanika_kwantowa_01
+QFT_zestaw_01
 
+Wykład zaczyna się od omówienia kilku znanych twierdzeń, takich jak hipoteza Poincarego, ostatnie twierdzenie Fermat, czy twierdzenie o klasyfikacji skończonych grup prostych (dowód ma chyba 18 tys. stron i nie do końca wiadomo, czy ktoś naprawdę go zrozumiał), by pokazać jak głęboko sięgają korzenie, które pozwoliły je udowodnić. Potem dyskutuje pewne twierdzenia, które mają stosunkowo proste (?) dowody, a które posiadają według mówcy pewną szczególną głębię, a także ciekawą historię.
 
-„Sauroniops (gr. „oko Saurona”)... Nazwa rodzajowa Sauroniops nawiązuje do faktu, że jedyną pozostałością po tym dinozaurze jest pojedyncza kość, która za życia zwierzęcia znajdowała się nad jego okiem. Autorom jego opisu nasunęło to skojarzenie z Sauronem manifestującym swą obecność jako Oko.”
-
-https://pl.wikipedia.org/wiki/Sauroniops
 
 
 Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom V”
