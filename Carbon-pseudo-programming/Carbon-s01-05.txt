@@ -1,0 +1,113 @@
+interface Summary {
+    fn Summarize[me: Self]() -> String;
+}
+
+fn PrintSummary[T:! Summary](x: T) {
+    Console.Print(x.Summarize());
+}
+
+class NewsArticle {
+    impl as Summary {
+        fn Summarize[me: Self]() -> String {
+	   ...
+	}
+    }
+}
+
+fn SummarizeNews(n: NewsArticle) -> String {
+    PrintSummary(n);
+
+    return n.Summarize();
+}
+
+import OtherPackage;
+
+interface Summary {
+    fn Summarize[me: Self]() -> String;
+}
+
+fn PrintSummary[T:! Summary](x: T) {
+    Console.Print(x.Summarize());
+}
+
+package Geometry api;
+import Math;
+
+import Cpp library "circle.h"
+
+fn PrintArea(circles: Slice(Cpp.Circle)) {
+   var area: f32 = 0;
+
+   for (c: Cpp.Circle in circles) {
+       area += Math.Pi * c.r * c.r;
+   }
+
+   Print("Total area: {0}", area);
+}
+
+#include <vector>
+#include "circle.h"
+
+#include "geometry.carbon.h"
+
+auto main(int argc, char** argv) -> int {
+    std::vector<Circle> circles =
+    {{1.0}, {2.0}};
+
+    Geometry::PrintArea(circles);
+
+
+
+    return 0;
+}
+
+class Widget {
+    var x: i32;
+    var y: i32;
+    var payload: String;
+}
+
+var sprocket: Widget = {.x = 3, .y = 4, .payload = "Sproing"};
+sprocket = {.x = 2, .y = 1, .payload = "Bounce"};
+
+class Point {
+    fn Origin() -> Self {
+        return {.x = 0, .y = 0};
+    }
+
+    var x: i32;
+    var y: i32;
+}
+
+class Registered {
+    fn Make() -> Self {
+        returned var result: Self = {...};
+        StoreMyPointerSomewhere(&result);
+
+        return var;
+    }
+}
+
+class Point {
+    fn Distance[me: Self](x2: i32, y2: i32) -> f32 {
+        var dx: i32 = x2 - me.x;
+        var dy: i32 = y2 - me.y;
+
+        return Math.Sqrt(dx * dx + dy * dy);
+    }
+
+    fn Offset[addr me: Self*](dx: i32, dy: i32);
+
+    var x: i32;
+    var y: i32;
+}
+
+fn Point.Offset[addr me: Self*](dx: i32, dy: i32) {
+    me->x += dx;
+    me->y += dy;
+}
+
+var origin: Point = {.x = 0, .y = 0};
+Assert(Math.Abs(origin.Distance(3, 4) - 0.5) < 0.0001);
+origin.Offset(3, 4);
+Assert(origin.Distance(3, 4) == 0.0);

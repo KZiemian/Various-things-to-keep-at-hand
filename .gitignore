@@ -12,8 +12,24 @@
 # ingore Emacs backup files
 *~
 
+# ignore Emacs auxiliary files
+.#*
+
 # ignore auxiliary catalogs
 auto/
 
 # ignore Windows executable files
 *.exe
+
+# ignore excecutable produced by C or C++ compiler
+prog
+
+# ignore PNG files
+*.png
+
+
+
+
+
+# ignore specific file
+GoNum-issues.txt

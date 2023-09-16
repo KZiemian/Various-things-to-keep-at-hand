@@ -1,0 +1,105 @@
+choice IntResult {
+       Success(value: i32),
+       Failure(error: String),
+       Cancelled
+}
+
+fn ParseAsInt(s: String) -> IntResult {
+   var r: i32 = 0;
+
+   for (c: i32 in s) {
+       if (not IsDigit(c)) {
+       	  return .Failure("Invalid character");
+       }
+   }
+
+   return .Success(r);
+}
+
+match (ParseAsInt(s)) {
+      case .Success(value: i32) => {
+      	   return value;
+      }
+      case .Failure(error: String) => {
+      	   Display(error);
+      }
+      case .Cancelled => {
+      	   Terminate();
+      }
+}
+
+choice LikeABoolean { False, True }
+
+package Geometry library "Shapes" api;
+
+import LinearAlgebra library "Vector";
+
+import ArbitraryPrecision;
+
+package Geometry api;
+
+import Math;
+
+class Circle {
+      var r: f32;
+}
+
+fn ScaleAreaAndAppend(circle: Circle, log2_scale: i32,
+   results: Vector(f32)*) {
+   var area: f32 = Math.Pi * c.r * c.r;
+
+   let scale: i32 = 1 << log2_scale;
+
+   area *= scale;
+
+   results->append(area);
+}
+
+class NewsArticle {
+      fn Make(headline: String, body_html: String) -> NewsArticle;
+
+      fn AsHtml[me: Self]() -> String;
+
+      fn Publish[addr me: Self*]() {
+      	 me->published = DateTime.Now();
+      }
+
+      private var headline: String;
+      private var body_html: String;
+      private var published: Optional(DateTime);
+}
+
+fn MakePublishAndPrint(headline: String, body_html: String) {
+   var article: auto = NewsArticle.Make(headline, body_html);
+
+   article.Publish();
+
+   Print(article.AsHtml());
+}
+
+abstract class UIWidget {
+    abstract fn Draw[me: Self](s: Screen);
+    abstract fn Click[addr me: Self*](x: i32, y: i32);
+}
+
+base class Button extends UIWidget {
+    impl fn Draw[me: Self](s: Screen) {
+    	 ...
+    }
+
+    impl fn Click[addr me: Self*](x: i32, y: i32);
+
+    virtual fn MoveTo[addr me: Self*](x: i32, y: i32);
+}
+
+fn Button.Click[addr me: Self*](x: i32, y: i32) {
+   ...
+}
+
+fn Button.MoveTo[addr me: Self*](x: i32, y: i32) {
+   ...
+}
+
+class ImageButton extends Button {
+   ...
+}
