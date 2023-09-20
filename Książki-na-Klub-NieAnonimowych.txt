@@ -7,10 +7,17 @@ Statystyczna_teoria_pola_zestaw_00
 Wstep_do_teorii_pola_01
 Herdegen_Mechanika_kwantowa_01
 QFT_zestaw_01
+Mechanika_teoretyczna_zestaw_01
 
 Wykład zaczyna się od omówienia kilku znanych twierdzeń, takich jak hipoteza Poincarego, ostatnie twierdzenie Fermat, czy twierdzenie o klasyfikacji skończonych grup prostych (dowód ma chyba 18 tys. stron i nie do końca wiadomo, czy ktoś naprawdę go zrozumiał), by pokazać jak głęboko sięgają korzenie, które pozwoliły je udowodnić. Potem dyskutuje pewne twierdzenia, które mają stosunkowo proste (?) dowody, a które posiadają według mówcy pewną szczególną głębię, a także ciekawą historię.
 
+Ostatnio ktoś zwrócił mi uwagę na podobieństwo między palantirami w świecie Tolkiena a wierzeniami magicznymi jakie były obecne w świecie anglojęzycznym w XIX wieku, a zapewne dużo wcześniej. Przykładowo Joseph Smith, żyjący w latach 1805 i 1844 założyciel mormonizmu miał dwa kamienie widzącego (ang. seer stone), które, jak twierdził, potrafią ludziom jak on obdarzonym specjalnymi mocami pokazywać odległe przedmioty, jak choćby zaginione skarby piratów, których poszukiwaniem trudził się wiele osób w USA jeszcze w XVIII i XIX wieku.
 
+Później w swoim życiu Smith twierdził, że anioł Moroni pozwolił mu odkryć zakopane złote tablice na których zapisana była „Book of Mormon”. Co ciekawe wedle zapisków historycznych Smith nie przetłumaczył tej księgi patrząc się na złote tablice, lecz spoglądając w swój kapelusz w którym był jeden z jego kamieni.
+
+Nie wiem jak wam, ale mnie takie informacje dają sporo do myślenia.
+
+https://www.ldsdiscussions.com/translation
 
 Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom V”
 
@@ -145,7 +152,26 @@ W tym tomie jest mowa o tym, jak Lagrange „udowodnił” fascynujące twierdze
 
 Body Dylan „Duszny kraj. Wybór utwory z lat 1962-2012”
 
+Kiedy przeczytałem tekst utworu „Zapłacę krwią” w tym tomie, zafascynowała mnie jego siła. Szybko sięgnąłem po anglojęzyczny oryginał by porównać go z tłumaczeniem i powiem, że możliwe interpretacje tego utworu są ogromnie interesujące.
 
+„Zapłacę krwią” jest napisany jako monolog jednej postaci, skierowany raz do konkretnej osoby którą chce ukarać, raz do wszystkich dokoła. Łobodziński w komentarza pisze, że to „Bezpardonowy rozrachunek z rzeczywistością społeczną, polityczną, obyczajową.”. Czy z tego wynika, że tłumacz chce byśmy uznali głos podmiotu lirycznego za głos prawdy, po stronie którego należy stanąć? Czy może, że mówiący jest uosobieniem zła tego świata i powinniśmy czuć do niego odrazę? Nie wiem nie umiem tego rozstrzygnąć. Jest jednak inna, według mnie znacznie ciekawsza interpretacja.
+
+Wszystko zaczęło się od tego co pisano w internecie o słowach kończących zwrotki tej piosenki.
+„Nie swoją za to
+zapłacę krwią.”
+(org. „I pay in blood but not my own”)
+Gdy szukałem tekstu angielskiego, Google pokazał mi dwie strony z jej interpretacjami, że owa zapłata krwią to nawiązanie do ofiary Chrystusa na krzyżu. W pierwszej chwili odrzuciłem to jako zupełnie nieuzasadnione rozumienie tych słów, ale zacząłem czytać angielski tekst piosenki i uderzyło mnie ile razy tekst przywodzi mi na myśl tekst Ewangelii. Jeśli wziąć tą możliwość na poważnie, to tekst można próbować zrozumieć jako monolog postaci która jest jednocześnie jednym z kapłanów którzy skazali Chrystusa na śmierć i współczesnym politykiem, a osoba do której mówi to jednocześnie Chrystus i jeden z współczesnych nam ludzi oskarżonych o morderstwo. Takie połączenie dwóch postaci w jedno, nie było niczym niezwykłym w twórczości Dylana, który kocha łączyć przeróżne wydarzenia, postacie, punkty widzenia etc. w swych utworach. Przykładowo w „Highway 61 Revisited” Abram ma zabić Izaaka na tytułowej Autostradzie 61.
+
+Kluczowe dla tego czy ta interpretacja ma sens, czy nie, jest to jak ktoś zwrotkę zawierającą najbardziej jawne nawiązanie do Ewangelii w całym tekście.
+„Someone must of slipped a drug in yer wine
+You gulped it down and you cross the line
+Man can't live by bread alone
+I pay in blood but not my own”
+(Ktoś musiał wrzucić ci coś do wina,
+Wypiłeś do dna i przekroczyłeś granice
+Człowiek nie może samym chlebem żyć
+Zapłacę krwią, ale nie swoją)
+Widać że podmiot liryczny zarzuca osobie której mówi, że jest pod wpływem narkotyków, skutkiem czego robi rzeczy które przekraczają granice normy. Czy słowa „Człowiek nie może samym chlebem żyć” to coś co wypowiada narrator od siebie, czy też przypomina co kiedyś powiedział oskarżony, na dowód tego, że jest pod wpływem narkotyków? Choć ta pierwsza interpretacja jest zapewne możliwa, to jednak druga znacznie bardziej mnie przekonuje. Narrator nie prezentuje się w tekście jako ktoś kto mógłby powiedzieć „Człowiek nie może żyć samym chlebem”, dużo bardziej jak ktoś kto uważa takie stwierdzenie za wyraz utraty zmysłów. Jeśli jednak wziąć na poważnie te interpretacje, to stwierdzenie, iż adresatem zarzutów jest Chrystus jest dość prostym wnioskiem.
 
 
 
