@@ -77,9 +77,21 @@ func main() {
 
 	// fmt.Printf("6350 * 0.0254: %v.\n", 6350 * 0.0254)
 
-	fmt.Printf("1 / math.E = %v.\n", 1 / math.E)
+	// fmt.Printf("1 / math.E = %v.\n", 1 / math.E)
 
-	fmt.Printf("1 / (math.E * math.E) = %v.\n", 1 / (math.E * math.E))
+	// fmt.Printf("1 / (math.E * math.E) = %v.\n", 1 / (math.E * math.E))
 
-	fmt.Printf("7 * 33 = %v.\n", 7 * 33)
+	// fmt.Printf("7 * 33 = %v.\n", 7 * 33)
+
+	musicConst := math.Pow(2.0, 1.0/12.0)
+
+	fmt.Printf("musicConst: %v.\n", musicConst)
+
+	testVar := 1.0
+
+	for i := 1; i <= 12; i++ {
+		testVar *= 1.05
+
+		fmt.Printf("%v: %v.\n", i, testVar)
+	}
 }

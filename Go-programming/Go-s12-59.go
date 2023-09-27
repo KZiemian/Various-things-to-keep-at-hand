@@ -86,3 +86,16 @@ import "fmt"
 
 // 	fmt.Printf("favLangs: %v.\n", favLangs)
 // }
+
+// func main() {
+// 	sum := 0
+
+// 	for i := 1; i < 10; i++ {
+// 		sum += i
+// 		fmt.Printf("sum during iteration %d: %d\n", i, sum)
+// 	}
+
+// 	fmt.Printf("final sum: %d\n", sum)
+
+// 	// fmt.Printf("i outside the loop: %d\n", i)
+// }
