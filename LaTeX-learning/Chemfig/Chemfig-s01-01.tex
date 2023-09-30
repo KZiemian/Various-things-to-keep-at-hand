@@ -101,10 +101,7 @@
 
 % ------------------------------------------------------------------------------------
 % Tytuł, autor, data
-\title{Równania różniczkowe zwyczajne \\
-  {\Large Błędy i~uwagi}}
-
-\author{Kamil Ziemian}
+\title{Chemfig, s01, 01}
 
 
 % \date{}
@@ -135,16 +132,56 @@
 
 
 \noindent
-\chemfig{A=B}, \chemfig{A-[1]B-[7]C}, \chemfig{A-[:50]B-[:-25]C},
-\chemfig{A-[::50]B-[::-25]C}
+\chemfig{A=B}, \hspace{1em} \chemfig{A-[1]B-[7]C}, \hspace{1em}
+\chemfig{A-[:50]B-[:-25]C}, \hspace{1em} \chemfig{A-[::50]B-[::-25]C}
 
 \vspace{2em}
 
 
 
 \noindent
-\chemfig{A*5(-B=C-D-E=)}, \chemfig{A*5(-B=C-D)}, \chemfig{A**5(-B=C-D-E=)},
-\chemfig{A**5(-B=C-D-)}
+\chemfig{A*5(-B=C-D-E=)}, \hspace{1em} \chemfig{A*5(-B=C-D)}, \hspace{1em}
+\chemfig{A**5(-B=C-D-E=)}, \hspace{1em} \chemfig{A**5(-B=C-D-)}
+
+\vspace{2em}
+
+
+
+\noindent
+\chemfig{*6((=O) -N(-H) -(*5(-N=-N(-H)-))= -(=O) -N(-H)-)}
+
+\vspace{2em}
+
+
+
+\chemfig{H-C(-[2]H)(-[6]H)-C(=[1]O)-[7]H}, \hspace{1em}
+\chemfig{A*6(-B=C(-CH_{ 3 })-D-E-F(=G)=)}
+
+\vspace{2em}
+
+
+
+{ \huge
+  \setchemfig{atom sep=2em, bond style={line width=1pt,red,
+      dash pattern=on 2pt off 2pt}}
+  \chemname
+  { \chemfig{H-C(-[2]H)(-[6]H)-C(=[1]O)-[7]H} }
+  {Acetaldehyde}
+}
+
+\vspace{2em}
+
+
+
+\noindent
+\chemfig{O-H}, \hspace{1em} \chemfig{O=H}, \hspace{1em}
+\chemfig{O~H}, \hspace{1em} \chemfig{O>H}, \hspace{1em}
+\chemfig{O<H}, \hspace{1em} \chemfig{O>:H}, \hspace{1em}
+\chemfig{O<:H}, \hspace{1em} \chemfig{O>|H}, \hspace{1em}
+\chemfig{O<|H}
+
+
+
 
 
 

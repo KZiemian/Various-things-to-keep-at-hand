@@ -78,18 +78,25 @@ Ola Bratteli, Derek W. Robinson „Operator Algebras and Quantum Statistical Mec
 
 Michał Heller, Józef Życiński „Wszechświat i filozofia”
 
-Rozdział „Wypisy z Whiteheada” dotyczący filozofii Alfreda Northa Whiteheada najlepiej chyba podsumują dwa cytaty.
+Na stronie 176 znalazłem słowa, które ze swojej perspektywy, mogę tylko określić jako przedziwne. Zacytujmy ten tekst.
 
-„>>Wspólną cechą zarówno przestrzeni, jak i czasu jest to, że o kawałku materii można powiedzieć, iż jest on TUTAJ w przestrzeni i TUTAJ w czasie, czyli TUTAJ w czasoprzestrzeni<<. Cechę tę Whitehead nazywa założeniem „prostego umiejscowienia” (simple location) i uważa, że wywierało ono przemożny wpływ -- przeważnie z ukrycia, jako nieuświadomiony postulat -- na prawie wszystkie obszary myślenia w ciągu całego okresu rozwoju nauki.” Str. 153.
+POCZĄTEK
+Wiadomo, że u podłoża rozwoju nauk empirycznych i techniki znajduje się matematyka. Ona to pozwoliła wyjść poza stadium intuicyjnych uogólnień i prymitywnego manipulowania najprostszymi narzędziami. A czymże w gruncie rzeczy jest matematyka? Grą symboli, żonglowaniem pustą formą. Mamy zbiór aksjomatów, reguły wnioskowania i teorię matematyczną wywiedzioną ze zbioru aksjomatów przy pomocy danych reguł wnioskowania. Rzecz w tym, że nawet najbardziej rozbudowana teoria matematyczna nie jest ani o włos bogatsza od zbioru wyjściowych aksjomatów. Aksjomaty i reguły wnioskowania są przyjęte dowolnie, na zasadzie umowy, a cała reszta to tłumaczenie, już nie dowolne, ale tylko tego, cośmy sami umownie przyjęli, na nowe formuły. Skutkiem tego matematyka jest PUSTA: pozostając w świecie matematyki, nie jesteśmy w stanie przezwyciężyć zaklętego świata formy, by sięgnąć do treści. Matematyk mówi bardzo precyzyjnie, jednoznacznie, ale mówi o niczym.
 
-„W postulacie zrezygnowania z założenia prostego umiejscowienia można dopatrzeć się cech atrakcyjności. Współczesne teorie polowe nawet do pewnego stopnia postulat ten realizują: pole sięga w nieskończoność i >>jeden punk pola<< w konkretnym miejscu i określonej chwili, bez „reszty pola, istnieć nie może. Wydaje się jednak, że Whitehead domaga się czegoś znacznie więcej. Teoria „urzeczywistniająca” program Whiteheada powinna być fundamentalną teorią fizyczno-kosmologiczną, której >>pierwotnymi terminami<< mają być relacje, a nie obiekty, pomiędzy którym te relacje zachodzą. Obiekty winno się definiować wyłącznie przy pomocy relacji. Takiej teorii współczesna fizyka nie zna. Co najwyżej, w matematycznej teorii kategorii można by się dopatrzeć początku języka, którym przyszła Whiteheadowska teoria będzie się mogła wyrazić.” Str. 156.
+Logikę tradycyjną uważano za naukę o formach myślenia. Dziś wiemy, że logika w zasadzie nie różni się od matematyki. Jest tylko kwestią punktu widzenia, czy logikę uznamy za część matematyki, czy matematykę za część logiki. Obie te dyscypliny (jeżeli je odróżniać od siebie) cechuje doskonałość formy przy całkowitej pustce treści.
+KONIEC
 
-Wiem coś o teorii kategorii (matematyka) i teorii pola (fizyka), ale nie mam pojęcia o czym Michał Heller pisze. Mam wrażenie, że on też tego nie pojmował. Proszę to uznać za moją recenzję tego rozdziału.
+Ostatnio siedzę nad książką do równań różniczkowych zwyczajnych i moje doświadczenie nie ma nic wspólnego z doświadczaniem „pustki formy”. Nie potrafię znaleźć takiego rozumienia słów Hellera, żeby przyglądanie się równaniu, powiedzmy y'(x) = y(x)^2, a następnie rozważaniu co oznacza fakt, że jednym z jego rozwiązań jest y(x) = 1 / (1 - x) było „żonglowaniem pustą formą”. Już choćby dlatego, że istnienie takich rozwiązań równań różniczkowych potrafi sprawiać problemy, więc czemu nie przyjęliśmy takich zasad „gry symbolami”, które je wyeliminują? Odpowiedź jest taka, że są powody, jak choćby chęć opisania ruchu planet, choć Newton używał w opublikowanych pracach geometrii chyba więcej niż równań różniczkowych, które sprawiają, iż właśnie takie obiekty są dla nas interesujące i musimy się pogodzić z tym, że one mają często cechy, które utrudniają nam życie. Czy więc tutaj kierujemy się dowolnością, czy też jakąś wyższą potrzebą? Jak dla mnie tym drugim.
 
-KONIEC III
+Poza tym, większość książek do matematyki nie jest pisana w sposób „aksjomaty, reguły wnioskowania, teoria matematyczna z nich wyprowadzona”. Gdyby się ciebie ktoś zapyta, gdzie są aksjomaty w danej książce X, to zwykle trzeba wzruszyć ramionami „Nie ma. Ale wiadomo o co chodzi.”. Pokazuje to, że jednak książki pisane przez ludzi i dla ludzi nie działają na zasadzie opisanej przez Hellera i on o tym na pewno wie. Czy to, że do książki czytelnik musi dołożyć coś od siebie, swoją wiedzę zdobytą wcześniej a także swoją wyobraźnie i pomysłowość matematyczną przeczy obrazowi matematyki zarysowanemu u góry? Choć poglądu Hellera można pewnie bronić, to jednak to jak ludzie tacy jak ja poznają matematykę, jest bardzo, bardzo dalekie od tej arbitralnej gry symbolami.
 
+Można jeszcze wspomnieć, że w książkach do matematyki często są błędy. Gdyby to była pusta gra symbolami, to co byśmy zrobili, gdy napotkamy ciąg symboli który złamał jej zasady? Czy jak by pewnie zrobił jakiś głupi program komputerowy, przerywamy czytanie i zajmujemy się czymś zupełnie innym, czy może jak nieco mądrzejszy program komputerowy pomijamy ten fragment i idziemy czytać dalsze ciągi symboli? A może siedlibyśmy i próbowalibyśmy naprawić rozumowanie, tak by działało? Niewątpliwie wiele razy w życiu jak napotykałem błędne rozumowanie, to musiałem przejść dalej, zostawiając lukę w swoim rozumieniu problemu, ale też wielokrotnie zatrzymywałem się na dłużej i próbowałem ją załatać. A te starania były jak najdalsze od zabawy ciągiem symboli i patrzeniem który jest poprawny.
 
-Str. 176, 177, 181,
+Choćby tylko dlatego, że zwykle nie korzystałem z gry symbolami, lecz z mojego rozumienia tych obiektów matematycznych. Czy można by to określić treścią matematyki? Jak dla mnie tak. Po drugie, gdyby zdać się na grę symbolami, to jak uczy inny dział matematyki, kombinatoryka, ilość możliwych kombinacji tych symboli rośnie tak zastraszająco szybko z długością ciągu jaki potrzebujesz znaleźć, że jeśli będziesz jak sztukmistrz nimi żonglował i sprawdzał, czy ten ciąg który właśnie dostałeś, to akurat ten którego szukasz, to pewnie prędzej Słońce zgaśnie, niż ci się to uda i to wcale nie musi być metafora. W rzeczywistości lepiej nie liczyć na szczęście, tylko wpaść na pomysł, który powie ci w którym kierunku trzeba szukać odpowiedzi. Nie zawsze to będzie pomysł trafny i okaże się, że była to ślepa uliczka, ale wpadnie się na następny i na następny i może akurat on będzie tym czego szukałeś? I kiedy okazuje się, że któryś z kolei pomysł był dobry i rozwiązanie zostało znalezione, człowiek czuje satysfakcję.
+
+A na czym polega wpadnięcie na ten pomysł? Doświadczenie z matematyką jest nieocenione, ale też często będzie potrzebna duża doza pomysłowości, a tej pomysłowości jeszcze chyba nie udało się sprowadzić do żonglerki symbolami i pytaniem otwartym pozostaje, czy sztuczna inteligencja sobie z tym problemem poradzi, czy też ugrzęźnie w przerastającym ją wielokrotnie morzu kombinatoryki.
+
+Str. 177, 181,
 
 
 
@@ -145,7 +152,6 @@ Może ktoś z was lepiej to rozumie, będę wdzięczny za pomoc.
 
 Red. A.P. Juszkiewicz „Historia matematyki. Tom III: Matematyka XVIII stulecia”
 
-W tym tomie jest mowa o tym, jak Lagrange „udowodnił” fascynujące twierdzenia. Wykazał bowiem, że poza funkcją f(x) = 0, nie istnieje funkcja klasy C-nieskończoność, taka że istnieje dla niej punkt x w którym f(x) = 0, f'(x) = 0, f''(x) = 0 i tak dla wszystkich pochodnych. Parę dekad później Cauchy pokazał, że taką funkcją jest f(0) = 0 i f(x) = e^(-1/x^2) w przeciwny wypadku, której wartość i wszystkie pochodne znikają w x = 0.
 
 
 

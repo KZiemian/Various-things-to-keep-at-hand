@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	// "math"
 )
 
 func main() {
@@ -83,15 +83,47 @@ func main() {
 
 	// fmt.Printf("7 * 33 = %v.\n", 7 * 33)
 
-	musicConst := math.Pow(2.0, 1.0/12.0)
+	// musicConst := math.Pow(2.0, 1.0/12.0)
 
-	fmt.Printf("musicConst: %v.\n", musicConst)
+	// fmt.Printf("musicConst: %v.\n", musicConst)
 
-	testVar := 1.0
+	// testVar := 1.0
+
+	// for i := 1; i <= 12; i++ {
+	// 	testVar *= 1.05
+
+	// 	fmt.Printf("%v: %v.\n", i, testVar)
+	// }
+
+	approximation1 := 1.0594630945
+	approximation2 := 1.0594630943
+
+	result1 := 1.0
+	result2 := 1.0
 
 	for i := 1; i <= 12; i++ {
-		testVar *= 1.05
+		result1 *= approximation1
 
-		fmt.Printf("%v: %v.\n", i, testVar)
+		fmt.Printf("%v: %v.\n", i, result1)
 	}
+
+	difference := 2.0 - result1
+
+	fmt.Printf("\n%v^12 = %v.\n\n", approximation1, result1)
+	fmt.Printf("difference = %v.\n", difference)
+
+
+
+	for i := 1; i <= 12; i++ {
+		result2 *= approximation2
+
+		fmt.Printf("%v: %v.\n", i, result2)
+	}
+
+	difference = 2.0 - result2
+
+	fmt.Printf("\n%v^12 = %v.\n", approximation2, result2)
+	fmt.Printf("difference = %v.\n", difference)
+
+	// fmt.Printf("math.Pow(2.0, 1.0/12.0): %v.\n", math.Pow(2.0, 1.0/12.0))
 }
