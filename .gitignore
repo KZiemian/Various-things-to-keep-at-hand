@@ -33,4 +33,5 @@ prog
 
 # ignore specific file
 GoNum-issues.txt
+Go-questions.txt
 Mar.txt
