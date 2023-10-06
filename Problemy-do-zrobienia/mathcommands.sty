@@ -1,8 +1,8 @@
 % ####################################################################
-% Pakiet z skrótami różnych matematycznych LaTeXa
-
-% Część skrótów nie będzie działało bez pakietów od American Mathematican
-% Society, takich jak "amsmath", "amssym", etc.
+% Commands for writing mathematical text
+%
+% They probably won't work with some packages from AMS, like ``amsmath'',
+% ``amssymb'', etc.
 % ####################################################################
 \ProvidesPackage{mathcommands}
 
@@ -45,6 +45,12 @@
 \newcommand{\absTwo}[1]{ | \hspace{0.05em} #1 \hspace{0.075em} | }
 
 \newcommand{\absThree}[1]{ | \hspace{0.05em} #1 \hspace{0.09em} | }
+
+\newcommand{\absFour}[1]{ | \hspace{0.05em} #1 \hspace{0.11em} | }
+
+\newcommand{\absFive}[1]{ | \hspace{0.05em} #1 \hspace{0.13em} | }
+
+\newcommand{\absSix}[1]{ | \hspace{0.05em} #1 | }
 
 
 \DeclareMathOperator{\Ad}{Ad}
@@ -110,10 +116,8 @@
 
 % ##################
 % Greek letters
+% ##################
 
-% By \lambda była wyświetlana jako Unicode, a dawał znak \uplambda.
-\let\oldlambda\Lambda
-\renewcommand{\lambda}{\uplambda}
 
 
 
