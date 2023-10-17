@@ -80,3 +80,14 @@ func Test_SayGoodBye(t *testing.T) {
 			name, expected, result)
 	}
 }
+
+func BenchmarkSayHello(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		sayHello("Yemeksepeti")
+	}
+}
+
+func ExamplesayHello() {
+	fmt.Println(sayHello("Mert"))
+	// Output: Hello Mert.
+}

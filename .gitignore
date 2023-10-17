@@ -1,8 +1,24 @@
-# ingore execute files
-out
+# ingore Emacs backup files
+*~
 
-# ignore all PDF files
+# ignore Emacs auxiliary files
+.#*
+
+# ignore Emacs auxiliary directories
+auto/
+
+# ignore executable files on GNU/Linux and Windows
+out
+*.exe
+
+# ignore HTML files, like these produced by `go cover -html=*' command
+*.html
+
+# ignore PDF files
 *.pdf
+
+# ignore PNG files
+*.png
 
 # ignore auxiliary files created by pdfLaTeX
 *.aux
@@ -11,24 +27,6 @@ out
 *.out
 *.snm
 *.toc
-
-# ingore Emacs backup files
-*~
-
-# ignore Emacs auxiliary files
-.#*
-
-# ignore auxiliary catalogs
-auto/
-
-# ignore Windows executable files
-*.exe
-
-# ignore excecutable produced by C or C++ compiler
-prog
-
-# ignore PNG files
-*.png
 
 
 
