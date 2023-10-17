@@ -1,3 +1,6 @@
+# ingore execute files
+out
+
 # ignore all PDF files
 *.pdf
 

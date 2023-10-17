@@ -1,11 +1,11 @@
-package main
+// package main
 
-import (
-	"fmt"
+// import (
+// 	"fmt"
 	// "math"
 
 	// "golang.org/x/exp/constraints"
-)
+// )
 
 // func MapValues[T constraints.Ordered](values []T, mapFunc func(T) T) []T {
 // 	var newValues []T
@@ -59,11 +59,30 @@ import (
 // 	fmt.Printf("uAnother: %v.\n", uAnother)
 // }
 
-type CustomMap[T comparable, V int | string] map[T]V
+// type CustomMap[T comparable, V int | string] map[T]V
 
-func main() {
-	m := make(CustomMap[int, string])
-	m[3] = "three"
+// func main() {
+// 	// m := make(CustomMap[int, string])
+// 	// m[3] = "three"
 
-	fmt.Printf("m: %T, %v.\n", m, m)
+// 	// fmt.Printf("m: %T, %v.\n", m, m)
+
+// 	// fmt.Printf("2 * math.Sqrt2 * math.Pi^4 * sqrt[4](math.Pi): %v.\n",
+// 	// 	math.Pow(8, 0.25) * math.Pow(math.Pi, 2) *
+// 	// 		math.Pow(math.Pi, 0.125))
+// 	gamma := 1.01
+
+// 	result := 0.5 / (gamma * (gamma + 1) * (gamma - 1))
+
+// 	fmt.Printf("result: %v.\n", result)
+// }
+
+package main
+
+import (
+	"testing"
+)
+
+func TestSomething(t *testing.T) {
+	t.Error()
 }
