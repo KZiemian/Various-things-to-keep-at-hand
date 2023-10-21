@@ -86,3 +86,17 @@ import (
 func TestSomething(t *testing.T) {
 	t.Error()
 }
+
+var r io.Reader
+r = os.Stdin
+r = bufio.NewReader(r)
+r = new(bytes.Buffer)
+
+var r io.Reader
+tty, err := os.OpenFile("/dev/tty", os.O_RDWR, 0)
+
+if err != nil {
+	return nil, err
+}
+
+r = tty
