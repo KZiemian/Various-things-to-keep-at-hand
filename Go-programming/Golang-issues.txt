@@ -1,1 +1,5 @@
 //
+https://go.dev/blog/laws-of-reflection
+fmt.Println("kind is uint8: ", v.Kind() == reflect.Uint8)
+->
+fmt.Println("kind is uint8:", v.Kind() == reflect.Uint8)
