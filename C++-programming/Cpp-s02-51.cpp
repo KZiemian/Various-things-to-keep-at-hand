@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+// #include <cmath>
 
 // int main() {
 //   int x = 0;
@@ -32,18 +32,52 @@
 //   return 0;
 // }
 
+// int main() {
+//   // double sqrtFiveTest = 2.23;
+
+//   // std::cout << "2.23 * 2.23 = " << sqrtFiveTest * sqrtFiveTest << ".\n";
+
+//   // sqrtFiveTest = 2.236;
+
+//   // std::cout <<"2.236 * 2.236 = " << sqrtFiveTest * sqrtFiveTest << ".\n";
+
+//   double piApprox = 3.1415;
+
+//   std::cout << "cos(piApprox) = " << cos(piApprox) << ".\n";
+
+
+
+
+//   return 0;
+// }
+
+// int main() {
+//   std::cout << "1.41 * 1.41 = " << 1.41 * 1.41 << ".\n";
+//   std::cout << "1.73 * 1.73 = " << 1.73 * 1.73 << ".\n";
+//   std::cout << "2.23 * 2.23 = " << 2.23 * 2.23 << ".\n";
+//   std::cout << "1.414 * 1.414 = " << 1.414 * 1.414 << ".\n";
+//   std::cout << "2.236 * 2.236 = " << 2.236 * 2.236 << ".\n";
+
+
+
+
+//   return 0;
+// }
+
+
+
+
 int main() {
-  // double sqrtFiveTest = 2.23;
+  // std::cout << "Hello, World!\n";
+  // std::cout << "Helo, \"World!\"\n";
+  // std::cout << "Hello, \\ World!\n";
 
-  // std::cout << "2.23 * 2.23 = " << sqrtFiveTest * sqrtFiveTest << ".\n";
+  // double x = 1;
 
-  // sqrtFiveTest = 2.236;
+  // x /= 0;
 
-  // std::cout <<"2.236 * 2.236 = " << sqrtFiveTest * sqrtFiveTest << ".\n";
+  // std::cout << "x = " << x << ".\n";
 
-  double piApprox = 3.1415;
-
-  std::cout << "cos(piApprox) = " << cos(piApprox) << ".\n";
 
 
 
