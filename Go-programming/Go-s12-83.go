@@ -13,4 +13,4 @@
 // 	return nil
 // }
 
-func Save(w io.Writer, doc *Document) error
+// func Save(w io.Writer, doc *Document) error
