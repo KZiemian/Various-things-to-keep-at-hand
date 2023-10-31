@@ -78,6 +78,20 @@ int main() {
 
   // std::cout << "x = " << x << ".\n";
 
+  int i = 0;
+
+  double stateOfTheAccount = 10000;
+
+  while (stateOfTheAccount < 20000) {
+    stateOfTheAccount *= 1.05;
+
+    i++;
+  }
+
+  std::cout << "Stan konta: " << stateOfTheAccount << ".\n";
+
+  std::cout << "Zajelo to " << i << " lat.\n";
+
 
 
 
