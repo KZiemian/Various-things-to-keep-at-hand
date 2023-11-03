@@ -9,13 +9,6 @@ Naoki Urasawa „Chłopaki z dwudziestego wieku. Tom VI”
 
 
 
-Herman Weyl „Symetria”
-
-Ta mała książeczka, zapis wygłoszonych pod koniec życia wykładów tego niewiarygodnie wybitnego matematyka, jest pełnym czaru i uroku wprowadzeniem w problem symetrii i matematyczną teorię grup. Omawiając przykłady początkowo ze sztuki, potem z świata przyrody i teorii naukowych, prowadzi czytelnika przez różnorakie pojęcia słowa „symetria” powoli rozwijając odpowiednie pojęcia matematyczne.
-
-Weyl ujął cel książki tak pięknie, że nie pozostaje nic innego, jak przytoczyć jego słowa.
-„Postępowanie takie jest
-(Str. 12.)
 
 
 Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
@@ -33,8 +26,6 @@ William Faulkner „Światłość w sierpniu”
 
 
 
-
-Cay Horstmann „Wprowadzenie do C++. Efektywne nauczanie”
 
 
 
