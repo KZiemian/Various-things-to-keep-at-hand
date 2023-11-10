@@ -16,12 +16,82 @@ int main() {
   //   std::cout << "Program nie działa tak jak powinien.\n";
   // }
 
-  std::string string1 = "a1c";
-  std::string string2 = "abc";
+  // std::string string1 = "a1c";
+  // std::string string2 = "abc";
 
-  bool boolVar = (string1 < string2);
+  // bool boolVar = (string1 < string2);
 
-  std::cout << "string1 < string2 = " << boolVar << ".\n";
+  // std::cout << "string1 < string2 = " << boolVar << ".\n";
+
+  std::string stringVar1 = "a";
+  std::string stringVar2 = "Z";
+
+  bool boolVar = false;
+
+  // std::cout << stringVar1 << " < " << stringVar2 << " = " << boolVar << ".\n";
+
+  // stringVar2 = "a";
+  // boolVar = (stringVar1 == stringVar2);
+
+  // std::cout << "(" << stringVar1 << " == " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // stringVar2 = "Z";
+
+  // boolVar = (stringVar1 == stringVar2);
+
+  // std::cout << "(" << stringVar1 << " == " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // boolVar = (stringVar1 < stringVar2);
+
+  // std::cout << "(" << stringVar1 << " < " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // std::cout << ("a" < "Z");
+
+  // boolVar = (stringVar1 <= stringVar2);
+
+  // std::cout << "(" << stringVar1 << " <= " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // boolVar = (stringVar1 > stringVar2);
+
+  // std::cout << "(" << stringVar1 << " > " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // boolVar = (stringVar1 >= stringVar2);
+
+  // std::cout << "(" << stringVar1 << " >= " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // stringVar2 = "a";
+
+  // boolVar = (stringVar1 == stringVar2);
+
+  // std::cout << "(" << stringVar1 << " == " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // stringVar2 = "Z";
+
+  // boolVar = (stringVar1 == stringVar2);
+
+  // std::cout << "(" << stringVar1 << " == " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  // stringVar2 = "a";
+
+  // boolVar = (stringVar1 != stringVar2);
+
+  // std::cout << "(" << stringVar1 << " != " << stringVar2 << ") = "
+  // 	    << boolVar << ".\n";
+
+  stringVar2 = "Z";
+
+  boolVar = (stringVar1 != stringVar2);
+
+  std::cout << "(" << stringVar1 << " != " << stringVar2 << ") = "
+	    << boolVar << ".\n";
 
 
 
