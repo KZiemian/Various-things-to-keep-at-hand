@@ -55,7 +55,7 @@
 // 	// Add the points that are summarized by the error points.
 // 	plotutil.AddScatters(plt, pts[0], pts[1], pts[2], pts[3], pts[4])
 
-// 	plt.Save(4*vg.Inch, 4*vg.Inch, "errpoints.png")
+// 	plt.Save(4*vg.Inch, 4*vg.Inch, "GoNum-Plot-s01-05-A.png")
 // }
 
 package main
@@ -120,7 +120,7 @@ func main() {
 	p.NominalX("One", "Two", "Three", "Four", "Five")
 
 	if err := p.Save(5*vg.Inch, 3*vg.Inch,
-		"GoNume-Plot-s01-05-A.png"); err != nil {
+		"GoNum-Plot-s01-05-A.png"); err != nil {
 		panic(err)
 	}
 
