@@ -41,24 +41,44 @@ int main() {
 
   // std::cout << "Podatek wynosi " << tax << ".\n";
 
+  // double temp = -10.0;
 
+  // if ((temp > 0.0) && (temp < 100.0)) {
+  //   std::cout << "Stan cieły.\n";
+  // }
 
+  // if ((temp <= 0) || (temp >= 100)) {
+  //   std::cout << "Stan inny niż ciekły.\n";
+  // }
 
+  // bool boolVar = 0 < 200 < 100;
 
+  // std::cout << "0 < 200 < 100 = " << boolVar << ".\n";
 
+  // boolVar = -10;
 
+  // std::cout << "-10 = " << boolVar << ".\n";
 
+  // int x = -2;
 
+  // boolVar = 0 < x && x < 100 || x == -1;
 
+  // std::cout << "boolVar = " << boolVar << ".\n";
 
+  int floor = 0;
 
+  std::cout << "Podaj wartość zmiennej floor: ";
+  std::cin >> floor;
 
+  std::cout << "floor = " << floor << ".\n";
 
+  std::cout << "std::cin.fail() = " << std::cin.fail() << ".\n";
 
+  if(std::cin.fail()) {
+    std::cout << "Błąd: nie podano liczby całkowitej.\n";
 
-
-
-
+    return 1;
+  }
 
 
 
