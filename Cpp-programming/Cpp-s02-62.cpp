@@ -1,5 +1,8 @@
 #include <iostream>
 
+const double RATE = 5.0;
+const double TARGET = 20000.0;
+
 // #include <string>
 
 // const double RATE1 = 0.17;
@@ -65,21 +68,43 @@ int main() {
 
   // std::cout << "boolVar = " << boolVar << ".\n";
 
-  int floor = 0;
+  // int floor = 0;
 
-  std::cout << "Podaj wartość zmiennej floor: ";
-  std::cin >> floor;
+  // std::cout << "Podaj wartość zmiennej floor: ";
+  // std::cin >> floor;
 
-  std::cout << "floor = " << floor << ".\n";
+  // std::cout << "floor = " << floor << ".\n";
 
-  std::cout << "std::cin.fail() = " << std::cin.fail() << ".\n";
+  // std::cout << "std::cin.fail() = " << std::cin.fail() << ".\n";
 
-  if(std::cin.fail()) {
-    std::cout << "Błąd: nie podano liczby całkowitej.\n";
+  // if (std::cin.fail()) {
+  //   std::cout << "Błąd: nie podano liczby całkowitej.\n";
 
-    return 1;
+  //   return 1;
+  // }
+
+  // bool boolVar1 = true;
+  // bool boolVar2 = false;
+
+  // boolVar2 = (0 < boolVar1);
+
+  // std::cout << "boolVar2 = " << boolVar2 << ".\n";
+
+  // boolVar2 = (2 < boolVar1);
+
+  // std::cout << "boolVar2 = " << boolVar2 << ".\n";
+
+  double balance = 10000.0;
+
+  int year = 0;
+
+
+  while (balance < TARGET) {
+    double interest = balance * RATE / 100.0;
+
+    balance += interest;
+    year++;
   }
-
 
 
 
