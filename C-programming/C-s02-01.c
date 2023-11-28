@@ -83,10 +83,18 @@ int main() {
   /*   printf("arrayInt[%d] = %d.\n", i, arrayInt[i]); */
   /* } */
 
-  printf("sizeof(char): %ld.\n", sizeof(char));
-  printf("sizeof(short int): %ld.\n", sizeof(short int));
-  printf("sizeof(int): %ld.\n", sizeof(int));
-  printf("sizeof(long int): %ld.\n", sizeof(long int));
+  /* printf("sizeof(char): %ld.\n", sizeof(char)); */
+  /* printf("sizeof(short int): %ld.\n", sizeof(short int)); */
+  /* printf("sizeof(int): %ld.\n", sizeof(int)); */
+  /* printf("sizeof(long int): %ld.\n", sizeof(long int)); */
+
+  int sizeOfType = sizeof (int);
+  unsigned int sizeOfType1 = sizeof (unsigned short int);
+  size_t sizeOfType2 = sizeof(long int);
+
+  printf("sizeOfType = %d.\n", sizeOfType);
+  printf("sizeOfType1 = %d.\n", sizeOfType1);
+  printf("sizeOfType2 = %ld.\n", sizeOfType2);
 
 
 
