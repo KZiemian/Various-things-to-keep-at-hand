@@ -95,16 +95,25 @@ int main() {
   // std::cout << "boolVar2 = " << boolVar2 << ".\n";
 
   double balance = 10000.0;
-
   int year = 0;
+  double *ptrDouble = nullptr;
+
 
 
   while (balance < TARGET) {
     double interest = balance * RATE / 100.0;
 
+    ptrDouble = &interest;
+
+    std::cout << "year = " << year << ", ptrDouble == "
+	      << ptrDouble << ".\n";
+
     balance += interest;
     year++;
   }
+
+  std::cout << "balance = " << balance << ".\n";
+  std::cout << "year = " << year << ".\n";
 
 
 
