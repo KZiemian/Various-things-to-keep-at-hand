@@ -39,7 +39,40 @@
 /* int printf(const char* format, ...); */
 
 int main() {
-  printf("Hello, World!\n");
+  /* printf("Hello, World!\n"); */
+
+  /* unsigned long long unsignedLongLongVar = 0; */
+  /* unsigned long long int unsignedLongLongIntVar = 0; */
+
+  /* printf("sizeof(unsignedLongLongVar) = %ld.\n", sizeof(unsignedLongLongVar)); */
+  /* printf("sizeof(unsignedLongLongIntVar) = %ld.\n", */
+  /* 	 sizeof(unsignedLongLongIntVar)); */
+
+  /* float floatVar = 0.0; */
+  /* double doubleVar = 0.0; */
+  /* long double longDoubleVar = 0.0; */
+
+  /* printf("sizeof(floatVar) = %ld.\n", sizeof(floatVar)); */
+  /* printf("sizeof(doubleVar) = %ld.\n", sizeof(doubleVar)); */
+  /* printf("sizeof(longDoubleVar) = %ld.\n", sizeof(longDoubleVar)); */
+
+  /* const int i = 5; */
+  /* int arrayVar[2] = {1, 2, 3}; */
+
+  /* arrayVar[0] = 1; */
+  /* arrayVar[1] = 2; */
+  /* arrayVar[2] = 3; */
+  /* arrayVar[3] = 4; */
+  /* arrayVar[4] = 5; */
+
+
+  /* printf("arrayVar[1] = %d.\n", arrayVar[1]); */
+
+  /* for (int i = 0; i < 4; i++) { */
+  /*   printf("arrayVar[%d] = %d.\n", i, arrayVar[i]); */
+  /* } */
+
+
 
 
 
