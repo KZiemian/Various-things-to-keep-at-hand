@@ -72,6 +72,27 @@ int main() {
   /*   printf("arrayVar[%d] = %d.\n", i, arrayVar[i]); */
   /* } */
 
+  int arrayInt[6] = {1, 2, 3, 4, 5, 6};
+
+  int i = 0;
+  int intVar = 0;
+
+  for (i = 0; i < 6; i++) {
+    printf("arrayInt[%d] = %d.\n", i, arrayInt[i]);
+  }
+
+  intVar = arrayInt[3];
+  printf("intVar = %d.\n", intVar);
+
+  intVar = *(arrayInt + 2);
+
+  printf("intVar = %d.\n", intVar);
+
+  *(arrayInt + 2) = 8;
+
+  for (i = 0; i < 6; i++) {
+    printf("arrayInt[%d] = %d.\n", i, arrayInt[i]);
+  }
 
 
 
