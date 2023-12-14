@@ -43,15 +43,28 @@ import (
 	// "math"
 )
 
-const (
-	c = 2.99_792_458
-	h = 6.62_607_015
-)
+// const (
+// 	c = 2.99_792_458
+// 	h = 6.62_607_015
+// )
 
 func main() {
 	// f_a := math.Pi * h * c / (480.0)
 
 	// fmt.Printf("f_a = %v.\n", f_a)
 
-	fmt.Printf("0.18 / 1.22 = %v.\n", 0.18 / 1.22)
+	// fmt.Printf("0.18 / 1.22 = %v.\n", 0.18 / 1.22)
+	// numeratorOfExp := 8 * math.Pow(math.Pi, 8.0) * math.Sqrt(math.Pi)
+	// alphaToPowerMinus4 := 14.0 * 14.0 * 14.0 * 14.0
+
+
+	// fmt.Printf("numeratorOfExp * alphaToPowerMinus4 = %v.\n",
+	// 	numeratorOfExp * alphaToPowerMinus4)
+
+	// fmt.Printf("134_544 * alphaToPowerMinus4 = %v.\n",
+	// 	134_544.0 * alphaToPowerMinus4)
+
+	// fmt.Printf("1.0 / 14.0 = %v.\n", 1.0 / 14.0)
+
+	fmt.Printf("0.1 / 7.0 = %v.\n", 0.1 / 7.0)
 }

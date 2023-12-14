@@ -83,14 +83,23 @@ int main() {
 
   /* printf("arrayValue[0] = %.3f.\n", arrayValue[0]); */
 
-  int *ptrInt, intVar;
-  int intVar1 = 0;
+  /* int *ptrInt, intVar; */
+  /* int intVar1 = 0; */
 
   /* intVar = &intVar1; */
-  ptrInt = &intVar1;
+  /* ptrInt = &intVar1; */
 
   /* printf("*intVar = %d.\n", *intVar); */
-  printf("*ptrVar = %d.\n", *ptrInt);
+  /* printf("*ptrVar = %p.\n", ptrInt); */
+
+  /* int intVar = 0; */
+  /* int *ptrVar = &intVar; */
+
+  /* double doubleVar = 0.0; */
+  /* double *ptrDouble = &doubleVar; */
+
+  /* printf("sizeof(ptrDouble) = %ld.\n", sizeof(ptrDouble)); */
+
 
 
 
