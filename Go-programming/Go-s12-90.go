@@ -66,5 +66,9 @@ func main() {
 
 	// fmt.Printf("1.0 / 14.0 = %v.\n", 1.0 / 14.0)
 
-	fmt.Printf("0.1 / 7.0 = %v.\n", 0.1 / 7.0)
+	// fmt.Printf("0.1 / 7.0 = %v.\n", 0.1 / 7.0)
+
+	// fmt.Printf("0xA3D = %v.\n", 0xA3D)
+
+	fmt.Printf("16 * 16 = %v.\n", 16 * 16)
 }
