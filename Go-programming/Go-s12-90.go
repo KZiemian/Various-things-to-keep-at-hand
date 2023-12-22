@@ -72,3 +72,30 @@ func main() {
 
 	fmt.Printf("16 * 16 = %v.\n", 16 * 16)
 }
+
+type Person struct {
+	AgeYears int
+	Name     string
+	Friend   []Person
+}
+
+var p Person // Person{0, "", nil}
+
+var s fmt.Stringer    // Stringer (nil, nil)
+fmt.Println(s == nil) // true
+
+var p *Person          // nil
+var s fmt.Stringer = p // Stringer(*Person, nil)
+fmt.Println(s == nil)  // false
+
+func do() error {
+	var err *doError
+
+	return err
+}
+
+func main() {
+	err := do()
+
+	fmt.Println(err == nil)
+}
