@@ -1,0 +1,4 @@
+https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+
+The run command comes in handy when you need to rapidly iterate on a project, as we’ll do in this game, quickly testing each iteration before moving on to  the next one.
+do in this game -> with this game ???
