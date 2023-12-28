@@ -548,3 +548,54 @@ I'm kind of fan of mr. Rackauckas, so I need to watch his talk. And here are the
 12:59 Summary
 
 "You have to follow rules. If you are Julia programmer and I just told you that A\b is slower than something else, therefore by the unwritten rules of Julia you must use the faster one." Chris Rackauckas. [LinearSolve.jl: because A\b is not good enough](https://www.youtube.com/watch?v=JWI34_w-yYw), JuliaCon 2022, 03:48.
+
+
+
+Contents
+00:00 Origin story
+00:28 Aim of the talk
+00:57 Three components of programming language: data model, code model, glue
+03:02 Tag-bits arrangement
+04:34 Type primitives
+05:45 Object graph of types
+06:48 Code object primitives
+07:41 Code intrinsics
+08:15 Translation stages
+10:09 Test subject
+10:17 Julia is just lisp
+12:04 "You can call various functions, that are of curse not documented."
+14:03 Parsed test subject code
+16:00 Expanding macros
+17:17 Syntax de-sugaring
+18:52 Are |#s number| symbols related to LLVM code?
+19:23 Statementize control flow
+20:18 Flattening code using goto from
+21:47 Flattened code in @code_lovered form
+22:13 Would it be any worth in reading code in goto form?
+22:53 Why do we have in-code statements like "6: goto 7"?
+23:45 Running the code
+24:51 Method cache (file gf.c)
+27:23 Overview of type inference
+28:30 Compile-time method lookup and secret internal function
+30:07 Type inference (file inference.jl)
+30:50 Inlining, high-level optimization
+31:32 LLVM IR generation
+31:42 Code generation key concepts
+32:52 emit_expr and emit_function
+35:03 Type translation between Julia and LLVM
+35:35 Q&A: When is the most time spent at runtime?
+36:30 Q&A: Do you plan to extend the syntax to add new feature?
+37:24 Q&A: Do LLVM and garbage collector allow static analysis?
+38:52 Q&A: Stack and heap allocation
+39:16 Q&A: Can I press a button and get the graph of the whole architecture?
+39:43 Q&A: A better mechanism for simple unions of types
+40:17 Q&A: Types lookup and exponential complexity
+40:50 Q&A: How many types did Julia look up before giving up?
+42:01 Q&A: How "widening" of types works?
+43:27 Q&A: What are the heuristic that decided whether something is inline or not?
+
+S/o to https://github.com/KZiemian for the timestamps!
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/JuliaCommunity/You...
+
+Interested in improving the auto generated captions? Get involved here: https://github.com/JuliaCommunity/You...
