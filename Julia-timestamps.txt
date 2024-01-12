@@ -16,18 +16,6 @@ Contents
 
 
 
-Popraw.
-
-Simulating Chemical Kinetics with ReactionMechanismSimulator.jl | Matthew S. Johnson | JuliaCon 2021, https://www.youtube.com/watch?v=Bvs-sUK693U
-
-19:35 18:36 RMS' unique tools: symbolic reduction -> 19:35 18:36 RMS' unique tools: symbolic reduction
-
-23:05 Why is paper worth development in Cantera is 1-2 day job in ReactionMechanismSimulator.jl? -> 23:05 Why paper worth
-
-
-JuliaCon 2017 | The State of the Type System | Jeff Bezanson, https://www.youtube.com/watch?v=Z2LtJUe1q8c
-
-28:36 Possible future type system features -> 28:36 Possible future of the type system features
 
 
 
@@ -716,14 +704,86 @@ Contents
 
 
 
+Jeff Bezanson _What's the deal with Julia binary sizes?_
+
+Jeff Bezanson, [_What's the deal with Julia binary sizes?_](https://www.youtube.com/watch?v=kNslvU3WD4M)
+
+Timestamps created by @conradwiebe7919, posted in comment in video in the link above.
+
+Contents
+00:00 Introduction
+00:21 The function we'll compile with package compiler
+01:23 Fora function that just does addition, the size is 901 MB (with Julia 1.6 based PkgCompiler)
+02:43 Quick aside, sometimes binaries are just big cause they include a lot of things (hint hint, our binary has a lot too)
+04:00 Specialization means big binaries
+05:23 Exactly why is our package (sys image) so big?
+06:42 Shrink ray time
+11:22 Summary of our journey to get to 50MB from 900
+16:14 The guide on how to shrink your thingamajig the same way
+17:21 What's left in our sys image?
+18:46 The Julia base library is kinda big
+20:45 Nobody like reflection (ok, actually, this segment is that reflection makes inspection difficult)
+23:23 Roadmap
+28:10 That's it for the slides
+28:30 Q&A starts and I'm too lazy to segment them
 
 
+JuliaCon 2017 | Programming NVIDIA GPUs in Julia with CUDAnative.jl | Tim Besard
+
+Tim Besard, [_Programming NVIDIA GPUs in Julia with CUDAnative.jl_](https://www.youtube.com/watch?v=525t9-nsn5Y)
+
+NOTE: CUDAnative.jl package is now deprecated, you should now use [CUDA.jl](https://github.com/JuliaGPU/CUDA.jl).
 
 
+Contents
+00:00 Plan of the talk
+00:21 Disclaimer: our work is based on close source NVIDIA's stack
+01:13 GPU programming: what, why and how?
+02:02 Architecture of GPU and its consequences
+04:27 Why should I ever care about GPU?
+02:23 GPU is fast, but with some caveats
+05:21 How to program GPU?
+06:27 Goal of our project: replace CUDA C with Julia
+07:00 Non-goal: make CUDA fun and easy
+07:28 Simple example of using CUDA in Julia
+09:02 Example: parallel computation of sum of N elements
+10:06 How to make more realistic and efficient implementation of discussed algorithm?
+11:04 CUDA C support
+12:01 Julia support
+12:35 Keep kernels simple!
+13:00 Behind the scenes
+15:28 Code reflection
+16:10 Performance
+18:11 Some technical problems with video
+18:32 Future work (video is now back to normal)
+19:05 Thank you!
+
+Resources
+CUDA.jl repository: https://github.com/JuliaGPU/CUDA.jl.
 
 
+JuliaCon 2017 | Interfacing with LLVM Using LLVM.jl | Tim Besard
 
+Tim Besard [_Interfacing with LLVM Using LLVM.jl_](https://www.youtube.com/watch?v=BsqMj1x-JQU)
 
+Contents
+00:00 Opening
+00:20 What is LLVM.jl?
+01:02 Why we created LLVM.jl?
+01:42 Why not use C++ API directly?
+02:15 Why you may want use LLVM.jl?
+02:40 Installing LLVM.jl (state at 2017)
+03:25 First steps in using LLVM.jl
+04:25 Creating function that add two 32-bits integers and returning one 32-bits integer
+04:57 Adding LLVM IR (intermediate representation)
+06:05 Execution your code
+06:45 Integrating generated IR with Julia
+08:06 Using LLVM.jl for optimizing IR
+09:06 Creating LLVM passes inside Julia
+09:48 Closing remarks
+
+Resources
+LLVM.jl package repository: https://github.com/maleadt/LLVM.jl.
 
 
 
@@ -731,8 +791,12 @@ Wzorcowa forma opisu. Złożone z opisu kilku różnych wystąpień.
 
 JuliaCon 2017 | A Superfacility Model for Data-Intensive Science | Kathy Yelick
 
-[_A Superfacility Model for Data-Intensive Science_](https://www.youtube.com/watch?v=IEfQ5jIQB4Y),
+Miles Lubin, Iain Dunning, _Numerical Optimization in Julia_, [https://www.youtube.com/watch?v=O1icUP6sajU](https://www.youtube.com/watch?v=O1icUP6sajU)
 
+Resources
+AD4SM.jl package [repository](https://github.com/avigliotti/AD4SM.jl).
+JuMP [repository](https://github.com/jump-dev/JuMP.jl/).
+JuMP [documentation](https://jump.dev/JuMP.jl/stable/).
 
 Contents
 00:06 Introduction
@@ -749,7 +813,64 @@ Contents
 22:21 What's next
 22:54 Thank you!
 
-Resources
-AD4SM.jl package [repository](https://github.com/avigliotti/AD4SM.jl).
-JuMP [repository](https://github.com/jump-dev/JuMP.jl/).
-JuMP [documentation](https://jump.dev/JuMP.jl/stable/).
+S/o to https://github.com/ for the video timestamps!
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/JuliaCommunity/You...
+
+Interested in improving the auto generated captions? Get involved here: https://github.com/JuliaCommunity/You...
+
+
+
+
+
+
+
+
+
+
+
+
+S/o to https://github.com/SyxP for the video timestamps!
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/JuliaCommunity/You...
+
+Interested in improving the auto generated captions? Get involved here: https://github.com/JuliaCommunity/You...
+
+At the end of descriptio of "State of the Julia" video we read.
+
+Interested in improving the auto generated captions? Get involved here: https://github.com/JuliaCommunity/You...
+
+According to the previous way of doing things, we would have
+
+S/o to https://github.com/SyxP for the video timestamps!
+
+Want to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/JuliaCommunity/You...
+
+Interested in improving the auto generated captions? Get involved here: https://github.com/JuliaCommunity/You...
+
+
+
+
+
+Contents
+00:00 Welcome!
+00:10 There are two ways of using Julia
+00:34 Existence of these two ways is not a problem. My expectations were a problem.
+00:55 Formal self introduction of the speaker and his collaborator
+01:55 Bosch traditionally was dominated by MATLAB and Python for machine learning
+02:20 When our opportunity to use Julia rose
+03:24 Producing naive port from MATLAB to Julia was very slow
+04:36 This port was slow and take much longer time that we expected
+05:37 Expirience Julia programmers probably want to point to me how memory management in our project should work
+06:13 How two Julia languages looks in practice
+08:18 I'm still not sure what `@unpack` macro does
+08:46 If read SciML documentation from start to finish, we would find this
+09:54 What I think about 1.5 language problem?
+10:38 Is Julia failing at its main promise?
+12:12 When Julia will run on washing machines?
+12:57 Thank you!
+13:10 Q&A: alock check (question hard to hear)?
+13:25 Q&A: do you saw shift of emphasis in promotion of Julia?
+14:45 Q&A: what algorithms you want run on washing machine?
+15:09 Q&A: which hardware is running on washing machines?
+16:11 Outro

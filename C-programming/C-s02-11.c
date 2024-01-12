@@ -36,9 +36,9 @@
 /*   return 0; */
 /* } */
 
-void increment(int *p) {
-  *p = (*p) + 1;
-}
+/* void increment(int *p) { */
+/*   *p = (*p) + 1; */
+/* } */
 
 int main() {
   /* int intVar = 1025; */
@@ -70,14 +70,37 @@ int main() {
 
   /* printf("intVar = %d.\n", intVar); */
 
-  int intVar = 0;
+  /* int intVar = 0; */
 
-  intVar = 10;
+  /* intVar = 10; */
 
-  increment(&intVar);
+  /* increment(&intVar); */
 
-  printf("intVar = %d.\n", intVar);
+  /* printf("intVar = %d.\n", intVar); */
 
+  /* char charVar = 0; */
+
+  /* printf("charVar = %d.\n", charVar); */
+
+  /* charVar = 127; */
+
+  /* printf("charVar = %d.\n", charVar); */
+
+  /* charVar = 128; */
+
+  /* printf("charVar = %d.\n", charVar); */
+
+  unsigned char unsignedCharVar = 0;
+
+  printf("unsignedCharVar = %d.\n", unsignedCharVar);
+
+  unsignedCharVar = 255;
+
+  printf("unsignedCharVar = %d.\n", unsignedCharVar);
+
+  /* unsignedCharVar = 256; */
+
+  /* printf("unsignedCharVar = %d.\n", unsignedCharVar); */
 
 
 
