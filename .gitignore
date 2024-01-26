@@ -32,12 +32,13 @@ out
 
 
 
-# ignore specific file
+# ignore specific files
 GoNum-issues.txt
 Go-questions.txt
 Julia-YT-channel-description.txt
+Julia-YT-przejrzane-widea.txt
 
-# ingore specific directory
+# ingore specific director
 Pytania
 Stuff-for-Internet
 target
