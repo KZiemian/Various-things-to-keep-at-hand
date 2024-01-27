@@ -1,36 +1,54 @@
-package main
+// package main
 
-import (
-	"fmt"
-	"math/rand"
-)
+// import (
+// 	"fmt"
+// 	"math/rand"
+// )
 
-type Player interface {
-	KickBall()
-}
+// type Player interface {
+// 	KickBall()
+// }
 
-type FootballPlayer struct {
-	stamina int
-	power   int
-}
+// type CR7 struct {
+// 	stamina int
+// 	power   int
+// 	SUI     int
+// }
 
-func (f FootballPlayer) KickBall() {
-	shot := f.stamina + f.power
+// type FootballPlayer struct {
+// 	stamina int
+// 	power   int
+// }
 
-	fmt.Printf("I'm kicking the ball %v.\n", shot)
-}
+// func (f FootballPlayer) KickBall() {
+// 	shot := f.stamina + f.power
 
-func main() {
-	team := make([]Player, 11)
+// 	fmt.Printf("I'm kicking the ball %v.\n", shot)
+// }
 
-	for i := 0; i < len(team); i++ {
-		team[i] = FootbalPlayer{
-			stamina: rand.Intn(10),
-			power:   rand.Intn(10),
-		}
-	}
+// func (c CR7) KickBall() {
+// 	shot := c.stamina + c.power * c.SUI
 
-	for i := 0; i < len(team); i++ {
-		team[i].KickBall()
-	}
-}
+// 	fmt.Printf("CR7 is kicking the ball %v.\n", shot)
+// }
+
+// func main() {
+// 	team := make([]Player, 11)
+
+// 	for i := 0; i < len(team) - 1; i++ {
+// 		team[i] = FootballPlayer{
+// 			stamina: rand.Intn(10),
+// 			power:   rand.Intn(10),
+// 		}
+// 	}
+
+// 	team[len(team) - 1] = CR7{
+// 		stamina: 10,
+// 		power:   10,
+// 		SUI:     10,
+// 	}
+
+// 	for i := 0; i < len(team); i++ {
+// 		team[i].KickBall()
+// 	}
+// }
