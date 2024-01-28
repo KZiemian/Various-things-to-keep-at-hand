@@ -75,3 +75,7 @@ doSum(i)    // (ints, nil)
 doSum(nil)  // (nil, nil)
 
 http.HandleFunc("localhost:8080", nil)
+
+type Writer interface {
+	Write(p []byte) (n int, err error)
+}

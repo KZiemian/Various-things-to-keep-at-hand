@@ -52,3 +52,31 @@
 // 		team[i].KickBall()
 // 	}
 // }
+
+var power int
+
+typ Jedi struct {
+	FirstName string
+	LastName  string
+	Age       int
+	Rank      string
+}
+
+func foo() {
+	name := "Luke"
+}
+
+func (j Jedi) ForcePush(p int) int {
+	// ...
+	return p
+}
+
+type power int
+
+func (p power) unleash() {
+	// ...
+}
+
+type ForceUser interface {
+	ForcePush(intVar int) int
+}
