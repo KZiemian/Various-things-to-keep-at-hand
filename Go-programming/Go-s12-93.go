@@ -79,3 +79,27 @@ http.HandleFunc("localhost:8080", nil)
 type Writer interface {
 	Write(p []byte) (n int, err error)
 }
+
+package main
+
+import (
+	"fmt"
+	"io"
+	"net"
+)
+
+func main() {
+	fmt.Println("Writing data")
+	data := []byte("Some data to write")
+
+	client, _ := net.Dial("tcp", ":3000")
+	defer client.Close()
+
+	save(client, data)
+}
+
+func save(w io.Writer, data []byte) error {
+	_, err := w.Writer(data)
+
+	return err
+}
