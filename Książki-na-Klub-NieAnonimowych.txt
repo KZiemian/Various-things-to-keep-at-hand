@@ -307,3 +307,6 @@ Robin Dunbar „Nowa historia ewolucji człowieka”
 Cay Horstmann „Wprowadzenie do C++. Efektywne nauczanie”
 
 W tej książce pokazane jest jak sprawdzić poprawność programu za pomocą ręcznego śledzenia kodu. I, jak wszystko wskazuje, pierwszy przykład ręcznego śledzenia kodu, jest rozwiązany źle.
+
+
+Józef Życiński
