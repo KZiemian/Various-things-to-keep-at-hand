@@ -20,14 +20,22 @@ int main() {
 
   // std::cout << "rValueRefInt1 = " << rValueRefInt1 << ".\n";
 
-  std::string stringVar1 = "string one";
-  std::string stringVar2 = "a really long str";
+  // std::string stringVar1 = "string one";
+  // std::string stringVar2 = "a really long str";
 
-  // std::cout << "stringVar1 = " << stringVar1 << ".\n";
+  // // std::cout << "stringVar1 = " << stringVar1 << ".\n";
 
-  std::string&& stringVar3 = stringVar1 + " " + stringVar2;
+  // std::string&& stringVar3 = stringVar1 + " " + stringVar2;
 
-  std::cout << "stringVar3 = " << stringVar3 << ".\n";
+  // std::cout << "stringVar3 = " << stringVar3 << ".\n";
+
+  size_t n = 0;
+
+  for (n = 0; n < 1'000'000'000; n++) {
+    n += 1;
+
+    std::cout << n << ".\n";
+  }
 
 
 
