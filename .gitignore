@@ -8,8 +8,9 @@
 auto/
 
 # ignore executable files on GNU/Linux and Windows
-out
 *.exe
+out
+prog
 
 # ignore HTML files, like these produced by `go cover -html=*' command
 *.html
