@@ -88,10 +88,16 @@ VAR2=2
 
 # echo "Pierwsza zmienna wprowadzona z klawiatury: \$1 = $1."
 
-if [ $1 -lt 100 ] ; then
-    echo "Wprowadzona liczba jest mniejsza od 100."
-else
-    echo "Wprowadzona liczba jest wieksza lub rowna 100."
-fi
+# if [ $1 -lt 100 ] ; then
+#     echo "Wprowadzona liczba jest mniejsza od 100."
+# else
+#     echo "Wprowadzona liczba jest wieksza lub rowna 100."
+# fi
 
-echo "Jesteśmy za 'if'."
+# echo "Jesteśmy za 'if'."
+
+if [ 10 -lq 100 ] ; then
+    echo "Prawda"
+else
+    echo "Fałsz."
+fi
