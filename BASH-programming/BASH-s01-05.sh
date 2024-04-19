@@ -38,14 +38,68 @@
 #     echo "Warunek \"-lt\" ma wartość logiczną \"Fałsz\"."
 # fi
 
-if [[ 2 -lt 1 ]] ; then
-    echo "Warunek \"-lt\" ma wartość logiczną \"Prawda\"."
-else
-    echo "Warunek \"-lt\" ma wartość logiczną \"Fałsz\"."
-    echo "Teraz trochę programowani w gałęzi 'else'."
+# if [[ 2 -lt 1 ]] ; then
+#     echo "Warunek \"-lt\" ma wartość logiczną \"Prawda\"."
+# else
+#     echo "Warunek \"-lt\" ma wartość logiczną \"Fałsz\"."
+#     echo "Teraz trochę programowani w gałęzi 'else'."
 
-    VAR3=3
-    VAR4=4
+#     VAR3=3
+#     VAR4=4
 
-    echo "VAR4 - VAR3 = $(($VAR4 - $VAR3))."
-fi
+#     echo "VAR4 - VAR3 = $(($VAR4 - $VAR3))."
+# fi
+
+# if [ 3 -lt 2 ] ; then
+#     echo "Warunek \"-lt\" ma wartość logiczną \"Prawda\"."
+# fi
+
+# echo "Jesteśmy już po instrukcji sterującej 'if'."
+
+# if [ 1 < 2 ] ; then
+#     echo "Warunek \"-lt\" ma wartość logiczną \"Prawda\"."
+# else
+#     echo "Warunek \"-lt\" ma wartość logiczną \"Fałsz\"."
+# fi
+
+# COUNTER=1
+
+# until [[ $COUNTER -eq 10 ]] ; do
+#     echo "COUNTER = $COUNTER."
+#     ((COUNTER++))
+# done
+
+# echo "Po pętli 'until'."
+
+# lista="Jeden Dwa Trzy"
+
+# for elem in $lista ; do
+#     echo "elem = $elem."
+# done
+
+for elem in "2 3 5 7 11 13 17 19" ; do
+    echo "prime number -> $elem"
+done
+
+echo "Kod po pętli 'for'."
+
+
+# echo "Kod po pętli 'for'."
+
+# for value in {1..5} ; do
+#     echo "value = $value"
+# done
+
+# echo "Kod po pętli 'for'."
+
+# for value in {1 ..5} ; do
+#     echo "value = $value"
+# done
+
+# echo "Kod po pętli 'for'."
+
+# for value in {1 .. 5} ; do
+#     echo "value = $value"
+# done
+
+# echo "Kod po pętli 'for'."
