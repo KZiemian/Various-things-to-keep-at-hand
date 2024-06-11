@@ -1,106 +1,117 @@
-#!/usr/bin/ruby
+#!/home/kamil/.rbenv/shims/ruby
 
-# print "Wypisywanie na wyjscie\n"
+# "Hello World!"
 
-# # Komentarz.
-# print "Hello "
-# puts "World!"
-# puts "Hello World!".length
-# puts "Kamil".reverse
+# puts "Hello World!"
+# puts 3**2
+# puts Math.sqrt(3)
 
-# =begin
-# 1
-# 2
-# 3
-# =end
-
-# print "Podaj swoje imie: "
-# imie = gets.chomp
-# puts imie
-
-# print "\n\nInstrukcje warunkowe\n"
-
-# liczba = 1
-
-# if (liczba == 0)
-#   puts "Rowne 0"
-# elsif (liczba == 1)
-#   puts "Rowne 1"
-# else
-#   puts "Jakas inna liczba"
+# def hi
+#   puts "Hello World!"
 # end
 
-# zmienna_bool = false
+# hi()
 
-# unless zmienna_bool
-#   puts "Rozumiem"
-# else
-#   puts "Nie rozumiem"
-# end
+# class Greeter
+#   def initialize(name = "World")
+#     @name = name
+#   end
 
-# print "\n\nOperacje na stringach\n"
+#   def say_hi
+#     puts "Hi #{@name}!"
+#   end
 
-# print "Thring, plesthe!: "
-# user_input = gets.chomp
-
-
-# if user_input.include? "s"
-#   user_input.gsub!(/s/, "th")
-#   if user_input.include? "S"
-#     user_input.gsub!(/S/, "Th")
+#   def say_bye
+#     puts "Bye #{@name}, come back soon."
 #   end
 # end
 
-# puts "Wynik to: #{user_input}"
+# greeter = Greeter.new("Pat")
 
-# print "\n\nPetla while\n"
+# greeter.say_hi
+# greeter.say_bye
 
-# counter = 1
+# puts greeter.@name
 
-# while counter < 11
-#   puts counter
-#   counter += 1
+# puts Greeter.instance_methods
+# puts "Druga lista metod."
+# puts Greeter.instance_methods(false)
+
+# puts greeter.respond_to?("name")
+# puts greeter.respond_to?("say_hi")
+# puts greeter.respond_to?("to_s")
+
+# class Greeter
+#   attr_accessor :name
 # end
 
-# print "\n\nPetla untile\n"
+# greeter = Greeter.new("Andy")
+# puts greeter.respond_to?("name")
+# puts greeter.respond_to?("name=")
 
-# counter = 1
+# greeter.say_hi
 
-# until counter == 8
-#   puts counter
-#   counter += 1
-# end
+# greeter.name="Betty"
 
-# puts "\n\nPierwsza petla for\n"
+# puts greeter
 
-# for num in 1..10
-#   puts num
-# end
+# puts greeter.name
 
-# puts "\n\nDruga petla for\n"
+# greeter.say_hi
 
-# for num in 1...10
-#   puts num
-# end
+class MegaGreeter
+  attr_accessor :names
 
-# print "\n\nPetla loop, I przyklad\n"
+  # Create the object
+  def initialize(names = "World")
+    @names = names
+  end
 
-# i = 20
+  # Say hi to everybody
+  def say_hi
+    if @names.nil?
+      puts "..."
+    elsif @names.respond_to?("each")
+      # @names is a list of some kind, iterate!
+      @names.each do |name|
+        puts "Hello #{name}!"
+      end
+    else
+      puts "Hello #{@names}!"
+    end
+  end
 
-# loop do
-#   i -= 1
-#   puts "i = #{i}"
-#   break if i <= 0
-# end
-
-print "Tablice\n"
-
-my_array = [1, 2, 3, 4, 5]
-
-print "\n\nPierwszy each\n"
-
-my_array.each do |x|
-  x += 10
-  print "#{x} "
+    # Say bye to everybody
+  def say_bye
+    if @names.nil?
+      puts "..."
+    elsif @names.respond_to?("join")
+      # Join the list elements with commas.
+      puts "Goodbye #{@names.join(", ")}. Come back soon!"
+    else
+      puts "Goodbye #{@names}. Come back soon!"
+    end
+  end
 end
-puts ""
+
+if __FILE__ == $0
+  mg = MegaGreeter.new
+  mg.say_hi
+  mg.say_bye
+
+  # Change name to be "Zeke"
+  mg.names = "Zeke"
+  mg.say_hi
+  mg.say_bye
+
+  # Change the name to an array of names
+  mg.names = ["Albert", "Brenda", "Charles",
+              "Dave", "Englebert"]
+  mg.say_hi
+  mg.say_bye
+
+  # Change to nil
+  mg.names = nil
+  mg.say_hi
+  mg.say_bye
+end
