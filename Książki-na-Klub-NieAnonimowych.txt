@@ -1,10 +1,10 @@
-
-
-
 W.W. Sawyer „Droga do matematyki współczesnej”
 
 Jestem bardzo ciekawy co w tej książce znajdę?
 
+
+
+hmm, to może "Wprowadzenie do semantyki językoznawczej" Grzegorczykowej, "Wielkie teorie językoznawcze" Paveau i "Teoria języka" Buhlera, może też coś Stalmaszczyka z serii "Metodologie językoznawstwa"?
 
 
 
@@ -238,11 +238,12 @@ Maria Wilczek-Krupa „Poetyka muzyki filmowej Wojciech Kilara”
 Robin Dunbar „Nowa historia ewolucji człowieka”
 
 
-#książki
 
-Cay Horstmann „Wprowadzenie do C++. Efektywne nauczanie”
-
-W tej książce pokazane jest jak sprawdzić poprawność programu za pomocą ręcznego śledzenia kodu. I, jak wszystko wskazuje, pierwszy przykład ręcznego śledzenia kodu, jest rozwiązany źle.
 
 
 Józef Życiński
+
+
+Richard P. Feynman „Wykłady o obliczeniach”
+
+Jak wszystko wskazuje, zajmowanie się tematyką obliczeń, ma finansową przyszłość. Ktoś może chciałby się przyłączyć do lektury?
