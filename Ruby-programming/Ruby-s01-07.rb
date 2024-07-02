@@ -48,10 +48,59 @@
 
 # puts "name -> #{name}, i co jeszcze?"
 
+# puts self
+
+# puts "2.even? -> #{2.even?}"
+
+# puts "2.next -> #{2.next}"
+
+# puts "1.next.next -> #{1.next.next}"
+
+# puts "1.methods:"
+# puts 1.methods
+
+# puts "1.methods.sort"
+# puts 1.methods.sort
 
 
+# puts "Enter a number:"
+# number1 = gets.chomp().to_f()
 
+# puts "Enter another number:"
+# number2 = gets.chomp().to_f()
 
+# # puts (number1.to_i + number2.to_i)
 
-# https://www.youtube.com/watch?v=t_ispmWmdjY
-# Skończyłem na 1:01:00.
+# puts (number1 + number2)
+
+# puts "Enter color:"
+# color = gets().chomp()
+# plural_noun = gets().chomp()
+# celebrity = gets().chomp()
+
+# puts ("Roses are #{color}")
+# puts ("#{plural_noun} are blue.")
+# puts ("I think #{celebrity} deleted system32.")
+
+# friends = Array["Kevin", "Karen", "Oscar"]
+
+# puts friends
+
+# puts friends[0]
+
+# puts friends[-1]
+
+# friends[0] = "Dwight"
+
+# puts friends[0]
+
+# puts friends[0, 2]
+
+# friends = Array.new
+
+# puts friends
+
+# friends[1] = "Michael"
+
+# puts friends
+# puts friends[0]
