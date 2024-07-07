@@ -1,0 +1,255 @@
+% ------------------------------------------------------------------------------------------------------------------
+% Basic configuration and packages
+% ------------------------------------------------------------------------------------------------------------------
+% Package for discovering wrong and outdated usage of LaTeX.
+% More information to be found in l2tabu English version.
+\RequirePackage[l2tabu, orthodox]{nag}
+% Class of LaTeX document: {size of paper, size of font}[document class]
+\documentclass[a4paper,11pt]{article}
+
+
+
+% ------------------------------------------------------
+% Polonization of LaTeX document
+% ------------------------------------------------------
+% Basic polonization of the text
+\usepackage[MeX]{polski}
+% Switching on UTF-8 encoding
+\usepackage[utf8]{inputenc}
+% Adding font Latin Modern
+\usepackage{lmodern}
+% Package is need for fonts Latin Modern
+\usepackage[T1]{fontenc}
+
+
+
+% ------------------------------------------------------
+% Setting margins
+% ------------------------------------------------------
+\usepackage[a4paper, total={14cm, 25cm}]{geometry}
+
+
+
+% ------------------------------------------------------
+% Setting vertical spaces in the text
+% ------------------------------------------------------
+% Setting space between lines
+\renewcommand{\baselinestretch}{1.6}
+
+
+
+% Additional symbols
+\usepackage{amssymb}
+
+
+
+
+
+
+
+
+
+
+% ------------------------------------------------------------------------------------------------------------------
+% Title and author of the text
+\title{Symbole dostępne w~systemie \LaTeX \\
+  {\Large Seria~1, plik~1}}
+
+% \author{}
+
+
+% \date{}
+% ------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+% ####################################################################
+\begin{document}
+% ####################################################################
+
+
+
+
+
+% ######################################
+\maketitle
+% ######################################
+
+
+
+
+
+\noindent
+$\alpha$, $\beta$, $\chi$, $\delta$, $\epsilon$, $\eta$, $\gamma$, $\iota$, $\kappa$, $\lambda$, $\mu$, $\nu$, $o$, $\omega$,
+$\phi$, $\pi$, $\psi$, $\rho$, $\sigma$, $\tau$, $\theta$, $\upsilon$, $\xi$, $\zeta$, $\digamma$, $\varepsilon$,
+$\varkappa$, $\varphi$, $\varpi$, $\varrho$, $\varsigma$, $\vartheta$, $\Delta$, $\Gamma$, $\Lambda$, $\Omega$, $\Phi$, $\Pi$,
+$\Psi$, $\Sigma$, $\Theta$, $\Upsilon$, $\Xi$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\aleph$, $\beth$, $\daleth$, $\gimel$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\frac{ abc }{ xyz }$, $f'$, $\sqrt{ abc }$, $\sqrt[n]{ abc }$,
+$\overline{ abc }$, $\underline{ abc }$, $\widehat{ abc }$,
+$\widetilde{ abc }$, $\overrightarrow{ abc }$,
+$\overleftarrow{ abc }$, $\overbrace{ abc }$, $\underbrace{ abc }$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$|$, $\vert$, $\|$, $\Vert$, $\{$, $\}$, $\langle$, $\rangle$, $\lfloor$, $\rfloor$, $\lceil$, $\rceil$, $/$,
+$\backslash$, $[$, $]$, $\Uparrow$, $\uparrow$, $\Downarrow$, $\downarrow$, $\llcorner$, $\lrcorner$, $\ulcorner$, $\urcorner$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\sum$, $\prod$, $\coprod$, $\int$, $\oint$, % $\iint$,
+$\biguplus$, $\bigcap$, $\bigcup$, $\bigoplus$, $\bigotimes$, $\bigodot$, $\bigvee$, $\bigwedge$, $\bigsqcup$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\arccos$, $\cos$, $\csc$, $\exp$, $\ker$, $\limsup$, $\min$, $\max$,
+$\arcsin$, $\cosh$, $\deg$, $\gcd$, $\lg$, $\ln$, $\Pr$, $\sup$,
+$\arctan$, $\cot$, $\det$, $\hom$, $\lim$, $\log$, $\sec$, $\tan$,
+$\arg$, $\coth$, $\dim$, $\inf$, $\liminf$, $\max$, $\sin$, $\tanh$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\ast$, $\star$, $\cdot$, $\circ$, $\bullet$, $\bigcirc$, $\diamond$, $\times$, $\div$, $\centerdot$, $\circledast$,
+$\circledcirc$, $\circleddash$, $\dotplus$, $\divideontimes$, $\pm$, $\mp$, $\amalg$, $\odot$, $\ominus$, $\oplus$, $\oslash$,
+$\otimes$, $\wr$, $\Box$, $\boxplus$, $\boxminus$, $\boxtimes$, $\boxdot$, $\square$, $\cap$, $\cup$,
+$\uplus$, $\sqcap$, $\sqcup$, $\wedge$, $\vee$, $\dagger$, $\ddagger$, $\barwedge$, $\curlywedge$, $\Cap$, $\bot$,
+$\intercal$, $\doublebarwedge$, $\lhd$, $\rhd$, $\triangleleft$, $\triangleright$, $\unlhd$,
+$\unrhd$, $\triangle$, $\bigtriangledown$, $\bigtriangleup$, $\setminus$, $\veebar$, $\curlyvee$, $\Cup$, $\top$,
+$\rightthreetimes$, $\leftthreetimes$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\equiv$, $\cong$, $\neq$, $\sim$, $\simeq$, $\approx$, $\asymp$, $\doteq$, $\propto$, $\models$, $\leq$, $\prec$, $\preceq$,
+$\ll$, $\subset$, $\subseteq$, $\sqsubset$, $\sqsubseteq$, $\dashv$, $\in$, $\geq$, $\succ$, $\succeq$, $\gg$, $\supset$,
+$\supseteq$, $\sqsupset$, $\sqsupseteq$, $\vdash$, $\ni$, $\perp$, $\mid$, $\parallel$, $\bowtie$, $\Join$, $\ltimes$, $\rtimes$, $\smile$, $\frown$,
+$\notin$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\approxeq$, $\thicksim$, $\backsim$, $\backsimeq$, $\triangleq$, $\circeq$, $\bumpeq$, $\Bumpeq$, $\doteqdot$, $\thickapprox$, $\fallingdotseq$, $\risingdotseq$, $\varpropto$,
+$\therefore$, $\because$, $\eqcirc$, $\neq$, $\leqq$, $\leqslant$, $\lessapprox$, $\lll$, $\lessdot$, $\lesssim$,
+$\eqslantless$, $\precsim$, $\precapprox$, $\Subset$, $\subseteqq$, $\sqsubset$, $\preccurlyeq$, $\curlyeqprec$, $\blacktriangleleft$,
+$\trianglelefteq$, $\vartriangleleft$, $\geqq$, $\geqslant$, $\gtrapprox$, $\ggg$, $\gtrdot$, $\gtrsim$, $\eqslantgtr$, $\succapprox$, $\Supset$,
+$\supseteqq$, $\sqsupset$, $\succcurlyeq$, $\curlyeqsucc$, $\blacktriangleright$, $\trianglerighteq$, $\vartriangleright$, $\lessgtr$, $\lesseqgtr$,
+$\lesseqqgtr$, $\gtreqqless$, $\gtreqless$, $\gtrless$, $\backepsilon$, $\between$, $\pitchfork$, $\shortmid$, $\smallfrown$, $\smallsmile$,
+$\Vdash$, $\vDash$, $\Vvdash$, $\shortparallel$, $\nshortparallel$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\ncong$, $\nmid$, $\nparallel$, $\nshortmid$, $\nshortparallel$, $\nsim$, $\nVDash$, $\nvDash$, $\nvdash$, $\ntriangleleft$, $\ntrianglelefteq$,
+$\ntriangleright$, $\ntrianglerighteq$, $\nleq$, $\nleqq$, $\nleqslant$, $\nless$, $\nprec$, $\npreceq$, $\precnapprox$, $\precnsim$, $\lnapprox$,
+$\lneq$, $\lneqq$, $\lnsim$, $\lvertneqq$, $\ngeq$, $\ngeqq$, $\ngeqslant$, $\ngtr$, $\nsucc$, $\nsucceq$, $\succnapprox$,
+$\succnsim$, $\gnapprox$, $\gneq$, $\gneqq$, $\gnsim$, $\gvertneqq$, $\nsubseteq$, $\nsupseteq$, $\nsubseteqq$, $\nsupseteqq$, $\subsetneq$,
+$\supsetneq$, $\subsetneqq$, $\supsetneqq$, $\varsubsetneq$, $\varsupsetneq$, $\varsubsetneqq$,
+$\varsupsetneqq$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\leftarrow$, $\Leftarrow$, $\rightarrow$, $\Rightarrow$, $\leftrightarrow$, $\Leftrightarrow$, $\longleftarrow$, $\Longleftarrow$, $\longrightarrow$, $\Longrightarrow$,
+$\uparrow$, $\Uparrow$, $\downarrow$, $\Downarrow$, $\updownarrow$, $\Updownarrow$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\mapsto$, $\hookleftarrow$, $\leftharpoonup$, $\leftharpoondown$, $\rightleftharpoons$, $\longmapsto$, $\hookrightarrow$, $\rightharpoonup$, $\rightharpoondown$, $\leadsto$, $\nearrow$,
+$\searrow$, $\swarrow$, $\nwarrow$
+
+\vspace{1em}
+
+
+
+
+
+\noindent
+$\dashrightarrow$, $\leftrightarrows$, $\leftarrowtail$, $\curvearrowleft$, $\upuparrows$, $\multimap$, $\rightleftarrows$, $\twoheadrightarrow$,
+$\rightleftharpoons$, $\Rsh$, $\downharpoonright$, $\dashrightarrow$, $\Lleftarrow$,
+$\looparrowleft$, $\circlearrowleft$, $\upharpoonleft$,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ############################
+% End of the document
+
+\end{document}

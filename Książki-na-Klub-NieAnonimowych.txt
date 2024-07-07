@@ -4,10 +4,6 @@ Jestem bardzo ciekawy co w tej książce znajdę?
 
 
 
-Jerzy Michalski „Studia i szkice historyczne z XVIII i XIX wieku”
-
-Liczący ponad 800 stron tom studiów i szkiców na temat omawianych okresów historii. Bardzo jestem szczęśliwy, że tom jest w moich rękach, bowiem pozwala zagłębić się w historię I RP XVIII wieku, która nie sprowadza się prosto do pojęcia „zabory”.
-
 
 
 hmm, to może "Wprowadzenie do semantyki językoznawczej" Grzegorczykowej, "Wielkie teorie językoznawcze" Paveau i "Teoria języka" Buhlera, może też coś Stalmaszczyka z serii "Metodologie językoznawstwa"?
@@ -21,13 +17,6 @@ Red. Piotr Kletowski, Maciej Peplinski „Europejskie kino gatunków 2”
 
 
 #AQFT
-
-
-
-
-
-
-Ola Bratteli, Derek W. Robinson „Operator Algebras and Quantum Statistical Mechanics 1. C*- and W*-Algebras, Symmetyr Groups, Decomposition of States”
 
 
 
@@ -77,7 +66,7 @@ Rawita Franciszek Gawroński „Bohdan Chmielnicki. Tom I: Do elekcji Jana Kazim
 
 
 
-Zbigniew Semadeni, Antoni Wiweger „Wstęp do teorii kategorii i funktorów”
+
 
 
 
@@ -88,7 +77,7 @@ Piotr Bąk „Gramatyka języka polskiego”
 
 
 
-Thomas H. Cormen, Charles E. Leierson, Ronald L. Rivest, Clifford Stein „Wprowadzenie do algorytmów”
+
 
 
 N.M. Matwiejew „Metody całkowania równań różniczkowych zwyczajnych”
@@ -106,9 +95,7 @@ Władysław Tatarkiewcz „O szczęściu”
 
 
 
-Poniżej fragment z książki Brattelego i Robinsona „Operators algebras and quantum statistical mechanics. Vol I”.
 
-Może ktoś z was lepiej to rozumie, będę wdzięczny za pomoc.
 
 
 
@@ -144,20 +131,6 @@ Wojciech Wojtyński „Grupy i algebry Liego”
 
 
 Henryk Jerzy Chmielewski „Tytus Romek i A'Tomek. Księga IV”
-
-
-
-
-
-
-
-Gottlob Frege „Pisma semantyczne”
-
-
-
-
-
-
 
 
 
@@ -221,12 +194,6 @@ Andrzej Grzegorczyk „Zarys logiki matematycznej”
 
 
 
-Stanisław Lem „Niezwyciężony”
-
-
-
-
-
 Franciszek Wesołowski „Zasady muzyki”
 
 
@@ -248,8 +215,3 @@ Robin Dunbar „Nowa historia ewolucji człowieka”
 
 
 Józef Życiński
-
-
-Richard P. Feynman „Wykłady o obliczeniach”
-
-Jak wszystko wskazuje, zajmowanie się tematyką obliczeń, ma finansową przyszłość. Ktoś może chciałby się przyłączyć do lektury?
