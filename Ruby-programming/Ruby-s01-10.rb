@@ -45,15 +45,56 @@
 # puts "1 >= 2 -> #{1 >= 2}"
 # puts "2 >= 1 -> #{2 >= 1}"
 
+# name = "Jill"
 
+# puts "!(name == \"Jill\") = #{!(name == "Jill")}"
 
+# def check_sign(number)
+#   if number > 0
+#     "#{number} is positive"
+#   else
+#     "#{number} is negative"
+#   end
+# end
 
+# puts "check_sign(1) = #{check_sign(1)}"
+# puts "check_sign(0) = #{check_sign(0)}"
+# puts "check_sign(-1) = #{check_sign(-1)}"
 
+# def check_sign(number)
+#   if number > 0
+#     "#{number} is positive"
+#   elsif number < 0
+#     "#{number} is negative"
+#   else
+#     "#{number}"
+#   end
+# end
 
+# puts "check_sign(1) = #{check_sign(1)}"
+# puts "check_sign(0) = #{check_sign(0)}"
+# puts "check_sign(-1) = #{check_sign(-1)}"
 
+# def check_sign(number)
+#   number > 0 ? "#{number} is positive" : "#{number} is negative"
+# end
 
+# puts "check_sign(1) = #{check_sign(1)}"
+# puts "check_sign(0) = #{check_sign(0)}"
+# puts "check_sign(-1) = #{check_sign(-1)}"
 
-# https://www.youtube.com/watch?v=t_ispmWmdjY
-# Skończyłem na 1:59:00.
+# arrayVar = Array.new
 
-# https://rubymonk.com/learning/books/1-ruby-primer/chapters/8-control-structures/lessons/43-boolean-expressions-in-ruby
+# arrayVar[0] = 0
+# arrayVar[1] = 1
+
+# puts "arrayVar -> #{arrayVar}"
+
+# puts "[1, 2, 3, 4, 5][2] = #{[1, 2, 3, 4, 5][2]}"
+# puts "[1, 2, 3, 4, 5, 6, 7][4] = #{[1, 2, 3, 4, 5, 6, 7][4]}"
+
+# puts "[1, 2, 3, 4, 5][-1] = #{[1, 2, 3, 4, 5][-1]}"
+
+# puts "[1, 2, 3, 4, 5].map{ |i| i + 1 } = #{[1, 2, 3, 4, 5].map{ |i| i + 1 }}"
+
+puts "[1, 2, 3, 4, 5, 6].select{ |number| number % 2 == 0} = #{[1, 2, 3, 4, 5, 6].select{ |number| number % 2 == 0 }}"
