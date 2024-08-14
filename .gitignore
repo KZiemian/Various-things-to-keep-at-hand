@@ -9,8 +9,8 @@ auto/
 
 # ignore executable files on GNU/Linux and Windows
 *.exe
-out
-prog
+a.out
+progOut
 
 # ignore HTML files, like these produced by `go cover -html=*' command
 *.html
@@ -29,6 +29,12 @@ prog
 *.snm
 *.toc
 
+# ignore auxiliary files created by Beamer class
+*.vrb
+
+# ignore auxiliary files of assembly programming languages
+*.o
+*.elf
 
 
 
@@ -39,6 +45,7 @@ Go-questions.txt
 Julia-YT-channel-description.txt
 Julia-YT-widea-z-problemami.txt
 Julia-mat-gripes.txt
+Julia-Comments-about-documentation.txt
 
 # ingore specific director
 Private-work

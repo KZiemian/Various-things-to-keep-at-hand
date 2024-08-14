@@ -1,0 +1,10 @@
+arm-linux-gnueabi-as ARM-s01-01.asm -o result-01.o
+
+arm-linux-gnueabi-gcc-11 -nostdlib result-01.o -o prog-01.elf
+
+# sudo apt install qemu
+# sudo apt install qemu-user
+
+qemu-arm ./prog-01.elf
+
+https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md

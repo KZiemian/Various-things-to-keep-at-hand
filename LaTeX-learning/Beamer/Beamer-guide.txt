@@ -1,0 +1,66 @@
+Page 2.
+Copyright 2010,2011 by Joseph Wright and Vedran Miletić
+Copyright 2016,2017 by Joseph Wright
+Copyright 2017,2018 by Louis Stuart and Joseph Wright
+
+
+
+Page 5 and 6.
+12.10Abstract . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+12.11Verse, Quotations, Quotes .
+12.12Footnotes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128
+
+
+
+Page 18.
+The color package is not loaded automatically if beamerarticle is loaded with the noxcolor option. Tu chyba powinno być xcolor.
+
+
+
+Page 20.
+It even looks quite impressive with the
+colorful title and the rounded corners and the shadows,
+Czy dziś jest to prawdą?
+
+
+
+Page 22.
+numbers.\qedhere -> numbers. \qedhere
+
+The \item command is not the only command that takes overlay specifications. Another useful command
+that takes one is the \uncover command. It only shows its argument on the slides specified in the overlay
+specification. On all other slides, the argument is hidden (though it still occupies space).
+Dopisać, że item<2-> też zajmuje miejsce.
+
+
+
+Page 24.
+An Algorithm For Finding Prime Numbers. Usunąć kropkę?
+
+main (void) -> main(void)
+
+is_prime (100, true); ??? is_prime(100, true);
+
+is_prime [j] -> is_prime[j]
+j+=i -> j += i
+
+
+
+Page 25.
+An Algorithm For Finding Prime Numbers. Usunąć kropkę?
+
+main (void) -> main(void)
+
+\alert<0>{\{} -> \alert<0>{ \{ }
+
+\{}} -> \{ }}
+
+is_prime [j] -> is_prime[j]
+
+j+=i -> j += i
+
+Czy to dobrze brzmi?
+However one difference occurs if the command
+\setbeamercovered{transparent} has been used to make covered text “transparent” instead, \visible
+still makes the text completely “invisible” on non-specified slides. Euclid has the feeling that the naming
+convention is a bit strange, but cannot quite pinpoint the problem.

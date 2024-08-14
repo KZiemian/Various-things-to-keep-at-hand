@@ -1,17 +1,28 @@
-19 I   2024: 34 min.
-22 I   2024: 34 min.
-23 I   2024: 24 min.
-24 I   2024: 39 min.
-28 I   2024: 30 min.
-29 I   2024: 36 min.
- 2 II  2024: 40 min.
- 5 II  2024: 34 min.
-17 II  2024: 19 min.
-24 II  2024: 40 min.
-26 II  2024: 29 min.
-24 III 2024: 31 min.
-17 IV  2024: 20 min.
-23 IV  2024: 63, 43 min.
-24 IV  2024: 17 min.
-15 V   2024: 46 min.
- 8 VI  2024: 71 min.
+19 I    2024: 34 min.
+22 I    2024: 34 min.
+23 I    2024: 24 min.
+24 I    2024: 39 min.
+28 I    2024: 30 min.
+29 I    2024: 36 min.
+ 2 II   2024: 40 min.
+ 5 II   2024: 34 min.
+17 II   2024: 19 min.
+24 II   2024: 40 min.
+26 II   2024: 29 min.
+24 III  2024: 31 min.
+17 IV   2024: 20 min.
+23 IV   2024: 106 min.
+24 IV   2024: 17 min.
+15 V    2024: 46 min.
+ 8 VI   2024: 71 min.
+24 VII  2024: 92 min.
+25 VII  2024: 63 min.
+26 VII  2024: 73 min.
+27 VII  2024: 71 min.
+28 VII  2024: 76 min.
+29 VII  2024: 45 min.
+30 VII  2024: 72 min.
+31 VII  2024: 65 min.
+ 1 VIII 2024: 61 min.
+ 2 VIII 2024: 71 min.
+ 3 VIII 2024: 29 min.

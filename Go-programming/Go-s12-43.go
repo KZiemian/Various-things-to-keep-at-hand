@@ -48,13 +48,24 @@ func main() {
 	// fmt.Printf("Liczba wierszy „Pana Tadeusza”: %v.\n",
 	// 	liczbaWierszyPanaTadeusza)
 
-	// fmt.Printf("math.Sqrt2/2.0 = %v.\n", math.Sqrt2/2.0)
-	// fmt.Printf("math.Sqrt2/3.0 = %v.\n", math.Sqrt2/3.0)
-	// fmt.Printf("math.Sqrt2/4.0 = %v.\n", math.Sqrt2/4.0)
+	fmt.Printf("math.Sqrt2/2.0 = %v.\n", math.Sqrt2/2.0)
+	fmt.Printf("math.Sqrt2/3.0 = %v.\n", math.Sqrt2/3.0)
+	fmt.Printf("math.Sqrt2/4.0 = %v.\n", math.Sqrt2/4.0)
 
-	sqrt3 := math.Sqrt(3)
+	// sqrt3 := math.Sqrt(3)
 
-	fmt.Printf("sqrt3/2.0 = %v.\n", sqrt3/2.0)
-	fmt.Printf("sqrt3/3.0 = %v.\n", sqrt3/3.0)
-	fmt.Printf("sqrt3/4.0 = %v.\n", sqrt3/4.0)
+	// fmt.Printf("sqrt3/2.0 = %v.\n", sqrt3/2.0)
+	// fmt.Printf("sqrt3/3.0 = %v.\n", sqrt3/3.0)
+	// fmt.Printf("sqrt3/4.0 = %v.\n", sqrt3/4.0)
+
+	sqrt5 := math.Sqrt(5)
+
+	fmt.Printf("sqrt5/2.0 = %v.\n", sqrt5/2.0)
+	fmt.Printf("sqrt5/3.0 = %v.\n", sqrt5/3.0)
+	fmt.Printf("sqrt5/4.0 = %v.\n", sqrt5/4.0)
+
+	sqrt6 := math.Sqrt(6)
+
+	fmt.Printf("sqrt6 = %v.\n", sqrt6)
+	fmt.Printf("sqrt6/2.0 = %v.\n", sqrt6/2.0)
 }
