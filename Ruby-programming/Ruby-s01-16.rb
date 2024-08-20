@@ -40,14 +40,71 @@
 # puts str_test[0, str_test.length - 1]
 
 
+# puts "Enter first number: "
+
+# num1 = gets.chomp().to_f
+
+# puts "Enter operator: "
+
+# operatorVar = gets.chomp()
+
+# puts "Enter second number: "
+
+# num2 = gets.chomp().to_f
+
+# if operatorVar == "+"
+#   puts (num1 + num2)
+# elsif operatorVar == "-"
+#   puts (num1 - num2)
+# elsif operatorVar == "*"
+#   puts (num1 * num2)
+# elsif operatorVar == "/"
+#   puts (num1 / num2)
+# else
+#   puts "Unknow operator: #{operatorVar}"
+# end
 
 
+# def get_day_name(day)
+#   day_name = ""
 
+#   case day
+#   when "mon"
+#     day_name = "Monday"
 
+#   when "tue"
+#     day_name = "Tuesday"
 
-# https://www.youtube.com/watch?v=t_ispmWmdjY
-# Skończyłem na 1:59:00.
+#   when "wed"
+#     day_name = "Wednsday"
 
-# https://rubymonk.com/learning/books/1-ruby-primer/chapters/19-ruby-methods/lessons/69-new-lesson
+#   when "thu"
+#     day_name = "Thursday"
 
-#
+#   when "fri"
+#     day_name = "Friday"
+
+#   when "sat"
+#     day_name = "Saturday"
+
+#   when "sun"
+#     day_name = "Sunday"
+
+#   else
+#     puts "Ivalid abbreviation: #{day}."
+
+#     day_name = "Get invalid abbreviation."
+#   end
+
+#   return day_name
+# end
+
+# puts "mon -> #{get_day_name("mon")}"
+# puts "tue -> #{get_day_name("tue")}"
+# puts "wed -> #{get_day_name("wed")}"
+# puts "thu -> #{get_day_name("thu")}"
+# puts "fri -> #{get_day_name("fri")}"
+# puts "sat -> #{get_day_name("sat")}"
+# puts "sun -> #{get_day_name("sun")}"
+
+# puts "I.R.S. -> #{get_day_name("I.R.S.")}"
