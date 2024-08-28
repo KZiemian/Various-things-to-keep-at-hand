@@ -1,0 +1,261 @@
+%%
+%% This is file `beamercolorthemejagiellonian.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% beamercolorthemejagiellonian.dtx  (with options: `package')
+%% ---------------------------------------------------------------------------
+%% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+%% contributors can be found at
+%% 
+%%     https://github.com/matze/mtheme/graphs/contributors
+%% 
+%% and the original template was based on the HSRM theme by Benjamin Weiss.
+%% 
+%% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%% International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamercommandsjagiellonian}
+\RequirePackage{pgfopts}
+\pgfkeys{
+  /jagiellonian/color/block/.cd,
+  .is choice,
+  transparent/.code=\jagiellonian@block@transparent,
+  fill/.code=\jagiellonian@block@fill,
+}
+\pgfkeys{
+  /jagiellonian/color/style/.cd,
+  .is choice,
+  light/.code=\jagiellonian@colors@light,
+  dark/.code=\jagiellonian@colors@dark,
+}
+\pgfkeys{
+  /jagiellonian/color/titlefontcolor/.cd,
+  .is choice,
+  light/.code=\jagiellonian@colors@setlighttitlefontcolor,
+  dark/.code=\jagiellonian@colors@setdarktitlefontcolor,
+}
+\pgfkeys{
+  /jagiellonian/color/titlebackgroundcolor/.cd,
+  .is choice,
+  JUcolor/.code=\jagiellonian@colors@setJUcolorastitlebackgroundcolor,
+  light/.code=\jagiellonian@colors@setlighttitlebackgroundcolor,
+  dark/.code=\jagiellonian@colors@setdarktitlebackgroundcolor,
+}
+\newcommand{\jagiellonian@color@setdefaults}{
+  \pgfkeys{/jagiellonian/color/.cd,
+    style=light,
+    titlebackgroundcolor=JUcolor,
+    titlefontcolor=light,
+    block=transparent,
+  }
+}
+\definecolor{JagiellonianUniversityBlue}{HTML}{005BA6}
+\definecolor{JagiellonianUniversityYellow}{HTML}{FFCC00}
+\definecolor{JagiellonianUniversityRed}{HTML}{FF0019}
+\definecolor{JagiellonianUniversityGold}{HTML}{BFA37C}
+\definecolor{jSpecialSlidesFGColor}{HTML}{0089FF}
+\definecolor{jSpecialSlidesBGColor}{HTML}{0089FF}
+\definecolor{jNormalTextFGStyleLight}{HTML}{7E7E7E}
+\definecolor{jMathTextFGStyleLight}{HTML}{4E4E4E}
+\definecolor{jBackgroundStyleLight}{HTML}{FAFAFA}
+\definecolor{jNormalTextFGStyleDark}{HTML}{818F9B}
+\definecolor{jMathTextFGStyleDark}{HTML}{D6DEE5}
+\definecolor{jBackgroundStyleDark}{HTML}{023159}
+\definecolor{jAxisRed}{HTML}{A21C0E}
+\definecolor{jAxisGreen}{HTML}{7FAA60}
+\definecolor{jAxisBlue}{HTML}{0089FF}
+\definecolor{jOrange}{HTML}{EB811B}
+\definecolor{jGray}{HTML}{8F8E8E}
+\definecolor{jTomatoRed}{HTML}{DD5345}
+\definecolor{jViolet}{HTML}{8E58CB}
+\definecolor{jGreen}{HTML}{14B03D}
+\colorlet{jNormalTextFGColor}{jNormalTextFGStyleLight}
+\colorlet{jNormalTextBGColor}{jBackgroundStyleLight}
+\colorlet{jMathTextFGColor}{jMathTextFGStyleLight}
+\colorlet{jMathTextBGColor}{jBackgroundStyleLight}
+\colorlet{jFrametitleFGColor}{jBackgroundStyleLight}
+\colorlet{jFrametitleBGColor}{blue}
+\colorlet{jSpecialSlidesFGColor}{jBackgroundStyleLight}
+\colorlet{jSpecialSlidesBGColor}{JagiellonianUniversityBlue}
+\newcommand{\jagiellonian@colors@setcolorsstylelight}{
+  \colorlet{jNormalTextFGColor}{jNormalTextFGStyleLight}
+  \colorlet{jNormalTextBGColor}{jBackgroundStyleLight}
+  \colorlet{jMathTextFGColor}{jMathTextFGStyleLight}
+  \colorlet{jMathTextBGColor}{jBackgroundStyleLight}
+  \colorlet{jFrametitleFGColor}{jBackgroundStyleLight}
+  \colorlet{jFrametitleBGColor}{JagiellonianUniversityBlue}
+}
+\newcommand{\jagiellonian@colors@setcolorsstyledark}{
+  \colorlet{jNormalTextFGColor}{jNormalTextFGStyleDark}
+  \colorlet{jNormalTextBGColor}{jBackgroundStyleDark}
+  \colorlet{jMathTextFGColor}{jMathTextFGStyleDark}
+  \colorlet{jMathTextBGColor}{jBackgroundStyleDark}
+  \colorlet{jFrametitleFGColor}{jBackgroundStyleLight}
+  \colorlet{jFrametitleBGColor}{JagiellonianUniversityBlue}
+}
+\newcommand{\jagiellonian@colors@setlighttitlefontcolor}{
+  \setbeamercolor{titlelike}{fg=jBackgroundStyleLight}
+  \setbeamercolor{author}{fg=jBackgroundStyleLight}
+  \setbeamercolor{date}{fg=jBackgroundStyleLight}
+  \setbeamercolor{institute}{fg=jBackgroundStyleLight}
+}
+\newcommand{\jagiellonian@colors@setdarktitlefontcolor}{
+  \setbeamercolor{titlelike}{fg=jNormalTextFGStyleLight}
+  \setbeamercolor{author}{fg=jNormalTextFGStyleLight}
+  \setbeamercolor{date}{fg=jNormalTextFGStyleLight}
+  \setbeamercolor{institute}{fg=jNormalTextFGStyleLight}
+}
+\newcommand{\jagiellonian@colors@setlighttitlebackgroundcolor}{
+  \setbeamercolor{titlelike}{bg=jBackgroundStyleLight}
+  \setbeamercolor{author}{bg=jBackgroundStyleLight}
+  \setbeamercolor{date}{bg=jBackgroundStyleLight}
+  \setbeamercolor{institute}{bg=jBackgroundStyleLight}
+}
+\newcommand{\jagiellonian@colors@setJUcolorastitlebackgroundcolor}{
+  \setbeamercolor{titlelike}{bg=JagiellonianUniversityBlue}
+  \setbeamercolor{author}{bg=JagiellonianUniversityBlue}
+  \setbeamercolor{date}{bg=JagiellonianUniversityBlue}
+  \setbeamercolor{institute}{bg=JagiellonianUniversityBlue}
+  % Bez znaczenia i tak nie zmienia tła
+  % \setbeamercolor{titlelike}{bg=red}
+  % \setbeamercolor{author}{bg=red}
+  % \setbeamercolor{date}{bg=red}
+  % \setbeamercolor{institute}{bg=red}
+}
+\newcommand{\jagiellonian@colors@setdarktitlebackgroundcolor}{
+  \setbeamercolor{titlelike}{bg=jBackgroundStyleDark}
+  \setbeamercolor{author}{bg=jBackgroundStyleDark}
+  \setbeamercolor{date}{bg=jBackgroundStyleDark}
+  \setbeamercolor{institute}{bg=jBackgroundStyleDark}
+}
+\newcommand{\jagiellonian@colors@light}{
+  \jagiellonian@colors@setcolorsstylelight
+  %
+  %
+  \setbeamercolor{normal text}{%
+    fg=jNormalTextFGColor,
+    bg=jNormalTextBGColor,
+  }
+  %
+  %
+  \setbeamercolor{math text}{
+    use=normal text,
+    fg=jMathTextFGColor,
+    bg=jMathTextBGColor,
+  }
+  %
+  %
+  \setbeamercolor{frametitle}{%
+    fg=jFrametitleFGColor,
+    bg=jFrametitleBGColor,
+  }
+}
+\newcommand{\jagiellonian@colors@dark}{
+  \jagiellonian@colors@setcolorsstyledark
+  %
+  \usebeamercolor[fg]{normal text}
+  %
+  %
+    \setbeamercolor{normal text}{%
+    fg=jNormalTextFGColor,
+    bg=jNormalTextBGColor,
+  }
+  %
+  %
+  \setbeamercolor{math text}{
+    use=normal text,
+    fg=jMathTextFGColor,
+    bg=jMathTextBGColor,
+  }
+  %
+  %
+  \setbeamercolor{frametitle}{%
+    fg=jFrametitleFGColor,
+    bg=jFrametitleBGColor,
+  }
+  %
+  %
+  % \setbeamercolor{titlelike}{fg=jBackgroundStyleLight,bg=JagiellonianUniversityBlue}
+  % \setbeamercolor{author}{fg=jBackgroundStyleLight,bg=JagiellonianUniversityBlue}
+  % \setbeamercolor{date}{fg=jBackgroundStyleLight,bg=JagiellonianUniversityBlue}
+  % \setbeamercolor{institute}{fg=jBackgroundStyleLight,bg=JagiellonianUniversityBlue}
+}
+\setbeamercolor{alerted text}{%
+  fg=jOrange
+}
+\setbeamercolor{example text}{%
+  fg=jGreen
+}
+\setbeamercolor{structure}{use=normal text, fg=normal text.fg}
+\setbeamercolor{palette primary}{
+  fg=jBackgroundStyleLight,
+  bg=blue,
+}
+\setbeamercolor{progress bar}{%
+  use=alerted text,
+  fg=alerted text.fg,
+  bg=alerted text.fg!50!black!30!white,
+}
+\setbeamercolor{title separator}{
+  use=progress bar,
+  parent=progress bar,
+}
+\setbeamercolor{progress bar in head/foot}{%
+  use=progress bar,
+  parent=progress bar,
+}
+\setbeamercolor{progress bar in section page}{
+  use=progress bar,
+  parent=progress bar,
+}
+\newcommand{\jagiellonian@block@transparent}{
+  \setbeamercolor{block title}{%
+    use=normal text,
+    fg=normal text.fg,
+    bg=
+  }
+  \setbeamercolor{block body}{
+    bg=
+  }
+}
+\newcommand{\jagiellonian@block@fill}{
+  \setbeamercolor{block title}{%
+    use=normal text,
+    fg=normal text.fg,
+    bg=normal text.bg!80!fg
+  }
+  %
+  %
+  \setbeamercolor{block body}{
+    use={block title, normal text},
+    bg=block title.bg!50!normal text.bg
+  }
+}
+\setbeamercolor{block title alerted}{%
+  use={block title, alerted text},
+  bg=block title.bg,
+  fg=alerted text.fg
+}
+\setbeamercolor{block title example}{%
+  use={block title, example text},
+  bg=block title.bg,
+  fg=example text.fg
+}
+\setbeamercolor{block body alerted}{use=block body, parent=block body}
+\setbeamercolor{block body example}{use=block body, parent=block body}
+\setbeamercolor{footnote}{fg=jNormalTextFGColor!90}
+\setbeamercolor{footnote mark}{fg=.}
+\setbeamercolor{bibliography entry author}{fg=, bg=}
+\setbeamercolor{bibliography entry title}{fg=, bg=}
+\setbeamercolor{bibliography entry location}{fg=, bg=}
+\setbeamercolor{bibliography entry note}{fg=, bg=}
+ %
+\jagiellonian@color@setdefaults
+\ProcessPgfPackageOptions{/jagiellonian/color}
+\mode<all>
+\endinput
+%%
+%% End of file `beamercolorthemejagiellonian.sty'.

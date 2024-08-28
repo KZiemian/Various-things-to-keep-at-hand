@@ -1,23 +1,41 @@
+// func main() {
+// 	fmt.Println("Writing data")
+// 	data := []byte("Some data to write")
+
+// 	client, _ := net.Dial("tcp", ":3000")
+// 	defer client.Close()
+
+// 	save(LogWriter(client), data)
+// }
+
+// type logWriter struct {
+// 	writer io.Writer
+// }
+
+// func (l logWriter) Write(p []byte) (n int, err error) {
+// 	fmt.Printf("%s\n", p)
+
+// 	return l.writer.Write(p)
+// }
+
+// func LogWriter(w io.Writer) io.Writer {
+// 	return logWriter{w}
+// }
+
+package main
+
+import ("fmt"
+	"math")
+
 func main() {
-	fmt.Println("Writing data")
-	data := []byte("Some data to write")
+	// sqrtOf2order12 := 1.0594630943
+	sqrtOf2order12 := 1.05946309
 
-	client, _ := net.Dial("tcp", ":3000")
-	defer client.Close()
+	result := math.Pow(sqrtOf2order12, 6.0)
 
-	save(LogWriter(client), data)
-}
+	fmt.Printf("sqrtOf2order12^6 = %v.\n", result)
 
-type logWriter struct {
-	writer io.Writer
-}
+	result *= result
 
-func (l logWriter) Write(p []byte) (n int, err error) {
-	fmt.Printf("%s\n", p)
-
-	return l.writer.Write(p)
-}
-
-func LogWriter(w io.Writer) io.Writer {
-	return logWriter{w}
+	fmt.Printf("sqrtOf2order12^12 = %v.\n", result)
 }

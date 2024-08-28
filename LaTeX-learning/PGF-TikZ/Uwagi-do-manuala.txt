@@ -1,0 +1,40 @@
+Version of manuala: 3.1.10.
+https://ctan.gust.org.pl/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf
+
+Page 51.
+A node is a small part of a picture. When a node is created, you provide a position where the node
+should be drawn and a shape. A node of shape circle will be drawn as a circle, a node of shape rectangle
+as a rectangle, and so on. A node may also contain some text, which is why Karl used nodes to show text.
+Finally, a node can get a name for later reference
+
+To miesza węzły z picsami, bo oba są przedstawione jako małe części obrazka. Spróbuj napisać ten paragraf lepiej.
+
+Należy przeczytać rozdział o węzłach i lepiej opisać o co tu chodzi.
+
+Czy lepszy jest styl (patrz kod na rysunku)
+node [shape=circle,draw]
+czy też
+node[shape=circle,draw]
+
+
+Page 52.
+
+Once this whole node is constructed, it is saved until after the main path is finished. Then,
+it is drawn.
+
+Tutaj chodzi, że tworzone są wszystkie dane węzła, ale samo rysowanie jest dokonywane po skończeniu ścieżki. Warto byłoby napisać jakoś zgrabniej.
+
+Page 52 i 53.
+
+Ostatni rysunek na stronie 52 wygląda tak, jakby brzegi węzłów były rysowane
+z opcją thick, której nie ma w kodzie.
+
+Page 54.
+
+Może dodać na górze drugiego rysunka „% ... set up style” tak jak jest to w pierwszym?
+
+Chyba lepiej zmienić nazwy węzłów
+(waiting 1) -> (waiting)
+(critical 1) -> (critical)
+
+\usetikzlibrary {positioning} -> \usetikzlibrary{positioning}

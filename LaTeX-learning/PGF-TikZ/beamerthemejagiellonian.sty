@@ -1,0 +1,90 @@
+%%
+%% This is file `beamerthemejagiellonian.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% beamerthemejagiellonian.dtx  (with options: `package')
+%% ---------------------------------------------------------------------------
+%% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+%% contributors can be found at
+%% 
+%%     https://github.com/matze/mtheme/graphs/contributors
+%% 
+%% and the original template was based on the HSRM theme by Benjamin Weiss.
+%% 
+%% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%% International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerthemejagiellonian}
+  % [2021/11/8 v0.1 Jagiellonian Beamer theme]
+\RequirePackage{etoolbox}
+\RequirePackage{pgfopts}
+\pgfkeys{/jagiellonian/.cd,
+  .search also={
+    /jagiellonian/inner,
+    /jagiellonian/outer,
+    /jagiellonian/color,
+    /jagiellonian/font,
+  }
+}
+\pgfkeys{
+  /jagiellonian/titleformatplain/.cd,
+    .is choice,
+    regular/.code={%
+      \let\jagiellonian@plaintitleformat\@empty%
+      \setbeamerfont{standout}{shape=\normalfont}%
+    },
+    smallcaps/.code={%
+      \let\jagiellonian@plaintitleformat\@empty%
+      \setbeamerfont{standout}{shape=\scshape}%
+    },
+    allsmallcaps/.code={%
+      \let\jagiellonian@plaintitleformat\MakeLowercase%
+      \setbeamerfont{standout}{shape=\scshape}%
+      \PackageWarning{beamerthemejagiellonian}{%
+        Be aware that titleformat plain=allsmallcaps can lead to problems%
+      }
+    },
+    allcaps/.code={%
+      \let\jagiellonian@plaintitleformat\MakeUppercase%
+      \setbeamerfont{standout}{shape=\normalfont}%
+      \PackageWarning{beamerthemejagiellonian}{%
+        Be aware that titleformat plain=allcaps can lead to problems%
+      }
+    },
+}
+\pgfkeys{
+  /jagiellonian/titleformat/.code=\pgfkeysalso{
+      font/titleformat title=#1,
+      font/titleformat subtitle=#1,
+      font/titleformat section=#1,
+      font/titleformat frame=#1,
+      titleformat plain=#1,
+    }
+}
+\newcommand{\jagiellonian@setdefaults}{
+  \pgfkeys{/jagiellonian/.cd,
+    titleformatplain=regular,
+  }
+}
+\providecommand{\tikzexternalenable}{}
+\providecommand{\tikzexternaldisable}{}
+\useinnertheme{jagiellonian}
+\useoutertheme{jagiellonian}
+\usecolortheme{jagiellonian}
+\usefonttheme{jagiellonian}
+\RequirePackage{beamercommandsjagiellonian}
+\AtEndPreamble{%
+  \@ifpackageloaded{pgfplots}{%
+    \RequirePackage{pgfplotsthemetol}
+  }{}
+}
+\newcommand{\metroset}[1]{\pgfkeys{/jagiellonian/.cd,#1}}
+\newcommand{\mreducelistspacing}{\vspace{-\topsep}}
+\jagiellonian@setdefaults
+\ProcessPgfOptions{/jagiellonian}
+\endinput
+%%
+%% End of file `beamerthemejagiellonian.sty'.

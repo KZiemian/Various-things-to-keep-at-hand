@@ -1,0 +1,335 @@
+%%
+%% This is file `beamerinnerthemejagiellonian.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% beamerinnerthemejagiellonian.dtx  (with options: `package')
+%% ---------------------------------------------------------------------------
+%% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+%% contributors can be found at
+%% 
+%%     https://github.com/matze/mtheme/graphs/contributors
+%% 
+%% and the original template was based on the HSRM theme by Benjamin Weiss.
+%% 
+%% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%% International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerinnerthemejagiellonian}[2017/01/23 Jagiellonian inner theme]
+\RequirePackage{etoolbox}
+\RequirePackage{keyval}
+\RequirePackage{calc}
+\RequirePackage{pgfopts}
+\RequirePackage{tikz}
+\RequirePackage{ragged2e}
+\RequirePackage{microtype}
+\pgfkeys{
+  /jagiellonian/inner/sectionpage/.cd,
+    .is choice,
+    none/.code=\jagiellonian@disablesectionpage,
+    simple/.code={\jagiellonian@enablesectionpage
+      \setbeamertemplate{section page}[simple]},
+    simpletitlecenter/.code={\jagiellonian@enablesectionpage
+          \setbeamertemplate{section page}[simpletitlecenter]},
+    progressbar/.code={\jagiellonian@enablesectionpage
+      \setbeamertemplate{section page}[progressbar]},
+    progressbartitlecenter/.code={\jagiellonian@enablesectionpage
+      \setbeamertemplate{section page}[progressbartitlecenter]},
+}
+\pgfkeys{
+  /jagiellonian/inner/subsectionpage/.cd,
+    .is choice,
+    none/.code=\jagiellonian@disablesubsectionpage,
+    simple/.code={\jagiellonian@enablesubsectionpage
+                  \setbeamertemplate{section page}[simple]},
+    progressbar/.code={\jagiellonian@enablesubsectionpage
+                       \setbeamertemplate{section page}[progressbar]},
+}
+\newcommand{\jagiellonian@inner@setdefaults}{
+  \setbeamertemplate{section in toc}[sections numbered]
+  \pgfkeys{/jagiellonian/inner/.cd,
+    sectionpage=progressbar,
+    subsectionpage=progressbar
+  }
+}
+\setbeamertemplate{title page}{
+  \begin{minipage}[b][\paperheight]{\textwidth}
+    \ifx\inserttitlegraphic\@empty\else\usebeamertemplate*{title graphic}\fi
+    \vfill%
+    \ifx\inserttitle\@empty\else\usebeamertemplate*{title}\fi
+    \ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
+    \usebeamertemplate*{title separator}
+    \ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi
+    \ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
+    \ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+    \vfill
+    \vspace*{1mm}
+  \end{minipage}
+}
+\def\maketitle{%
+
+  \ifbeamer@inframe
+    % \setbeamercolor{background canvas}{bg=red}
+    \titlepage
+    % \setbeamercolor{background canvas}{bg=}
+  \else
+    % Nie mam pojęcia co to robi, ale działa jak Iwona chciała.
+    \setbeamercolor{background canvas}{bg=JagiellonianUniversityBlue}
+    \frame[plain]{\titlepage}
+    \setbeamercolor{background canvas}{bg=jNormalTextBGColor}
+    \setbeamercolor{titlelike}{fg=jNormalTextFGColor}
+  \fi
+}
+\def\titlepage{%
+  \usebeamertemplate{title page}
+}
+\setbeamertemplate{title graphic}{
+  \vbox to 0pt {
+    \vspace*{2em}
+    \inserttitlegraphic%
+  }%
+  \nointerlineskip%
+}
+\setbeamertemplate{title}{
+  \raggedright%
+  \linespread{1.0}%
+  \inserttitle%
+  \par%
+  \vspace*{0.5em}
+}
+\setbeamertemplate{subtitle}{
+  \raggedright%
+  \insertsubtitle%
+  \par%
+  \vspace*{0.5em}
+}
+\newlength{\jagiellonian@titleseparator@lineheight}
+\setlength{\jagiellonian@titleseparator@lineheight}{2pt}
+\setbeamertemplate{title separator}{
+  \tikzexternaldisable%
+  \begin{tikzpicture}
+    \fill[fg] (0,0) rectangle (\textwidth, \jagiellonian@titleseparator@lineheight);
+  \end{tikzpicture}%
+  \tikzexternalenable%
+  \par%
+}
+\setbeamertemplate{author}{
+  \vspace*{2em}
+  \insertauthor%
+  \par%
+  \vspace*{0.25em}
+}
+\setbeamertemplate{date}{
+  \insertdate%
+  \par%
+}
+\setbeamertemplate{institute}{
+  \vspace*{3mm}
+  \insertinstitute%
+  \par%
+}
+\defbeamertemplate{section page}{simple}{
+  \addtocounter{framenumber}{1}
+  \begin{minipage}{22em}
+    \raggedright
+    \usebeamercolor[fg]{section title}
+    \usebeamerfont{section title}
+    \insertsectionhead\par
+    \ifx\insertsubsectionhead\@empty\else
+      \usebeamercolor[fg]{subsection title}
+      \usebeamerfont{subsection title}
+      \insertsubsectionhead
+    \fi
+  \end{minipage}
+}
+
+\defbeamertemplate{section page}{simpletitlecenter}{
+  \begin{center}
+    \usebeamercolor[fg]{section title}
+    \usebeamerfont{section title}
+    \insertsectionhead\par
+    \ifx\insertsubsectionhead\@empty\else
+      \usebeamercolor[fg]{subsection title}
+      \usebeamerfont{subsection title}
+      \insertsubsectionhead
+    \fi
+  \end{center}
+}
+
+\defbeamertemplate{section page}{progressbar}{
+  \begin{minipage}{22em}
+    \raggedright
+    \usebeamercolor[fg]{section title}
+    \usebeamerfont{section title}
+    \insertsectionhead\\[-1ex]
+    \usebeamertemplate*{progress bar in section page}
+    \par
+    \ifx\insertsubsectionhead\@empty\else%
+      \usebeamercolor[fg]{subsection title}%
+      \usebeamerfont{subsection title}%
+      \insertsubsectionhead
+    \fi
+  \end{minipage}
+  \par
+  \vspace{\baselineskip}
+}
+
+\defbeamertemplate{section page}{progressbartitlecenter}{
+  \centering
+  \begin{minipage}{22em}
+    % \raggedright
+    \usebeamercolor[fg]{section title}
+    \usebeamerfont{section title}
+    \insertsectionhead\\[-1ex]
+    \usebeamertemplate*{progress bar in section page}
+    \par
+    \ifx\insertsubsectionhead\@empty\else%
+      \usebeamercolor[fg]{subsection title}%
+      \usebeamerfont{subsection title}%
+      \insertsubsectionhead
+    \fi
+  \end{minipage}
+  \par
+  \vspace{\baselineskip}
+}
+\newcommand{\jagiellonian@disablesectionpage}{
+  \AtBeginSection{
+    % intentionally empty
+  }
+}
+\newcommand{\jagiellonian@enablesectionpage}{
+  \AtBeginSection{
+    \ifbeamer@inframe
+      \sectionpage
+    \else
+      \frame[plain,c]{\sectionpage}
+    \fi
+  }
+}
+\setbeamertemplate{subsection page}{%
+  \usebeamertemplate*{section page}
+}
+\newcommand{\jagiellonian@disablesubsectionpage}{
+  \AtBeginSubsection{
+    % intentionally empty
+  }
+}
+\newcommand{\jagiellonian@enablesubsectionpage}{
+  \AtBeginSubsection{
+    \ifbeamer@inframe
+      \subsectionpage
+    \else
+      \frame[plain,c]{\subsectionpage}
+    \fi
+  }
+}
+\newlength{\jagiellonian@progressonsectionpage}
+\newlength{\jagiellonian@progressonsectionpage@lineheight}
+\setlength{\jagiellonian@progressonsectionpage@lineheight}{2pt}
+\setbeamertemplate{progress bar in section page}{
+  \setlength{\jagiellonian@progressonsectionpage}{%
+    \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+  }%
+  \tikzexternaldisable%
+  \begin{tikzpicture}
+    \fill[bg] (0,0) rectangle (\textwidth,
+    \jagiellonian@progressonsectionpage@lineheight);
+    \fill[fg] (0,0) rectangle (\jagiellonian@progressonsectionpage,
+    \jagiellonian@progressonsectionpage@lineheight);
+  \end{tikzpicture}%
+  \tikzexternalenable%
+}
+\def\inserttotalframenumber{100}
+\newlength{\jagiellonian@blocksep}
+\newlength{\jagiellonian@blockadjust}
+\setlength{\jagiellonian@blocksep}{0.75ex}
+\setlength{\jagiellonian@blockadjust}{0.25ex}
+\providecommand{\jagiellonian@strut}{%
+  \vphantom{ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz()}%
+}
+\newcommand{\jagiellonian@block}[1]{
+  \par\vskip\medskipamount%
+  \setlength{\parskip}{0pt}
+  \ifbeamercolorempty[bg]{block title#1}{%
+    \begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}}{%
+  \ifbeamercolorempty[bg]{block title}{%
+    \begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}%
+  }%
+  {%
+    \begin{beamercolorbox}[
+      sep=\dimexpr\jagiellonian@blocksep-\jagiellonian@blockadjust\relax,
+      leftskip=\jagiellonian@blockadjust,
+      rightskip=\dimexpr\jagiellonian@blockadjust plus 4em\relax
+    ]{block title#1}%
+  }}%
+      \usebeamerfont*{block title#1}%
+      \jagiellonian@strut%
+      \insertblocktitle%
+      \jagiellonian@strut%
+  \end{beamercolorbox}%
+  \nointerlineskip%
+  \ifbeamercolorempty[bg]{block body#1}{%
+    \begin{beamercolorbox}[vmode]{block body#1}}{
+  \ifbeamercolorempty[bg]{block body}{%
+    \begin{beamercolorbox}[vmode]{block body#1}%
+  }{%
+    \begin{beamercolorbox}[sep=\jagiellonian@blocksep, vmode]{block body#1}%
+    \vspace{-\jagiellonian@parskip}
+  }}%
+      \usebeamerfont{block body#1}%
+      \setlength{\parskip}{\jagiellonian@parskip}%
+}
+\setbeamertemplate{block begin}{\jagiellonian@block{}}
+\setbeamertemplate{block alerted begin}{\jagiellonian@block{ alerted}}
+\setbeamertemplate{block example begin}{\jagiellonian@block{ example}}
+\setbeamertemplate{block end}{\end{beamercolorbox}\vspace*{0.2ex}}
+\setbeamertemplate{block alerted end}{\end{beamercolorbox}\vspace*{0.2ex}}
+\setbeamertemplate{block example end}{\end{beamercolorbox}\vspace*{0.2ex}}
+\setbeamertemplate{itemize items}{\textbullet}
+\setbeamertemplate{caption label separator}{: }
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{footnote}{%
+  \parindent 0em\noindent%
+  \raggedright
+  \usebeamercolor{footnote}\hbox to 0.8em{\hfil\insertfootnotemark}\insertfootnotetext\par%
+}
+\newlength{\jagiellonian@parskip}
+\setlength{\jagiellonian@parskip}{0.5em}
+\setlength{\parskip}{\jagiellonian@parskip}
+\linespread{1.15}
+\define@key{beamerframe}{c}[true]{% centered
+  \beamer@frametopskip=0pt plus 1fill\relax%
+  \beamer@framebottomskip=0pt plus 1fill\relax%
+  \beamer@frametopskipautobreak=0pt plus .4\paperheight\relax%
+  \beamer@framebottomskipautobreak=0pt plus .6\paperheight\relax%
+  \def\beamer@initfirstlineunskip{}%
+}
+\providebool{jagiellonian@standout}
+\define@key{beamerframe}{standout}[true]{%
+
+  \booltrue{jagiellonian@standout}
+  \begingroup
+  \setkeys{beamerframe}{c}
+
+  \setbeamercolor{background canvas}{bg=jSpecialSlidesBGColor}
+  % \setbeamercolor{foreground canvas}{use=frametitle,fg=jStrongWhite,bg=frametitle.bg}
+}
+  \pretocmd{\beamer@reseteecodes}{%
+    \ifbool{jagiellonian@standout}{
+      \endgroup
+      \boolfalse{jagiellonian@standout}
+    }{}
+  }{}{}
+  \AtBeginEnvironment{beamer@frameslide}{
+    \ifbool{jagiellonian@standout}{
+      \centering
+      \usebeamerfont{standout}
+    }{}
+  }
+\jagiellonian@inner@setdefaults
+\ProcessPgfPackageOptions{/jagiellonian/inner}
+\endinput
+%%
+%% End of file `beamerinnerthemejagiellonian.sty'.

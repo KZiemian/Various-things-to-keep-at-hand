@@ -1,0 +1,187 @@
+% ------------------------------------------------------------------------------------------------------------------
+% Basic configuration of Beamera class and Jagiellonian theme
+% ------------------------------------------------------------------------------------------------------------------
+\RequirePackage[l2tabu, orthodox]{nag}
+
+
+
+\ifx\PresentationStyle\notset
+  \def\PresentationStyle{dark}
+\fi
+
+
+
+\documentclass[10pt,t]{beamer}
+\mode<presentation>
+\usetheme[style=\PresentationStyle,JUlogotitle=no]{jagiellonian}
+
+
+
+
+% ---------------------------------------------------------------------
+% Procesing configuration files of Jagiellonian theme loceted in directory
+% "preambule".
+% ---------------------------------------------------------------------
+\input{./preambule/LanguageSettings/JagiellonianPolishLanguageSettings.tex}
+\input{./preambule/TextposConfiguration/TextposConfiguration.tex}
+
+\input{./preambule/ImportingLocalPackages.tex}
+
+\input{./preambule/JagiellonianCustomizationGeneral.tex}
+\input{./preambule/JagiellonianCustomizationCommands.tex}
+
+
+
+
+
+
+
+
+
+
+% ---------------------------------------
+% BibLaTeX
+% ---------------------------------------
+% Package biblatex, with biber as its backend, allow us to handle
+% bibliography entries that use Unicode symbols outside ASCII.
+\usepackage[
+language=polish,
+backend=biber,
+style=alphabetic,
+url=false,
+eprint=true,
+]{biblatex}
+
+\addbibresource{SystemyOperacyjneBibliography.bib}
+
+
+
+
+
+% ------------------------------
+% Importing packages, libraries and setting their configuration.
+% ------------------------------
+
+
+
+
+
+% ------------------------------
+% Special configuration for this particular presentation.
+% ------------------------------
+
+
+
+
+
+
+
+
+
+
+% ------------------------------------------------------------------------------------------------------------------
+\title{Systemy operacyjne}
+\subtitle{Wprowadzenie do systemu GNU/Linux}
+
+\author{Kamil Ziemian}
+
+
+\date{}
+% ------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+% ####################################################################
+% Beginning of the document
+\begin{document}
+% ####################################################################
+
+
+
+
+
+% Text is adjusted to the left and words are broken at the end of the line.
+% Number of chars: 62k+, 12k+,
+\RaggedRight
+
+
+
+
+
+% ######################################
+\maketitle
+% ######################################
+
+
+
+
+
+% ##################
+\begin{frame}
+  \frametitle{Spis treści}
+
+
+  \tableofcontents
+
+\end{frame}
+% ##################
+
+
+
+
+
+% ######################################
+\section{Informacje ogólne}
+% ######################################
+
+
+% ##################
+\begin{frame}
+  \frametitle{???}
+
+
+  Obawiam~się, że na tych konkretnych zajęciach będzie sporo przynudzania,
+  ale nie widzę sposobu, jak tego uniknąć.
+
+  Pytanie. Kto z~Państwa \textit{nie} używa na codzień systemu operacyjnego
+  GNU/Linux?
+
+  Według mnie to zajęcia są dla studentów, nie studenci dla zajęć. Tak samo
+  ja tu jestem dla Państwa, a~nie Państwo dla mnie. W~związku z~tym, ja nie
+  będę Państwa rozliczał z~obecności na zajęciach, tylko z~wiedzy
+  i~umiejętności. Jeśli uważają Państwo, że~są lepsze rzeczy do robienia,
+  niż bycie na tych zajęciach, w~to mi graj.
+
+\end{frame}
+% ##################
+
+
+
+
+
+
+
+
+
+
+% ####################################################################
+% ####################################################################
+% Bibliography
+
+\printbibliography
+
+
+
+
+
+% ####################################################################
+% End of the document
+
+\end{document}

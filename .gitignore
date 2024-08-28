@@ -7,7 +7,7 @@
 # ignore Emacs auxiliary directories
 auto/
 
-# ignore executable files on GNU/Linux and Windows
+# ignore executable files on GNU/Linux and Windows OS
 *.exe
 a.out
 progOut

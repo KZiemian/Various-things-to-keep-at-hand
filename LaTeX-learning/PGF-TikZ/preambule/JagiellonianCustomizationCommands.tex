@@ -1,0 +1,1834 @@
+% ---------------------------------------
+% Commands for handling colors
+% ---------------------------------------
+
+
+% Command for setting normal text color for some text in math modestyle
+% Text color depend on used style of Jagiellonian
+
+% Beamer version of command
+\newcommand{\TextWithNormalTextColor}[1]{%
+  {\color{jNormalTextFGColor}
+    \setbeamercolor{math text}{fg=jNormalTextFGColor} {#1}}
+}
+
+% Article and similar classes version of command
+% \newcommand{\TextWithNormalTextColor}[1]{%
+%   {\color{jNormalTextsFGColor} {#1}}
+% }
+
+
+
+% Beamer version of command
+\newcommand{\NormalTextInMathMode}[1]{%
+  {\color{jNormalTextFGColor}
+    \setbeamercolor{math text}{fg=jNormalTextFGColor} \text{#1}}
+}
+
+
+% Article and similar classes version of command
+% \newcommand{\NormalTextInMathMode}[1]{%
+%   {\color{jNormalTextsFGColor} \text{#1}}
+% }
+
+
+
+
+% Command that sets color of some mathematical text to the same color
+% that has normal text in header (?)
+
+% Beamer version of the command
+\newcommand{\MathTextFrametitleFGColor}[1]{%
+  {\color{jFrametitleFGColor}
+    \setbeamercolor{math text}{fg=jFrametitleFGColor} #1}
+}
+
+% Article and similar classes version of the command
+% \newcommand{\MathTextWhiteColor}[1]{{\color{jFrametitleFGColor} #1}}
+
+
+
+
+
+% Command for setting color of alert text for some text in math modestyle
+
+% Beamer version of the command
+\newcommand{\MathTextAlertColor}[1]{%
+  {\color{jOrange} \setbeamercolor{math text}{fg=jOrange} #1}
+}
+
+% Article and similar classes version of the command
+% \newcommand{\MathTextAlertColor}[1]{{\color{jOrange} #1}}
+
+
+
+
+
+% Command that allow you to sets chosen color as the color of some text into
+% math mode. Due to some nuances in the way that Beamer handle colors
+% it not work in all cases. We hope that in the future we will improve it.
+
+% Beamer version of the command
+\newcommand{\SetMathTextColor}[2]{%
+  {\color{#1} \setbeamercolor{math text}{fg=#1} #2}
+}
+
+
+% Article and similar classes version of the command
+% \newcommand{\SetMathTextColor}[2]{{\color{#1} #2}}
+
+
+
+
+
+
+
+
+
+
+% ---------------------------------------
+% Commands for few special slides
+% ---------------------------------------
+\newcommand{\EndingSlide}[1]{%
+  \begin{frame}[standout]
+
+    \begingroup
+
+    \color{jFrametitleFGColor}
+
+    #1
+
+    \endgroup
+
+  \end{frame}
+}
+
+
+
+
+
+
+
+
+
+
+% ---------------------------------------
+% Commands for setting background pictures for some slides
+% ---------------------------------------
+\newcommand{\TitleBackgroundPicture}
+{./JagiellonianPictures/Backgrounds/LajkonikDark.png}
+\newcommand{\SectionBackgroundPicture}
+{./JagiellonianPictures/Backgrounds/LajkonikLight.png}
+
+
+
+\newcommand{\TitleSlideWithPicture}{%
+  \begingroup
+
+  \usebackgroundtemplate{%
+    \includegraphics[height=\paperheight]{\TitleBackgroundPicture}}
+
+  \maketitle
+
+  \endgroup
+}
+
+
+
+
+
+\newcommand{\SectionSlideWithPicture}[1]{%
+  \begingroup
+
+  \usebackgroundtemplate{%
+    \includegraphics[height=\paperheight]{\SectionBackgroundPicture}}
+
+  \setbeamercolor{titlelike}{fg=normal text.fg}
+
+  \section{#1}
+
+  \endgroup
+}
+
+
+
+
+
+
+
+
+
+
+% ---------------------------------------
+% Commands for lectures "Geometria 3D dla twórców gier wideo"
+% Polish version
+% ---------------------------------------
+% Komendy teraz wykomentowane były potrzebne, gdy loga były na niebieskim
+% tle, nie na białym. A są na białym bo tego chcieli w biurze projektu.
+% \newcommand{\FundingLogoWhitePicturePL}
+% {./PresentationPictures/CommonPictures/logotypFundusze_biale_bez_tla2.pdf}
+\newcommand{\FundingLogoColorPicturePL}
+{./PresentationPictures/CommonPictures/European_Funds_color_PL.pdf}
+% \newcommand{\EULogoWhitePicturePL}
+% {./PresentationPictures/CommonPictures/logotypUE_biale_bez_tla2.pdf}
+\newcommand{\EUSocialFundLogoColorPicturePL}
+{./PresentationPictures/CommonPictures/EU_Social_Fund_color_PL.pdf}
+% \newcommand{\ZintegrUJLogoWhitePicturePL}
+% {./PresentationPictures/CommonPictures/zintegruj-logo-white.pdf}
+\newcommand{\ZintegrUJLogoColorPicturePL}
+{./PresentationPictures/CommonPictures/ZintegrUJ_color.pdf}
+\newcommand{\JULogoColorPicturePL}
+{./JagiellonianPictures/LogoJU_PL/LogoJU_A_color.pdf}
+
+
+
+
+
+\newcommand{\GeometryThreeDSpecialBeginningSlidePL}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        Materiał powstał w ramach projektu współfinansowanego ze środków
+        Unii Europejskiej w ramach Europejskiego Funduszu Społecznego
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(1,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(3.7,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPicturePL}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialBeginningSlidesPL}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        Materiał powstał w ramach projektu współfinansowanego ze środków
+        Unii Europejskiej w ramach Europejskiego Funduszu Społecznego
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(1,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(3.7,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPicturePL}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \TitleSlideWithPicture
+}
+
+
+
+\newcommand{\GeometryThreeDSpecialEndingSlidePL}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        Materiał powstał w ramach projektu współfinansowanego ze środków
+        Unii Europejskiej w~ramach Europejskiego Funduszu Społecznego
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(1,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(3.7,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPicturePL}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        Treść niniejszego wykładu jest udostępniona na~licencji
+        Creative Commons (\textsc{cc}), z~uzna\-niem autorstwa
+        (\textsc{by}) oraz udostępnianiem na tych samych warunkach
+        (\textsc{sa}). Rysunki i~wy\-kresy zawarte w~wykładzie są
+        autorstwa dr.~hab.~Pawła Węgrzyna et~al. i~są dostępne
+        na tej samej licencji, o~ile nie wskazano inaczej.
+        W~prezentacji wykorzystano temat Beamera Jagiellonian,
+        oparty na~temacie Metropolis Matthiasa Vogelgesanga,
+        dostępnym na licencji \LaTeX{} Project Public License~1.3c
+        pod adresem: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Projekt typograficzny: Iwona Grabska-Gradzińska \\
+        Skład: Kamil Ziemian;
+        Korekta: Wojciech Palacz \\
+        Modele: Dariusz Frymus, Kamil Nowakowski \\
+        Rysunki i~wykresy: Kamil Ziemian, Paweł Węgrzyn, Wojciech Palacz
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialEndingSlidesPL}[1]{%
+  \begin{frame}[standout]
+
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        Materiał powstał w ramach projektu współfinansowanego ze środków
+        Unii Europejskiej w~ramach Europejskiego Funduszu Społecznego
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(1,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(3.7,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPicturePL}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        Treść niniejszego wykładu jest udostępniona na~licencji
+        Creative Commons (\textsc{cc}), z~uzna\-niem autorstwa
+        (\textsc{by}) oraz udostępnianiem na tych samych warunkach
+        (\textsc{sa}). Rysunki i~wy\-kresy zawarte w~wykładzie są
+        autorstwa dr.~hab.~Pawła Węgrzyna et~al. i~są dostępne
+        na tej samej licencji, o~ile nie wskazano inaczej.
+        W~prezentacji wykorzystano temat Beamera Jagiellonian,
+        oparty na~temacie Metropolis Matthiasa Vogelgesanga,
+        dostępnym na licencji \LaTeX{} Project Public License~1.3c
+        pod adresem: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Projekt typograficzny: Iwona Grabska-Gradzińska \\
+        Skład: Kamil Ziemian;
+        Korekta: Wojciech Palacz \\
+        Modele: Dariusz Frymus, Kamil Nowakowski \\
+        Rysunki i~wykresy: Kamil Ziemian, Paweł Węgrzyn, Wojciech Palacz
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \begin{frame}[standout]
+
+    \begingroup
+
+    \color{jFrametitleFGColor}
+
+    #1
+
+    \endgroup
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDSpecialEndingSlideVideoPL}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        Materiał powstał w ramach projektu współfinansowanego ze środków
+        Unii Europejskiej w~ramach Europejskiego Funduszu Społecznego
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(1,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(3.7,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPicturePL}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        Treść niniejszego wykładu jest udostępniona na~licencji
+        Creative Commons (\textsc{cc}), z~uzna\-niem autorstwa
+        (\textsc{by}) oraz udostępnianiem na tych samych warunkach
+        (\textsc{sa}). Rysunki i~wy\-kresy zawarte w~wykładzie są
+        autorstwa dr.~hab.~Pawła Węgrzyna et~al. i~są dostępne
+        na tej samej licencji, o~ile nie wskazano inaczej.
+        W~prezentacji wykorzystano temat Beamera Jagiellonian,
+        oparty na~temacie Metropolis Matthiasa Vogelgesanga,
+        dostępnym na licencji \LaTeX{} Project Public License~1.3c
+        pod adresem: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Projekt typograficzny: Iwona Grabska-Gradzińska;
+        Skład: Kamil Ziemian \\
+        Korekta: Wojciech Palacz;
+        Modele: Dariusz Frymus, Kamil Nowakowski \\
+        Rysunki i~wykresy: Kamil Ziemian, Paweł Węgrzyn, Wojciech Palacz \\
+        Montaż: Agencja Filmowa Film \& Television Production~-- Zbigniew
+        Masklak
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialEndingSlidesVideoPL}[1]{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        Materiał powstał w ramach projektu współfinansowanego ze środków
+        Unii Europejskiej w~ramach Europejskiego Funduszu Społecznego
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(1,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(3.7,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPicturePL}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPicturePL}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        Treść niniejszego wykładu jest udostępniona na~licencji
+        Creative Commons (\textsc{cc}), z~uzna\-niem autorstwa
+        (\textsc{by}) oraz udostępnianiem na tych samych warunkach
+        (\textsc{sa}). Rysunki i~wy\-kresy zawarte w~wykładzie są
+        autorstwa dr.~hab.~Pawła Węgrzyna et~al. i~są dostępne
+        na tej samej licencji, o~ile nie wskazano inaczej.
+        W~prezentacji wykorzystano temat Beamera Jagiellonian,
+        oparty na~temacie Metropolis Matthiasa Vogelgesanga,
+        dostępnym na licencji \LaTeX{} Project Public License~1.3c
+        pod adresem: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Projekt typograficzny: Iwona Grabska-Gradzińska;
+        Skład: Kamil Ziemian \\
+        Korekta: Wojciech Palacz;
+        Modele: Dariusz Frymus, Kamil Nowakowski \\
+        Rysunki i~wykresy: Kamil Ziemian, Paweł Węgrzyn, Wojciech Palacz \\
+        Montaż: Agencja Filmowa Film \& Television Production~-- Zbigniew
+        Masklak
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \begin{frame}[standout]
+
+
+    \begingroup
+
+    \color{jFrametitleFGColor}
+
+    #1
+
+    \endgroup
+
+  \end{frame}
+}
+
+
+
+
+
+
+
+
+
+
+% ---------------------------------------
+% Commands for lectures "Geometria 3D dla twórców gier wideo"
+% English version
+% ---------------------------------------
+% \newcommand{\FundingLogoWhitePictureEN}
+% {./PresentationPictures/CommonPictures/logotypFundusze_biale_bez_tla2.pdf}
+\newcommand{\FundingLogoColorPictureEN}
+{./PresentationPictures/CommonPictures/European_Funds_color_EN.pdf}
+% \newcommand{\EULogoWhitePictureEN}
+% {./PresentationPictures/CommonPictures/logotypUE_biale_bez_tla2.pdf}
+\newcommand{\EUSocialFundLogoColorPictureEN}
+{./PresentationPictures/CommonPictures/EU_Social_Fund_color_EN.pdf}
+% \newcommand{\ZintegrUJLogoWhitePictureEN}
+% {./PresentationPictures/CommonPictures/zintegruj-logo-white.pdf}
+\newcommand{\ZintegrUJLogoColorPictureEN}
+{./PresentationPictures/CommonPictures/ZintegrUJ_color.pdf}
+\newcommand{\JULogoColorPictureEN}
+{./JagiellonianPictures/LogoJU_EN/LogoJU_A_color.pdf}
+
+
+
+\newcommand{\GeometryThreeDSpecialBeginningSlideEN}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialBeginningSlidesEN}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \TitleSlideWithPicture
+}
+
+
+
+\newcommand{\GeometryThreeDSpecialEndingSlideEN}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a~Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise.\\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska \\
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn, Wojciech Palacz
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialEndingSlidesEN}[1]{%
+  \begin{frame}[standout]
+
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a~Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise.\\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska \\
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn, Wojciech Palacz
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \begin{frame}[standout]
+
+    \begingroup
+
+    \color{jFrametitleFGColor}
+
+    #1
+
+    \endgroup
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDSpecialEndingSlideVideoVerOneEN}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise.\\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska;
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn, Wojciech
+        Palacz \\
+        Film editing: Agencja Filmowa Film \& Television Production~--
+        Zbigniew Masklak
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDSpecialEndingSlideVideoVerTwoEN}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise.\\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska;
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn, Wojciech
+        Palacz \\
+        Film editing: IMAVI -- Joanna Kozakiewicz, Krzysztof Magda, Nikodem
+        Frodyma
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDSpecialEndingSlideVideoVerThreeEN}{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise.\\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska;
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn, Wojciech
+        Palacz \\
+        Film editing: Agencja Filmowa Film \& Television Production~--
+        Zbigniew Masklak \\
+        Film editing: IMAVI -- Joanna Kozakiewicz, Krzysztof Magda, Nikodem
+        Frodyma
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialEndingSlidesVideoVerOneEN}[1]{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise.\\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska;
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn,
+        Wojciech Palacz \\
+        Film editing: Agencja Filmowa Film \& Television Production~--
+        Zbigniew Masklak
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \begin{frame}[standout]
+
+
+    \begingroup
+
+    \color{jFrametitleFGColor}
+
+    #1
+
+    \endgroup
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialEndingSlidesVideoVerTwoEN}[1]{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise.\\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska;
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn,
+        Wojciech Palacz \\
+        Film editing: IMAVI -- Joanna Kozakiewicz, Krzysztof Magda, Nikodem
+        Frodyma
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \begin{frame}[standout]
+
+
+    \begingroup
+
+    \color{jFrametitleFGColor}
+
+    #1
+
+    \endgroup
+
+  \end{frame}
+}
+
+
+
+\newcommand{\GeometryThreeDTwoSpecialEndingSlidesVideoVerThreeEN}[1]{%
+  \begin{frame}[standout]
+
+    \begin{textblock}{11}(1,0.7)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \color{jFrametitleFGColor}
+
+        This content was created as part of a project co-financed by the
+        European Union within the framework of the European Social Fund
+        POWR.03.05.00-00-Z309/17-00.
+
+      \end{flushleft}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{10}(0,2.2)
+
+      \tikz \fill[color=jBackgroundStyleLight] (0,0) rectangle (12.8,-1.5);
+
+    \end{textblock}
+
+
+    \begin{textblock}{3.2}(0.7,2.45)
+
+      \includegraphics[scale=0.3]{\FundingLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(4.15,2.5)
+
+      \includegraphics[scale=0.2]{\JULogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{2.5}(6.35,2.4)
+
+      \includegraphics[scale=0.1]{\ZintegrUJLogoColorPictureEN}
+
+    \end{textblock}
+
+
+    \begin{textblock}{4.2}(8.4,2.6)
+
+      \includegraphics[scale=0.3]{\EUSocialFundLogoColorPictureEN}
+
+    \end{textblock}
+
+
+
+
+
+    \begin{textblock}{11}(1,4)
+
+      \begin{flushleft}
+
+        \mdseries
+
+        \footnotesize
+
+        \RaggedRight
+
+        \color{jFrametitleFGColor}
+
+        The content of this lecture is made available under a Creative
+        Commons licence (\textsc{cc}), giving the author the credits
+        (\textsc{by}) and putting an obligation to share on the same terms
+        (\textsc{sa}). Figures and diagrams included in the lecture are
+        authored by Paweł Węgrzyn et~al., and are available under the same
+        license unless indicated otherwise. \\ The presentation uses the
+        Beamer Jagiellonian theme based on Matthias Vogelgesang’s
+        Metropolis theme, available under license \LaTeX{} Project
+        Public License~1.3c at: \colorhref{https://github.com/matze/mtheme}
+        {https://github.com/matze/mtheme}.
+
+        Typographic design: Iwona Grabska-Gradzińska;
+        \LaTeX{} Typesetting: Kamil Ziemian \\
+        Proofreading: Leszek Hadasz, Wojciech Palacz,
+        Monika Stawicka \\
+        3D Models: Dariusz Frymus, Kamil Nowakowski \\
+        Figures and charts: Kamil Ziemian, Paweł Węgrzyn,
+        Wojciech Palacz \\
+        Film editing: Agencja Filmowa Film \& Television Production~--
+        Zbigniew Masklak \\
+        Film editing: IMAVI -- Joanna Kozakiewicz, Krzysztof Magda, Nikodem
+        Frodyma
+
+
+      \end{flushleft}
+
+    \end{textblock}
+
+  \end{frame}
+
+
+
+
+
+  \begin{frame}[standout]
+
+
+    \begingroup
+
+    \color{jFrametitleFGColor}
+
+    #1
+
+    \endgroup
+
+  \end{frame}
+}

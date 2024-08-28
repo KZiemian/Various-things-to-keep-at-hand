@@ -1,0 +1,180 @@
+%%
+%% This is file `beamerouterthemejagiellonian.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% beamerouterthemejagiellonian.dtx  (with options: `package')
+%% ---------------------------------------------------------------------------
+%% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+%% contributors can be found at
+%% 
+%%     https://github.com/matze/mtheme/graphs/contributors
+%% 
+%% and the original template was based on the HSRM theme by Benjamin Weiss.
+%% 
+%% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%% International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerouterthemejagiellonian}[2017/01/23 Jagiellonian outer theme]
+\RequirePackage{etoolbox}
+\RequirePackage{calc}
+\RequirePackage{pgfopts}
+\pgfkeys{
+  /jagiellonian/outer/numbering/.cd,
+    .is choice,
+    none/.code=\setbeamertemplate{frame numbering}[none],
+    counter/.code=\setbeamertemplate{frame numbering}[counter],
+    fraction/.code=\setbeamertemplate{frame numbering}[fraction],
+}
+\pgfkeys{
+  /jagiellonian/outer/progressbar/.cd,
+    .is choice,
+    none/.code={%
+      \setbeamertemplate{headline}[plain]
+      \setbeamertemplate{frametitle}[plain]
+      \setbeamertemplate{footline}[plain]
+    },
+    head/.code={\pgfkeys{/jagiellonian/outer/progressbar=none}
+      \addtobeamertemplate{headline}{}{%
+        \usebeamertemplate*{progress bar in head/foot}%
+      }
+    },
+    frametitle/.code={\pgfkeys{/jagiellonian/outer/progressbar=none}
+      \addtobeamertemplate{frametitle}{}{%
+        \usebeamertemplate*{progress bar in head/foot}%
+      }
+    },
+    foot/.code={\pgfkeys{/jagiellonian/outer/progressbar=none}
+      \addtobeamertemplate{footline}{}{%
+        \usebeamertemplate*{progress bar in head/foot}%
+      }
+    },
+}
+\newcommand{\JUlogotitle}{0}
+\newcommand{\JUlogoLang}{Latin}
+\newcommand{\JUlogoShape}{B}
+\newcommand{\JUlogoColor}{monochromaticJUwhite}
+\newcommand{\jagiellonian@outer@setdefaults}{
+  \pgfkeys{/jagiellonian/outer/.cd,
+    numbering=counter,
+    progressbar=frametitle,
+    JUlogotitle=no,
+  }
+}
+\setbeamertemplate{navigation symbols}{}
+\defbeamertemplate{frame footer}{none}{}
+\defbeamertemplate{frame footer}{custom}[1]{ #1 }
+\defbeamertemplate{frame numbering}{none}{}
+\defbeamertemplate{frame numbering}{counter}{\insertframenumber}
+\defbeamertemplate{frame numbering}{fraction}{
+  \insertframenumber/\insertmainframenumber
+}
+\defbeamertemplate{headline}{plain}{}
+\defbeamertemplate{footline}{plain}{%
+  \begin{beamercolorbox}[wd=\textwidth, sep=3ex]{footline}%
+    \usebeamerfont{page number in head/foot}%
+    \usebeamertemplate*{frame footer}
+    \hfill%
+    \usebeamertemplate*{frame numbering}
+  \end{beamercolorbox}%
+}
+\newlength{\jagiellonian@frametitle@padding}
+\setlength{\jagiellonian@frametitle@padding}{2.2ex}
+\newcommand{\jagiellonian@frametitlestrut@start}{
+  \rule{0pt}{\jagiellonian@frametitle@padding +%
+    \totalheightof{%
+      \ifcsdef{jagiellonian@frametitleformat}{\jagiellonian@frametitleformat X}{X}%
+    }%
+  }%
+}
+\newcommand{\jagiellonian@frametitlestrut@end}{
+  \rule[-\jagiellonian@frametitle@padding]{0pt}{\jagiellonian@frametitle@padding}
+}
+\defbeamertemplate{frametitle}{plain}{%
+  \nointerlineskip%
+  \begin{beamercolorbox}[%
+    wd=\paperwidth,%
+    sep=0pt,%
+    leftskip=\jagiellonian@frametitle@padding,%
+    rightskip=\jagiellonian@frametitle@padding,%
+    ]{frametitle}%
+    \jagiellonian@frametitlestrut@start%
+    \insertframetitle%
+    \nolinebreak%
+    \jagiellonian@frametitlestrut@end%
+  \end{beamercolorbox}%
+}
+\setbeamertemplate{frametitle continuation}{%
+  \usebeamerfont{frametitle}
+  \insertcontinuationcount
+}
+\newlength{\jagiellonian@progressinheadfoot}
+\newlength{\jagiellonian@progressinheadfoot@lineheight}
+\setlength{\jagiellonian@progressinheadfoot@lineheight}{2pt}
+\setbeamertemplate{progress bar in head/foot}{
+  \nointerlineskip
+  \setlength{\jagiellonian@progressinheadfoot}{%
+    \paperwidth * \ratio{\insertframenumber pt}{\insertmainframenumber pt}
+  }%
+  \begin{beamercolorbox}[wd=\paperwidth]{progress bar in head/foot}
+    \tikzexternaldisable%
+    \begin{tikzpicture}
+      \fill[bg] (0,0) rectangle (\paperwidth,
+      \jagiellonian@progressinheadfoot@lineheight);
+      \fill[fg] (0,0) rectangle (\jagiellonian@progressinheadfoot,
+      \jagiellonian@progressinheadfoot@lineheight);
+    \end{tikzpicture}%
+    \tikzexternalenable%
+  \end{beamercolorbox}
+}
+\AtBeginDocument{%
+  \apptocmd{\appendix}{%
+    \pgfkeys{%
+      /jagiellonian/outer/.cd,
+      numbering=none,
+      progressbar=none}
+    }{}{}
+}
+\pgfkeys{
+  /jagiellonian/outer/JUlogotitle/.cd,
+  .is choice,
+  yes/.code=\renewcommand{\JUlogotitle}{1},
+  no/.code=\renewcommand{\JUlogotitle}{0},
+}
+\pgfkeys{
+  /jagiellonian/outer/logoLang/.cd,
+  .is choice,
+  PL/.code=\renewcommand{\JUlogoLang}{PL},
+  EN/.code=\renewcommand{\JUlogoLang}{EN},
+  Latin/.code=\renewcommand{\JUlogoLang}{Latin},
+}
+\pgfkeys{
+  /jagiellonian/outer/logoShape/.cd,
+    .is choice,
+    % none/.code=\setbeamertemplate{frame numbering}[none],
+    A/.code=\renewcommand{\JUlogoShape}{A},
+    B/.code=\renewcommand{\JUlogoShape}{B},
+    C/.code=\renewcommand{\JUlogoShape}{C},
+    D/.code=\renewcommand{\JUlogoShape}{D},
+}
+\pgfkeys{
+  /jagiellonian/outer/logoColor/.cd,
+  .is choice,
+  % none/.code=\setbeamertemplate{frame numbering}[none],
+  % white/.code=\renewcommand{\JUlogoColor}{white},
+  % blue/.code=\renewcommand{\JUlogoColor}{blue},
+  color/.code=\renewcommand{\JUlogoColor}{color},
+  monochromaticJUblue/.code={
+    \renewcommand{\JUlogoColor}{monochromaticJUblue}
+  },
+  monochromaticJUwhite/.code={
+    \renewcommand{\JUlogoColor}{monochromaticJUwhite}
+  },
+}
+\jagiellonian@outer@setdefaults
+\ProcessPgfPackageOptions{/jagiellonian/outer}
+\endinput
+%%
+%% End of file `beamerouterthemejagiellonian.sty'.

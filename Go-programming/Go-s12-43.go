@@ -86,10 +86,30 @@ func main() {
 	// fmt.Printf("sqrt8/3.0 = %v.\n", sqrt8/3.0)
 	// fmt.Printf("sqrt8/4.0 = %v.\n", sqrt8/4.0)
 
-	sqrt10 := math.Sqrt(10.0)
+	// sqrt10 := math.Sqrt(10.0)
 
-	fmt.Printf("sqrt10 = %v.\n", sqrt10)
-	fmt.Printf("sqrt10/2.0 = %v.\n", sqrt10/2.0)
-	fmt.Printf("sqrt10/3.0 = %v.\n", sqrt10/3.0)
-	fmt.Printf("sqrt10/4.0 = %v.\n", sqrt10/4.0)
+	// fmt.Printf("sqrt10 = %v.\n", sqrt10)
+	// fmt.Printf("sqrt10/2.0 = %v.\n", sqrt10/2.0)
+	// fmt.Printf("sqrt10/3.0 = %v.\n", sqrt10/3.0)
+	// fmt.Printf("sqrt10/4.0 = %v.\n", sqrt10/4.0)
+
+	// sqrt2ofOrder12 := math.Pow(2.0, 1.0/12.0)
+	// currentPower := sqrt2ofOrder12 * sqrt2ofOrder12
+
+	// fmt.Printf("sqrt2ofOrder12 = %v.\n", sqrt2ofOrder12)
+
+	// fmt.Printf("sqrt2ofOrder12^2 = %v.\n", currentPower)
+
+	// currentPower *= sqrt2ofOrder12
+
+	// fmt.Printf("sqrt2ofOrder12^3 = %v.\n", currentPower)
+
+	// currentPower *= sqrt2ofOrder12
+	// fmt.Printf("sqrt2ofOrder12^4 = %v.\n", currentPower)
+
+	// currentPower *= sqrt2ofOrder12
+	// fmt.Printf("sqrt2ofOrder12^5 = %v.\n", currentPower)
+
+	// currentPower *= sqrt2ofOrder12
+	// fmt.Printf("sqrt2ofOrder12^6 = %v.\n", currentPower)
 }
