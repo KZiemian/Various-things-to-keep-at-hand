@@ -15,3 +15,17 @@
 26 VIII: 35 min.
 27 VIII: 30 min.
 28 VIII: 77 min.
+29 VIII: 75 min.
+31 VIII: 30 min.
+
+Wrzesień:
+1: 30 min.
+2: 25 min.
+2: 3h.
+3: 30 min.
+4: 30 min.
+5: 40 min.
+9: 20 min.
+10: 26 min.
+23: 40 min.
+26: 45 min.

@@ -4,60 +4,11 @@ Jestem bardzo ciekawy co w tej książce znajdę?
 
 
 
-Solomon, Berg, Martin „Biologia”
-
-Najpierw muszę nauczyć się lepiej chemii, ale potem czas na tą cegłę.
 
 
 
 
 
-
-#AQFT
-
-
-
-
-
-
-
-Michał Heller, Józef Życiński „Wszechświat i filozofia”
-
-Na stronie 176 znalazłem słowa, które ze swojej perspektywy, mogę tylko określić jako przedziwne. Zacytujmy ten tekst.
-
-POCZĄTEK
-Wiadomo, że u podłoża rozwoju nauk empirycznych i techniki znajduje się matematyka. Ona to pozwoliła wyjść poza stadium intuicyjnych uogólnień i prymitywnego manipulowania najprostszymi narzędziami. A czymże w gruncie rzeczy jest matematyka? Grą symboli, żonglowaniem pustą formą. Mamy zbiór aksjomatów, reguły wnioskowania i teorię matematyczną wywiedzioną ze zbioru aksjomatów przy pomocy danych reguł wnioskowania. Rzecz w tym, że nawet najbardziej rozbudowana teoria matematyczna nie jest ani o włos bogatsza od zbioru wyjściowych aksjomatów. Aksjomaty i reguły wnioskowania są przyjęte dowolnie, na zasadzie umowy, a cała reszta to tłumaczenie, już nie dowolne, ale tylko tego, cośmy sami umownie przyjęli, na nowe formuły. Skutkiem tego matematyka jest PUSTA: pozostając w świecie matematyki, nie jesteśmy w stanie przezwyciężyć zaklętego świata formy, by sięgnąć do treści. Matematyk mówi bardzo precyzyjnie, jednoznacznie, ale mówi o niczym.
-
-Logikę tradycyjną uważano za naukę o formach myślenia. Dziś wiemy, że logika w zasadzie nie różni się od matematyki. Jest tylko kwestią punktu widzenia, czy logikę uznamy za część matematyki, czy matematykę za część logiki. Obie te dyscypliny (jeżeli je odróżniać od siebie) cechuje doskonałość formy przy całkowitej pustce treści.
-KONIEC
-
-Ostatnio siedzę nad książką do równań różniczkowych zwyczajnych i moje doświadczenie nie ma nic wspólnego z doświadczaniem „pustki formy”. Nie potrafię znaleźć takiego rozumienia słów Hellera, żeby przyglądanie się równaniu, powiedzmy y'(x) = y(x)^2, a następnie rozważaniu co oznacza fakt, że jednym z jego rozwiązań jest y(x) = 1 / (1 - x) było „żonglowaniem pustą formą”. Już choćby dlatego, że istnienie takich rozwiązań równań różniczkowych potrafi sprawiać problemy, więc czemu nie przyjęliśmy takich zasad „gry symbolami”, które je wyeliminują? Odpowiedź jest taka, że są powody, jak choćby chęć opisania ruchu planet, choć Newton używał w opublikowanych pracach geometrii chyba więcej niż równań różniczkowych, które sprawiają, iż właśnie takie obiekty są dla nas interesujące i musimy się pogodzić z tym, że one mają często cechy, które utrudniają nam życie. Czy więc tutaj kierujemy się dowolnością, czy też jakąś wyższą potrzebą? Jak dla mnie tym drugim.
-
-Poza tym, większość książek do matematyki nie jest pisana w sposób „aksjomaty, reguły wnioskowania, teoria matematyczna z nich wyprowadzona”. Gdyby się ciebie ktoś zapyta, gdzie są aksjomaty w danej książce X, to zwykle trzeba wzruszyć ramionami „Nie ma. Ale wiadomo o co chodzi.”. Pokazuje to, że jednak książki pisane przez ludzi i dla ludzi nie działają na zasadzie opisanej przez Hellera i on o tym na pewno wie. Czy to, że do książki czytelnik musi dołożyć coś od siebie, swoją wiedzę zdobytą wcześniej a także swoją wyobraźnie i pomysłowość matematyczną przeczy obrazowi matematyki zarysowanemu u góry? Choć poglądu Hellera można pewnie bronić, to jednak to jak ludzie tacy jak ja poznają matematykę, jest bardzo, bardzo dalekie od tej arbitralnej gry symbolami.
-
-Można jeszcze wspomnieć, że w książkach do matematyki często są błędy. Gdyby to była pusta gra symbolami, to co byśmy zrobili, gdy napotkamy ciąg symboli który złamał jej zasady? Czy jak by pewnie zrobił jakiś głupi program komputerowy, przerywamy czytanie i zajmujemy się czymś zupełnie innym, czy może jak nieco mądrzejszy program komputerowy pomijamy ten fragment i idziemy czytać dalsze ciągi symboli? A może siedlibyśmy i próbowalibyśmy naprawić rozumowanie, tak by działało? Niewątpliwie wiele razy w życiu jak napotykałem błędne rozumowanie, to musiałem przejść dalej, zostawiając lukę w swoim rozumieniu problemu, ale też wielokrotnie zatrzymywałem się na dłużej i próbowałem ją załatać. A te starania były jak najdalsze od zabawy ciągiem symboli i patrzeniem który jest poprawny.
-
-Choćby tylko dlatego, że zwykle nie korzystałem z gry symbolami, lecz z mojego rozumienia tych obiektów matematycznych. Czy można by to określić treścią matematyki? Jak dla mnie tak. Po drugie, gdyby zdać się na grę symbolami, to jak uczy inny dział matematyki, kombinatoryka, ilość możliwych kombinacji tych symboli rośnie tak zastraszająco szybko z długością ciągu jaki potrzebujesz znaleźć, że jeśli będziesz jak sztukmistrz nimi żonglował i sprawdzał, czy ten ciąg który właśnie dostałeś, to akurat ten którego szukasz, to pewnie prędzej Słońce zgaśnie, niż ci się to uda i to wcale nie musi być metafora. W rzeczywistości lepiej nie liczyć na szczęście, tylko wpaść na pomysł, który powie ci w którym kierunku trzeba szukać odpowiedzi. Nie zawsze to będzie pomysł trafny i okaże się, że była to ślepa uliczka, ale wpadnie się na następny i na następny i może akurat on będzie tym czego szukałeś? I kiedy okazuje się, że któryś z kolei pomysł był dobry i rozwiązanie zostało znalezione, człowiek czuje satysfakcję.
-
-A na czym polega wpadnięcie na ten pomysł? Doświadczenie z matematyką jest nieocenione, ale też często będzie potrzebna duża doza pomysłowości, a tej pomysłowości jeszcze chyba nie udało się sprowadzić do żonglerki symbolami i pytaniem otwartym pozostaje, czy sztuczna inteligencja sobie z tym problemem poradzi, czy też ugrzęźnie w przerastającym ją wielokrotnie morzu kombinatoryki.
-
-
-KONIEC POSTA I
-
-
-
-Str. 177, 181,
-
-
-
-
-
-
-
-
-
-
-Rawita Franciszek Gawroński „Bohdan Chmielnicki. Tom I: Do elekcji Jana Kazimierza”
 
 
 
@@ -148,23 +99,12 @@ John Lyons „Wstęp do językoznawstwa”
 
 
 
-Jerzy Grębosz „Symfonia C++. Programowanie w języku C++ orientowane obiektowo. Tom I”
-
-Znalazłem w tej książce informację, że „kompilator C++ jest na tyle inteligentny, by przeładowywać nazwy funkcji”. Nie, on jest na tyle bezmyślnie okrutny by pozwolić ci na ta strzelenie sobie w kolano w ten właśnie sposób.
-
-
-
-Jerzy Grębosz „Symfonia C++. Programowanie w języku C++ orientowane obiektowo. Tom II”
-
-
-
 
 
 Adam Mickiewicz „Pan Tadeusz”
 
 
 
-Jakub Polit „Smutny kontynent. Epizody i sylwetki z dziejów Azji Wschodniej w XX w.”
 
 
 
@@ -206,9 +146,3 @@ Maria Wilczek-Krupa „Poetyka muzyki filmowej Wojciech Kilara”
 
 
 Robin Dunbar „Nowa historia ewolucji człowieka”
-
-
-
-
-
-Józef Życiński
