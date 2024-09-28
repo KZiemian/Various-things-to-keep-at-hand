@@ -102,5 +102,94 @@ import (
 func main() {
 	x := 0.55
 
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.6
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.65
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.7
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.75
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.8
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.85
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.9
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 0.95
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.0
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+
+
+	// x = 1.05
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.1
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.15
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.2
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.25
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.3
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.35
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.4
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.45
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	// x = 1.5
+	// fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.55
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.6
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.65
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.7
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.75
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.8
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.85
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.9
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 1.95
+	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
+
+	x = 2.0
 	fmt.Printf("math.Log(%v) = %v.\n", x, math.Log(x))
 }

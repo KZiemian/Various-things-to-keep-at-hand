@@ -75,33 +75,46 @@
 // 	return err
 // }
 
+// func main() {
+// 	ln, err := net.Listen("tcp", ":3000")
+
+// 	if err != nil {
+// 		os.Exit()
+// 	}
+
+// 	fmt.Println("Listening on port 3000.")
+
+// 	for {
+// 		conn, err := ln.Accept()
+
+// 		if err != nil {
+// 			os.Exit()
+// 		}
+
+// 		go handleConnection(conn)
+// 	}
+// }
+
+// func handleConnection(conn net.Conn) {
+// 	msg, err := ioutil.ReadAll(conn)
+
+// 	if err != nil {
+// 		os.Exit(1)
+// 	}
+
+// 	fmt.Printf("%s\n", msg)
+// 	conn.Close()
+// }
+
+package main
+
+import (
+	"fmt"
+	// "math"
+)
+
 func main() {
-	ln, err := net.Listen("tcp", ":3000")
+	eApprox := 2.7182
 
-	if err != nil {
-		os.Exit()
-	}
-
-	fmt.Println("Listening on port 3000.")
-
-	for {
-		conn, err := ln.Accept()
-
-		if err != nil {
-			os.Exit()
-		}
-
-		go handleConnection(conn)
-	}
-}
-
-func handleConnection(conn net.Conn) {
-	msg, err := ioutil.ReadAll(conn)
-
-	if err != nil {
-		os.Exit(1)
-	}
-
-	fmt.Printf("%s\n", msg)
-	conn.Close()
+	fmt.Printf("eApprox^2 = %v.\n", eApprox * eApprox)
 }
