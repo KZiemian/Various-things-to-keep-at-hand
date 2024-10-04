@@ -29,3 +29,6 @@ Wrzesień:
 10: 26 min.
 23: 40 min.
 26: 45 min.
+
+Październik
+2: 35 min.
