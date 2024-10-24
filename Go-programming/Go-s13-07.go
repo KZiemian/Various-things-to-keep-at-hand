@@ -321,64 +321,190 @@ func main() {
 
 
 
-	x := 7.05
+	// x := 7.05
 
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.1
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.1
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.15
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.15
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.2
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.2
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.25
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.25
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.3
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.3
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.35
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.35
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.4
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.4
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.45
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.45
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.5
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.5
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.55
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.55
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.6
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.6
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.65
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.65
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.7
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.7
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.75
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.75
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.8
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.8
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.85
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.85
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.9
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.9
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 7.95
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 7.95
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 
-	x = 8.0
-	fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+	// x = 8.0
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+
+
+	// x := 8.05
+
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.1
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.15
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.2
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.25
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.3
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.35
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.4
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.45
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.5
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.55
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.6
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.65
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.7
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.75
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.8
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.85
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.9
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 8.95
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.0
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+
+
+	// x := 9.05
+
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.1
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.15
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.2
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.25
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.3
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.35
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.4
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.45
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.5
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.55
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.6
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.65
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.7
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.75
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.8
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.85
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.9
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 9.95
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
+
+	// x = 10.0
+	// fmt.Printf("math.Jn(2, %v) = %v.\n", x, math.Jn(2, x))
 }

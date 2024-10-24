@@ -6,555 +6,510 @@ import (
 )
 
 func main() {
-	// x := 5.91
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.92
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.93
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.94
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.95
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.96
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.97
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.98
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 5.99
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 6.0
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 6.01
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 6.02
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 6.03
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 6.04
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 6.05
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
-
-	// x = 6.06
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x := 0.76
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.07
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.77
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.08
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.78
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.09
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.79
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.1
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x := 0.8
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.11
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x := 0.81
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.12
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.815
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.13
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.82
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.14
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.825
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.15
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.83
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.16
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.835
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.17
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.84
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.18
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.845
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.19
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.85
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.2
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.855
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.21
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.86
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.22
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.865
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.23
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.87
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.24
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.875
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.25
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.88
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.26
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.885
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.27
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.89
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.28
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.895
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.29
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x = 0.9
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 6.3
-	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x := 0.905
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.05
+	// x = 0.91
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.1
+	// x = 0.915
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.15
+	// x = 0.92
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.2
+	// x = 0.925
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.25
+	// x = 0.93
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.3
+	// x = 0.935
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.35
+	// x = 0.94
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.4
+	// x = 0.945
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.45
+	// x = 0.95
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.5
+	// x = 0.955
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.01
+	// x = 0.96
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.02
+	// x = 0.965
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.03
+	// x = 0.97
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.04
+	// x = 0.975
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.06
+	// x = 0.98
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.07
+	// x = 0.985
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.08
+	// x = 0.99
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.09
+	// x = 0.995
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.11
+	// x = 1.0
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.12
+	// x = 1.01
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.13
+	// x = 1.015
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.14
+	// x = 1.02
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.16
+	// x = 1.025
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.17
+	// x = 1.03
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.18
+	// x = 1.035
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.19
+	// x = 1.04
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.21
+	// x = 1.045
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.22
+	// x = 1.05
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.23
+	// x = 1.055
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.24
+	// x = 1.06
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.26
+	// x = 1.065
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.27
+	// x = 1.07
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.28
+	// x = 1.075
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.29
+	// x = 1.08
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.31
+	// x = 1.085
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.32
+	// x = 1.09
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.33
+	// x = 1.095
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.34
+	// x = 1.1
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.36
+	// x = 1.105
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.37
+	// x = 1.11
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.38
+	// x = 1.115
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.39
+	// x = 1.12
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.4
+	// x = 1.125
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.41
+	// x = 1.13
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.42
+	// x = 1.135
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.43
+	// x = 1.14
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.43
+	// x = 1.145
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.44
+	// x = 1.15
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.45
+	// x = 1.155
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.46
+	// x = 1.16
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.47
+	// x = 1.165
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.48
+	// x = 1.17
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.49
+	// x = 1.175
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.005
+	// x = 1.18
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.015
+	// x = 1.185
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.025
+	// x = 1.19
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.035
+	// x = 1.195
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.04
+	// x = 1.12
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.045
+	// x := 1.125
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.055
+	// x = 1.13
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.065
+	// x = 1.135
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.075
+	// x = 1.14
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.085
+	// x = 1.145
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.095
+	// x = 1.15
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.105
+	// x = 1.155
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.115
+	// x = 1.16
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.125
+	// x = 1.165
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.135
+	// x = 1.17
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.145
+	// x = 1.175
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.155
+	// x = 1.18
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.165
+	// x = 1.185
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.175
+	// x = 1.19
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.185
+	// x = 1.195
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.195
+	// x = 1.2
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.205
+	// x = 1.205
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.215
+	// x = 1.21
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.225
+	// x = 1.215
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.235
+	// x = 1.22
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.245
+	// x = 1.225
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.255
+	// x = 1.23
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.265
+	// x = 1.235
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.275
+	// x = 1.24
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.285
+	// x = 1.245
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.295
+	// x = 1.25
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.305
+	// x := 1.255
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.315
+	// x = 1.26
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.325
+	// x = 1.265
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.335
+	// x = 1.27
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.345
+	// x = 1.275
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.355
+	// x = 1.28
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.365
+	// x = 1.285
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.375
+	// x = 1.29
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.385
+	// x = 1.295
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.395
+	// x = 1.3
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.405
+	// x = 1.305
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.415
+	// x = 1.31
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.425
+	// x = 1.315
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.435
+	// x = 1.32
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.445
+	// x = 1.325
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.455
+	// x = 1.33
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.465
+	// x = 1.335
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.475
+	// x = 1.34
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.485
+	// x = 1.345
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.495
+	// x = 1.35
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.505
+	// x = 1.355
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.51
+	// x = 1.36
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.325
+	// x = 1.365
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.335
+	// x = 1.37
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.345
+	// x = 1.375
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.355
+	// x = 1.38
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.365
+	// x = 1.385
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.375
+	// x = 1.39
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.385
+	// x = 1.395
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.5
+	// x = 1.4
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x := 0.515
+	// x := 1.405
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.525
+	// x = 1.41
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.535
+	// x = 1.415
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.545
+	// x = 1.42
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.555
+	// x = 1.425
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.565
+	// x = 1.43
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.575
+	// x = 1.435
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.585
+	// x = 1.44
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.595
+	// x = 1.445
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.605
+	// x = 1.45
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.615
+	// x = 1.455
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.625
+	// x = 1.46
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.635
+	// x = 1.465
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.645
+	// x = 1.47
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	// x = 0.655
+	// x = 1.475
 	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	x := 0.665
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	// x = 1.48
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	x = 0.675
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	// x = 1.485
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	x = 0.685
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	// x = 1.49
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	x = 0.695
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	// x = 1.495
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	x = 0.705
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	// x = 1.5
+	// fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
 
-	x = 0.715
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x := 0.1
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.725
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.2
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.735
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.3
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.745
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.4
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.755
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.5
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.765
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.6
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.775
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.7
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.785
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.8
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.795
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 0.9
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 
-	x = 0.805
-	fmt.Printf("math.Sin(12 * %v) = %v.\n", x, math.Sin(12 * x))
+	x = 1.0
+	fmt.Printf("math.Sqrt(%v) = %v.\n", x, math.Sqrt(x))
 }
