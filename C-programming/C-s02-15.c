@@ -462,36 +462,36 @@ int main() {
   /* x = 0.4; */
   /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  double x = 0.41;
+  /* double x = 0.41; */
 
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.42;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.42; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.43;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.43; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.44;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.44; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.45;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.45; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.46;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.46; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.47;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.47; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.48;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.48; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.49;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.49; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
-  x = 0.5;
-  printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x));
+  /* x = 0.5; */
+  /* printf("sqrt(%.3f) = %.4f.\n", x, sqrt(x)); */
 
 
 

@@ -504,6 +504,9 @@ func main() {
 	// x = 3.84
 	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
 
-	x := 3.66
-	fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+	// x := 3.66
+	// fmt.Printf("math.Sin(6 * %v) = %v.\n", x, math.Sin(6 * x))
+
+	// x := 19.0
+	// fmt.Printf("math.J0(%v) = %v.\n", x, math.J0(x))
 }

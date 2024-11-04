@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
   /* int celsius = 0; */
@@ -53,15 +54,17 @@ int main() {
   /*   fahr += step; */
   /* } */
 
-  int i = 1;
-  int factorialValue = 1;
+  /* int i = 1; */
+  /* int factorialValue = 1; */
 
 
-  for (i = 1; i <= 20; i++) {
-    factorialValue *= i;
+  /* for (i = 1; i <= 20; i++) { */
+  /*   factorialValue *= i; */
 
-    printf("i = %d;   factorialValue = %d.\n", i, factorialValue);
-  }
+  /*   printf("i = %d;   factorialValue = %d.\n", i, factorialValue); */
+  /* } */
+
+
 
 
 
