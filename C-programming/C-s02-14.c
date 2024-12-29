@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-/* #include <math.h> */
+/* #include <stdlib.h> */
+/* #include <string.h> */
+#include <math.h>
 
 int main() {
   /* int celsius = 0; */
@@ -237,183 +237,269 @@ int main() {
 
   /* fclose(filePointer); */
 
-  FILE *filePointer = NULL;
-  int intVar1 = 10;
-  double float64Var1 = 2.222;
+  /* FILE *filePointer = NULL; */
+  /* int intVar1 = 10; */
+  /* double float64Var1 = 2.222; */
 
-  filePointer = fopen("Test-file-01.txt", "w");
+  /* filePointer = fopen("Test-file-01.txt", "w"); */
 
-  if (filePointer == NULL) {
-    printf("File Test-file-01.txt failed to be opened.\n");
-    printf("We exit program.\n");
+  /* if (filePointer == NULL) { */
+  /*   printf("File Test-file-01.txt failed to be opened.\n"); */
+  /*   printf("We exit program.\n"); */
 
-    exit(1);
-  }
+  /*   exit(1); */
+  /* } */
 
-  fprintf(filePointer, "intVar1: %d, float64Var1: %.3f.\n", intVar1,
-	  float64Var1);
+  /* fprintf(filePointer, "intVar1: %d, float64Var1: %.3f.\n", intVar1, */
+  /* 	  float64Var1); */
 
-  fclose(filePointer);
+  /* fclose(filePointer); */
 
+  /* double x = -1.0; */
 
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.99; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.98; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.97; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.96; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.95; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.94; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.93; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.92; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.91; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.9; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* double x = -0.85; */
 
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.8; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.75; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.7; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.65; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.6; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.55; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.5; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* double x = -0.825; */
 
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.775; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.725; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.675; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.625; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.575; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.525; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.475; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* double x = -0.45; */
 
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.4; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.35; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.3; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.25; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.2; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.15; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.1; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* x = -0.05; */
+  /* printf("sqrt(1.0 - (%.3f)^2) = %.4f.\n", x, sqrt(1.0 - x * x)); */
 
+  /* double x = -1.99; */
 
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.98; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.97; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.96; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.95; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.94; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.93; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.92; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.91; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.9; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.89; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.88; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.87; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.86; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.85; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.84; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.83; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.82; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.81; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.8; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* double x = 1.79; */
 
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.78; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.77; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.76; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.75; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.74; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.73; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.72; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.71; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.7; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.65; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.6; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.55; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.5; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.45; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.4; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.35; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.3; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.25; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.2; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.15; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.1; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
+  /* x = -1.05; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* x = -1.0; */
+  /* printf("sqrt(4.0 - (%.3f)^2) = %.4f.\n", x, sqrt(4.0 - x * x)); */
 
 
 
