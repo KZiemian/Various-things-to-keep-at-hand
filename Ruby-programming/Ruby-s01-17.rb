@@ -86,10 +86,12 @@
 # puts "pow(3, 2) -> #{pow(3, 2)}"
 # puts "pow(3, 3) -> #{pow(3, 3)}"
 
+# puts "Comments are fun."
 
+# File.open("tornado-of-souls.txt", "r") do |fileVar|
+#   puts fileVar.read()
+# end
 
-
-# https://www.youtube.com/watch?v=t_ispmWmdjY
-# Skończyłem na 2:44:00
-
-# https://rubymonk.com/learning/books/1-ruby-primer/chapters/19-ruby-methods/lessons/69-new-lesson
+File.open("tornado-of-souls.txt", "r") do |fileVar|
+  puts fileVar.read().include? "tornado"
+end
