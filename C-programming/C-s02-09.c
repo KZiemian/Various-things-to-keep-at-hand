@@ -84,32 +84,32 @@
 /*   return 0; */
 /* } */
 
-#include <stdio.h>
+/* #include <stdio.h> */
 
-int licznik() {
-  static int counter = 0;
+/* int licznik() { */
+/*   static int counter = 0; */
 
-  counter++;
-
-
-  return counter;
-}
-
-int main() {
-  int number = 0;
-
-  printf("Pierwsze wywołanie licznik().\n");
-  printf("number = %d.\n", licznik());
-
-  printf("Drugie wywołanie licznik().\n");
-  printf("number = %d.\n", licznik());
-
-  printf("Trzecie wywołanie licznik().\n");
-  printf("number = %d.\n", licznik());
+/*   counter++; */
 
 
+/*   return counter; */
+/* } */
+
+/* int main() { */
+/*   int number = 0; */
+
+/*   printf("Pierwsze wywołanie licznik().\n"); */
+/*   printf("number = %d.\n", licznik()); */
+
+/*   printf("Drugie wywołanie licznik().\n"); */
+/*   printf("number = %d.\n", licznik()); */
+
+/*   printf("Trzecie wywołanie licznik().\n"); */
+/*   printf("number = %d.\n", licznik()); */
 
 
 
-  return 0;
-}
+
+
+/*   return 0; */
+/* } */

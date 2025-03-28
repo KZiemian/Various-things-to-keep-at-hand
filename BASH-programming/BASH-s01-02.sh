@@ -1,4 +1,3 @@
+#!/bin/bash
 
-echo "Wartosc zmiennej lokalnej = $zmiennaLokalna."
-echo "Wartosc zmiennej srodowiskowej = $zmiennaSrodowiskowa."
-echo "PID procesu = $$."
+# https://tldp.org/HOWTO/Bash-Prompt-HOWTO/x77.html

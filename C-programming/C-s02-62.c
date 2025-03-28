@@ -2056,110 +2056,110 @@ int main() {
   /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
   /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  double x = 0.71;
-  double y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
+  /* double x = 0.71; */
+  /* double y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
 
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.72;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.72; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.73;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.73; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.74;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.74; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.75;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.75; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.76;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.76; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.77;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.77; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.78;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.78; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.79;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.79; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.8;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.8; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.81;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.81; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.82;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.82; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.83;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.83; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.84;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.84; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.85;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.85; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.86;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.86; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.87;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.87; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.88;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.88; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.89;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.89; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.9;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.9; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.91;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.91; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.92;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.92; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.93;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.93; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.94;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.94; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.95;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.95; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
-  x = 0.96;
-  y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0;
-  printf("f(%.3f) = %.4f.\n", x, y);
+  /* x = 0.96; */
+  /* y = 0.25 * x * x * x * x - x * x * x + x - 5.0 * cos(x) + 5.0; */
+  /* printf("f(%.3f) = %.4f.\n", x, y); */
 
 
 

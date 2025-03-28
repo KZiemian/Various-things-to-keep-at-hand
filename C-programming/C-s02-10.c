@@ -1,4 +1,4 @@
-#include <stdio.h>
+/* #include <stdio.h> */
 /* #include <stdlib.h> */
 /* #include <string.h> */
 
@@ -98,14 +98,74 @@
 /*   return 0; */
 /* } */
 
+/* int main() { */
+/*   int intVar = 0; */
+/*   int *ptrInt = &intVar; */
+
+/*   printf("ptrInt = %p.\n", ptrInt); */
+/*   printf("*ptrInt = %d.\n", *ptrInt); */
+/*   printf("&intVar = %p.\n", &intVar); */
+
+
+
+
+
+/*   return 0; */
+/* } */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#include <math.h>
+
 int main() {
-  int intVar = 0;
-  int *ptrInt = &intVar;
+  double x = 10.0;
+  double result = 0.0;
+  int randomInt = 0;
 
-  printf("ptrInt = %p.\n", ptrInt);
-  printf("*ptrInt = %d.\n", *ptrInt);
-  printf("&intVar = %p.\n", &intVar);
+  srand(time(NULL));
 
+  /* while (x <= 20.0) { */
+  /*   randomInt = rand() % 101; */
+  /*   /\* printf("randomInt = %d.\n", randomInt); *\/ */
+  /*   result = exp(-x * x) + ((double)(randomInt)) / 100.0; */
+
+  /*   printf("%.1f    %.3f\n", x, result); */
+
+  /*   x += 0.1; */
+  /* } */
+
+  /* while (x <= 0.0) { */
+  /*   randomInt = rand() % 101; */
+  /*   result = exp(x) + ((double)(randomInt)) / 100.0; */
+
+  /*   printf("%.1f    %.3f\n", x, result); */
+
+  /*   x += 0.1; */
+  /* } */
+
+  /* while (x <= 20.0) { */
+  /*   randomInt = rand() % 101; */
+  /*   result = 1.0 + 0.000001 * exp(x) + ((double)(randomInt)) / 100.0; */
+
+  /*   printf("%.1f    %.3f\n", x, result); */
+
+  /*   x += 0.1; */
+  /* } */
+
+  while (x <= 20.0) {
+    result = 0.000001 * x * x * x * x * x * x +
+      0.001 * x * x * x * x * x - 0.01 * x * x * x * x -
+      0.1 * x * x * x  + x * x + x - 9.25;
+    randomInt = rand() % 101;
+
+    result += (double)(randomInt) / 100.0;
+
+    printf("%.3f    %.4f\n", x, result);
+
+    x += 0.01;
+  }
 
 
 
