@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* #include <math.h> */
+#include <math.h>
 
 int main() {
   /* double x = 9.51; */
@@ -78,8 +78,15 @@ int main() {
 
   /* printf("Hello %s.\n", name); */
 
-  printf("195.0 / 335.0 = %.4f.\n", 195.0/335.0);
+  /* printf("195.0 / 335.0 = %.4f.\n", 195.0/335.0); */
 
+  double x = 1.5;
+
+  while (x <= 2.0) {
+    printf("exp(%.3f) = %.4f.\n", x, exp(x));
+
+    x += 0.01;
+  }
 
 
 

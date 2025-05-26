@@ -113,3 +113,31 @@
 
 /*   return 0; */
 /* } */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <math.h>
+
+int main() {
+  double x = -20.0;
+  double result = 0.0;
+  int randomInt = 0;
+
+  while (x < 20.05) {
+    result = exp(-(x - 7.0) * (x - 7.0));
+    randomInt = rand() % 101;
+    result += ((double)(randomInt)) / 100.0;
+
+    printf("%.3f    %.4f\n", x, result);
+
+
+    x += 0.1;
+  }
+
+
+
+
+
+  return 0;
+}
