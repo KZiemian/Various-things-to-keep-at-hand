@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
+/* #include <math.h> */
 
 int main() {
   /* double x = 9.51; */
@@ -80,13 +81,32 @@ int main() {
 
   /* printf("195.0 / 335.0 = %.4f.\n", 195.0/335.0); */
 
-  double x = 1.5;
+  /* printf("exp(-(%.3f^2)) = %.4f.\n", x, exp(-(x * x))); */
+  /* printf("exp(%.3f) = %.4f.\n", x, exp(x)); */
 
-  while (x <= 2.0) {
-    printf("exp(%.3f) = %.4f.\n", x, exp(x));
+  /* printf("pow(2.0, %.3f) = %.7f.\n", -10.0, pow(2.0, -10.0)); */
+  /* printf("pow(2.0, %.3f) = %.4f.\n", x, pow(2.0, x)); */
 
-    x += 0.01;
-  }
+  /* double x = 9.9; */
+
+  /* while (x <= 10.0) { */
+    /* printf("pow(2.0, %.3f) = %.4f.\n", x, pow(2.0, x)); */
+    /* printf("pow(3.0, %.3f) = %.4f.\n", x, pow(3.0, x)); */
+    /* printf("pow(4.0, %.3f) = %.4f.\n", x, pow(4.0, x)); */
+
+  /*   x += 0.01; */
+  /* } */
+
+  /* for (int i = 1; i <= 300; i++) { */
+  /*   printf("%d   %d\n", i, rand() % 100); */
+
+
+
+  /*   if ((i % 100) == 0) { */
+  /*     printf("\n\n\n"); */
+  /*   } */
+  /* } */
+
 
 
 

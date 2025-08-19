@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /* const double pi_const = 3.1415926535; */
 /* const double e_const = 2.7182818284; */
@@ -64,17 +65,46 @@ int main() {
   /* printf("f(%.3f) = %.4f.\n", x, 0.001 * x * x * x * x - */
   /* 	 0.001 * x * x * x - 0.1 * x * x - x); */
 
-  double x = 0.0;
+  /* double x = 0.0; */
 
-  while (x <= 1.0) {
-    printf("f(%.3f) = %.4f.\n", x, 4.0 * x * (1.0 - x));
+  /* while (x <= 1.0) { */
+  /*   printf("f(%.3f) = %.4f.\n", x, 4.0 * x * (1.0 - x)); */
 
-    x += 0.01;
-  }
+  /*   x += 0.01; */
+  /* } */
 
   /* x = 1.76; */
   /* printf("f(%.3f) = %.4f.\n", x, 0.001 * x * x * x * x - */
   /* 	 0.001 * x * x * x - 0.1 * x * x - x); */
+
+  /* int intVar1 = 1; */
+  /* int intvar1 = 2; */
+
+  /* printf("intVar1: %d.\n", intVar1); */
+  /* printf("intvar1: %d.\n", intvar1); */
+
+  /* double x = 20.0; */
+
+  /* printf("f(%.3f) = %.4f.\n", x, sin(x) / x); */
+
+  double x = 25.0;
+
+  while (x <= 25.2) {
+    /* printf("f(%.3f) = %.4f.\n", x, x * exp(-x)); */
+    /* printf("f(%.3f) = %.4f.\n", x, x * exp(-x + 1.0)); */
+    printf("f(%.3f) = %.4f.\n", x, sin(x) / x);
+    /* printf("f(%.3f) = %.4f.\n", x, acos(x)); */
+
+    x += 0.01;
+  }
+
+  x = 25.2;
+
+  printf("f(%.3f) = %.4f.\n", x, sin(x) / x);
+
+  /* x = 1.0; */
+
+  /* printf("f(%.3f) = %.4f.\n", x, acos(x)); */
 
 
 
